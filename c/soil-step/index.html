@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Các nhân tố hình thành đất và Quan sát phẫu diện đất · Mô phỏng 3D Tương tác — VietLab 3D</title>
+<meta name="description" content="Vì sao đất đen ôn đới có tầng mùn dày và màu mỡ, trong khi đất đỏ feralit vùng nhiệt đới ẩm lại bị rửa trôi mạnh? (Địa lý 10 (GDPT 2018) · Chương 6: Sinh quyển và Thổ nhưỡng quyển · Bài: Lớp đất trên Trái Đất và các nhân tố hình thành đất) — Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/c/soil-step/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumb" aria-label="Đường dẫn">
+    <a href="/">Trang chủ</a><span>/</span>
+    <a href="/?s=geo#courses">Địa lý</a><span>/</span>
+    <span>Các nhân tố hình thành đất và Quan sát phẫu diện đất</span>
+  </nav>
+
+  <header class="ch-head">
+    <div class="ch-badges">
+      <span class="badge badge-s" data-s="geo">Địa lý</span>
+      <span class="badge">8 bước khám phá</span>
+      <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
+    </div>
+    <h1 class="ch-title">Các nhân tố hình thành đất và Quan sát phẫu diện đất</h1>
+    <p class="ch-q">Vì sao đất đen ôn đới có tầng mùn dày và màu mỡ, trong khi đất đỏ feralit vùng nhiệt đới ẩm lại bị rửa trôi mạnh?</p>
+  </header>
+
+  <section class="ch-main">
+    <div class="pv-box">
+      <div class="pv-bar">
+        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>Không gian thí nghiệm 3D · WebGL2</span>
+        <div class="pv-bar-actions" role="group" aria-label="Chế độ khung nhìn">
+          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh bìa</button>
+          <button type="button" class="pv-mode-btn" data-pv-mode="live">Tương tác 3D trực tiếp</button>
+        </div>
+      </div>
+      <div class="pv" id="pv-stage" data-src="/courses/soil-step.html">
+        <img src="/covers/soil-step.webp" alt="Các nhân tố hình thành đất và Quan sát phẫu diện đất" width="1280" height="800">
+        <div class="pv-cta">
+          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="pv-act">
+      <h2>Sử dụng bài giảng</h2>
+      <a class="btn btn-primary" href="/courses/soil-step.html" target="_blank" rel="noopener">Mở toàn màn hình (Khuyên dùng trên lớp) ↗</a>
+      <div class="pv-act-row">
+        <a class="btn" href="/courses/soil-step.html" download="soil-step.html">↓ Tải tệp HTML</a>
+        <details class="act-share">
+          <summary class="btn" style="width:100%">⟨/⟩ Nhúng / Chia sẻ</summary>
+          <div class="share-pop">
+            <div>Mã nhúng <code>&lt;iframe&gt;</code> vào LMS / Notion / Website:</div>
+            <code>&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/soil-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</code>
+            <button type="button" class="btn" style="padding:5px 10px;font-size:12px" data-copy="&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/soil-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;">Sao chép mã nhúng</button>
+          </div>
+        </details>
+      </div>
+      <dl class="pv-spec">
+        <dt>Bộ môn</dt><dd>Địa lý</dd>
+        <dt>Số bước học</dt><dd>8 bước</dd>
+        <dt>Định dạng</dt><dd>1 tệp HTML độc lập · WebGL2</dd>
+        <dt>Chế độ ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
+        <dt>Giấy phép</dt><dd>CC BY-NC-SA 4.0</dd>
+        <dt>Góp ý học thuật</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=%5BB%C3%A1o%20l%E1%BB%97i%20h%E1%BB%8Dc%20li%E1%BB%87u%5D%20C%C3%A1c%20nh%C3%A2n%20t%E1%BB%91%20h%C3%ACnh%20th%C3%A0nh%20%C4%91%E1%BA%A5t%20v%C3%A0%20Quan%20s%C3%A1t%20ph%E1%BA%ABu%20di%E1%BB%87n%20%C4%91%E1%BA%A5t%20(soil-step)" target="_blank" rel="noopener" style="color:var(--phys)">Báo lỗi bài giảng ↗</a></dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Mạch tư duy &amp; câu hỏi khám phá (8 bước)</h2>
+    <ol class="track">
+      <li>
+        <span class="n">01</span>
+        <div>
+          <div class="t">Mặt cắt</div>
+          <div class="q">Mẫu phẫu diện đất này từ trên xuống dưới có thể chia thành mấy tầng?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">02</span>
+        <div>
+          <div class="t">Đá mẹ</div>
+          <div class="q">Khi đá mẹ khác nhau, thành phần cơ giới (chất đất) sẽ thay đổi như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">03</span>
+        <div>
+          <div class="t">Sinh học</div>
+          <div class="q">Nếu loại bỏ hoàn toàn thực vật và sinh vật, khối vật chất này có còn là đất nữa không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">04</span>
+        <div>
+          <div class="t">Khí hậu</div>
+          <div class="q">Trên cùng một loại đá mẹ, khí hậu nóng ẩm và khí hậu khô lạnh có tạo ra loại đất giống nhau không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">05</span>
+        <div>
+          <div class="t">Địa hình</div>
+          <div class="q">Đất ở đỉnh núi và đất ở đồng bằng chân núi có kích thước hạt thô mịn giống nhau không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">06</span>
+        <div>
+          <div class="t">Thời gian</div>
+          <div class="q">Lớp đất dày 20 cm dưới chân chúng ta cần bao lâu để hình thành trong tự nhiên?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">07</span>
+        <div>
+          <div class="t">Con người</div>
+          <div class="q">Một mảnh đất được canh tác lâu dài thì phẫu diện của nó sẽ biến đổi như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">08</span>
+        <div>
+          <div class="t">Thực hành đánh giá</div>
+          <div class="q">Kiểm tra: Hãy cải tạo mảnh đất này thành một vùng đất canh tác màu mỡ</div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
+    <div class="tbook">
+      <strong>Vị trí trong chương trình:</strong> Địa lý 10 (GDPT 2018) · Chương 6: Sinh quyển và Thổ nhưỡng quyển · Bài: Lớp đất trên Trái Đất và các nhân tố hình thành đất
+    </div>
+  </section>
+
+  <section class="ch-sec" style="border-bottom:0">
+    <div class="sec-head" style="margin-bottom:18px">
+      <h2>Các bài giảng 3D khác môn Địa lý</h2>
+      <a class="btn" href="/?s=geo#courses">Xem tất cả 14 bài môn Địa lý →</a>
+    </div>
+    <div class="cgrid">
+      <article class="cc">
+  <a class="cc-thumb" href="/c/river-step/">
+    <img src="/covers/river-step.webp" alt="Sự hình thành và phát triển địa hình sông ngòi" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 3: Thạch quyển — Nội lực và Ngoại lực</div>
+    <h3 class="cc-title"><a href="/c/river-step/">Sự hình thành và phát triển địa hình sông ngòi</a></h3>
+    <p class="cc-q">Vì sao đường bờ sông ở các khúc uốn liên tục dịch chuyển — bờ nào bị xói lở, bờ nào được bồi tụ?</p>
+    <div class="cc-foot">
+      <a href="/c/river-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/river-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/insolation-step/">
+    <img src="/covers/insolation-step.webp" alt="Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 2: Trái Đất — Hệ quả chuyển động</div>
+    <h3 class="cc-title"><a href="/c/insolation-step/">Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu</a></h3>
+    <p class="cc-q">Vì sao góc nhập xạ lúc chính ngọ và hướng Mặt Trời tại địa phương lại biến đổi tuần hoàn trong suốt một năm?</p>
+    <div class="cc-foot">
+      <a href="/c/insolation-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/insolation-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/currents-step/">
+    <img src="/covers/currents-step.webp" alt="Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 5: Thủy quyển — Vòng tuần hoàn nước và Dòng biển</div>
+    <h3 class="cc-title"><a href="/c/currents-step/">Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý</a></h3>
+    <p class="cc-q">Hàng vạn chú vịt đồ chơi rơi xuống biển vì sao lại trôi dạt đến khắp các bờ đại dương trên thế giới?</p>
+    <div class="cc-foot">
+      <a href="/c/currents-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/currents-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/enso-step/">
+    <img src="/covers/enso-step.webp" alt="Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO)" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">7 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 5: Thủy quyển — Vòng tuần hoàn nước và Dòng biển</div>
+    <h3 class="cc-title"><a href="/c/enso-step/">Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO)</a></h3>
+    <p class="cc-q">Ven bờ Peru quanh năm khô hạn, vì sao khi nước biển ấm lên bất thường lại gây mưa lũ lịch sử?</p>
+    <div class="cc-foot">
+      <a href="/c/enso-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/enso-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/heating-step/">
+    <img src="/covers/heating-step.webp" alt="Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió</div>
+    <h3 class="cc-title"><a href="/c/heating-step/">Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính</a></h3>
+    <p class="cc-q">Mặt Trời chiếu suốt ban ngày, vì sao mặt đất nóng lên trước rồi mới truyền cho không khí, và khí quyển giữ ấm Trái Đất bằng cách nào?</p>
+    <div class="cc-foot">
+      <a href="/c/heating-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/heating-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/karst-step/">
+    <img src="/covers/karst-step.webp" alt="Sự hình thành và nhận diện địa hình Karst (Các-xtơ)" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Địa lý</span>
+    <span class="cc-steps">7 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Địa lý 10 (GDPT 2018) · Chương 3: Thạch quyển — Nội lực và Ngoại lực</div>
+    <h3 class="cc-title"><a href="/c/karst-step/">Sự hình thành và nhận diện địa hình Karst (Các-xtơ)</a></h3>
+    <p class="cc-q">Những cụm núi đá vôi dựng đứng và hang động thạch nhũ kỳ vĩ được kiến tạo từ một tầng đá vôi liền khối như thế nào?</p>
+    <div class="cc-foot">
+      <a href="/c/karst-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/karst-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>

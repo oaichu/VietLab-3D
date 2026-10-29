@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang · Mô phỏng 3D Tương tác — VietLab 3D</title>
+<meta name="description" content="Chỉ với một máng nghiêng và bảng tọa độ, làm sao tách chuyển động ném ngang thành hai chuyển động thành phần và đo vận tốc ban đầu v₀? (Vật lý 10 (GDPT 2018) · Chương 2: Động học · Bài: Chuyển động ném ngang và ném xiên) — Bài giảng mô phỏng 3D tương tác gồm 9 bước khám phá.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/c/projectile-step/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumb" aria-label="Đường dẫn">
+    <a href="/">Trang chủ</a><span>/</span>
+    <a href="/?s=phys#courses">Vật lý</a><span>/</span>
+    <span>Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang</span>
+  </nav>
+
+  <header class="ch-head">
+    <div class="ch-badges">
+      <span class="badge badge-s" data-s="phys">Vật lý</span>
+      <span class="badge">9 bước khám phá</span>
+      <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
+    </div>
+    <h1 class="ch-title">Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang</h1>
+    <p class="ch-q">Chỉ với một máng nghiêng và bảng tọa độ, làm sao tách chuyển động ném ngang thành hai chuyển động thành phần và đo vận tốc ban đầu v₀?</p>
+  </header>
+
+  <section class="ch-main">
+    <div class="pv-box">
+      <div class="pv-bar">
+        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>Không gian thí nghiệm 3D · WebGL2</span>
+        <div class="pv-bar-actions" role="group" aria-label="Chế độ khung nhìn">
+          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh bìa</button>
+          <button type="button" class="pv-mode-btn" data-pv-mode="live">Tương tác 3D trực tiếp</button>
+        </div>
+      </div>
+      <div class="pv" id="pv-stage" data-src="/courses/projectile-step.html">
+        <img src="/covers/projectile-step.webp" alt="Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang" width="1280" height="800">
+        <div class="pv-cta">
+          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="pv-act">
+      <h2>Sử dụng bài giảng</h2>
+      <a class="btn btn-primary" href="/courses/projectile-step.html" target="_blank" rel="noopener">Mở toàn màn hình (Khuyên dùng trên lớp) ↗</a>
+      <div class="pv-act-row">
+        <a class="btn" href="/courses/projectile-step.html" download="projectile-step.html">↓ Tải tệp HTML</a>
+        <details class="act-share">
+          <summary class="btn" style="width:100%">⟨/⟩ Nhúng / Chia sẻ</summary>
+          <div class="share-pop">
+            <div>Mã nhúng <code>&lt;iframe&gt;</code> vào LMS / Notion / Website:</div>
+            <code>&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/projectile-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</code>
+            <button type="button" class="btn" style="padding:5px 10px;font-size:12px" data-copy="&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/projectile-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;">Sao chép mã nhúng</button>
+          </div>
+        </details>
+      </div>
+      <dl class="pv-spec">
+        <dt>Bộ môn</dt><dd>Vật lý</dd>
+        <dt>Số bước học</dt><dd>9 bước</dd>
+        <dt>Định dạng</dt><dd>1 tệp HTML độc lập · WebGL2</dd>
+        <dt>Chế độ ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
+        <dt>Giấy phép</dt><dd>CC BY-NC-SA 4.0</dd>
+        <dt>Góp ý học thuật</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=%5BB%C3%A1o%20l%E1%BB%97i%20h%E1%BB%8Dc%20li%E1%BB%87u%5D%20Th%C3%AD%20nghi%E1%BB%87m%20kh%E1%BA%A3o%20s%C3%A1t%20%C4%91%E1%BA%B7c%20%C4%91i%E1%BB%83m%20c%E1%BB%A7a%20chuy%E1%BB%83n%20%C4%91%E1%BB%99ng%20n%C3%A9m%20ngang%20(projectile-step)" target="_blank" rel="noopener" style="color:var(--phys)">Báo lỗi bài giảng ↗</a></dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Mạch tư duy &amp; câu hỏi khám phá (9 bước)</h2>
+    <ol class="track">
+      <li>
+        <span class="n">01</span>
+        <div>
+          <div class="t">Làm quen dụng cụ</div>
+          <div class="q">Các dụng cụ trên bàn dùng để làm gì? SGK đưa ra hai phương án nào? Tại sao ở đây hoàn toàn không có đồng hồ bấm giây?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">02</span>
+        <div>
+          <div class="t">Khảo sát phương thẳng đứng trước</div>
+          <div class="q">Gõ búa nhỏ xuống, viên bi A bị ném ngang đồng thời viên bi B rơi tự do —— viên bi nào chạm đất trước? Nếu thay đổi độ cao bàn đỡ hoặc thay đổi lực gõ búa thì kết quả có thay đổi không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">03</span>
+        <div>
+          <div class="t">Đầu cuối phải nằm ngang</div>
+          <div class="q">Tại sao SGK lại nhấn mạnh yêu cầu “đầu cuối của máng nghiêng M phải nằm ngang”? Nếu không nằm ngang thì điều kiện nào bị phá vỡ đầu tiên?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">04</span>
+        <div>
+          <div class="t">Chấm 4 điểm trên quỹ đạo</div>
+          <div class="q">Hạ tấm chắn từ 20 mm xuống 320 mm, trên tờ giấy trắng sẽ lưu lại 4 vết chấm. Tại sao độ sâu của 4 nấc tấm chắn lại được chọn đúng bằng 4 con số này?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">05</span>
+        <div>
+          <div class="t">Xác định khoảng thời gian</div>
+          <div class="q">Trên bàn không có đồng hồ bấm giây. Làm sao biết được viên bi thép rơi tới 4 độ sâu đó mất bao nhiêu thời gian?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">06</span>
+        <div>
+          <div class="t">Phương ngang chuyển động đều</div>
+          <div class="q">Khi các khoảng thời gian đã bằng nhau, hãy xét độ dịch chuyển theo phương ngang —— mỗi khoảng có bằng nhau không? Đổi cách vẽ đồ thị có giúp nhìn rõ hơn không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">07</span>
+        <div>
+          <div class="t">Đổi sang vạch thả khác</div>
+          <div class="q">Chuyển vạch thả từ ② lên ③ với cùng 4 nấc tấm chắn đó —— 4 điểm rơi sẽ dịch chuyển về phía nào? Đường cong nối chúng lại sẽ dốc hơn hay thoải hơn?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">08</span>
+        <div>
+          <div class="t">Hai nguồn sai số làm kết quả lớn hơn</div>
+          <div class="q">Nếu đầu cuối máng hơi bị hếch lên, hoặc quên không cộng bán kính viên bi thép, thì 4 điểm rơi có còn cho ra cùng một giá trị v₀ nữa không? Kết quả tính ra sẽ bị lớn hơn hay nhỏ hơn thực tế?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">09</span>
+        <div>
+          <div class="t">Thực hành đánh giá</div>
+          <div class="q">Cho máng nghiêng, giấy trắng, tấm chắn và giấy kẻ ô mà không dùng đồng hồ bấm giây —— liệu bạn có thể đo được vận tốc ban đầu của viên bi thép sao cho cả 4 bộ dữ liệu tự chứng minh tính nhất quán của kết quả?</div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
+    <div class="tbook">
+      <strong>Vị trí trong chương trình:</strong> Vật lý 10 (GDPT 2018) · Chương 2: Động học · Bài: Chuyển động ném ngang và ném xiên
+    </div>
+  </section>
+
+  <section class="ch-sec" style="border-bottom:0">
+    <div class="sec-head" style="margin-bottom:18px">
+      <h2>Các bài giảng 3D khác môn Vật lý</h2>
+      <a class="btn" href="/?s=phys#courses">Xem tất cả 10 bài môn Vật lý →</a>
+    </div>
+    <div class="cgrid">
+      <article class="cc">
+  <a class="cc-thumb" href="/c/photoelectric-step/">
+    <img src="/covers/photoelectric-step.webp" alt="Hiện tượng quang điện ngoài và Hằng số Planck" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 12 (GDPT 2018) · Chương 4: Vật lý lượng tử &amp; Hạt nhân</div>
+    <h3 class="cc-title"><a href="/c/photoelectric-step/">Hiện tượng quang điện ngoài và Hằng số Planck</a></h3>
+    <p class="cc-q">Cùng một chùm sáng, vì sao đổi sang kim loại khác lại không bứt được quang electron nào? Động năng ban đầu cực đại phụ thuộc vào yếu tố nào?</p>
+    <div class="cc-foot">
+      <a href="/c/photoelectric-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/photoelectric-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/capacitor-step/">
+    <img src="/covers/capacitor-step.webp" alt="Khảo sát quá trình nạp và phóng điện của tụ điện" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 11 (GDPT 2018) · Chương 3: Điện trường</div>
+    <h3 class="cc-title"><a href="/c/capacitor-step/">Khảo sát quá trình nạp và phóng điện của tụ điện</a></h3>
+    <p class="cc-q">Tụ điện tích trữ năng lượng như thế nào và làm sao đo được điện dung C qua đường cong dòng điện theo thời gian?</p>
+    <div class="cc-foot">
+      <a href="/c/capacitor-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/capacitor-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/accel-force-step/">
+    <img src="/covers/accel-force-step.webp" alt="Thí nghiệm khảo sát mối liên hệ giữa gia tốc, lực và khối lượng (Định luật II Newton)" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 3: Động lực học</div>
+    <h3 class="cc-title"><a href="/c/accel-force-step/">Thí nghiệm khảo sát mối liên hệ giữa gia tốc, lực và khối lượng (Định luật II Newton)</a></h3>
+    <p class="cc-q">Chỉ với một băng giấy cần rung điện và các quả nặng, làm sao xác định định lượng mối quan hệ giữa gia tốc a với lực F và khối lượng m?</p>
+    <div class="cc-foot">
+      <a href="/c/accel-force-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/accel-force-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/energy-step/">
+    <img src="/covers/energy-step.webp" alt="Thí nghiệm kiểm chứng Định luật bảo toàn cơ năng" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 4: Công, năng lượng, công suất</div>
+    <h3 class="cc-title"><a href="/c/energy-step/">Thí nghiệm kiểm chứng Định luật bảo toàn cơ năng</a></h3>
+    <p class="cc-q">Khi quả nặng rơi tự do, độ giảm thế năng trọng trường có bằng đúng độ tăng động năng không? Làm sao kiểm chứng bằng băng giấy?</p>
+    <div class="cc-foot">
+      <a href="/c/energy-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/energy-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/centripetal-step/">
+    <img src="/covers/centripetal-step.webp" alt="Khảo sát độ lớn lực hướng tâm theo bán kính, tốc độ góc và khối lượng" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 6: Chuyển động tròn</div>
+    <h3 class="cc-title"><a href="/c/centripetal-step/">Khảo sát độ lớn lực hướng tâm theo bán kính, tốc độ góc và khối lượng</a></h3>
+    <p class="cc-q">Thiết bị quay tay chỉ hiển thị số vạch trên hai ống thước đo — làm sao dùng phương pháp kiểm soát biến để tìm công thức F = mω²r?</p>
+    <div class="cc-foot">
+      <a href="/c/centripetal-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/centripetal-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/self-induction-step/">
+    <img src="/covers/self-induction-step.webp" alt="Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 12 (GDPT 2018) · Chương 3: Từ trường &amp; Cảm ứng điện từ</div>
+    <h3 class="cc-title"><a href="/c/self-induction-step/">Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ</a></h3>
+    <p class="cc-q">Vì sao nhánh có cuộn cảm làm bóng đèn sáng trễ khi đóng khóa K, và khi ngắt khóa K bóng đèn lại lóe sáng rồi mới tắt?</p>
+    <div class="cc-foot">
+      <a href="/c/self-induction-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/self-induction-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>

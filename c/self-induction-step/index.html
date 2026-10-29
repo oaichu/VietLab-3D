@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ · Mô phỏng 3D Tương tác — VietLab 3D</title>
+<meta name="description" content="Vì sao nhánh có cuộn cảm làm bóng đèn sáng trễ khi đóng khóa K, và khi ngắt khóa K bóng đèn lại lóe sáng rồi mới tắt? (Vật lý 12 (GDPT 2018) · Chương 3: Từ trường &amp; Cảm ứng điện từ · Bài: Hiện tượng cảm ứng điện từ và Dòng điện Foucault) — Bài giảng mô phỏng 3D tương tác gồm 9 bước khám phá.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/c/self-induction-step/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumb" aria-label="Đường dẫn">
+    <a href="/">Trang chủ</a><span>/</span>
+    <a href="/?s=phys#courses">Vật lý</a><span>/</span>
+    <span>Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ</span>
+  </nav>
+
+  <header class="ch-head">
+    <div class="ch-badges">
+      <span class="badge badge-s" data-s="phys">Vật lý</span>
+      <span class="badge">9 bước khám phá</span>
+      <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
+    </div>
+    <h1 class="ch-title">Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ</h1>
+    <p class="ch-q">Vì sao nhánh có cuộn cảm làm bóng đèn sáng trễ khi đóng khóa K, và khi ngắt khóa K bóng đèn lại lóe sáng rồi mới tắt?</p>
+  </header>
+
+  <section class="ch-main">
+    <div class="pv-box">
+      <div class="pv-bar">
+        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>Không gian thí nghiệm 3D · WebGL2</span>
+        <div class="pv-bar-actions" role="group" aria-label="Chế độ khung nhìn">
+          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh bìa</button>
+          <button type="button" class="pv-mode-btn" data-pv-mode="live">Tương tác 3D trực tiếp</button>
+        </div>
+      </div>
+      <div class="pv" id="pv-stage" data-src="/courses/self-induction-step.html">
+        <img src="/covers/self-induction-step.webp" alt="Hiện tượng tự cảm, dòng điện Foucault (dòng xoáy) và hãm điện từ" width="1280" height="800">
+        <div class="pv-cta">
+          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="pv-act">
+      <h2>Sử dụng bài giảng</h2>
+      <a class="btn btn-primary" href="/courses/self-induction-step.html" target="_blank" rel="noopener">Mở toàn màn hình (Khuyên dùng trên lớp) ↗</a>
+      <div class="pv-act-row">
+        <a class="btn" href="/courses/self-induction-step.html" download="self-induction-step.html">↓ Tải tệp HTML</a>
+        <details class="act-share">
+          <summary class="btn" style="width:100%">⟨/⟩ Nhúng / Chia sẻ</summary>
+          <div class="share-pop">
+            <div>Mã nhúng <code>&lt;iframe&gt;</code> vào LMS / Notion / Website:</div>
+            <code>&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/self-induction-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</code>
+            <button type="button" class="btn" style="padding:5px 10px;font-size:12px" data-copy="&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/self-induction-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;">Sao chép mã nhúng</button>
+          </div>
+        </details>
+      </div>
+      <dl class="pv-spec">
+        <dt>Bộ môn</dt><dd>Vật lý</dd>
+        <dt>Số bước học</dt><dd>9 bước</dd>
+        <dt>Định dạng</dt><dd>1 tệp HTML độc lập · WebGL2</dd>
+        <dt>Chế độ ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
+        <dt>Giấy phép</dt><dd>CC BY-NC-SA 4.0</dd>
+        <dt>Góp ý học thuật</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=%5BB%C3%A1o%20l%E1%BB%97i%20h%E1%BB%8Dc%20li%E1%BB%87u%5D%20Hi%E1%BB%87n%20t%C6%B0%E1%BB%A3ng%20t%E1%BB%B1%20c%E1%BA%A3m%2C%20d%C3%B2ng%20%C4%91i%E1%BB%87n%20Foucault%20(d%C3%B2ng%20xo%C3%A1y)%20v%C3%A0%20h%C3%A3m%20%C4%91i%E1%BB%87n%20t%E1%BB%AB%20(self-induction-step)" target="_blank" rel="noopener" style="color:var(--phys)">Báo lỗi bài giảng ↗</a></dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Mạch tư duy &amp; câu hỏi khám phá (9 bước)</h2>
+    <ol class="track">
+      <li>
+        <span class="n">01</span>
+        <div>
+          <div class="t">Làm quen dụng cụ</div>
+          <div class="q">Các dụng cụ trên bàn dùng để làm gì? Cách mắc mạch ở Hình 2.4-1 và Hình 2.4-3 trong SGK khác nhau ở điểm nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">02</span>
+        <div>
+          <div class="t">Tự cảm khi đóng mạch</div>
+          <div class="q">Hai bóng đèn có cùng thông số, tại sao khi đóng công tắc thì đèn A₁ lại sáng chậm hơn đèn A₂? Tại sao SGK yêu cầu chỉnh R trước rồi mới chỉnh R₁ sau?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">03</span>
+        <div>
+          <div class="t">Tự cảm khi ngắt mạch</div>
+          <div class="q">Công tắc đã ngắt rồi, dòng điện qua bóng đèn lấy từ đâu? Tại sao đèn lại còn sáng hơn trước? Trả lời bốn câu hỏi ở SGK tr.41 như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">04</span>
+        <div>
+          <div class="t">Đồ thị I-t</div>
+          <div class="q">Hiện tượng lóe sáng chỉ kéo dài 0.0770 s, mắt thường nhìn thấy “lóe sáng” nhưng có nhìn thấy “chiều dòng điện” không? Làm sao ghi lại được quá trình này?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">05</span>
+        <div>
+          <div class="t">Đổi cuộn dây</div>
+          <div class="q">Khi thay bằng một cuộn dây khác, bóng đèn có còn lóe sáng không? Lóe mạnh đến mức nào? Tăng điện áp nguồn có “cứu” được một cuộn dây không làm đèn lóe sáng không?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">06</span>
+        <div>
+          <div class="t">Dụng cụ thực tế</div>
+          <div class="q">Nhãn ghi 2.0 H, tại sao kết quả đo được lại không phải là 2.0 H? Đây là do “đo sai” hay do “linh kiện thực tế vốn lệch khỏi giá trị danh định”?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">07</span>
+        <div>
+          <div class="t">Dòng điện xoáy (Foucault)</div>
+          <div class="q">Trong lõi sắt không có dây dẫn, tại sao lại có dòng điện chạy qua và tỏa nhiệt? Tại sao xẻ khối sắt đặc thành các lá thép mỏng ghép lại thì lại tiết kiệm điện?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">08</span>
+        <div>
+          <div class="t">Hãm điện từ</div>
+          <div class="q">Ống nhôm không hút nam châm, tại sao viên nam châm rơi trong ống nhôm lại chậm như vậy? Nếu xẻ dọc thân ống một khe hở thì nam châm sẽ rơi nhanh hơn hay chậm hơn?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">09</span>
+        <div>
+          <div class="t">Thực hành đánh giá</div>
+          <div class="q">Cho phép chọn một trong ba cuộn dây để lắp vào mạch sao cho đạt yêu cầu “khi ngắt công tắc bóng đèn lóe sáng lên một cái nhưng không bị cháy đứt dây tóc”——bạn chọn cuộn nào? Tại sao tăng điện áp nguồn lại không giải quyết được?</div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
+    <div class="tbook">
+      <strong>Vị trí trong chương trình:</strong> Vật lý 12 (GDPT 2018) · Chương 3: Từ trường &amp; Cảm ứng điện từ · Bài: Hiện tượng cảm ứng điện từ và Dòng điện Foucault
+    </div>
+  </section>
+
+  <section class="ch-sec" style="border-bottom:0">
+    <div class="sec-head" style="margin-bottom:18px">
+      <h2>Các bài giảng 3D khác môn Vật lý</h2>
+      <a class="btn" href="/?s=phys#courses">Xem tất cả 10 bài môn Vật lý →</a>
+    </div>
+    <div class="cgrid">
+      <article class="cc">
+  <a class="cc-thumb" href="/c/photoelectric-step/">
+    <img src="/covers/photoelectric-step.webp" alt="Hiện tượng quang điện ngoài và Hằng số Planck" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 12 (GDPT 2018) · Chương 4: Vật lý lượng tử &amp; Hạt nhân</div>
+    <h3 class="cc-title"><a href="/c/photoelectric-step/">Hiện tượng quang điện ngoài và Hằng số Planck</a></h3>
+    <p class="cc-q">Cùng một chùm sáng, vì sao đổi sang kim loại khác lại không bứt được quang electron nào? Động năng ban đầu cực đại phụ thuộc vào yếu tố nào?</p>
+    <div class="cc-foot">
+      <a href="/c/photoelectric-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/photoelectric-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/capacitor-step/">
+    <img src="/covers/capacitor-step.webp" alt="Khảo sát quá trình nạp và phóng điện của tụ điện" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 11 (GDPT 2018) · Chương 3: Điện trường</div>
+    <h3 class="cc-title"><a href="/c/capacitor-step/">Khảo sát quá trình nạp và phóng điện của tụ điện</a></h3>
+    <p class="cc-q">Tụ điện tích trữ năng lượng như thế nào và làm sao đo được điện dung C qua đường cong dòng điện theo thời gian?</p>
+    <div class="cc-foot">
+      <a href="/c/capacitor-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/capacitor-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/accel-force-step/">
+    <img src="/covers/accel-force-step.webp" alt="Thí nghiệm khảo sát mối liên hệ giữa gia tốc, lực và khối lượng (Định luật II Newton)" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 3: Động lực học</div>
+    <h3 class="cc-title"><a href="/c/accel-force-step/">Thí nghiệm khảo sát mối liên hệ giữa gia tốc, lực và khối lượng (Định luật II Newton)</a></h3>
+    <p class="cc-q">Chỉ với một băng giấy cần rung điện và các quả nặng, làm sao xác định định lượng mối quan hệ giữa gia tốc a với lực F và khối lượng m?</p>
+    <div class="cc-foot">
+      <a href="/c/accel-force-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/accel-force-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/energy-step/">
+    <img src="/covers/energy-step.webp" alt="Thí nghiệm kiểm chứng Định luật bảo toàn cơ năng" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 4: Công, năng lượng, công suất</div>
+    <h3 class="cc-title"><a href="/c/energy-step/">Thí nghiệm kiểm chứng Định luật bảo toàn cơ năng</a></h3>
+    <p class="cc-q">Khi quả nặng rơi tự do, độ giảm thế năng trọng trường có bằng đúng độ tăng động năng không? Làm sao kiểm chứng bằng băng giấy?</p>
+    <div class="cc-foot">
+      <a href="/c/energy-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/energy-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/projectile-step/">
+    <img src="/covers/projectile-step.webp" alt="Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 2: Động học</div>
+    <h3 class="cc-title"><a href="/c/projectile-step/">Thí nghiệm khảo sát đặc điểm của chuyển động ném ngang</a></h3>
+    <p class="cc-q">Chỉ với một máng nghiêng và bảng tọa độ, làm sao tách chuyển động ném ngang thành hai chuyển động thành phần và đo vận tốc ban đầu v₀?</p>
+    <div class="cc-foot">
+      <a href="/c/projectile-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/projectile-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/centripetal-step/">
+    <img src="/covers/centripetal-step.webp" alt="Khảo sát độ lớn lực hướng tâm theo bán kính, tốc độ góc và khối lượng" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Vật lý</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Vật lý 10 (GDPT 2018) · Chương 6: Chuyển động tròn</div>
+    <h3 class="cc-title"><a href="/c/centripetal-step/">Khảo sát độ lớn lực hướng tâm theo bán kính, tốc độ góc và khối lượng</a></h3>
+    <p class="cc-q">Thiết bị quay tay chỉ hiển thị số vạch trên hai ống thước đo — làm sao dùng phương pháp kiểm soát biến để tìm công thức F = mω²r?</p>
+    <div class="cc-foot">
+      <a href="/c/centripetal-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/centripetal-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>

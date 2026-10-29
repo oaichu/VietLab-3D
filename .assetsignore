@@ -1,0 +1,11 @@
+.git
+.gitignore
+.assetsignore
+.wrangler
+wrangler.jsonc
+data
+docs
+scripts
+README.md
+LICENSE
+THIRD_PARTY_NOTICES.md

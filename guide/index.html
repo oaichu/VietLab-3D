@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hướng dẫn sử dụng trong lớp học — VietLab 3D</title>
+<meta name="description" content="Hướng dẫn giáo viên và học sinh khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/guide/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/" class="active">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="prose-wrap">
+  <header class="prose-head">
+    <div class="sec-kicker">HƯỚNG DẪN LỚP HỌC · CLASSROOM GUIDE</div>
+    <h1>Đưa mô phỏng 3D vào tiết học 45 phút mà không làm gián đoạn nhịp giảng bài</h1>
+    <p>VietLab 3D được thiết kế xoay quanh bục giảng thực tế: mở nhanh trong 1 giây, điều khiển gọn bằng bàn phím hoặc màn hình cảm ứng tương tác, và luôn hoạt động ngay cả khi phòng học mất kết nối Internet.</p>
+  </header>
+
+  <article class="prose">
+    <h2>1. Chuẩn bị trước giờ lên lớp (2 phút)</h2>
+    <ul>
+      <li><strong>Nếu lớp học có Internet ổn định:</strong> Truy cập trực tiếp <a href="/#courses" style="color:var(--phys)">Thư viện bài giảng</a>, chọn bài học tương ứng với tiết dạy trong Chương trình GDPT 2018 và nhấn <code>Mở toàn màn hình ↗</code>.</li>
+      <li><strong>Nếu mạng trường học chập chờn hoặc không có mạng:</strong> Nhấn nút <code>↓ Tải tệp HTML</code> trên trang chi tiết bài giảng. Toàn bộ mô hình 3D, động cơ vật lý và giao diện tiếng Việt đã được đóng gói gọn trong <strong>1 tệp <code>.html</code> duy nhất (~860 KB)</strong>. Chép tệp này vào USB và mở bằng Chrome, Edge hoặc Firefox trên máy tính lớp học.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>Mẹo trình chiếu trên TV / Bảng tương tác thông minh:</strong> Sau khi mở bài giảng, nhấn phím <code>F11</code> để vào chế độ toàn màn hình trình duyệt. Ở góc dưới bên trái mỗi bài giảng luôn có nút <strong>Giao diện Sáng / Tối</strong> — hãy chuyển sang <em>Giao diện Sáng (Nền giấy sáng)</em> nếu phòng học có nhiều ánh nắng chiếu vào màn hình.
+    </div>
+
+    <h2>2. Phím tắt điều khiển nhanh trên bục giảng</h2>
+    <p>Giáo viên có thể điều khiển toàn bộ tiến trình bài giảng chỉ với bàn phím hoặc chuột không dây:</p>
+    <div class="kbd-list">
+      <div class="kbd-item"><span>Chuyển sang bước tiếp theo</span><kbd>→</kbd></div>
+      <div class="kbd-item"><span>Quay lại bước trước đó</span><kbd>←</kbd></div>
+      <div class="kbd-item"><span>Bật / tắt tự động trình chiếu</span><kbd>Space</kbd></div>
+      <div class="kbd-item"><span>Đặt lại góc nhìn 3D mặc định</span><kbd>R</kbd></div>
+      <div class="kbd-item"><span>Xoay mô hình 3D 360°</span><kbd>Kéo chuột trái</kbd></div>
+      <div class="kbd-item"><span>Phóng to / thu nhỏ chi tiết</span><kbd>Con lăn chuột</kbd></div>
+    </div>
+
+    <h2>3. Cấu trúc sư phạm 3 pha trong mỗi bước học</h2>
+    <p>Mỗi bài giảng trong VietLab 3D gồm từ 6 đến 10 bước, được thiết kế thống nhất theo chu trình nhận thức <strong>Dự đoán → Thao tác kiểm chứng → Chốt kiến thức</strong>:</p>
+    <ol>
+      <li><strong>Đặt vấn đề bằng câu hỏi mở đầu:</strong> Trước khi thao tác thanh trượt hoặc công tắc trên màn hình, hãy chiếu câu hỏi ở đầu thẻ bước để học sinh thảo luận nhanh (30–60 giây).</li>
+      <li><strong>Thao tác kiểm chứng trên mô hình 3D:</strong> Thực hiện thao tác được gợi ý trong khung <em>Thao tác bước này</em> (hoặc nhấn <code>Tự động thao tác</code> để hệ thống tự thực hiện chuẩn xác), đồng thời quan sát hiện tượng xảy ra trong khung <em>Quan sát trọng tâm</em>.</li>
+      <li><strong>Đối chiếu công thức &amp; bản chất:</strong> Mở thẻ <em>Ghi chú dạy học</em> nếu cần giải thích sâu hơn về bẫy sai lầm thường gặp hoặc giới hạn của mô hình sách giáo khoa.</li>
+    </ol>
+
+    <h2>4. Giao bài tập thực hành &amp; nhúng vào LMS</h2>
+    <p>Bước cuối cùng của mọi bài giảng đều là một <strong>thử thách thực hành tương tác</strong> (ví dụ: điều chỉnh thông số tháp tổng hợp NH₃ theo yêu cầu ca trưởng, chuẩn độ đến đúng điểm tương đương, hay xác định cực từ của ống dây). Bạn có thể sao chép mã <code>&lt;iframe&gt;</code> trên trang chi tiết để nhúng trực tiếp vào Canvas, Moodle, Google Sites hoặc Notion của lớp.</p>
+  </article>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>

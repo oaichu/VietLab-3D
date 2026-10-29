@@ -1,0 +1,15 @@
+{
+  "name": "vietlab-3d",
+  "compatibility_date": "2026-04-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "vietlab.9cloudmedia.com",
+      "custom_domain": true
+    }
+  ]
+}

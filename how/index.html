@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phương pháp xây dựng &amp; Kiểm chứng học thuật — VietLab 3D</title>
+<meta name="description" content="Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/how/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/" class="active">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="prose-wrap">
+  <header class="prose-head">
+    <div class="sec-kicker">PHƯƠNG PHÁP XÂY DỰNG · HOW IT'S BUILT</div>
+    <h1>Kiến trúc kỹ thuật &amp; tiêu chuẩn học thuật đằng sau 54 phòng thí nghiệm 3D</h1>
+    <p>Một học liệu mô phỏng khoa học tốt không chỉ đẹp mắt mà phải đúng phương trình vật lý, đúng quy ước ký hiệu sách giáo khoa và bền vững khi vận hành thực tế tại trường phổ thông.</p>
+  </header>
+
+  <article class="prose">
+    <h2>1. Bốn nguyên tắc thiết kế cốt lõi</h2>
+    <ul>
+      <li><strong>Mô phỏng từ phương trình thật, không làm hoạt hình giả:</strong> Quỹ đạo vật ném xiên, đường cong chuẩn độ pH, dòng sạc tụ điện <code>i(t) = (U/R)·e^(-t/RC)</code> hay cân bằng tổng hợp ammonia đều được tính toán thời gian thực từ phương trình vi phân và hằng số thực nghiệm.</li>
+      <li><strong>Chuẩn hóa thuật ngữ theo Chương trình GDPT 2018:</strong> Danh pháp hóa học quốc tế IUPAC (<em>Sodium, Chlorine, Ammonia, Sulfuric acid, Iron, Copper…</em>), ký hiệu đại lượng Vật lý và phân môn Sinh học – Địa lý tuân thủ nghiêm ngặt quy định của Bộ Giáo dục và Đào tạo Việt Nam.</li>
+      <li><strong>Kiến trúc 1 tệp HTML tự chứa (Zero-Dependency Single-File):</strong> Toàn bộ mã nguồn Three.js, shader WebGL2, bộ giải toán học và giao diện sư phạm của mỗi bài giảng được biên dịch vào một tệp <code>.html</code> duy nhất không phụ thuộc CDN bên ngoài.</li>
+      <li><strong>Tương phản thích ứng môi trường lớp học:</strong> Hỗ trợ chuyển đổi tức thời giữa nền tối phòng thí nghiệm (tối ưu độ tương phản cho tia sáng, chùm hạt, ngọn lửa) và nền giấy sáng (tối ưu cho máy chiếu lớp học nhiều ánh sáng).</li>
+    </ul>
+
+    <h2>2. Quy trình 4 giai đoạn cho mỗi bài giảng</h2>
+    <h3>Giai đoạn 1 — Hồ sơ dữ kiện khoa học (Facts Verification)</h3>
+    <p>Trước khi dựng hình 3D, mọi số liệu định lượng (nhiệt độ sôi, thế điện cực chuẩn, công thoát quang điện <code>W₀</code>, góc nghiêng trục Trái Đất <code>23°26′</code>, chiều dòng chảy và bố cục thiết bị) đều được khóa chặt và kiểm tra chéo với sách giáo khoa cùng tài liệu tham khảo chuẩn.</p>
+
+    <h3>Giai đoạn 2 — Kịch bản nhận thức từng bước (Stepwise Inquiry)</h3>
+    <p>Thay vì giao cho học sinh một bảng điều khiển phức tạp ngay từ đầu, bài giảng được chia thành 6–10 bước tuần tự. Mỗi bước chỉ mở khóa đúng những biến số cần thiết để trả lời câu hỏi của bước đó, giúp học sinh không bị quá tải nhận thức.</p>
+
+    <h3>Giai đoạn 3 — Dựng cảnh 3D thủ tục &amp; Shader thời gian thực</h3>
+    <p>Toàn bộ hình học 3D (ống nghiệm, buret, lò cao, địa hình Karst, màng phospholipid kép) được sinh bằng mã thủ tục (procedural geometry) kết hợp vật liệu PBR và hiệu ứng hạt GPU, giúp dung lượng mỗi bài giảng chỉ khoảng 850 KB nhưng vẫn đạt tốc độ 60 FPS.</p>
+
+    <h3>Giai đoạn 4 — Kiểm thử tự động &amp; Việt hóa toàn diện</h3>
+    <p>Tất cả 54 bài giảng đều trải qua quy trình kiểm tra cú pháp JavaScript tự động, kiểm tra hiển thị nhãn 3D không chồng lấp và rà soát 100% chuỗi văn bản tiếng Việt.</p>
+  </article>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>

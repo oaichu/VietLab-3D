@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sự hình thành và dẫn truyền xung thần kinh qua sợi trục và Synapse · Mô phỏng 3D Tương tác — VietLab 3D</title>
+<meta name="description" content="Từ lúc tai nghe tiếng súng xuất phát đến khi cơ chân co lại chỉ mất hơn 0,1 giây — tín hiệu điện – hóa đã chạy qua hệ thần kinh như thế nào? (Sinh học 11 (GDPT 2018) · Chương 2: Cảm ứng ở sinh vật · Bài: Dẫn truyền xung thần kinh trên sợi thần kinh và qua Synapse) — Bài giảng mô phỏng 3D tương tác gồm 9 bước khám phá.">
+<link rel="canonical" href="https://vietlab.9cloudmedia.com/c/impulse-step/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>VietLab 3D</span>
+      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+    </a>
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="/#courses">Thư viện bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a class="hide-m" href="/how/">Phương pháp xây dựng</a>
+      <a class="hide-m" href="/about/">Giới thiệu</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumb" aria-label="Đường dẫn">
+    <a href="/">Trang chủ</a><span>/</span>
+    <a href="/?s=bio#courses">Sinh học</a><span>/</span>
+    <span>Sự hình thành và dẫn truyền xung thần kinh qua sợi trục và Synapse</span>
+  </nav>
+
+  <header class="ch-head">
+    <div class="ch-badges">
+      <span class="badge badge-s" data-s="bio">Sinh học</span>
+      <span class="badge">9 bước khám phá</span>
+      <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
+    </div>
+    <h1 class="ch-title">Sự hình thành và dẫn truyền xung thần kinh qua sợi trục và Synapse</h1>
+    <p class="ch-q">Từ lúc tai nghe tiếng súng xuất phát đến khi cơ chân co lại chỉ mất hơn 0,1 giây — tín hiệu điện – hóa đã chạy qua hệ thần kinh như thế nào?</p>
+  </header>
+
+  <section class="ch-main">
+    <div class="pv-box">
+      <div class="pv-bar">
+        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>Không gian thí nghiệm 3D · WebGL2</span>
+        <div class="pv-bar-actions" role="group" aria-label="Chế độ khung nhìn">
+          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh bìa</button>
+          <button type="button" class="pv-mode-btn" data-pv-mode="live">Tương tác 3D trực tiếp</button>
+        </div>
+      </div>
+      <div class="pv" id="pv-stage" data-src="/courses/impulse-step.html">
+        <img src="/covers/impulse-step.webp" alt="Sự hình thành và dẫn truyền xung thần kinh qua sợi trục và Synapse" width="1280" height="800">
+        <div class="pv-cta">
+          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="pv-act">
+      <h2>Sử dụng bài giảng</h2>
+      <a class="btn btn-primary" href="/courses/impulse-step.html" target="_blank" rel="noopener">Mở toàn màn hình (Khuyên dùng trên lớp) ↗</a>
+      <div class="pv-act-row">
+        <a class="btn" href="/courses/impulse-step.html" download="impulse-step.html">↓ Tải tệp HTML</a>
+        <details class="act-share">
+          <summary class="btn" style="width:100%">⟨/⟩ Nhúng / Chia sẻ</summary>
+          <div class="share-pop">
+            <div>Mã nhúng <code>&lt;iframe&gt;</code> vào LMS / Notion / Website:</div>
+            <code>&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/impulse-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</code>
+            <button type="button" class="btn" style="padding:5px 10px;font-size:12px" data-copy="&lt;iframe src=&quot;https://vietlab.9cloudmedia.com/courses/impulse-step.html&quot; width=&quot;100%&quot; height=&quot;640&quot; style=&quot;border:0;border-radius:12px&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;">Sao chép mã nhúng</button>
+          </div>
+        </details>
+      </div>
+      <dl class="pv-spec">
+        <dt>Bộ môn</dt><dd>Sinh học</dd>
+        <dt>Số bước học</dt><dd>9 bước</dd>
+        <dt>Định dạng</dt><dd>1 tệp HTML độc lập · WebGL2</dd>
+        <dt>Chế độ ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
+        <dt>Giấy phép</dt><dd>CC BY-NC-SA 4.0</dd>
+        <dt>Góp ý học thuật</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=%5BB%C3%A1o%20l%E1%BB%97i%20h%E1%BB%8Dc%20li%E1%BB%87u%5D%20S%E1%BB%B1%20h%C3%ACnh%20th%C3%A0nh%20v%C3%A0%20d%E1%BA%ABn%20truy%E1%BB%81n%20xung%20th%E1%BA%A7n%20kinh%20qua%20s%E1%BB%A3i%20tr%E1%BB%A5c%20v%C3%A0%20Synapse%20(impulse-step)" target="_blank" rel="noopener" style="color:var(--phys)">Báo lỗi bài giảng ↗</a></dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Mạch tư duy &amp; câu hỏi khám phá (9 bước)</h2>
+    <ol class="track">
+      <li>
+        <span class="n">01</span>
+        <div>
+          <div class="t">Xung thần kinh</div>
+          <div class="q">Kích thích vào một đầu của sợi thần kinh, kim điện kế sẽ di chuyển như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">02</span>
+        <div>
+          <div class="t">Điện thế nghỉ</div>
+          <div class="q">Khi không có kích thích, tại sao hai bên màng tế bào lại có điện thế trong âm ngoài dương?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">03</span>
+        <div>
+          <div class="t">Điện thế hoạt động</div>
+          <div class="q">Khi kích thích vào màng, điện thế màng sẽ biến đổi như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">04</span>
+        <div>
+          <div class="t">Dòng điện cục bộ</div>
+          <div class="q">Hưng phấn được dẫn truyền dọc theo sợi thần kinh từng đoạn một như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">05</span>
+        <div>
+          <div class="t">Synapse</div>
+          <div class="q">Làm thế nào xung thần kinh vượt qua được khe hở giữa hai neuron?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">06</span>
+        <div>
+          <div class="t">Một chiều và Chậm trễ</div>
+          <div class="q">Tại sao hưng phấn chỉ truyền qua synapse theo một chiều, và lại chậm hơn so với dẫn truyền trên sợi thần kinh?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">07</span>
+        <div>
+          <div class="t">Cocaine</div>
+          <div class="q">Tại sao chất ma túy như cocaine lại gây nghiện?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">08</span>
+        <div>
+          <div class="t">Na⁺ ngoại bào</div>
+          <div class="q">Khi giảm nồng độ Na⁺ bên ngoài màng, điện thế hoạt động sẽ thay đổi như thế nào?</div>
+        </div>
+      </li>
+        <li>
+        <span class="n">09</span>
+        <div>
+          <div class="t">Thực hành đánh giá</div>
+          <div class="q">Kiểm tra: Khôi phục điện thế hoạt động về mức bình thường</div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
+    <div class="tbook">
+      <strong>Vị trí trong chương trình:</strong> Sinh học 11 (GDPT 2018) · Chương 2: Cảm ứng ở sinh vật · Bài: Dẫn truyền xung thần kinh trên sợi thần kinh và qua Synapse
+    </div>
+  </section>
+
+  <section class="ch-sec" style="border-bottom:0">
+    <div class="sec-head" style="margin-bottom:18px">
+      <h2>Các bài giảng 3D khác môn Sinh học</h2>
+      <a class="btn" href="/?s=bio#courses">Xem tất cả 5 bài môn Sinh học →</a>
+    </div>
+    <div class="cgrid">
+      <article class="cc">
+  <a class="cc-thumb" href="/c/plasmolysis-step/">
+    <img src="/covers/plasmolysis-step.webp" alt="Sự hút nước, mất nước và co nguyên sinh ở tế bào thực vật" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Sinh học</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Sinh học 10 (GDPT 2018) · Chương 2: Cấu trúc tế bào &amp; Trao đổi chất qua màng</div>
+    <h3 class="cc-title"><a href="/c/plasmolysis-step/">Sự hút nước, mất nước và co nguyên sinh ở tế bào thực vật</a></h3>
+    <p class="cc-q">Vì sao rau héo ngâm nước lại tươi cứng cáp, còn ướp muối lại tiết nước và mềm nhũn? Tế bào thực vật thẩm thấu nước như thế nào?</p>
+    <div class="cc-foot">
+      <a href="/c/plasmolysis-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/plasmolysis-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/transport-step/">
+    <img src="/covers/transport-step.webp" alt="Vận chuyển các chất qua màng sinh chất" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Sinh học</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Sinh học 10 (GDPT 2018) · Chương 2: Cấu trúc tế bào &amp; Trao đổi chất qua màng</div>
+    <h3 class="cc-title"><a href="/c/transport-step/">Vận chuyển các chất qua màng sinh chất</a></h3>
+    <p class="cc-q">Cùng một màng tế bào, vì sao O₂ tự đi qua lớp kép phospholipid, glucose cần protein vận chuyển, còn K⁺ lại đi ngược chiều gradient nồng độ?</p>
+    <div class="cc-foot">
+      <a href="/c/transport-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/transport-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/mitosis-step/">
+    <img src="/covers/mitosis-step.webp" alt="Quan sát các kỳ nguyên phân ở mô phân sinh chóp rễ hành" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Sinh học</span>
+    <span class="cc-steps">9 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Sinh học 10 (GDPT 2018) · Chương 4: Chu kỳ tế bào và Phân bào</div>
+    <h3 class="cc-title"><a href="/c/mitosis-step/">Quan sát các kỳ nguyên phân ở mô phân sinh chóp rễ hành</a></h3>
+    <p class="cc-q">Trên tiêu bản chóp rễ hành, làm sao nhận diện tế bào ở từng kỳ nguyên phân và ước tính thời gian của mỗi kỳ?</p>
+    <div class="cc-foot">
+      <a href="/c/mitosis-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/mitosis-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+      <article class="cc">
+  <a class="cc-thumb" href="/c/enzyme-step/">
+    <img src="/covers/enzyme-step.webp" alt="Khảo sát các yếu tố ảnh hưởng đến hoạt tính của Enzyme" loading="lazy" width="640" height="400">
+    <span class="cc-badge">Sinh học</span>
+    <span class="cc-steps">8 bước</span>
+  </a>
+  <div class="cc-body">
+    <div class="cc-book">Sinh học 10 (GDPT 2018) · Chương 3: Chuyển hóa năng lượng &amp; Enzyme</div>
+    <h3 class="cc-title"><a href="/c/enzyme-step/">Khảo sát các yếu tố ảnh hưởng đến hoạt tính của Enzyme</a></h3>
+    <p class="cc-q">Cùng một loại enzyme, vì sao đun sôi sẽ làm mất hoạt tính vĩnh viễn, trong khi ngâm nước đá chỉ làm giảm hoạt tính tạm thời?</p>
+    <div class="cc-foot">
+      <a href="/c/enzyme-step/">Chi tiết bài giảng →</a>
+      <a class="cc-direct" href="/courses/enzyme-step.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
+      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+    </div>
+    <div class="foot-links">
+      <a href="/#courses">Tất cả bài giảng</a>
+      <a href="/guide/">Hướng dẫn lớp học</a>
+      <a href="/how/">Phương pháp xây dựng</a>
+      <a href="/about/">Giới thiệu</a>
+      <a href="/catalog.json">catalog.json</a>
+      <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>
