@@ -12,35 +12,35 @@ const knowledgeMap = fs.existsSync(knowledgePath)
 const SUBJECTS = {
   phys: {
     key: 'phys',
-    code: 'VẬT LÝ · 10 BÀI GIẢNG',
+    code: 'PHÂN MÔN VẬT LÝ',
     name: 'Vật lý',
     count: 10,
     cover: '/covers/current-field-step.webp',
-    desc: 'Từ định luật II Newton, cơ năng, cảm ứng điện từ đến hiệu ứng quang điện và chuyển động Brown — biến phương trình thành thực nghiệm 3D định lượng.',
+    desc: 'Từ định luật II Newton, bảo toàn cơ năng, cảm ứng điện từ đến hiệu ứng quang điện và chuyển động Brown — trực quan hóa các phương trình vật lý bằng thực nghiệm 3D định lượng.',
   },
   chem: {
     key: 'chem',
-    code: 'HÓA HỌC · 25 BÀI GIẢNG',
+    code: 'PHÂN MÔN HÓA HỌC',
     name: 'Hóa học',
     count: 25,
     cover: '/covers/haber-step.webp',
-    desc: 'Bao trọn chuỗi quy trình công nghiệp (tổng hợp NH₃, tiếp xúc H₂SO₄, gang thép, điện phân) và chuẩn độ, cân bằng, tốc độ phản ứng trong phòng thí nghiệm.',
+    desc: 'Bao quát dây chuyền công nghiệp hóa chất (tổng hợp NH₃, tiếp xúc H₂SO₄, luyện gang thép, điện phân) và các thí nghiệm chuẩn độ, cân bằng, tốc độ phản ứng theo danh pháp IUPAC.',
   },
   bio: {
     key: 'bio',
-    code: 'SINH HỌC · 5 BÀI GIẢNG',
+    code: 'PHÂN MÔN SINH HỌC',
     name: 'Sinh học',
     count: 5,
     cover: '/covers/mitosis-step.webp',
-    desc: 'Phóng đại cấu trúc tế bào và phân tử: co và phản co nguyên sinh, vận chuyển qua màng, dẫn truyền xung thần kinh, nguyên phân và động học enzyme.',
+    desc: 'Mô hình hóa cấu trúc vi mô tế bào và phân tử: co và phản co nguyên sinh, vận chuyển chất qua màng sinh chất, dẫn truyền xung thần kinh, chu kỳ nguyên phân và động học enzyme.',
   },
   geo: {
     key: 'geo',
-    code: 'ĐỊA LÝ · 14 BÀI GIẢNG',
+    code: 'PHÂN MÔN ĐỊA LÝ',
     name: 'Địa lý',
     count: 14,
     cover: '/covers/enso-step.webp',
-    desc: 'Đưa vận động Trái Đất, hoàn lưu khí quyển, ENSO, dòng biển, vòng tuần hoàn nước và địa mạo sông ngòi – Karst vào sa bàn 3D có thể xoay 360°.',
+    desc: 'Tái hiện hệ quả chuyển động Trái Đất, hoàn lưu khí quyển, hiện tượng ENSO, dòng biển, vòng tuần hoàn nước và địa mạo sông ngòi – Karst trên sa bàn địa cầu 3D.',
   },
 };
 
@@ -141,19 +141,25 @@ function buildBooksMeta(courses) {
 }
 
 function renderNav(activePage) {
-  return `<header class="nav">
+  return `<div class="top-ribbon">
+  <div class="top-ribbon-in">
+    <span class="top-ribbon-left"><span class="top-ribbon-dot"></span>HỆ THỐNG HỌC LIỆU KHOA HỌC TỰ NHIÊN &amp; ĐỊA LÝ 3D · CHUẨN CHƯƠNG TRÌNH GDPT 2018</span>
+    <span class="top-ribbon-right">Cấp Trung học Phổ thông (Lớp 10 · 11 · 12) · Học liệu Mở CC BY-NC-SA 4.0</span>
+  </div>
+</div>
+<header class="nav">
   <div class="nav-in">
     <a class="brand" href="/">
       <span class="brand-mark" aria-hidden="true"></span>
       <span>VietLab 3D</span>
-      <span class="brand-sub">GDPT 2018 · 54 Mô phỏng</span>
+      <span class="brand-sub">GDPT 2018 · 54 Bài giảng</span>
     </a>
     <nav class="nav-links" aria-label="Điều hướng chính">
-      <a href="/#courses"${activePage === 'home' ? ' class="active"' : ''}>Thư viện bài giảng</a>
-      <a href="/guide/"${activePage === 'guide' ? ' class="active"' : ''}>Hướng dẫn lớp học</a>
-      <a class="hide-m" href="/how/"${activePage === 'how' ? ' class="active"' : ''}>Phương pháp xây dựng</a>
-      <a class="hide-m" href="/about/"${activePage === 'about' ? ' class="active"' : ''}>Giới thiệu</a>
-      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="/#courses"${activePage === 'home' ? ' class="active"' : ''}>Danh mục Học liệu</a>
+      <a href="/guide/"${activePage === 'guide' ? ' class="active"' : ''}>Hướng dẫn Giảng dạy</a>
+      <a class="hide-m" href="/how/"${activePage === 'how' ? ' class="active"' : ''}>Tiêu chuẩn Học thuật</a>
+      <a class="hide-m" href="/about/"${activePage === 'about' ? ' class="active"' : ''}>Hồ sơ Dự án</a>
+      <a class="nav-gh" href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">Mã nguồn ↗</a>
     </nav>
   </div>
 </header>`;
@@ -163,17 +169,17 @@ function renderFooter() {
   return `<footer class="foot">
   <div class="wrap foot-in">
     <div>
-      <strong style="color:var(--fg)">VietLab 3D — Học liệu Khoa học Tự nhiên &amp; Địa lý 3D Tương tác</strong>
-      <span style="margin-left:10px">Mã nguồn mở · CC BY-NC-SA 4.0 · Chuẩn Chương trình GDPT 2018</span>
+      <strong style="color:var(--fg)">VietLab 3D — Hệ thống Học liệu Mô phỏng Khoa học Tự nhiên &amp; Địa lý 3D</strong>
+      <span style="margin-left:10px">Chuẩn Chương trình GDPT 2018 · Giấy phép Học liệu Mở CC BY-NC-SA 4.0</span>
     </div>
     <div class="foot-links">
-      <a href="/#courses">Tất cả bài giảng</a>
-      <a href="/guide/">Hướng dẫn lớp học</a>
-      <a href="/how/">Phương pháp xây dựng</a>
-      <a href="/about/">Giới thiệu</a>
-      <a href="/catalog.json">catalog.json</a>
-      <a href="/sitemap.xml">Sitemap</a>
-      <a href="/llms.txt">llms.txt (AI/GEO)</a>
+      <a href="/#courses">Danh mục 54 bài giảng</a>
+      <a href="/guide/">Hướng dẫn giảng dạy</a>
+      <a href="/how/">Tiêu chuẩn học thuật</a>
+      <a href="/about/">Hồ sơ dự án</a>
+      <a href="/catalog.json">Dữ liệu JSON</a>
+      <a href="/sitemap.xml">Sơ đồ trang</a>
+      <a href="/llms.txt">Chỉ mục AI (llms.txt)</a>
       <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>
@@ -204,16 +210,16 @@ function renderCourseCard(c, withFilterAttrs = false) {
   return `<article class="cc"${dataAttrs}>
   <a class="cc-thumb" href="/c/${c.slug}/">
     <img src="/covers/${c.slug}.webp" alt="${esc(c.title)} — Mô phỏng 3D môn ${esc(sName)}" loading="lazy" width="640" height="400">
-    <span class="cc-badge">${esc(sName)}</span>
-    <span class="cc-steps">${stepCount} bước</span>
+    <span class="cc-badge">Môn ${esc(sName)}</span>
+    <span class="cc-steps">${stepCount} bước học</span>
   </a>
   <div class="cc-body">
     <div class="cc-book">${esc(c._shortBook)}</div>
     <h3 class="cc-title"><a href="/c/${c.slug}/">${esc(c.title)}</a></h3>
     <p class="cc-q">${esc(c.question)}</p>
     <div class="cc-foot">
-      <a href="/c/${c.slug}/">Chi tiết bài giảng →</a>
-      <a class="cc-direct" href="/courses/${c.slug}.html" target="_blank" rel="noopener" title="Mở trực tiếp mô phỏng 3D toàn màn hình">Mở 3D ↗</a>
+      <a href="/c/${c.slug}/">Hồ sơ bài giảng →</a>
+      <a class="cc-direct" href="/courses/${c.slug}.html" target="_blank" rel="noopener" title="Mở trực tiếp phòng thí nghiệm 3D toàn màn hình">Mở phòng 3D ↗</a>
     </div>
   </div>
 </article>`;
@@ -238,14 +244,14 @@ function buildHomePage(courses, booksMeta) {
         <div>
           <div class="sc-top">
             <span class="sc-tag">${esc(s.code)}</span>
-            <span class="sc-count">${s.count} bài</span>
+            <span class="sc-count">${s.count} bài giảng</span>
           </div>
-          <h3>${esc(s.name)}</h3>
+          <h3>Môn ${esc(s.name)}</h3>
           <p>${esc(s.desc)}</p>
         </div>
         <div>
           <div class="sc-thumb"><img src="${s.cover}" alt="Mô phỏng 3D môn ${esc(s.name)}" loading="lazy" width="640" height="360"></div>
-          <div class="sc-foot" style="margin-top:12px"><span>Duyệt môn ${esc(s.name)}</span><span>→</span></div>
+          <div class="sc-foot" style="margin-top:12px"><span>Tra cứu học liệu môn ${esc(s.name)}</span><span>→</span></div>
         </div>
       </a>`
     )
@@ -258,11 +264,11 @@ function buildHomePage(courses, booksMeta) {
         '@type': 'EducationalOrganization',
         '@id': `${SITE_URL}/#organization`,
         name: 'VietLab 3D',
-        alternateName: 'Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
+        alternateName: 'Hệ thống Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
         url: `${SITE_URL}/`,
         logo: `${SITE_URL}/favicon.svg`,
         description:
-          'Thư viện 54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT được Việt hóa 100% theo Chương trình GDPT 2018 của Bộ Giáo dục và Đào tạo Việt Nam.',
+          'Thư viện 54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT được chuẩn hóa 100% theo Chương trình Giáo dục Phổ thông 2018 của Bộ Giáo dục và Đào tạo Việt Nam.',
         sameAs: ['https://github.com/oaichu/vietlab-3d'],
       },
       {
@@ -328,8 +334,8 @@ function buildHomePage(courses, booksMeta) {
 <html lang="vi">
 <head>
 ${renderSeoHead({
-  title: 'VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
-  desc: '54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT theo Chương trình GDPT 2018. Mở trực tiếp trên trình duyệt hoặc tải về 1 tệp HTML duy nhất hoạt động ngoại tuyến.',
+  title: 'VietLab 3D — Hệ thống Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
+  desc: 'Hệ thống 54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT theo Chương trình GDPT 2018. Mở trực tiếp trên trình duyệt hoặc tải về 1 tệp HTML duy nhất hoạt động ngoại tuyến.',
   canonical: `${SITE_URL}/`,
   ogImage: '/covers/haber-step.webp',
   keywords:
@@ -343,18 +349,20 @@ ${renderNav('home')}
 <main>
   <section class="hero">
     <div class="wrap hero-grid">
-      <div>
-        <div class="eyebrow"><span class="dot"></span>MÃ NGUỒN MỞ · 54 BÀI GIẢNG 3D · ĐỐI CHIẾU GDPT 2018</div>
-        <h1>Biến những trang sách giáo khoa trừu tượng thành <em>mô phỏng 3D chạm và thử</em> ngay trên lớp.</h1>
-        <p class="hero-lead">Bao phủ 4 môn Vật lý, Hóa học, Sinh học và Địa lý THPT. Mỗi bài giảng được dẫn dắt bằng chuỗi câu hỏi từng bước theo tiến trình nhận thức thực tế; mở trực tiếp trên trình duyệt hoặc tải về 1 tệp HTML duy nhất để dạy học hoàn toàn ngoại tuyến.</p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#courses">Khám phá 54 bài giảng ↓</a>
-          <a class="btn" href="/guide/">Hướng dẫn giảng dạy 45 phút</a>
+      <div class="hero-left">
+        <div>
+          <div class="eyebrow"><span class="dot"></span>CHUẨN KIẾN THỨC – KỸ NĂNG · CHƯƠNG TRÌNH GDPT 2018</div>
+          <h1>Chuyển hóa lý thuyết sách giáo khoa thành <em>mô hình thực nghiệm 3D trực quan</em> trên bục giảng.</h1>
+          <p class="hero-lead">Hệ thống bao quát 54 chuyên đề trọng tâm thuộc 4 bộ môn Vật lý, Hóa học, Sinh học và Địa lý cấp Trung học Phổ thông. Mỗi bài giảng được thiết kế theo tiến trình nhận thức từng bước (Khởi động – Thực nghiệm – Kết luận), hỗ trợ trình chiếu trực tiếp hoặc tải về một tệp HTML độc lập để giảng dạy hoàn toàn ngoại tuyến.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#courses">Tra cứu 54 bài giảng 3D ↓</a>
+            <a class="btn" href="/guide/">Hướng dẫn tổ chức tiết dạy 45 phút</a>
+          </div>
         </div>
         <div class="hero-meta">
-          <div><strong>54 bài</strong>Vật lý 10 · Hóa học 25 · Sinh học 5 · Địa lý 14</div>
-          <div><strong>1 tệp HTML</strong>Tải về chạy ngay, không cần cài đặt hay mạng</div>
-          <div><strong>100% chuẩn</strong>Khớp thuật ngữ &amp; yêu cầu cần đạt GDPT 2018</div>
+          <div><strong>54 chuyên đề</strong>Vật lý 10 · Hóa học 25 · Sinh học 5 · Địa lý 14</div>
+          <div><strong>Đóng gói 1 tệp</strong>Tải tệp HTML độc lập, vận hành 100% không cần mạng</div>
+          <div><strong>Chuẩn GDPT 2018</strong>Đồng bộ danh pháp IUPAC &amp; yêu cầu cần đạt</div>
         </div>
       </div>
 
@@ -373,7 +381,7 @@ ${renderNav('home')}
                 <button type="button" data-hq="-1">−q Phản proton</button>
               </div>
             </div>
-            <a class="hud-open" href="/c/centripetal-step/">Xem cấu trúc bài giảng →</a>
+            <a class="hud-open" href="/c/centripetal-step/">Xem hồ sơ bài giảng →</a>
           </div>
         </div>
       </div>
@@ -384,10 +392,10 @@ ${renderNav('home')}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <div class="sec-kicker">BỘ MÔN · SUBJECTS</div>
-          <h2 class="sec-title">Bốn bộ môn Khoa học · Bấm để lọc ngay theo chương trình</h2>
+          <div class="sec-kicker">MỤC 01 · PHÂN MÔN HỌC LIỆU</div>
+          <h2 class="sec-title">Bốn bộ môn Khoa học Tự nhiên &amp; Địa lý cấp THPT</h2>
         </div>
-        <p class="sec-sub">Tập trung giải quyết các chủ đề khó hình dung nhất trên bảng phấn 2D: trường lực không gian 3 chiều, dây chuyền thiết bị công nghiệp, động học phân tử vi mô và hoàn lưu địa cầu.</p>
+        <p class="sec-sub">Giải quyết triệt để các chủ đề đòi hỏi tư duy không gian 3 chiều: trường lực điện từ, dây chuyền công nghiệp hóa chất, cơ chế sinh học phân tử và hoàn lưu địa cầu.</p>
       </div>
       <div class="sgrid">
         ${subjectCardsHtml}
@@ -399,10 +407,10 @@ ${renderNav('home')}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <div class="sec-kicker">TIÊU BIỂU · FEATURED</div>
-          <h2 class="sec-title">6 bài giảng tiêu biểu nên trải nghiệm đầu tiên</h2>
+          <div class="sec-kicker">MỤC 02 · HỌC LIỆU TIÊU BIỂU</div>
+          <h2 class="sec-title">6 chuyên đề thực nghiệm 3D trọng tâm trong chương trình</h2>
         </div>
-        <p class="sec-sub">Bao quát 4 bộ môn từ thí nghiệm đo hằng số Planck, tháp tổng hợp ammonia Haber–Bosch đến chu kỳ nguyên phân và dao động Nam phương ENSO.</p>
+        <p class="sec-sub">Đại diện cho 4 bộ môn từ thí nghiệm tế bào quang điện đo hằng số Planck, tháp tổng hợp ammonia Haber–Bosch đến chu kỳ nguyên phân và dao động Nam phương ENSO.</p>
       </div>
       <div class="cgrid">
         ${featured.map((c) => renderCourseCard(c, false)).join('\n        ')}
@@ -414,16 +422,16 @@ ${renderNav('home')}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <div class="sec-kicker">THƯ VIỆN · ALL 54 COURSES</div>
-          <h2 class="sec-title">Toàn bộ bài giảng (<span id="fcount">${courses.length}</span> / ${courses.length})</h2>
+          <div class="sec-kicker">MỤC 03 · DANH MỤC TOÀN HỆ THỐNG</div>
+          <h2 class="sec-title">Tra cứu toàn bộ học liệu 3D (<span id="fcount">${courses.length}</span> / ${courses.length} bài giảng)</h2>
         </div>
-        <p class="sec-sub">Lọc theo bộ môn, khối lớp / chuyên đề GDPT 2018, chương học hoặc nhấn phím <code>/</code> để tìm nhanh (hỗ trợ cả tiếng Việt có dấu và không dấu).</p>
+        <p class="sec-sub">Lọc theo phân môn, khối lớp / chuyên đề học tập GDPT 2018, chương sách giáo khoa hoặc nhấn phím <code>/</code> để tìm kiếm nhanh (hỗ trợ cả tiếng Việt có dấu và không dấu).</p>
       </div>
 
       <div class="fbar">
         <div class="fbar-row">
           <div class="fpills" id="fs" role="tablist" aria-label="Lọc theo bộ môn">
-            <button type="button" class="fpill on" data-s="all">Tất cả <span class="n">${courses.length}</span></button>
+            <button type="button" class="fpill on" data-s="all">Tất cả phân môn <span class="n">${courses.length}</span></button>
             <button type="button" class="fpill" data-s="phys">Vật lý <span class="n">10</span></button>
             <button type="button" class="fpill" data-s="chem">Hóa học <span class="n">25</span></button>
             <button type="button" class="fpill" data-s="bio">Sinh học <span class="n">5</span></button>
@@ -431,12 +439,12 @@ ${renderNav('home')}
           </div>
           <div class="fsearch">
             <span class="ic">⌕</span>
-            <input id="q" type="search" placeholder="Tìm bài giảng, câu hỏi, chương học…" autocomplete="off" aria-label="Tìm kiếm bài giảng">
+            <input id="q" type="search" placeholder="Nhập tên bài học, phương trình, chương SGK…" autocomplete="off" aria-label="Tìm kiếm bài giảng">
             <span class="kbd">/</span>
           </div>
         </div>
         <div class="fsec" id="fb" hidden>
-          <span>Khối lớp / Chuyên đề:</span>
+          <span>Khối lớp / Chuyên đề SGK:</span>
           <select id="sb" aria-label="Chọn khối lớp hoặc chuyên đề"></select>
           <span>Chương học:</span>
           <select id="sc" aria-label="Chọn chương học"></select>
@@ -445,7 +453,7 @@ ${renderNav('home')}
 
       <div class="cgrid" id="lib">
         ${courses.map((c) => renderCourseCard(c, true)).join('\n        ')}
-        <div class="fempty" id="empty" hidden>Không tìm thấy bài giảng phù hợp. Hãy thử từ khóa khác hoặc chọn lại bộ lọc «Tất cả».</div>
+        <div class="fempty" id="empty" hidden>Không tìm thấy bài giảng phù hợp với điều kiện lọc. Vui lòng thử từ khóa khác hoặc chọn lại «Tất cả phân môn».</div>
       </div>
     </div>
   </section>
@@ -454,31 +462,31 @@ ${renderNav('home')}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <div class="sec-kicker">SỬ DỤNG TRONG LỚP HỌC · IN THE CLASSROOM</div>
-          <h2 class="sec-title">4 bước đưa bài giảng 3D vào tiết học 45 phút</h2>
+          <div class="sec-kicker">MỤC 04 · NGHIỆP VỤ SƯ PHẠM</div>
+          <h2 class="sec-title">Quy trình 4 bước tổ chức tiết dạy học thực nghiệm 45 phút</h2>
         </div>
-        <a class="btn" href="/guide/">Xem hướng dẫn chi tiết →</a>
+        <a class="btn" href="/guide/">Xem tài liệu hướng dẫn chi tiết →</a>
       </div>
       <div class="steps">
         <div class="step">
-          <div class="step-num">BƯỚC 01 · CHỌN BÀI</div>
-          <h3>Tra theo bài học GDPT 2018</h3>
-          <p>Mỗi bài giảng đều ghi rõ khối lớp, chương và chuyên đề tương ứng trong Chương trình GDPT 2018 để giáo viên đưa thẳng vào kế hoạch bài dạy.</p>
+          <div class="step-num">BƯỚC 01 · ĐỐI CHIẾU KẾ HOẠCH BÀI DẠY</div>
+          <h3>Tra cứu theo chương mục SGK GDPT 2018</h3>
+          <p>Mỗi bài giảng đều định danh rõ khối lớp, chương học và chuyên đề tương ứng trong Chương trình GDPT 2018 để giáo viên tích hợp trực tiếp vào kế hoạch bài dạy (Giáo án Công văn 5512).</p>
         </div>
         <div class="step">
-          <div class="step-num">BƯỚC 02 · MỞ HOẶC TẢI VỀ</div>
-          <h3>Có mạng mở ngay, mất mạng vẫn chạy</h3>
-          <p>Nhấp «Mở 3D» để trình chiếu trực tiếp; hoặc tải về tệp <code>.html</code> độc lập (~860 KB) lưu vào USB để chạy ngoại tuyến trên mọi máy tính lớp học.</p>
+          <div class="step-num">BƯỚC 02 · CHUẨN BỊ HỌC LIỆU</div>
+          <h3>Trình chiếu trực tuyến hoặc lưu USB ngoại tuyến</h3>
+          <p>Nhấn «Mở phòng 3D» để trình chiếu trực tiếp trên lớp; hoặc tải tệp <code>.html</code> độc lập (~860 KB) vào USB để giảng dạy ổn định ngay cả tại phòng học không có kết nối mạng.</p>
         </div>
         <div class="step">
-          <div class="step-num">BƯỚC 03 · DẠY THEO MẠCH BƯỚC</div>
-          <h3>Mỗi bước một câu hỏi trọng tâm</h3>
-          <p>Dùng phím <code>←</code> <code>→</code> hoặc thanh bước để dẫn dắt học sinh: đặt câu hỏi dự đoán trước, thao tác 3D kiểm chứng sau, cuối cùng chốt kiến thức cốt lõi.</p>
+          <div class="step-num">BƯỚC 03 · TỔ CHỨC HOẠT ĐỘNG NHẬN THỨC</div>
+          <h3>Dẫn dắt theo mạch câu hỏi từng bước</h3>
+          <p>Sử dụng phím mũi tên <code>←</code> <code>→</code> hoặc thanh tiến trình để tổ chức hoạt động: nêu câu hỏi khởi động, thao tác thông số 3D kiểm chứng, sau đó rút ra kết luận chuẩn SGK.</p>
         </div>
         <div class="step">
-          <div class="step-num">BƯỚC 04 · TỰ LUYỆN SAU GIỜ HỌC</div>
-          <h3>Học sinh tự khám phá tại nhà</h3>
-          <p>Chia sẻ đường dẫn bài giảng hoặc nhúng <code>&lt;iframe&gt;</code> vào hệ thống LMS của trường; bước cuối mỗi bài luôn có phần thử thách thực hành có chấm điểm.</p>
+          <div class="step-num">BƯỚC 04 · ĐÁNH GIÁ &amp; TỰ HỌC</div>
+          <h3>Kiểm tra năng lực vận dụng sau tiết học</h3>
+          <p>Bước cuối cùng của mỗi mô phỏng tích hợp bài tập thực hành xử lý tình huống và bộ câu hỏi trắc nghiệm có giải thích chi tiết; hỗ trợ nhúng <code>&lt;iframe&gt;</code> vào LMS của nhà trường.</p>
         </div>
       </div>
     </div>
@@ -488,26 +496,26 @@ ${renderNav('home')}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <div class="sec-kicker">PHƯƠNG PHÁP · METHODOLOGY</div>
-          <h2 class="sec-title">Quy trình kiểm chứng học thuật 4 giai đoạn</h2>
+          <div class="sec-kicker">MỤC 05 · TIÊU CHUẨN HỌC THUẬT</div>
+          <h2 class="sec-title">Quy trình thẩm định dữ kiện khoa học và đóng gói kỹ thuật</h2>
         </div>
-        <a class="btn" href="/how/">Tìm hiểu quy trình xây dựng →</a>
+        <a class="btn" href="/how/">Xem hồ sơ phương pháp xây dựng →</a>
       </div>
       <div class="hgrid">
         <div class="hcard">
-          <div class="k">01 · ĐỐI CHIẾU DỮ KIỆN KHOA HỌC</div>
-          <h3>Xác lập hằng số, phương trình &amp; ranh giới mô hình</h3>
-          <p>Mọi phương trình vật lý, nhiệt động học hóa học và số liệu thực nghiệm đều được đối chiếu với tài liệu chuẩn trước khi viết dòng mã đầu tiên.</p>
+          <div class="k">GIAI ĐOẠN 01 · THẨM ĐỊNH DỮ KIỆN KHOA HỌC</div>
+          <h3>Chuẩn hóa hằng số, phương trình &amp; danh pháp IUPAC</h3>
+          <p>Toàn bộ phương trình vật lý, nhiệt động học hóa học, số liệu thực nghiệm và danh pháp quốc tế IUPAC được đối chiếu nghiêm ngặt với Sách giáo khoa GDPT 2018 trước khi lập trình.</p>
         </div>
         <div class="hcard">
-          <div class="k">02 · THIẾT KẾ MẠCH NHẬN THỨC</div>
-          <h3>Biến mục tiêu bài học thành thao tác 3D</h3>
-          <p>Không nhồi nhét văn bản lên màn hình 3D. Mỗi bước học chỉ giữ 1 câu hỏi mở đầu, 1 thao tác kiểm chứng trực quan và 3 ý kết luận cô đọng.</p>
+          <div class="k">GIAI ĐOẠN 02 · THIẾT KẾ SƯ PHẠM PHÁT TRIỂN NĂNG LỰC</div>
+          <h3>Cấu trúc hóa mục tiêu cần đạt thành thao tác 3D</h3>
+          <p>Giao diện tuân thủ nguyên tắc sư phạm tinh gọn: mỗi bước học tập trung giải quyết 1 câu hỏi nghiên cứu, 1 thao tác điều khiển biến số và hệ thống kết luận – lưu ý thi cử tường minh.</p>
         </div>
         <div class="hcard">
-          <div class="k">03 · ĐÓNG GÓI ĐỘC LẬP &amp; KIỂM THỬ</div>
-          <h3>Một tệp HTML tự chứa, 60 khung hình/giây</h3>
-          <p>Toàn bộ động cơ đồ họa Three.js, bộ giải phương trình và giao diện tiếng Việt được đóng gói trong 1 tệp HTML duy nhất, kiểm thử tự động trên trình duyệt thật.</p>
+          <div class="k">GIAI ĐOẠN 03 · ĐÓNG GÓI ĐƠN TỆP &amp; KIỂM ĐỊNH</div>
+          <h3>Kiến trúc 1 tệp HTML tự chứa, vận hành 60 FPS</h3>
+          <p>Động cơ đồ họa Three.js WebGL2, bộ giải toán học thời gian thực và phông chữ tiếng Việt được biên dịch trọn vẹn vào 1 tệp HTML duy nhất, vượt qua kiểm thử tự động trên mọi thiết bị.</p>
         </div>
       </div>
     </div>
@@ -532,6 +540,7 @@ function buildDetailPage(c, allCourses) {
   const seps = kb?.mainline?.seps || [];
   const totalEq = kb?.top?.total || '';
   const quizList = kb?.quiz || [];
+  const courseType = kb?.meta?.type || 'Mô phỏng thực nghiệm 3D';
 
   const related = allCourses
     .filter((x) => x.subject === c.subject && x.slug !== c.slug)
@@ -543,10 +552,10 @@ function buildDetailPage(c, allCourses) {
       return `<li>
         <span class="n">${numStr}</span>
         <div>
-          <div class="t">${esc(st.tag)}</div>
+          <div class="t">Bước ${idx + 1}: ${esc(st.tag)}</div>
           ${st.q ? `<div class="q">${esc(st.q)}</div>` : ''}
           ${st.eq ? `<div class="step-eq"><code>${esc(st.eq)}</code>${st.eqCal ? ` <span>· ${esc(st.eqCal)}</span>` : ''}</div>` : ''}
-          ${st.concl ? `<div class="step-concl"><strong>Kết luận:</strong> ${esc(st.concl)}</div>` : ''}
+          ${st.concl ? `<div class="step-concl"><strong>Kết luận chuẩn SGK:</strong> ${esc(st.concl)}</div>` : ''}
         </div>
       </li>`;
     })
@@ -554,11 +563,11 @@ function buildDetailPage(c, allCourses) {
 
   const chainHtml = chain.length
     ? `<div class="ch-chain" aria-label="Chuỗi nhân quả cốt lõi">
-      <span class="ch-chain-label">Mạch logic cốt lõi:</span>
+      <span class="ch-chain-label">Chuỗi logic nhân – quả:</span>
       ${chain
         .map(
           (item, idx) =>
-            `<span class="ch-chain-pill"><b>${esc(item.k)}</b><span>${esc(item.t)}</span></span>${
+            `<span class="ch-chain-pill"><b>${esc(item.k)}:</b><span>${esc(item.t)}</span></span>${
               idx < chain.length - 1 ? `<span class="ch-chain-sep">${esc(seps[idx] || '→')}</span>` : ''
             }`
         )
@@ -568,7 +577,10 @@ function buildDetailPage(c, allCourses) {
 
   const unitsSectionHtml = units.length
     ? `<section class="ch-sec">
-    <h2>Cấu trúc trạm thiết bị &amp; cụm mô hình 3D (${units.length} khu vực)</h2>
+    <div class="ch-sec-head">
+      <h2>Cấu trúc trạm thiết bị &amp; phân khu mô hình 3D (${units.length} phân khu)</h2>
+      <span style="font-size:12.5px;color:var(--fg-3);font-family:var(--mono)">Bố cục không gian thực nghiệm 3D</span>
+    </div>
     <div class="ugrid">
       ${units
         .map(
@@ -585,7 +597,6 @@ function buildDetailPage(c, allCourses) {
   </section>`
     : '';
 
-  // Build FAQ items combining key step inquiry questions and quiz questions
   const faqItems = [];
   for (const st of steps) {
     if (st.q && (st.concl || st.points?.length)) {
@@ -602,7 +613,7 @@ function buildDetailPage(c, allCourses) {
     if (qz.q && qz.why) {
       const ansOpt = Array.isArray(qz.opts) && qz.opts[qz.ans] ? qz.opts[qz.ans] : '';
       faqItems.push({
-        badge: `Câu hỏi ôn tập · ${qz.tag || sMeta.name}`,
+        badge: `Câu hỏi trắc nghiệm · ${qz.tag || sMeta.name}`,
         q: qz.q,
         concl: ansOpt ? `Đáp án đúng: ${ansOpt}. ${qz.why}` : qz.why,
         eq: '',
@@ -613,16 +624,19 @@ function buildDetailPage(c, allCourses) {
 
   const faqSectionHtml = faqItems.length
     ? `<section class="ch-sec">
-    <h2>Câu hỏi Thường gặp &amp; Giải đáp Trọng tâm (Chuẩn GDPT 2018)</h2>
+    <div class="ch-sec-head">
+      <h2>Câu hỏi Thường gặp &amp; Giải đáp Trọng tâm (Chuẩn kiến thức GDPT 2018)</h2>
+      <span style="font-size:12.5px;color:var(--fg-3);font-family:var(--mono)">Hồ sơ hỏi – đáp &amp; lưu ý thi cử</span>
+    </div>
     <div class="faq-list">
       ${faqItems
         .map(
           (f, idx) => `<details class="faq-item"${idx < 2 ? ' open' : ''}>
         <summary><span><span class="faq-tag">${esc(f.badge)}</span>${esc(f.q)}</span></summary>
         <div class="faq-body">
-          ${f.eq ? `<p><strong>Phương trình / Quy luật:</strong> <code>${esc(f.eq)}</code></p>` : ''}
-          <p>${esc(f.concl)}</p>
-          ${f.exam ? `<p><strong>Lưu ý trọng tâm thi cử:</strong> ${esc(f.exam)}</p>` : ''}
+          ${f.eq ? `<p><strong>Phương trình / Quy luật áp dụng:</strong> <code>${esc(f.eq)}</code></p>` : ''}
+          <p><strong>Giải thích chuẩn SGK:</strong> ${esc(f.concl)}</p>
+          ${f.exam ? `<p><strong>Lưu ý trọng tâm khi kiểm tra – đánh giá:</strong> ${esc(f.exam)}</p>` : ''}
         </div>
       </details>`
         )
@@ -738,17 +752,18 @@ ${renderNav('')}
 
 <main class="wrap">
   <nav class="crumb" aria-label="Đường dẫn">
-    <a href="/">Trang chủ</a><span>/</span>
-    <a href="/?s=${c.subject}#courses">${esc(sMeta.name)}</a><span>/</span>
+    <a href="/">Danh mục Học liệu</a><span>/</span>
+    <a href="/?s=${c.subject}#courses">Phân môn ${esc(sMeta.name)}</a><span>/</span>
     <span>${esc(c.title)}</span>
   </nav>
 
   <header class="ch-head">
     <div class="ch-badges">
-      <span class="badge badge-s" data-s="${c.subject}">${esc(sMeta.name)}</span>
-      <span class="badge">${steps.length} bước khám phá</span>
+      <span class="badge badge-s" data-s="${c.subject}">Phân môn ${esc(sMeta.name)}</span>
+      <span class="badge">${esc(courseType)}</span>
+      <span class="badge">${steps.length} bước thực nghiệm</span>
       ${totalEq ? `<span class="badge">${esc(totalEq)}</span>` : ''}
-      <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
+      <span class="badge badge-v">✓ Chuẩn hóa danh pháp &amp; dữ kiện GDPT 2018</span>
     </div>
     <h1 class="ch-title">${esc(c.title)}</h1>
     <p class="ch-q">${esc(c.question)}</p>
@@ -758,49 +773,75 @@ ${renderNav('')}
   <section class="ch-main">
     <div class="pv-box">
       <div class="pv-bar">
-        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>Không gian thí nghiệm 3D · WebGL2</span>
+        <span class="pv-bar-left"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--phys);display:inline-block"></span>KHÔNG GIAN THỰC NGHIỆM 3D · ĐỘNG CƠ WEBGL2</span>
         <div class="pv-bar-actions" role="group" aria-label="Chế độ khung nhìn">
-          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh bìa</button>
+          <button type="button" class="pv-mode-btn on" data-pv-mode="cover">Ảnh minh họa</button>
           <button type="button" class="pv-mode-btn" data-pv-mode="live">Tương tác 3D trực tiếp</button>
         </div>
       </div>
       <div class="pv" id="pv-stage" data-src="/courses/${c.slug}.html">
         <img src="/covers/${c.slug}.webp" alt="${esc(c.title)} — Mô phỏng 3D môn ${esc(sMeta.name)}" width="1280" height="800">
         <div class="pv-cta">
-          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
+          <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy phòng thí nghiệm 3D ngay trên trang</button>
         </div>
       </div>
     </div>
 
     <aside class="pv-act">
-      <h2>Sử dụng bài giảng</h2>
-      <a class="btn btn-primary" href="/courses/${c.slug}.html" target="_blank" rel="noopener">Mở toàn màn hình (Khuyên dùng trên lớp) ↗</a>
+      <h2>Hồ sơ Học liệu &amp; Công cụ Giảng dạy</h2>
+      <a class="btn btn-primary" href="/courses/${c.slug}.html" target="_blank" rel="noopener">Mở toàn màn hình (Trình chiếu trên lớp) ↗</a>
       <div class="pv-act-row">
-        <a class="btn" href="/courses/${c.slug}.html" download="${c.slug}.html">↓ Tải tệp HTML</a>
+        <a class="btn" href="/courses/${c.slug}.html" download="${c.slug}.html">↓ Tải tệp HTML độc lập</a>
         <details class="act-share">
-          <summary class="btn" style="width:100%">⟨/⟩ Nhúng / Chia sẻ</summary>
+          <summary class="btn" style="width:100%">⟨/⟩ Mã nhúng LMS</summary>
           <div class="share-pop">
-            <div>Mã nhúng <code>&lt;iframe&gt;</code> vào LMS / Notion / Website:</div>
+            <div>Mã nhúng <code>&lt;iframe&gt;</code> tích hợp vào LMS / Website trường:</div>
             <code>${esc(iframeSnippet)}</code>
             <button type="button" class="btn" style="padding:5px 10px;font-size:12px" data-copy="${esc(iframeSnippet)}">Sao chép mã nhúng</button>
           </div>
         </details>
       </div>
       <dl class="pv-spec">
-        <dt>Bộ môn</dt><dd>${esc(sMeta.name)}</dd>
-        <dt>Số bước học</dt><dd>${steps.length} bước</dd>
-        <dt>Định dạng</dt><dd>1 tệp HTML độc lập · WebGL2</dd>
-        <dt>Chế độ ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
-        <dt>Giấy phép</dt><dd>CC BY-NC-SA 4.0</dd>
-        <dt>Góp ý học thuật</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=${issueTitle}" target="_blank" rel="noopener" style="color:var(--phys)">Báo lỗi bài giảng ↗</a></dd>
+        <dt>Mã định danh học liệu</dt><dd>${esc(c.slug)}</dd>
+        <dt>Phân môn giảng dạy</dt><dd>${esc(sMeta.name)} THPT</dd>
+        <dt>Loại hình mô phỏng</dt><dd>${esc(courseType)}</dd>
+        <dt>Tiến trình sư phạm</dt><dd>${steps.length} bước nhận thức</dd>
+        <dt>Đóng gói kỹ thuật</dt><dd>1 tệp HTML tự chứa · WebGL2</dd>
+        <dt>Vận hành ngoại tuyến</dt><dd>Hoạt động 100% không cần mạng</dd>
+        <dt>Giấy phép xuất bản</dt><dd>CC BY-NC-SA 4.0</dd>
+        <dt>Góp ý chuyên môn</dt><dd><a href="https://github.com/oaichu/vietlab-3d/issues/new?title=${issueTitle}" target="_blank" rel="noopener" style="color:var(--phys)">Gửi phản hồi học thuật ↗</a></dd>
       </dl>
     </aside>
+  </section>
+
+  <section class="ch-sec">
+    <div class="ch-sec-head">
+      <h2>Phiếu Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
+      <span style="font-size:12.5px;color:var(--fg-3);font-family:var(--mono)">Tham chiếu lập kế hoạch bài dạy (Công văn 5512)</span>
+    </div>
+    <div class="sgk-grid">
+      <div class="sgk-cell">
+        <div class="sgk-k">01 · Phân môn &amp; Cấp học</div>
+        <div class="sgk-v"><strong>Môn ${esc(sMeta.name)}</strong> — Cấp Trung học Phổ thông (Chương trình GDPT 2018 của Bộ Giáo dục và Đào tạo).</div>
+      </div>
+      <div class="sgk-cell">
+        <div class="sgk-k">02 · Vị trí trong Sách giáo khoa</div>
+        <div class="sgk-v"><strong>${esc(c._textbookStr)}</strong></div>
+      </div>
+      <div class="sgk-cell">
+        <div class="sgk-k">03 · Yêu cầu cần đạt &amp; Học liệu</div>
+        <div class="sgk-v">Thực nghiệm trực quan qua <strong>${steps.length} bước</strong>; rèn luyện năng lực tìm hiểu tự nhiên, phân tích đồ thị – phương trình và vận dụng thực tiễn.</div>
+      </div>
+    </div>
   </section>
 
   ${unitsSectionHtml}
 
   <section class="ch-sec">
-    <h2>Mạch tư duy &amp; câu hỏi khám phá (${steps.length} bước)</h2>
+    <div class="ch-sec-head">
+      <h2>Tiến trình Nhận thức &amp; Hoạt động Khám phá (${steps.length} bước học)</h2>
+      <span style="font-size:12.5px;color:var(--fg-3);font-family:var(--mono)">Khởi động → Thực nghiệm 3D → Kết luận chuẩn SGK</span>
+    </div>
     <ol class="track">
       ${trackHtml}
     </ol>
@@ -808,17 +849,13 @@ ${renderNav('')}
 
   ${faqSectionHtml}
 
-  <section class="ch-sec">
-    <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
-    <div class="tbook">
-      <strong>Vị trí trong chương trình:</strong> ${esc(c._textbookStr)}
-    </div>
-  </section>
-
   <section class="ch-sec" style="border-bottom:0">
-    <div class="sec-head" style="margin-bottom:18px">
-      <h2>Các bài giảng 3D khác môn ${esc(sMeta.name)}</h2>
-      <a class="btn" href="/?s=${c.subject}#courses">Xem tất cả ${sMeta.count} bài môn ${esc(sMeta.name)} →</a>
+    <div class="sec-head" style="margin-bottom:20px">
+      <div>
+        <div class="sec-kicker">HỌC LIỆU CÙNG PHÂN MÔN</div>
+        <h2 class="sec-title">Các bài giảng 3D khác thuộc môn ${esc(sMeta.name)}</h2>
+      </div>
+      <a class="btn" href="/?s=${c.subject}#courses">Xem toàn bộ ${sMeta.count} bài giảng môn ${esc(sMeta.name)} →</a>
     </div>
     <div class="cgrid">
       ${related.map((r) => renderCourseCard(r, false)).join('\n      ')}
@@ -830,6 +867,26 @@ ${renderFooter()}
 <script type="module" src="/assets/site.js"></script>
 </body>
 </html>`;
+}
+
+function renderDocSidebar(activeDoc, docCode, docScope) {
+  return `<aside class="doc-side">
+    <div class="doc-side-title">Hồ sơ Tài liệu Nghiệp vụ</div>
+    <dl class="doc-meta">
+      <dt>Mã tài liệu</dt><dd>${esc(docCode)}</dd>
+      <dt>Phạm vi</dt><dd>${esc(docScope)}</dd>
+      <dt>Chuẩn đối chiếu</dt><dd>GDPT 2018</dd>
+      <dt>Định dạng</dt><dd>HTML5 · WebGL2</dd>
+      <dt>Bản quyền</dt><dd>CC BY-NC-SA 4.0</dd>
+    </dl>
+    <div class="doc-side-title" style="margin-top:8px">Danh mục Tài liệu</div>
+    <nav class="doc-nav" aria-label="Điều hướng tài liệu">
+      <a href="/guide/"${activeDoc === 'guide' ? ' class="on"' : ''}>01. Hướng dẫn Giảng dạy trên Lớp</a>
+      <a href="/how/"${activeDoc === 'how' ? ' class="on"' : ''}>02. Tiêu chuẩn Học thuật &amp; Kỹ thuật</a>
+      <a href="/about/"${activeDoc === 'about' ? ' class="on"' : ''}>03. Hồ sơ Dự án &amp; Bản quyền</a>
+      <a href="/#courses">04. Tra cứu 54 Bài giảng 3D →</a>
+    </nav>
+  </aside>`;
 }
 
 function buildGuidePage() {
@@ -875,7 +932,7 @@ function buildGuidePage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
-          { '@type': 'ListItem', position: 2, name: 'Hướng dẫn lớp học', item: `${SITE_URL}/guide/` },
+          { '@type': 'ListItem', position: 2, name: 'Hướng dẫn giảng dạy', item: `${SITE_URL}/guide/` },
         ],
       },
     ],
@@ -885,8 +942,8 @@ function buildGuidePage() {
 <html lang="vi">
 <head>
 ${renderSeoHead({
-  title: 'Hướng dẫn sử dụng trong lớp học — VietLab 3D',
-  desc: 'Hướng dẫn giáo viên và học sinh khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.',
+  title: 'Hướng dẫn Giảng dạy & Tổ chức Tiết học 45 phút — VietLab 3D',
+  desc: 'Tài liệu hướng dẫn giáo viên và học sinh THPT khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.',
   canonical: `${SITE_URL}/guide/`,
   ogImage: '/covers/current-field-step.webp',
   keywords: 'hướng dẫn dạy học 3D, học liệu số THPT, kế hoạch bài dạy GDPT 2018, thí nghiệm ảo ngoại tuyến, VietLab 3D',
@@ -896,46 +953,51 @@ ${renderSeoHead({
 <body>
 ${renderNav('guide')}
 
-<main class="prose-wrap">
-  <header class="prose-head">
-    <div class="sec-kicker">HƯỚNG DẪN LỚP HỌC · CLASSROOM GUIDE</div>
-    <h1>Đưa mô phỏng 3D vào tiết học 45 phút mà không làm gián đoạn nhịp giảng bài</h1>
-    <p>VietLab 3D được thiết kế xoay quanh bục giảng thực tế: mở nhanh trong 1 giây, điều khiển gọn bằng bàn phím hoặc màn hình cảm ứng tương tác, và luôn hoạt động ngay cả khi phòng học mất kết nối Internet.</p>
-  </header>
+<main class="doc-wrap">
+  <div class="doc-grid">
+    ${renderDocSidebar('guide', 'VL3D-HD-01', 'Giáo viên & Học sinh')}
+    <div class="doc-sheet">
+      <header class="prose-head">
+        <div class="sec-kicker">TÀI LIỆU HƯỚNG DẪN NGHIỆP VỤ SƯ PHẠM · MÃ SỐ VL3D-HD-01</div>
+        <h1>Tổ chức tiết dạy học thực nghiệm 45 phút với mô hình 3D tương tác</h1>
+        <p>Tài liệu này hướng dẫn quy trình tích hợp 54 bài giảng mô phỏng 3D của VietLab 3D vào kế hoạch bài dạy theo định hướng phát triển phẩm chất và năng lực học sinh (Chương trình GDPT 2018), đảm bảo thao tác nhanh gọn trên bục giảng và vận hành ổn định trong mọi điều kiện hạ tầng phòng học.</p>
+      </header>
 
-  <article class="prose">
-    <h2>1. Chuẩn bị trước giờ lên lớp (2 phút)</h2>
-    <ul>
-      <li><strong>Nếu lớp học có Internet ổn định:</strong> Truy cập trực tiếp <a href="/#courses" style="color:var(--phys)">Thư viện bài giảng</a>, chọn bài học tương ứng với tiết dạy trong Chương trình GDPT 2018 và nhấn <code>Mở toàn màn hình ↗</code>.</li>
-      <li><strong>Nếu mạng trường học chập chờn hoặc không có mạng:</strong> Nhấn nút <code>↓ Tải tệp HTML</code> trên trang chi tiết bài giảng. Toàn bộ mô hình 3D, động cơ vật lý và giao diện tiếng Việt đã được đóng gói gọn trong <strong>1 tệp <code>.html</code> duy nhất (~860 KB)</strong>. Chép tệp này vào USB và mở bằng Chrome, Edge hoặc Firefox trên máy tính lớp học.</li>
-    </ul>
+      <article class="prose">
+        <h2>1. Công tác chuẩn bị học liệu trước giờ lên lớp (02 phút)</h2>
+        <ul>
+          <li><strong>Phương án 1 — Phòng học có kết nối Internet ổn định:</strong> Giáo viên truy cập <a href="/#courses" style="color:var(--phys);font-weight:600">Danh mục Học liệu</a>, lọc theo phân môn và chương học tương ứng trong sách giáo khoa GDPT 2018, sau đó nhấn nút <code>Mở toàn màn hình ↗</code> để trình chiếu trực tiếp.</li>
+          <li><strong>Phương án 2 — Phòng học mạng yếu hoặc không có Internet:</strong> Tại trang hồ sơ bài giảng, nhấn nút <code>↓ Tải tệp HTML độc lập</code>. Toàn bộ mô hình không gian 3D, bộ giải phương trình toán học và giao diện tiếng Việt đã được đóng gói trọn vẹn trong <strong>01 tệp <code>.html</code> duy nhất (~860 KB)</strong>. Giáo viên lưu tệp vào USB và mở trực tiếp bằng trình duyệt (Chrome, Edge, Firefox, Safari) trên máy tính lớp học mà không cần cài đặt phần mềm phụ trợ.</li>
+        </ul>
 
-    <div class="callout">
-      <strong>Mẹo trình chiếu trên TV / Bảng tương tác thông minh:</strong> Sau khi mở bài giảng, nhấn phím <code>F11</code> để vào chế độ toàn màn hình trình duyệt. Ở góc dưới bên trái mỗi bài giảng luôn có nút <strong>Giao diện Sáng / Tối</strong> — hãy chuyển sang <em>Giao diện Sáng (Nền giấy sáng)</em> nếu phòng học có nhiều ánh nắng chiếu vào màn hình.
+        <div class="callout">
+          <strong>Lưu ý kỹ thuật khi trình chiếu trên Tivi / Bảng tương tác thông minh:</strong> Sau khi mở phòng thí nghiệm 3D, nhấn phím <code>F11</code> để chuyển sang chế độ toàn màn hình. Tại thanh công cụ góc dưới bên trái mỗi bài giảng luôn tích hợp nút chuyển đổi <strong>Nền Sáng / Nền Tối</strong> — giáo viên nên chọn <em>Giao diện Sáng (Nền giấy sáng chuẩn SGK)</em> khi phòng học mở đèn sáng hoặc có nhiều ánh nắng chiếu trực tiếp vào màn hình.
+        </div>
+
+        <h2>2. Hệ thống phím tắt điều khiển trên bục giảng</h2>
+        <p>Để không làm gián đoạn mạch giảng bài, toàn bộ 54 phòng thí nghiệm 3D được chuẩn hóa cùng một bộ phím tắt điều khiển thống nhất:</p>
+        <div class="kbd-list">
+          <div class="kbd-item"><span>Chuyển sang bước nhận thức tiếp theo</span><kbd>→</kbd></div>
+          <div class="kbd-item"><span>Quay lại bước nhận thức trước đó</span><kbd>←</kbd></div>
+          <div class="kbd-item"><span>Bật / tạm dừng trình chiếu tự động</span><kbd>Space</kbd></div>
+          <div class="kbd-item"><span>Đặt lại góc nhìn camera 3D mặc định</span><kbd>R</kbd></div>
+          <div class="kbd-item"><span>Xoay mô hình thiết bị 360°</span><kbd>Kéo chuột trái</kbd></div>
+          <div class="kbd-item"><span>Phóng to / thu nhỏ chi tiết bộ phận</span><kbd>Con lăn chuột</kbd></div>
+        </div>
+
+        <h2>3. Tổ chức hoạt động dạy học theo chu trình nhận thức 3 pha</h2>
+        <p>Mỗi bài giảng trong VietLab 3D bao gồm từ 6 đến 10 bước tuần tự, khớp với cấu trúc hoạt động trong Công văn 5512 của Bộ Giáo dục và Đào tạo (<strong>Chuyển giao nhiệm vụ → Thực hiện thực nghiệm → Báo cáo &amp; Kết luận</strong>):</p>
+        <ol>
+          <li><strong>Pha 1 — Nêu vấn đề và dự đoán hiện tượng:</strong> Khi chuyển sang bước mới, giáo viên chiếu câu hỏi khởi động ở đầu bảng bên trái để học sinh suy nghĩ và đưa ra dự đoán (30–60 giây) trước khi thay đổi thông số.</li>
+          <li><strong>Pha 2 — Thao tác thực nghiệm kiểm chứng trên mô hình 3D:</strong> Giáo viên hoặc học sinh lên bảng điều chỉnh thanh trượt, công tắc theo hướng dẫn trong mục <em>Thao tác bước này</em> (hoặc nhấn <code>Tự động thao tác</code>), đồng thời quan sát sự biến đổi của mô hình 3D, đồ thị và mặt cắt kỹ thuật ở bảng bên phải.</li>
+          <li><strong>Pha 3 — Chốt kiến thức chuẩn SGK và lưu ý thi cử:</strong> Đối chiếu kết quả quan sát được với mục <em>Kết luận</em>, 4 ý kiến thức cốt lõi và mở thẻ <em>Ghi chú dạy học</em> để phân tích các sai lầm học sinh thường mắc phải trong bài kiểm tra.</li>
+        </ol>
+
+        <h2>4. Giao nhiệm vụ tự học và tích hợp vào hệ thống LMS nhà trường</h2>
+        <p>Bước cuối cùng của mỗi bài giảng là một <strong>nhiệm vụ thực hành tổng hợp</strong> có chấm điểm tự động kèm bộ câu hỏi trắc nghiệm kiểm tra mức độ hiểu bài. Giáo viên có thể sao chép đoạn mã <code>&lt;iframe&gt;</code> trong mục <em>Mã nhúng LMS</em> trên trang hồ sơ bài giảng để nhúng trực tiếp vào hệ thống quản lý học tập (Canvas, Moodle, Google Sites, Microsoft Teams hoặc Notion) phục vụ học sinh tự ôn luyện tại nhà.</p>
+      </article>
     </div>
-
-    <h2>2. Phím tắt điều khiển nhanh trên bục giảng</h2>
-    <p>Giáo viên có thể điều khiển toàn bộ tiến trình bài giảng chỉ với bàn phím hoặc chuột không dây:</p>
-    <div class="kbd-list">
-      <div class="kbd-item"><span>Chuyển sang bước tiếp theo</span><kbd>→</kbd></div>
-      <div class="kbd-item"><span>Quay lại bước trước đó</span><kbd>←</kbd></div>
-      <div class="kbd-item"><span>Bật / tắt tự động trình chiếu</span><kbd>Space</kbd></div>
-      <div class="kbd-item"><span>Đặt lại góc nhìn 3D mặc định</span><kbd>R</kbd></div>
-      <div class="kbd-item"><span>Xoay mô hình 3D 360°</span><kbd>Kéo chuột trái</kbd></div>
-      <div class="kbd-item"><span>Phóng to / thu nhỏ chi tiết</span><kbd>Con lăn chuột</kbd></div>
-    </div>
-
-    <h2>3. Cấu trúc sư phạm 3 pha trong mỗi bước học</h2>
-    <p>Mỗi bài giảng trong VietLab 3D gồm từ 6 đến 10 bước, được thiết kế thống nhất theo chu trình nhận thức <strong>Dự đoán → Thao tác kiểm chứng → Chốt kiến thức</strong>:</p>
-    <ol>
-      <li><strong>Đặt vấn đề bằng câu hỏi mở đầu:</strong> Trước khi thao tác thanh trượt hoặc công tắc trên màn hình, hãy chiếu câu hỏi ở đầu thẻ bước để học sinh thảo luận nhanh (30–60 giây).</li>
-      <li><strong>Thao tác kiểm chứng trên mô hình 3D:</strong> Thực hiện thao tác được gợi ý trong khung <em>Thao tác bước này</em> (hoặc nhấn <code>Tự động thao tác</code> để hệ thống tự thực hiện chuẩn xác), đồng thời quan sát hiện tượng xảy ra trong khung <em>Quan sát trọng tâm</em>.</li>
-      <li><strong>Đối chiếu công thức &amp; bản chất:</strong> Mở thẻ <em>Ghi chú dạy học</em> nếu cần giải thích sâu hơn về bẫy sai lầm thường gặp hoặc giới hạn của mô hình sách giáo khoa.</li>
-    </ol>
-
-    <h2>4. Giao bài tập thực hành &amp; nhúng vào LMS</h2>
-    <p>Bước cuối cùng của mọi bài giảng đều là một <strong>thử thách thực hành tương tác</strong> (ví dụ: điều chỉnh thông số tháp tổng hợp NH₃ theo yêu cầu ca trưởng, chuẩn độ đến đúng điểm tương đương, hay xác định cực từ của ống dây). Bạn có thể sao chép mã <code>&lt;iframe&gt;</code> trên trang chi tiết để nhúng trực tiếp vào Canvas, Moodle, Google Sites hoặc Notion của lớp.</p>
-  </article>
+  </div>
 </main>
 
 ${renderFooter()}
@@ -951,9 +1013,9 @@ function buildHowPage() {
       {
         '@type': 'TechArticle',
         '@id': `${SITE_URL}/how/#article`,
-        headline: 'Kiến trúc kỹ thuật & tiêu chuẩn học thuật đằng sau 54 phòng thí nghiệm 3D VietLab 3D',
+        headline: 'Tiêu chuẩn Học thuật & Kiến trúc Kỹ thuật của Hệ thống Học liệu 3D VietLab 3D',
         description:
-          'Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
+          'Quy trình thiết kế sư phạm, thẩm định dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
         inLanguage: 'vi-VN',
         author: { '@type': 'EducationalOrganization', name: 'VietLab 3D', url: `${SITE_URL}/` },
       },
@@ -961,7 +1023,7 @@ function buildHowPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
-          { '@type': 'ListItem', position: 2, name: 'Phương pháp xây dựng', item: `${SITE_URL}/how/` },
+          { '@type': 'ListItem', position: 2, name: 'Tiêu chuẩn học thuật', item: `${SITE_URL}/how/` },
         ],
       },
     ],
@@ -971,8 +1033,8 @@ function buildHowPage() {
 <html lang="vi">
 <head>
 ${renderSeoHead({
-  title: 'Phương pháp xây dựng & Kiểm chứng học thuật — VietLab 3D',
-  desc: 'Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
+  title: 'Tiêu chuẩn Học thuật & Kiến trúc Kỹ thuật — VietLab 3D',
+  desc: 'Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học chuẩn GDPT 2018 và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
   canonical: `${SITE_URL}/how/`,
   ogImage: '/covers/photoelectric-step.webp',
   keywords: 'kiến trúc Three.js WebGL2, mô phỏng khoa học định lượng, chuẩn danh pháp IUPAC GDPT 2018, VietLab 3D',
@@ -982,35 +1044,40 @@ ${renderSeoHead({
 <body>
 ${renderNav('how')}
 
-<main class="prose-wrap">
-  <header class="prose-head">
-    <div class="sec-kicker">PHƯƠNG PHÁP XÂY DỰNG · HOW IT'S BUILT</div>
-    <h1>Kiến trúc kỹ thuật &amp; tiêu chuẩn học thuật đằng sau 54 phòng thí nghiệm 3D</h1>
-    <p>Một học liệu mô phỏng khoa học tốt không chỉ đẹp mắt mà phải đúng phương trình vật lý, đúng quy ước ký hiệu sách giáo khoa và bền vững khi vận hành thực tế tại trường phổ thông.</p>
-  </header>
+<main class="doc-wrap">
+  <div class="doc-grid">
+    ${renderDocSidebar('how', 'VL3D-TC-02', 'Hội đồng Chuyên môn')}
+    <div class="doc-sheet">
+      <header class="prose-head">
+        <div class="sec-kicker">HỒ SƠ PHƯƠNG PHÁP &amp; KIẾN TRÚC HỌC LIỆU · MÃ SỐ VL3D-TC-02</div>
+        <h1>Tiêu chuẩn thẩm định học thuật &amp; kiến trúc kỹ thuật của 54 phòng thí nghiệm 3D</h1>
+        <p>Mỗi bài giảng mô phỏng trong VietLab 3D phải đáp ứng đồng thời hai chuẩn mực khắt khe: tính chính xác định lượng của phương trình khoa học theo Sách giáo khoa GDPT 2018 và tính bền vững của kiến trúc phần mềm khi vận hành tại các cơ sở giáo dục phổ thông.</p>
+      </header>
 
-  <article class="prose">
-    <h2>1. Bốn nguyên tắc thiết kế cốt lõi</h2>
-    <ul>
-      <li><strong>Mô phỏng từ phương trình thật, không làm hoạt hình giả:</strong> Quỹ đạo vật ném xiên, đường cong chuẩn độ pH, dòng sạc tụ điện <code>i(t) = (U/R)·e^(-t/RC)</code> hay cân bằng tổng hợp ammonia đều được tính toán thời gian thực từ phương trình vi phân và hằng số thực nghiệm.</li>
-      <li><strong>Chuẩn hóa thuật ngữ theo Chương trình GDPT 2018:</strong> Danh pháp hóa học quốc tế IUPAC (<em>Sodium, Chlorine, Ammonia, Sulfuric acid, Iron, Copper…</em>), ký hiệu đại lượng Vật lý và phân môn Sinh học – Địa lý tuân thủ nghiêm ngặt quy định của Bộ Giáo dục và Đào tạo Việt Nam.</li>
-      <li><strong>Kiến trúc 1 tệp HTML tự chứa (Zero-Dependency Single-File):</strong> Toàn bộ mã nguồn Three.js, shader WebGL2, bộ giải toán học và giao diện sư phạm của mỗi bài giảng được biên dịch vào một tệp <code>.html</code> duy nhất không phụ thuộc CDN bên ngoài.</li>
-      <li><strong>Tương phản thích ứng môi trường lớp học:</strong> Hỗ trợ chuyển đổi tức thời giữa nền tối phòng thí nghiệm (tối ưu độ tương phản cho tia sáng, chùm hạt, ngọn lửa) và nền giấy sáng (tối ưu cho máy chiếu lớp học nhiều ánh sáng).</li>
-    </ul>
+      <article class="prose">
+        <h2>1. Bốn nguyên tắc thiết kế học liệu cốt lõi</h2>
+        <ul>
+          <li><strong>Mô phỏng toán học từ phương trình thực, không dùng hoạt hình tĩnh:</strong> Quỹ đạo chuyển động ném xiên, đường cong chuẩn độ acid – base, dòng điện nạp tụ <code>i(t) = (U/R)·e^(-t/RC)</code> hay cân bằng nhiệt động học tổng hợp ammonia đều được tính toán thời gian thực từ hệ phương trình vi phân và hằng số thực nghiệm chuẩn.</li>
+          <li><strong>Chuẩn hóa toàn diện theo Chương trình GDPT 2018:</strong> Danh pháp hóa học quốc tế IUPAC (<em>Sodium, Chlorine, Ammonia, Sulfuric acid, Nitric acid, Iron, Copper…</em>), ký hiệu đại lượng Vật lý và thuật ngữ Sinh học – Địa lý tuân thủ nghiêm ngặt quy định của Bộ Giáo dục và Đào tạo Việt Nam.</li>
+          <li><strong>Kiến trúc đóng gói đơn tệp tự chứa (Zero-Dependency Single-File HTML):</strong> Toàn bộ động cơ đồ họa Three.js, chương trình đổ bóng WebGL2, bộ giải toán học và giao diện sư phạm tiếng Việt của mỗi bài giảng được biên dịch gọn vào một tệp <code>.html</code> độc lập duy nhất, loại bỏ hoàn toàn sự phụ thuộc vào máy chủ bên ngoài khi chạy ngoại tuyến.</li>
+          <li><strong>Chế bản đồ họa thích ứng môi trường giảng đường:</strong> Hệ thống biển tên thiết bị 3D, sơ đồ mặt cắt kỹ thuật SVG và đồ thị Canvas 2D tự động căn chỉnh tỷ lệ phông chữ tiếng Việt, đồng thời hỗ trợ chuyển đổi tức thời giữa giao diện nền tối phòng thí nghiệm và giao diện nền giấy sáng chuẩn ấn phẩm giáo dục.</li>
+        </ul>
 
-    <h2>2. Quy trình 4 giai đoạn cho mỗi bài giảng</h2>
-    <h3>Giai đoạn 1 — Hồ sơ dữ kiện khoa học (Facts Verification)</h3>
-    <p>Trước khi dựng hình 3D, mọi số liệu định lượng (nhiệt độ sôi, thế điện cực chuẩn, công thoát quang điện <code>W₀</code>, góc nghiêng trục Trái Đất <code>23°26′</code>, chiều dòng chảy và bố cục thiết bị) đều được khóa chặt và kiểm tra chéo với sách giáo khoa cùng tài liệu tham khảo chuẩn.</p>
+        <h2>2. Quy trình thẩm định &amp; phát triển 4 giai đoạn</h2>
+        <h3>Giai đoạn 1 — Xác lập hồ sơ dữ kiện khoa học (Scientific Fact Sheet)</h3>
+        <p>Trước khi khởi tạo mô hình 3D, các thông số định lượng (nhiệt độ sôi, thế điện cực chuẩn, giới hạn bền vật liệu, công thoát quang điện <code>W₀</code>, góc nghiêng trục Trái Đất <code>23°26′</code>, hướng hoàn lưu khí quyển) được lập bảng đối chiếu chéo với sách giáo khoa và tài liệu chuyên khảo đại học.</p>
 
-    <h3>Giai đoạn 2 — Kịch bản nhận thức từng bước (Stepwise Inquiry)</h3>
-    <p>Thay vì giao cho học sinh một bảng điều khiển phức tạp ngay từ đầu, bài giảng được chia thành 6–10 bước tuần tự. Mỗi bước chỉ mở khóa đúng những biến số cần thiết để trả lời câu hỏi của bước đó, giúp học sinh không bị quá tải nhận thức.</p>
+        <h3>Giai đoạn 2 — Thiết kế kịch bản sư phạm từng bước (Stepwise Pedagogical Script)</h3>
+        <p>Để tránh gây quá tải nhận thức cho học sinh, bảng điều khiển phức tạp được phân rã thành chuỗi 6–10 bước học tuần tự. Tại mỗi bước, hệ thống chỉ mở khóa đúng biến số gắn liền với câu hỏi nghiên cứu của bước đó, giúp học sinh nắm vững bản chất quan hệ nhân – quả trước khi bước vào bài toán tổng hợp.</p>
 
-    <h3>Giai đoạn 3 — Dựng cảnh 3D thủ tục &amp; Shader thời gian thực</h3>
-    <p>Toàn bộ hình học 3D (ống nghiệm, buret, lò cao, địa hình Karst, màng phospholipid kép) được sinh bằng mã thủ tục (procedural geometry) kết hợp vật liệu PBR và hiệu ứng hạt GPU, giúp dung lượng mỗi bài giảng chỉ khoảng 850 KB nhưng vẫn đạt tốc độ 60 FPS.</p>
+        <h3>Giai đoạn 3 — Dựng hình học thủ tục 3D &amp; Sơ đồ mặt cắt kỹ thuật</h3>
+        <p>Toàn bộ thiết bị thí nghiệm và dây chuyền công nghiệp (buret chuẩn độ, lò cao luyện gang, tháp tổng hợp 4 tầng xúc tác, địa hình Karst, màng đôi phospholipid) được kiến tạo bằng thuật toán hình học thủ tục (procedural geometry) kết hợp vật liệu PBR và mặt cắt SVG động, giữ dung lượng tệp ở mức tối ưu (~850 KB) nhưng đạt tốc độ 60 khung hình/giây.</p>
 
-    <h3>Giai đoạn 4 — Kiểm thử tự động &amp; Việt hóa toàn diện</h3>
-    <p>Tất cả 54 bài giảng đều trải qua quy trình kiểm tra cú pháp JavaScript tự động, kiểm tra hiển thị nhãn 3D không chồng lấp và rà soát 100% chuỗi văn bản tiếng Việt.</p>
-  </article>
+        <h3>Giai đoạn 4 — Kiểm định tự động &amp; Chuẩn hóa dữ liệu AI/SEO</h3>
+        <p>Tất cả 54 bài giảng đều được kiểm tra tự động về cú pháp JavaScript, độ tương thích hiển thị đa màn hình và tích hợp siêu dữ liệu cấu trúc (Schema.org <code>Course</code>, <code>LearningResource</code>, <code>FAQPage</code>, <code>llms.txt</code>) phục vụ tra cứu học thuật chính xác.</p>
+      </article>
+    </div>
+  </div>
 </main>
 
 ${renderFooter()}
@@ -1026,9 +1093,9 @@ function buildAboutPage() {
       {
         '@type': 'AboutPage',
         '@id': `${SITE_URL}/about/#about`,
-        name: 'Giới thiệu dự án VietLab 3D — Học liệu Khoa học 3D Mở Chuẩn GDPT 2018',
+        name: 'Hồ sơ Dự án VietLab 3D — Hệ thống Học liệu Khoa học 3D Mở Chuẩn GDPT 2018',
         description:
-          'Giới thiệu về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh Việt Nam theo Chương trình GDPT 2018.',
+          'Thông tin tổng quan về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh THPT Việt Nam theo Chương trình GDPT 2018.',
         inLanguage: 'vi-VN',
         mainEntity: { '@id': `${SITE_URL}/#organization` },
       },
@@ -1036,7 +1103,7 @@ function buildAboutPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
-          { '@type': 'ListItem', position: 2, name: 'Giới thiệu dự án', item: `${SITE_URL}/about/` },
+          { '@type': 'ListItem', position: 2, name: 'Hồ sơ dự án', item: `${SITE_URL}/about/` },
         ],
       },
     ],
@@ -1046,8 +1113,8 @@ function buildAboutPage() {
 <html lang="vi">
 <head>
 ${renderSeoHead({
-  title: 'Giới thiệu dự án — VietLab 3D',
-  desc: 'Giới thiệu về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh Việt Nam theo Chương trình GDPT 2018.',
+  title: 'Hồ sơ Dự án & Bản quyền Học liệu Mở — VietLab 3D',
+  desc: 'Thông tin chính thức về dự án VietLab 3D — hệ thống 54 học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh THPT Việt Nam theo Chương trình GDPT 2018.',
   canonical: `${SITE_URL}/about/`,
   ogImage: '/covers/enso-step.webp',
   keywords: 'giới thiệu VietLab 3D, học liệu mở CC BY-NC-SA 4.0, giáo dục STEM Việt Nam, GDPT 2018',
@@ -1057,29 +1124,34 @@ ${renderSeoHead({
 <body>
 ${renderNav('about')}
 
-<main class="prose-wrap">
-  <header class="prose-head">
-    <div class="sec-kicker">GIỚI THIỆU · ABOUT VIETLAB 3D</div>
-    <h1>Học liệu khoa học 3D mở, miễn phí và chuẩn hóa cho giáo dục phổ thông Việt Nam</h1>
-    <p>VietLab 3D được xây dựng với mục tiêu thu hẹp khoảng cách giữa lý thuyết trên trang sách và trực giác khoa học không gian 3 chiều cho mọi lớp học tại Việt Nam.</p>
-  </header>
+<main class="doc-wrap">
+  <div class="doc-grid">
+    ${renderDocSidebar('about', 'VL3D-HS-03', 'Giáo dục Phổ thông')}
+    <div class="doc-sheet">
+      <header class="prose-head">
+        <div class="sec-kicker">THÔNG TIN DỰ ÁN &amp; BẢN QUYỀN HỌC LIỆU MỞ · MÃ SỐ VL3D-HS-03</div>
+        <h1>Học liệu khoa học 3D mở, miễn phí và chuẩn hóa cho giáo dục phổ thông Việt Nam</h1>
+        <p>VietLab 3D được xây dựng nhằm cung cấp cho giáo viên và học sinh Trung học Phổ thông trên toàn quốc một hệ thống phòng thí nghiệm ảo 3D chuẩn mực, thu hẹp khoảng cách giữa hình vẽ phẳng trong sách giáo khoa và trực giác không gian thực nghiệm.</p>
+      </header>
 
-  <article class="prose">
-    <h2>Vì sao chúng tôi thực hiện dự án này?</h2>
-    <p>Trong chương trình Khoa học Tự nhiên và Địa lý bậc THPT, rất nhiều khái niệm cốt lõi mang bản chất không gian 3 chiều hoặc động lực học liên tục: từ quy tắc bàn tay trái của lực từ, cấu tạo tháp tiếp xúc sản xuất sulfuric acid, cơ chế dẫn truyền xung thần kinh qua màng neuron, cho đến hoàn lưu khí quyển Ba ô và hiện tượng ENSO.</p>
-    <p>Khi chỉ học qua hình vẽ tĩnh 2D, học sinh dễ rơi vào lối học thuộc lòng công thức mà không hình dung được cơ chế nhân – quả. VietLab 3D chuyển hóa 54 chủ đề trọng tâm ấy thành các phòng thí nghiệm ảo 3D có thể xoay, cắt lớp, thay đổi thông số và quan sát kết quả tức thì.</p>
+      <article class="prose">
+        <h2>1. Bối cảnh và mục tiêu giáo dục</h2>
+        <p>Trong Chương trình Giáo dục Phổ thông 2018 ở các môn Vật lý, Hóa học, Sinh học và Địa lý cấp THPT, nhiều chủ đề trọng tâm đòi hỏi học sinh phải hình dung cấu trúc không gian 3 chiều hoặc quá trình động lực học liên tục: từ quy tắc bàn tay trái của lực từ Lorentz, cấu tạo bên trong tháp tổng hợp ammonia và tháp tiếp xúc sản xuất sulfuric acid, cơ chế điện thế hoạt động qua màng neuron, cho đến hoàn lưu khí quyển Ba ô và dao động Nam phương ENSO.</p>
+        <p>Khi chỉ tiếp cận qua sơ đồ tĩnh 2D trên giấy, học sinh dễ rơi vào lối học thuộc lòng công thức mà thiếu sự thấu hiểu cơ chế nhân – quả. VietLab 3D giải quyết bài toán này bằng cách chuyển hóa 54 chuyên đề cốt lõi thành các mô hình 3D tương tác có thể xoay 360°, quan sát mặt cắt kỹ thuật, điều chỉnh biến số và kiểm chứng định lượng ngay lập tức.</p>
 
-    <h2>Cam kết dành cho giáo viên &amp; học sinh Việt Nam</h2>
-    <ul>
-      <li><strong>Miễn phí &amp; Không cần tài khoản:</strong> Mọi bài giảng đều mở trực tiếp trên trình duyệt, không thu phí, không quảng cáo và không yêu cầu đăng nhập.</li>
-      <li><strong>Sẵn sàng cho vùng khó khăn về hạ tầng mạng:</strong> Mỗi bài giảng là một tệp HTML độc lập có thể tải về một lần và sử dụng mãi mãi mà không cần kết nối Internet.</li>
-      <li><strong>Bản địa hóa chuẩn mực theo GDPT 2018:</strong> Hệ thống câu hỏi dẫn dắt, danh pháp hóa học IUPAC và ghi chú sư phạm được biên dịch và hiệu đính toàn diện sang tiếng Việt.</li>
-    </ul>
+        <h2>2. Cam kết phục vụ cộng đồng giáo viên và học sinh Việt Nam</h2>
+        <ul>
+          <li><strong>Hoàn toàn miễn phí và không rào cản truy cập:</strong> Toàn bộ 54 bài giảng mở trực tiếp trên trình duyệt web tiêu chuẩn, không thu phí, không chứa quảng cáo và không yêu cầu tạo tài khoản đăng nhập.</li>
+          <li><strong>Đồng hành cùng các trường học vùng khó khăn về hạ tầng mạng:</strong> Nhờ kiến trúc đóng gói đơn tệp (Single-File HTML), giáo viên có thể tải trọn bộ bài giảng về máy tính hoặc USB một lần duy nhất để sử dụng lâu dài tại các phòng học không có kết nối Internet.</li>
+          <li><strong>Chuẩn mực ngôn ngữ và thuật ngữ sư phạm:</strong> Toàn bộ hệ thống câu hỏi dẫn dắt, kết luận bài học, danh pháp hóa học IUPAC và lưu ý kiểm tra – đánh giá được biên soạn và rà soát kỹ lưỡng theo chuẩn Chương trình GDPT 2018.</li>
+        </ul>
 
-    <div class="callout">
-      <strong>Bản quyền &amp; Đóng góp:</strong> Dự án được phát hành theo giấy phép <strong>CC BY-NC-SA 4.0</strong> dựa trên nền tảng mã nguồn mở <em>Tongjiang Lab</em>. Mọi ý kiến đóng góp về mặt học thuật và sư phạm xin gửi qua <a href="https://github.com/oaichu/vietlab-3d/issues" target="_blank" rel="noopener" style="color:var(--phys)">GitHub Issues ↗</a>.
+        <div class="callout">
+          <strong>Thông tin Giấy phép &amp; Đóng góp Học thuật:</strong> Hệ thống học liệu VietLab 3D được phát hành theo giấy phép <strong>Creative Commons Ghi nhận Công của Tác giả – Phi thương mại – Chia sẻ Tương tự 4.0 Quốc tế (CC BY-NC-SA 4.0)</strong>, kế thừa và bản địa hóa toàn diện từ dự án mã nguồn mở <em>Tongjiang Lab</em>. Các tổ chức giáo dục, nhà trường và giáo viên được tự do sao chép, lưu trữ và nhúng học liệu vào hệ thống dạy học phi thương mại. Mọi đóng góp chuyên môn xin gửi về <a href="https://github.com/oaichu/vietlab-3d/issues" target="_blank" rel="noopener" style="color:var(--phys);font-weight:600">Cổng tiếp nhận góp ý học thuật trên GitHub ↗</a>.
+        </div>
+      </article>
     </div>
-  </article>
+  </div>
 </main>
 
 ${renderFooter()}
@@ -1104,7 +1176,7 @@ function buildSitemapXml(courses) {
       priority: '0.9',
       changefreq: 'weekly',
       img,
-      title: `${c.title} — Chi tiết bài giảng & Giải đáp GDPT 2018`,
+      title: `${c.title} — Hồ sơ bài giảng & Giải đáp GDPT 2018`,
     });
     urls.push({
       loc: `${SITE_URL}/courses/${c.slug}.html`,
@@ -1191,7 +1263,7 @@ function buildLlmsTxt(courses) {
     return `## ${sMeta.name} (${list.length} bài giảng)\n\n${lines.join('\n')}`;
   };
 
-  return `# VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018
+  return `# VietLab 3D — Hệ thống Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018
 
 > VietLab 3D (${SITE_URL}) là thư viện mã nguồn mở gồm 54 bài giảng mô phỏng 3D tương tác thời gian thực (WebGL2) thuộc 4 môn học THPT tại Việt Nam: Vật lý (10 bài), Hóa học (25 bài), Sinh học (5 bài) và Địa lý (14 bài). Toàn bộ học liệu được chuẩn hóa danh pháp quốc tế IUPAC và đối chiếu với Chương trình Giáo dục Phổ thông 2018 của Bộ Giáo dục và Đào tạo Việt Nam.
 
@@ -1200,8 +1272,8 @@ function buildLlmsTxt(courses) {
 - [Trang chủ VietLab 3D](${SITE_URL}/): Cổng tra cứu, lọc theo môn/khối lớp/chương học và tìm kiếm toàn bộ 54 bài giảng 3D.
 - [Hồ sơ Tri thức Đầy đủ cho AI/LLM (llms-full.txt)](${SITE_URL}/llms-full.txt): Bản tổng hợp toàn bộ phương trình, chuỗi nhân quả, câu hỏi từng bước, kết luận khoa học và giải đáp câu hỏi trắc nghiệm của 54 bài giảng.
 - [Danh mục JSON (catalog.json)](${SITE_URL}/catalog.json): Dữ liệu cấu trúc máy đọc của 54 mô phỏng.
-- [Hướng dẫn Sử dụng trong Lớp học](${SITE_URL}/guide/): Quy trình dạy học 45 phút, phím tắt và chế độ ngoại tuyến 1 tệp HTML.
-- [Phương pháp Xây dựng & Kiểm chứng](${SITE_URL}/how/): Kiến trúc kỹ thuật Three.js WebGL2 và quy trình kiểm chứng dữ kiện khoa học.
+- [Hướng dẫn Giảng dạy trong Lớp học](${SITE_URL}/guide/): Quy trình dạy học 45 phút, phím tắt và chế độ ngoại tuyến 1 tệp HTML.
+- [Tiêu chuẩn Học thuật & Kỹ thuật](${SITE_URL}/how/): Kiến trúc kỹ thuật Three.js WebGL2 và quy trình kiểm chứng dữ kiện khoa học.
 
 ${renderSection('phys')}
 
@@ -1267,7 +1339,7 @@ function buildReadme(courses) {
       ),
     ].join('\n');
 
-  return `# VietLab 3D — Thư viện 54 Bài giảng Khoa học 3D Tương tác (Chuẩn GDPT 2018)
+  return `# VietLab 3D — Hệ thống 54 Bài giảng Khoa học 3D Tương tác (Chuẩn GDPT 2018)
 
 Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh THPT Việt Nam, bao gồm **54 mô phỏng 3D** thuộc 4 bộ môn: **Vật lý (10)**, **Hóa học (25)**, **Sinh học (5)** và **Địa lý (14)**.
 
@@ -1280,14 +1352,14 @@ Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho 
 ## Cấu trúc thư mục
 
 - [\`index.html\`](index.html) — Trang chủ cổng học liệu VietLab 3D (tích hợp bàn thí nghiệm 3D trực tiếp, bộ lọc theo môn/khối lớp/chương học và thanh tìm kiếm tiếng Việt có dấu & không dấu)
-- [\`c/<slug>/index.html\`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng \`<iframe>\`)
+- [\`c/<slug>/index.html\`](c/) — 54 trang hồ sơ bài giảng (cho phép chạy thử 3D ngay trên trang, xem phiếu đối chiếu GDPT 2018, mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng \`<iframe>\`)
 - [\`courses/<slug>.html\`](courses/) — 54 tệp bài giảng 3D tương tác độc lập
 - [\`covers/<slug>.webp\`](covers/) — Ảnh bìa độ phân giải cao của 54 bài giảng
 - [\`catalog.json\`](catalog.json) — Danh mục dữ liệu chuẩn hóa của toàn bộ 54 bài giảng
 - [\`sitemap.xml\`](sitemap.xml), [\`robots.txt\`](robots.txt), [\`llms.txt\`](llms.txt), [\`llms-full.txt\`](llms-full.txt) — Bộ tệp khám phá chuẩn SEO / GEO / AEO
-- [\`guide/index.html\`](guide/index.html) — Hướng dẫn sử dụng trong tiết học 45 phút
-- [\`how/index.html\`](how/index.html) — Phương pháp xây dựng & kiểm chứng học thuật
-- [\`about/index.html\`](about/index.html) — Giới thiệu dự án
+- [\`guide/index.html\`](guide/index.html) — Hướng dẫn giảng dạy trong tiết học 45 phút
+- [\`how/index.html\`](how/index.html) — Tiêu chuẩn học thuật & kiến trúc kỹ thuật
+- [\`about/index.html\`](about/index.html) — Hồ sơ dự án & bản quyền học liệu mở
 
 ---
 

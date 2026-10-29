@@ -4,7 +4,7 @@
       "slug": "haber-step",
       "subject": "Hóa học THPT (GDPT 2018)",
       "type": "Quy trình công nghiệp",
-      "locate": "Hóa học 11 — SGK GDPT 2018 Chương 2«Nitrogen và hợp chất»→ Chương 1«Cân bằng hóa học & Điều khiển phản ứng hóa học»",
+      "locate": "Hóa học 11 — SGK GDPT 2018 Chương 2 «Nitrogen và hợp chất» → Chương 1 «Cân bằng hóa học & Điều khiển phản ứng hóa học»",
       "title": "Công nghiệp tổng hợp Ammonia",
       "cover": 0
     },
@@ -83,11 +83,11 @@
         "q": "Trong không khí đâu đâu cũng có khí nitrogen, tại sao phải xây cả một nhà máy lớn như vậy mới biến nó thành ammonia?",
         "eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
         "eqCal": "ΔH = −92.4 kJ·mol⁻¹ (tỏa nhiệt) · Xúc tác Fe",
-        "concl": "Phản ứng thuận nghịch, tỏa nhiệt, số phân tử khí giảm: cần đồng thời đảm bảo cả«nhanh»và«nhiều», nên phải chia thành 5 công đoạn (xem thanh điều hướng bên dưới).",
-        "exam": "Câu hỏi thường gặp«Vì sao tổng hợp ammonia phải chia thành nhiều công đoạn như vậy»: đáp án nằm ở«sự dung hòa giữa tốc độ và cân bằng»và«mỗi công đoạn giải quyết vấn đề cho công đoạn kế tiếp».",
+        "concl": "Phản ứng thuận nghịch, tỏa nhiệt, số phân tử khí giảm: cần đồng thời đảm bảo cả «nhanh» và «nhiều», nên phải chia thành 5 công đoạn (xem thanh điều hướng bên dưới).",
+        "exam": "Câu hỏi thường gặp «Vì sao tổng hợp ammonia phải chia thành nhiều công đoạn như vậy»: đáp án nằm ở «sự dung hòa giữa tốc độ và cân bằng» và «mỗi công đoạn giải quyết vấn đề cho công đoạn kế tiếp».",
         "points": [
           "Vế trái phương trình tổng quát không có sẵn nguyên liệu: H₂ lấy từ chuyển hóa CH₄ với hơi nước, N₂ lấy từ chưng cất phân đoạn không khí lỏng.",
-          "Phản ứng thuận nghịch, tỏa nhiệt, giảm số phân tử khí: muốn«nhiều»cần nhiệt độ thấp và áp suất cao, muốn«nhanh»cần nhiệt độ cao và xúc tác Fe.",
+          "Phản ứng thuận nghịch, tỏa nhiệt, giảm số phân tử khí: muốn «nhiều» cần nhiệt độ thấp và áp suất cao, muốn «nhanh» cần nhiệt độ cao và xúc tác Fe.",
           "Hai yêu cầu mâu thuẫn nhau, về mặt kỹ thuật chỉ có thể dung hòa, tạo thành dây chuyền 5 công đoạn.",
           "Bỏ bất kỳ công đoạn nào cũng không được: thiếu nguyên liệu, ngộ độc xúc tác, hoặc khí chưa phản ứng bị xả bỏ lãng phí."
         ],
@@ -102,14 +102,14 @@
         "eq": "CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)",
         "eqCal": "ΔH ≈ −41 kJ·mol⁻¹ · Xúc tác hệ Fe-Cr / Cu-Zn · Chuyển hóa ở nhiệt độ trung bình",
         "concl": "Tạp chất chứa lưu huỳnh trong khí nguyên liệu sẽ làm ngộ độc xúc tác Fe, có loại ngộ độc không thuận nghịch; vì vậy phải khử lưu huỳnh, chuyển hóa CO và tách CO₂ trước",
-        "exam": "Khi thi hỏi«Vì sao bắt buộc phải tinh chế», câu trả lời phải nhấn mạnh vào bảo vệ chất xúc tác (và chống tắc nghẽn), đừng chỉ nói chung chung là«loại tạp chất».",
+        "exam": "Khi thi hỏi «Vì sao bắt buộc phải tinh chế», câu trả lời phải nhấn mạnh vào bảo vệ chất xúc tác (và chống tắc nghẽn), đừng chỉ nói chung chung là «loại tạp chất».",
         "points": [
           "S, P, As, Cl là chất độc vĩnh viễn, sau khi ngộ độc không thể phục hồi; H₂O, CO, CO₂, O₂ là chất độc tạm thời.",
           "Phản ứng chuyển hóa CO một công đôi việc: biến CO thành CO₂ để tách bỏ, đồng thời tạo thêm một phần H₂.",
           "Tách CO₂ còn ngăn đá khô làm tắc nghẽn ở đoạn nhiệt độ thấp, và tránh CO₂ làm loãng khí gây chậm phản ứng.",
           "Bỏ bước này: hoạt tính xúc tác tụt thẳng xuống dưới 0.35, năng suất giảm liên tục, buộc phải dừng máy thay xúc tác."
         ],
-        "actText": "Tắt«Tinh chế khí nguyên liệu», theo dõi hoạt tính xúc tác; một lát sau bật lại",
+        "actText": "Tắt «Tinh chế khí nguyên liệu», theo dõi hoạt tính xúc tác; một lát sau bật lại",
         "expectText": "Hoạt tính xúc tác giảm dần theo thời gian; sau khi bật lại không thể về 100 % — giới hạn trên của hoạt tính đã bị kéo thấp (ngộ độc vĩnh viễn)"
       },
       {
@@ -120,7 +120,7 @@
         "eq": "Bước này không có phản ứng hóa học: 4 mol khí → 2 mol khí, tăng áp suất làm cân bằng chuyển dịch theo chiều thuận",
         "eqCal": "Quá trình vật lý · Nén nhiều cấp + làm mát trung gian",
         "concl": "Sau phản ứng số phân tử khí giảm, tăng áp suất làm cân bằng chuyển dịch sang phải và tăng tốc độ; nhưng áp suất càng cao thì thiết bị và điện năng càng đắt, nên chọn 10–30 MPa",
-        "exam": "Câu hỏi«Vì sao chọn áp suất 10–30 MPa»cần nêu đủ 3 ý: cân bằng chuyển dịch theo chiều thuận, tốc độ phản ứng tăng, thiết bị và mức tiêu thụ năng lượng chịu được.",
+        "exam": "Câu hỏi «Vì sao chọn áp suất 10–30 MPa» cần nêu đủ 3 ý: cân bằng chuyển dịch theo chiều thuận, tốc độ phản ứng tăng, thiết bị và mức tiêu thụ năng lượng chịu được.",
         "points": [
           "Bảng số liệu SGK (400 ℃): 10 MPa đạt 25.1 % → 30 MPa đạt 47.0 % → 60 MPa đạt 65.2 %, lợi ích tăng thêm giảm dần.",
           "Vì sao không tăng cao hơn nữa: ứng suất thành tháp lớn, chi phí chế tạo thiết bị thành dày cao, máy nén tốn điện và phải chống giòn hydro.",
@@ -138,7 +138,7 @@
         "eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
         "eqCal": "ΔH = −92.4 kJ·mol⁻¹ (tỏa nhiệt) · Xúc tác Fe",
         "concl": "Nhiệt độ thấp cân bằng tốt nhưng phản ứng quá chậm; nhiệt độ cao nhanh nhưng cân bằng kém; xúc tác Fe có hoạt tính tốt nhất ở 400–500 ℃, đây là sự dung hòa",
-        "exam": "Bẫy hay gặp khi thi: nói chất xúc tác«làm tăng hiệu suất chuyển hóa cân bằng»là sai; nó chỉ rút ngắn thời gian đạt cân bằng.",
+        "exam": "Bẫy hay gặp khi thi: nói chất xúc tác «làm tăng hiệu suất chuyển hóa cân bằng» là sai; nó chỉ rút ngắn thời gian đạt cân bằng.",
         "points": [
           "Tỏa nhiệt + giảm số phân tử khí: nhiệt độ thấp và áp suất cao có lợi cho cân bằng (ở 200 ℃, 100 MPa có thể đạt 98.8 %).",
           "Nhưng ở nhiệt độ thấp tốc độ quá chậm, dưới 400 ℃ xúc tác Fe hầu như không có hoạt tính, nên dung hòa chọn 400–500 ℃.",
@@ -156,7 +156,7 @@
         "eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
         "eqCal": "ΔH = −92.4 kJ·mol⁻¹ (tỏa nhiệt) · 4 tầng xúc tác, làm nguội nhanh giữa các tầng",
         "concl": "Trong tháp chia làm 4 tầng xúc tác, giữa các tầng thổi khí làm nguội nhanh để kiểm soát nhiệt, tránh làm hỏng xúc tác; chất xúc tác chỉ tăng tốc độ, không đổi cân bằng",
-        "exam": "«Vì sao chia làm 4 tầng và phải làm mát giữa các tầng»= độ tăng nhiệt của phản ứng tỏa nhiệt phải được lấy đi theo từng đoạn, nếu không xúc tác sẽ bị thiêu kết.",
+        "exam": "«Vì sao chia làm 4 tầng và phải làm mát giữa các tầng» = độ tăng nhiệt của phản ứng tỏa nhiệt phải được lấy đi theo từng đoạn, nếu không xúc tác sẽ bị thiêu kết.",
         "points": [
           "Tháp tổng hợp thường chia làm 4 tầng xúc tác, giữa các tầng thổi khí lạnh vào để kìm mức tăng nhiệt của lớp xúc tác.",
           "Phản ứng tỏa nhiệt: nếu không kiểm soát nhiệt, nhiệt độ lớp xúc tác sẽ tăng vọt, hạt tinh thể Fe kết tinh lại và lớn lên làm giảm hoạt tính.",
@@ -177,11 +177,11 @@
         "exam": "Điểm dễ nhầm lẫn khi thi: tuần hoàn làm tăng hiệu suất sử dụng nguyên liệu, chứ không phải hiệu suất chuyển hóa cân bằng.",
         "points": [
           "Hiệu suất một lượt chỉ khoảng 15 %, nếu không tách và tuần hoàn thì chẳng khác nào xả bỏ phần lớn nguyên liệu ra ngoài.",
-          "Ammonia dễ hóa lỏng (nhiệt độ sôi khá cao so với N₂, H₂), nên kết hợp cả hai cách«tăng áp + hạ nhiệt»đều biến nó thành chất lỏng.",
+          "Ammonia dễ hóa lỏng (nhiệt độ sôi khá cao so với N₂, H₂), nên kết hợp cả hai cách «tăng áp + hạ nhiệt» đều biến nó thành chất lỏng.",
           "Tuần hoàn nâng hiệu suất sử dụng nguyên liệu lên khoảng 97 %, nhưng hiệu suất chuyển hóa cân bằng hoàn toàn không thay đổi.",
           "Bỏ bước này: hiệu suất sử dụng nguyên liệu sụt giảm nghiêm trọng, chi phí tăng gấp nhiều lần và cũng không thu được ammonia."
         ],
-        "actText": "Ngắt«Tuần hoàn», xem hiệu suất sử dụng nguyên liệu và năng suất tụt giảm thế nào",
+        "actText": "Ngắt «Tuần hoàn», xem hiệu suất sử dụng nguyên liệu và năng suất tụt giảm thế nào",
         "expectText": "Hiệu suất sử dụng nguyên liệu tụt từ 97.0 % xuống 33.4 % (giá trị mô hình), năng suất 26.8 → khoảng 11 t/h"
       },
       {
@@ -192,15 +192,15 @@
         "eq": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
         "eqCal": "ΔH = −92.4 kJ·mol⁻¹ (tỏa nhiệt) · Xúc tác Fe",
         "concl": "Phần kiểm tra không có kết luận mới: đồng thời đảm bảo điều kiện của 6 bước trước — nhiệt độ, áp suất nằm trong khoảng SGK, bật cả tinh chế lẫn tuần hoàn.",
-        "exam": "Cách trả lời đạt điểm tối đa cho câu hỏi«Chọn điều kiện công nghiệp như thế nào»: nêu mâu thuẫn giữa tốc độ và cân bằng trước, sau đó giải thích lý do dung hòa cho từng yếu tố.",
+        "exam": "Cách trả lời đạt điểm tối đa cho câu hỏi «Chọn điều kiện công nghiệp như thế nào»: nêu mâu thuẫn giữa tốc độ và cân bằng trước, sau đó giải thích lý do dung hòa cho từng yếu tố.",
         "points": [
           "Nhiệt độ và áp suất đều phải nằm trong khoảng SGK: 400–500 ℃, 10–30 MPa.",
-          "Năng suất được nâng đỡ bởi cả 3 yếu tố«điều kiện + hoạt tính xúc tác + tuần hoàn»: bất kỳ mắt xích nào trục trặc, số đo sẽ tụt ngay lập tức.",
-          "Vượt ngưỡng sẽ phải trả giá: lớp xúc tác đạt 640 ℃ hoặc hệ thống đạt 38 MPa sẽ dẫn tới«Đếm ngược → Sự cố → Phân tích».",
+          "Năng suất được nâng đỡ bởi cả 3 yếu tố «điều kiện + hoạt tính xúc tác + tuần hoàn»: bất kỳ mắt xích nào trục trặc, số đo sẽ tụt ngay lập tức.",
+          "Vượt ngưỡng sẽ phải trả giá: lớp xúc tác đạt 640 ℃ hoặc hệ thống đạt 38 MPa sẽ dẫn tới «Đếm ngược → Sự cố → Phân tích».",
           "Không có kết luận mới: đồng thời đảm bảo tốt các điều kiện của 6 bước trước chính là toàn bộ yêu cầu."
         ],
-        "actText": "Trong khoảng thông số SGK, hãy giữ năng suất ammonia ≥ 24 t/h liên tục trong 15 s; ca trực này sẽ gặp một sự cố bất thường«nhiệt độ hơi thấp»trước",
-        "expectText": "Biểu ngữ đạt chuẩn«Năng suất ổn định trên 24 t/h»; vượt quá 640 ℃ hoặc 38 MPa sẽ kích hoạt«Đếm ngược 3 giây → Sự cố → Phân tích → Khắc phục khẩn cấp»"
+        "actText": "Trong khoảng thông số SGK, hãy giữ năng suất ammonia ≥ 24 t/h liên tục trong 15 s; ca trực này sẽ gặp một sự cố bất thường «nhiệt độ hơi thấp» trước",
+        "expectText": "Biểu ngữ đạt chuẩn «Năng suất ổn định trên 24 t/h»; vượt quá 640 ℃ hoặc 38 MPa sẽ kích hoạt «Đếm ngược 3 giây → Sự cố → Phân tích → Khắc phục khẩn cấp»"
       }
     ],
     "quiz": [
@@ -573,7 +573,7 @@
       "slug": "rate-step",
       "subject": "Hóa học THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Hóa học 10 — SGK GDPT 2018 Chương 6 Bài 19«Tốc độ phản ứng»& Thực hành«Các yếu tố ảnh hưởng đến tốc độ phản ứng hóa học»",
+      "locate": "Hóa học 10 — SGK GDPT 2018 Chương 6 Bài 19 «Tốc độ phản ứng»& Thực hành «Các yếu tố ảnh hưởng đến tốc độ phản ứng hóa học»",
       "title": "Các yếu tố ảnh hưởng đến tốc độ phản ứng hóa học",
       "cover": 1
     },
@@ -646,12 +646,12 @@
         "q": "SGK chỉ cho dụng cụ, hóa chất và một bảng trống, bảng này cần điền như thế nào?",
         "eq": "v = Δc/Δt",
         "eqCal": "Mỗi dung dịch 2 mL 0.1 mol/L, tổng thể tích 4 mL (nhóm nồng độ SGK)",
-        "concl": "Cách làm của SGK là kiểm soát biến số: mỗi lần chỉ thay đổi một điều kiện, giữ nguyên các điều kiện khác, rồi dùng«thời gian xuất hiện vẩn đục»hoặc«thời gian thu được 10 mL H₂»để biến độ nhanh chậm thành con số có thể so sánh.",
-        "exam": "Câu hỏi thường gặp«Những yếu tố nào ảnh hưởng đến tốc độ phản ứng» — nồng độ, nhiệt độ, áp suất, chất xúc tác và diện tích bề mặt chất rắn.",
+        "concl": "Cách làm của SGK là kiểm soát biến số: mỗi lần chỉ thay đổi một điều kiện, giữ nguyên các điều kiện khác, rồi dùng «thời gian xuất hiện vẩn đục» hoặc «thời gian thu được 10 mL H₂» để biến độ nhanh chậm thành con số có thể so sánh.",
+        "exam": "Câu hỏi thường gặp «Những yếu tố nào ảnh hưởng đến tốc độ phản ứng» — nồng độ, nhiệt độ, áp suất, chất xúc tác và diện tích bề mặt chất rắn.",
         "points": [
           "Bốn trạm tương ứng với 3 nhóm thí nghiệm đối chứng trong bài thực hành SGK, cộng thêm 1 bộ đo định lượng theo Hình 2-1 SGK.",
           "Trong hai ống đặt cạnh nhau luôn có một ống làm đối chứng: ống chỉ thay đổi đúng một điều kiện gọi là ống thí nghiệm.",
-          "Cột số đo chuyển«hiện tượng nhìn thấy được»thành số giây, nhờ đó mới so sánh được nhanh gấp mấy lần.",
+          "Cột số đo chuyển «hiện tượng nhìn thấy được» thành số giây, nhờ đó mới so sánh được nhanh gấp mấy lần.",
           "Bỏ kiểm soát biến số: hai ống cùng lúc thay đổi hai điều kiện, sự khác biệt thu được sẽ không thể kết luận là do yếu tố nào gây ra."
         ],
         "actText": "Kéo chuột xoay góc nhìn quanh mặt bàn (lăn chuột để thu phóng)",
@@ -667,8 +667,8 @@
         "exam": "Cách trình bày kiểm soát biến số là trọng tâm thi cử: khi so sánh nồng độ bắt buộc phải giữ nguyên nhiệt độ, tổng thể tích và lượng acid, ống pha loãng phải thêm dung môi cho đủ thể tích.",
         "points": [
           "Ống pha loãng được thêm 1 mL nước cất để cả hai ống đều có tổng thể tích 4 mL, chỉ khác nhau về nồng độ.",
-          "Nồng độ được tính theo 0.1 mol/L × V / 4 mL, chứ không phải«nhìn có vẻ loãng hơn».",
-          "Bấm giờ vẩn đục lấy mốc«vừa xuất hiện màu trắng sữa», cả hai ống dùng chung một tiêu chuẩn mới so sánh chính xác được.",
+          "Nồng độ được tính theo 0.1 mol/L × V / 4 mL, chứ không phải «nhìn có vẻ loãng hơn».",
+          "Bấm giờ vẩn đục lấy mốc «vừa xuất hiện màu trắng sữa», cả hai ống dùng chung một tiêu chuẩn mới so sánh chính xác được.",
           "Bỏ bước thêm nước bổ sung: thể tích khác nhau, nồng độ tính sai, tỉ lệ thời gian thành 1.5 : 1, kết luận sẽ không còn chặt chẽ."
         ],
         "actText": "Kéo thể tích Na₂S₂O₃ của ống pha loãng từ 2 mL xuống 1 mL (bổ sung thêm 1 mL nước cất), quan sát độ đục của hai ống và số đo chính",
@@ -681,12 +681,12 @@
         "eq": "Tăng nhiệt độ → Phần trăm số phân tử hoạt động tăng → Tốc độ phản ứng tăng",
         "eqCal": "Nước lạnh khoảng 15 ℃ · Nhiệt độ phòng 25 ℃ · Nước nóng khoảng 55 ℃ (nhiệt kế đo nhiệt độ nước)",
         "concl": "Khi các điều kiện khác không đổi, tăng nhiệt độ làm tăng tốc độ phản ứng, hạ nhiệt độ làm giảm tốc độ phản ứng; với hệ số nhiệt độ khoảng 3 lần mỗi 10 ℃ (SGK nêu 2~4 lần), ở 45 ℃ thời gian xuất hiện vẩn đục chỉ bằng khoảng 1/8 so với ở 25 ℃.",
-        "exam": "Ảnh hưởng của nhiệt độ rất rõ rệt (tăng 2~4 lần / 10 ℃), thường được hỏi song song với nồng độ, hoặc hỏi«vì sao ở nhiệt độ thấp phản ứng hầu như dừng lại».",
+        "exam": "Ảnh hưởng của nhiệt độ rất rõ rệt (tăng 2~4 lần / 10 ℃), thường được hỏi song song với nồng độ, hoặc hỏi «vì sao ở nhiệt độ thấp phản ứng hầu như dừng lại».",
         "points": [
           "Hai ống có nồng độ như nhau (đều là ống gốc 2 mL), biến số duy nhất là nhiệt độ bể điều nhiệt.",
-          "SGK nêu quy tắc Van't Hoff«Khi nhiệt độ tăng thêm 10 ℃, tốc độ phản ứng thường tăng từ 2~4 lần»; hệ số nhiệt độ trong bài này là khoảng 3 lần cho mỗi 10 ℃, nằm đúng trong khoảng SGK.",
-          "Nhiệt độ làm thay đổi«tỉ lệ phân tử có đủ năng lượng hoạt hóa», chứ không làm tăng nồng độ.",
-          "Bỏ bước này: nếu chỉ so sánh nồng độ, học sinh sẽ tưởng«càng loãng càng chậm»là quy luật duy nhất và không giải thích được vì sao trong nước nóng dung dịch đục gần như tức thì."
+          "SGK nêu quy tắc Van't Hoff «Khi nhiệt độ tăng thêm 10 ℃, tốc độ phản ứng thường tăng từ 2~4 lần»; hệ số nhiệt độ trong bài này là khoảng 3 lần cho mỗi 10 ℃, nằm đúng trong khoảng SGK.",
+          "Nhiệt độ làm thay đổi «tỉ lệ phân tử có đủ năng lượng hoạt hóa», chứ không làm tăng nồng độ.",
+          "Bỏ bước này: nếu chỉ so sánh nồng độ, học sinh sẽ tưởng «càng loãng càng chậm» là quy luật duy nhất và không giải thích được vì sao trong nước nóng dung dịch đục gần như tức thì."
         ],
         "actText": "Kéo nhiệt độ bể điều nhiệt từ 25 ℃ lên 45 ℃ (mức nước nóng, tối đa tới 65 ℃), xem thời gian vẩn đục giảm thế nào; sau đó kéo về nước lạnh 15 ℃ thử xem",
         "expectText": "Bể điều nhiệt 25 → 45 ℃, thời gian vẩn đục giảm mạnh từ 20.0 s xuống 2.4 s; ở nước lạnh 15 ℃ mất tới 64.7 s. Nhiệt độ cứ tăng thêm 10 ℃ thì tốc độ phản ứng tăng từ 2~4 lần"
@@ -701,26 +701,26 @@
         "exam": "Chất xúc tác làm thay đổi tốc độ và cơ chế (con đường) phản ứng, nhưng không làm thay đổi biến thiên enthalpy (nhiệt phản ứng) và không làm dịch chuyển cân bằng — câu này hầu như đề thi nào cũng hỏi.",
         "points": [
           "Ba ống nghiệm chỉ khác nhau ở chất thêm vào, thể tích và nồng độ H₂O₂ đều giống hệt nhau (mỗi ống 2 mL 10%).",
-          "Ống đối chứng trắng bắt buộc phải giữ lại, nếu không hai chữ«xúc tác»sẽ mất mốc tham chiếu.",
+          "Ống đối chứng trắng bắt buộc phải giữ lại, nếu không hai chữ «xúc tác» sẽ mất mốc tham chiếu.",
           "SGK chỉ nói cả hai chất xúc tác đều làm phản ứng nhanh hơn ống trắng chứ không so sánh chất nào nhanh hơn, nên bài học gán cùng một hệ số tốc độ.",
           "Bỏ ống đối chứng trắng: không thể đánh giá được tốc độ sủi bọt vốn dĩ đã nhanh như vậy hay nhờ chất xúc tác."
         ],
-        "actText": "Gạt công tắc«Bột MnO₂»sang trạng thái Đã thêm, quan sát bọt khí trong ống đó chuyển sang trạng thái có xúc tác; sau đó gạt lại để đối chiếu",
+        "actText": "Gạt công tắc «Bột MnO₂» sang trạng thái Đã thêm, quan sát bọt khí trong ống đó chuyển sang trạng thái có xúc tác; sau đó gạt lại để đối chiếu",
         "expectText": "Khi tắt, ống đó sủi bọt chậm như ống đối chứng trắng (1×); sau khi thêm xúc tác, tốc độ thoát bọt khí tăng lên 8×. Ống thêm FeCl₃ luôn đạt 8×, còn ống đối chứng trắng sủi bọt rất chậm từ đầu đến cuối (hệ số 8× là con số minh họa, SGK chỉ nêu cả hai đều nhanh hơn ống trắng)"
       },
       {
         "num": 5,
         "tag": "Đo tốc độ định lượng",
-        "q": "Độ«nhanh chậm»có thể quy thành một con số cụ thể được không?",
+        "q": "Độ «nhanh chậm» có thể quy thành một con số cụ thể được không?",
         "eq": "Zn + H₂SO₄ = ZnSO₄ + H₂↑ · v = Δc/Δt",
         "eqCal": "2 g hạt Zn + 40 mL dung dịch H₂SO₄ · Xi-lanh đo 10 mL H₂",
         "concl": "v = Δc/Δt: đo được thời gian sẽ tính được độ nhanh chậm thành con số; khi các điều kiện khác không đổi, tăng nồng độ H₂SO₄ làm tăng tốc độ phản ứng (từ 1 → 4 mol/L, thời gian thu khí rút ngắn từ 64.0 s xuống 16.0 s).",
-        "exam": "Khi tính tốc độ phản ứng phải ghi rõ«tính theo chất nào và tốc độ trung bình trong khoảng thời gian nào», đây là dạng bài tập lặp đi lặp lại trong SGK.",
+        "exam": "Khi tính tốc độ phản ứng phải ghi rõ «tính theo chất nào và tốc độ trung bình trong khoảng thời gian nào», đây là dạng bài tập lặp đi lặp lại trong SGK.",
         "points": [
           "10 mL H₂ ở 25 ℃, 101.325 kPa tương ứng với 4.0876×10⁻⁴ mol, chia cho 40 mL dung dịch được Δc = 1.02×10⁻² mol/L.",
           "Tốc độ phản ứng được tính bằng độ biến thiên nồng độ H₂SO₄ chia cho thời gian, đơn vị là mol/(L·s).",
           "Chỉ thu 10 mL khí (giai đoạn đầu của phản ứng) để thu được tốc độ trung bình trong khoảng thời gian ngắn đó.",
-          "Bỏ bước đo định lượng này: chỉ biết«ống nào nhanh hơn»chứ không nói được nhanh gấp mấy lần, cũng không có cơ sở định lượng để chọn điều kiện."
+          "Bỏ bước đo định lượng này: chỉ biết «ống nào nhanh hơn» chứ không nói được nhanh gấp mấy lần, cũng không có cơ sở định lượng để chọn điều kiện."
         ],
         "actText": "Kéo nồng độ H₂SO₄ từ 1 mol/L lên 4 mol/L, xem mất bao lâu để thu được 10 mL H₂ và hệ số góc của đường biểu diễn thay đổi thế nào",
         "expectText": "Thời gian thu 10 mL H₂ giảm từ 64.0 s xuống 16.0 s, tốc độ trung bình tăng từ 1.60×10⁻⁴ lên 6.39×10⁻⁴ mol/(L·s); hệ số góc của đồ thị tăng gấp 4 lần"
@@ -732,11 +732,11 @@
         "eq": "Phân tử hoạt động + Va chạm hiệu quả → Phản ứng xảy ra",
         "eqCal": "Phóng đại minh họa · 60 phân tử · Tỉ lệ màu sáng thay đổi theo nhiệt độ",
         "concl": "Tăng nồng độ → tăng số phân tử hoạt động trong một đơn vị thể tích; tăng nhiệt độ → tăng phần trăm số phân tử hoạt động; chất xúc tác hạ thấp năng lượng hoạt hóa → giúp nhiều phân tử trở thành phân tử hoạt động hơn. Cả ba yếu tố đều làm tăng số va chạm hiệu quả trong một đơn vị thời gian, khiến tốc độ phản ứng tăng.",
-        "exam": "Dùng thuyết va chạm để giải thích ảnh hưởng của nồng độ, nhiệt độ và chất xúc tác thường được hỏi gộp chung; cần phân biệt rõ«số phân tử hoạt động trong một đơn vị thể tích»với«phần trăm số phân tử hoạt động».",
+        "exam": "Dùng thuyết va chạm để giải thích ảnh hưởng của nồng độ, nhiệt độ và chất xúc tác thường được hỏi gộp chung; cần phân biệt rõ «số phân tử hoạt động trong một đơn vị thể tích» với «phần trăm số phân tử hoạt động».",
         "points": [
           "Các phân tử va chạm vào nhau chưa chắc đã phản ứng: chỉ những va chạm có đủ năng lượng và đúng hướng mới là va chạm hiệu quả.",
-          "Tăng nhiệt độ không làm tăng tổng số phân tử, mà làm tăng tỉ lệ«những phân tử có đủ năng lượng hoạt hóa».",
-          "Chất xúc tác không làm tăng năng lượng của phân tử mà hạ thấp«rào cản» — khi năng lượng hoạt hóa giảm xuống, số phân tử vượt qua rào cản năng lượng sẽ nhiều hơn.",
+          "Tăng nhiệt độ không làm tăng tổng số phân tử, mà làm tăng tỉ lệ «những phân tử có đủ năng lượng hoạt hóa».",
+          "Chất xúc tác không làm tăng năng lượng của phân tử mà hạ thấp «rào cản» — khi năng lượng hoạt hóa giảm xuống, số phân tử vượt qua rào cản năng lượng sẽ nhiều hơn.",
           "Bỏ bước này: học sinh chỉ có thể học thuộc lòng 3 yếu tố mà không giải thích được vì sao nhiệt độ lại ảnh hưởng mạnh hơn nồng độ."
         ],
         "actText": "Nhấp vào hộp mô hình phóng đại phía trên mặt bàn để xem các phân tử bên trong va chạm thế nào",
@@ -749,14 +749,14 @@
         "eq": "Cùng một nhóm đối chứng · Chỉ thay đổi một điều kiện",
         "eqCal": "Tổng thể tích bắt buộc 4 mL = 2 mL acid + V(Na₂S₂O₃) + nước bổ sung",
         "concl": "Kiểm soát biến số đòi hỏi chỉ thay đổi nồng độ và giữ nguyên các yếu tố khác: ống pha loãng bắt buộc phải thêm 1 mL nước cất để giữ tổng thể tích 4 mL, nếu không nồng độ sẽ bị tính sai, thời gian đo ngắn hơn thực tế và làm thu hẹp sự khác biệt khi so sánh.",
-        "exam": "Câu hỏi phân tích sai số thường hỏi«bước nào chưa kiểm soát biến số, kết quả đo lệch lớn hay lệch nhỏ», khi trả lời cần nêu đầy đủ chuỗi suy luận.",
+        "exam": "Câu hỏi phân tích sai số thường hỏi «bước nào chưa kiểm soát biến số, kết quả đo lệch lớn hay lệch nhỏ», khi trả lời cần nêu đầy đủ chuỗi suy luận.",
         "points": [
           "Thao tác sai → tổng thể tích chỉ có 3 mL → nồng độ c từ 0.025 thành 0.0333 → thời gian vẩn đục từ 40.0 s thành 30.0 s (lệch nhỏ) → làm sai lệch kết luận.",
-          "Tiêu chuẩn bấm giờ phải thống nhất: lấy mốc«vừa xuất hiện vẩn đục»hay«đục hoàn toàn»có thể làm thời gian chênh nhau một nửa.",
+          "Tiêu chuẩn bấm giờ phải thống nhất: lấy mốc «vừa xuất hiện vẩn đục» hay «đục hoàn toàn» có thể làm thời gian chênh nhau một nửa.",
           "Nhiệt độ chưa kịp về nhiệt độ phòng đã đổi ống để so sánh cũng là lỗi không kiểm soát biến số.",
           "Bỏ bước này: học sinh dễ mắc lỗi không đồng nhất tổng thể tích dung dịch khi làm thực hành và viết báo cáo."
         ],
-        "actText": "Tắt«Thêm nước cất bổ sung»(thao tác sai), xem nồng độ và thời gian của ống pha loãng thay đổi thế nào; xem xong nhớ bật lại",
+        "actText": "Tắt «Thêm nước cất bổ sung»(thao tác sai), xem nồng độ và thời gian của ống pha loãng thay đổi thế nào; xem xong nhớ bật lại",
         "expectText": "Tắt thêm nước: nồng độ ống pha loãng từ 0.025 thành 0.0333 mol/L, thời gian vẩn đục từ 40.0 s giảm còn 30.0 s (lệch nhỏ 10.0 s), tỉ lệ so với ống đối chứng 20.0 s từ 2 : 1 biến thành 1.5 : 1"
       },
       {
@@ -765,16 +765,16 @@
         "q": "Kiểm tra: Tái hiện đầy đủ thí nghiệm đối chứng nồng độ trong SGK",
         "eq": "Na₂S₂O₃ + H₂SO₄ = Na₂SO₄ + SO₂↑ + S↓ + H₂O",
         "eqCal": "1 mL + 1 mL nước · 2 mL acid · 25 ℃ · Tổng thể tích 4 mL",
-        "concl": "Phần kiểm tra không có kết luận mới: đồng thời đảm bảo cả 3 điều kiện«1 mL + 1 mL nước, tổng thể tích 4 mL, 25 ℃»thì thời gian xuất hiện vẩn đục mới nằm quanh mốc 40.0 s.",
+        "concl": "Phần kiểm tra không có kết luận mới: đồng thời đảm bảo cả 3 điều kiện «1 mL + 1 mL nước, tổng thể tích 4 mL, 25 ℃» thì thời gian xuất hiện vẩn đục mới nằm quanh mốc 40.0 s.",
         "exam": "Cấu trúc trả lời điểm tối đa: Kiểm soát biến số (thêm nước giữ tổng thể tích) + Bấm giờ hiện tượng + Quy đổi tốc độ phản ứng, viết đủ cả 3 ý.",
         "points": [
           "Không thêm nước bổ sung sẽ làm thời gian lệch về 30.0 s, sai lệch 10.0 s là vượt ngưỡng cho phép.",
           "Khi bể điều nhiệt bị đẩy lên 45 ℃, thời gian tụt từ 40.0 s xuống 2.4 s, ảnh hưởng còn mạnh hơn cả nồng độ.",
-          "Tiêu chuẩn bấm giờ phải nhất quán từ đầu đến cuối: cả hai ống đều lấy mốc«vừa xuất hiện vẩn đục trắng sữa».",
+          "Tiêu chuẩn bấm giờ phải nhất quán từ đầu đến cuối: cả hai ống đều lấy mốc «vừa xuất hiện vẩn đục trắng sữa».",
           "Bước tổng hợp: Thỏa mãn đồng thời các điều kiện của 7 bước trước để vượt qua."
         ],
         "actText": "Ở ống thí nghiệm, lấy 1 mL Na₂S₂O₃ và bổ sung 1 mL nước cất, bể điều nhiệt ở 25 ℃, đưa thời gian vẩn đục về mức 40.0 s ± 1.0 s và giữ trong 15 giây; giữa chừng nhiệt độ bể điều nhiệt sẽ bị đẩy lên cao",
-        "expectText": "Biểu ngữ đạt chuẩn«Tái hiện đối chứng nồng độ thành công»; khi bể điều nhiệt bị đẩy lên 45 ℃ làm thời gian vẩn đục tụt xuống 2.4 s, hãy kéo nhiệt độ về lại 25 ℃"
+        "expectText": "Biểu ngữ đạt chuẩn «Tái hiện đối chứng nồng độ thành công»; khi bể điều nhiệt bị đẩy lên 45 ℃ làm thời gian vẩn đục tụt xuống 2.4 s, hãy kéo nhiệt độ về lại 25 ℃"
       }
     ],
     "quiz": [
@@ -828,7 +828,7 @@
       },
       {
         "tag": "⑤ Vi mô",
-        "q": "Dùng thuyết va chạm để giải thích«tăng nhiệt độ làm tăng tốc độ phản ứng», cách giải thích thỏa đáng nhất là",
+        "q": "Dùng thuyết va chạm để giải thích «tăng nhiệt độ làm tăng tốc độ phản ứng», cách giải thích thỏa đáng nhất là",
         "opts": [
           "Tổng số phân tử trong một đơn vị thể tích tăng lên",
           "Phần trăm số phân tử hoạt động tăng lên, dẫn đến số va chạm hiệu quả trong một đơn vị thời gian tăng",
@@ -1265,7 +1265,7 @@
         "q": "Vì sao quả cầu carbon trong hộp lại có 4 lỗ nối, còn quả cầu hydrogen chỉ có 1 lỗ?",
         "eq": "CₙH₂ₙ₊₂ (alkane mạch hở)",
         "eqCal": "C có 4 liên kết · H có 1 liên kết",
-        "concl": "Nguyên tử carbon có 4 electron ở lớp ngoài cùng nên tạo được 4 liên kết cộng hóa trị; hydrogen chỉ tạo được 1 liên kết. Đó chính là«Carbon hóa trị IV» — nhờ vậy công thức chung của alkane mạch hở là CₙH₂ₙ₊₂.",
+        "concl": "Nguyên tử carbon có 4 electron ở lớp ngoài cùng nên tạo được 4 liên kết cộng hóa trị; hydrogen chỉ tạo được 1 liên kết. Đó chính là «Carbon hóa trị IV» — nhờ vậy công thức chung của alkane mạch hở là CₙH₂ₙ₊₂.",
         "exam": "Trọng tâm: Carbon hóa trị IV; công thức chung của alkane mạch hở CₙH₂ₙ₊₂.",
         "points": [
           "Nguyên tử carbon dùng 4 electron lớp ngoài cùng để tạo 4 liên kết cộng hóa trị với các nguyên tử khác.",
@@ -1282,7 +1282,7 @@
         "q": "Vì sao nói 4 nguyên tử hydrogen trong phân tử methane hoàn toàn tương đương nhau?",
         "eq": "CH₄ · 109°28′",
         "eqCal": "Tứ diện đều · C ở tâm",
-        "concl": "Methane có cấu trúc tứ diện đều: nguyên tử C ở tâm, 4 nguyên tử H ở 4 đỉnh, góc liên kết 109°28′ (tức 109.47°), 5 nguyên tử không cùng nằm trên một mặt phẳng. Chính vì 4 đỉnh hoàn toàn tương đương nên 4 nguyên tử H hoàn toàn như nhau. (Giá trị góc liên kết được học chi tiết trong Chuyên đề học tập Hóa học 10«Cấu trúc chất»; SGK cơ bản yêu cầu nắm được«4 liên kết tạo với nhau các góc bằng nhau».)",
+        "concl": "Methane có cấu trúc tứ diện đều: nguyên tử C ở tâm, 4 nguyên tử H ở 4 đỉnh, góc liên kết 109°28′ (tức 109.47°), 5 nguyên tử không cùng nằm trên một mặt phẳng. Chính vì 4 đỉnh hoàn toàn tương đương nên 4 nguyên tử H hoàn toàn như nhau. (Giá trị góc liên kết được học chi tiết trong Chuyên đề học tập Hóa học 10 «Cấu trúc chất»; SGK cơ bản yêu cầu nắm được «4 liên kết tạo với nhau các góc bằng nhau».)",
         "exam": "Trọng tâm: Cấu trúc tứ diện đều của methane, góc liên kết 109°28′.",
         "points": [
           "Methane không phải là hình vuông phẳng mà là hình tứ diện đều.",
@@ -1291,7 +1291,7 @@
           "Bỏ bước này: học sinh sẽ hình dung methane như một hình vuông phẳng, dẫn đến kết luận sai về số đồng phân của dichloromethane ở bước tiếp theo."
         ],
         "actText": "Xoay phân tử methane một vòng xem 4 nguyên tử H có thực sự giống hệt nhau về kích thước và khoảng cách không",
-        "expectText": "Dù xoay ở góc độ nào, 4 liên kết C—H đều dài bằng nhau, cả 6 góc H—C—H đều bằng 109°28′; 5 nguyên tử không thể nào trải phẳng trên một mặt phẳng (chuyển sang«Mô hình đặc»để đối chiếu với dạng mô hình thứ hai trong SGK)"
+        "expectText": "Dù xoay ở góc độ nào, 4 liên kết C—H đều dài bằng nhau, cả 6 góc H—C—H đều bằng 109°28′; 5 nguyên tử không thể nào trải phẳng trên một mặt phẳng (chuyển sang «Mô hình đặc» để đối chiếu với dạng mô hình thứ hai trong SGK)"
       },
       {
         "num": 3,
@@ -1307,7 +1307,7 @@
           "Nếu methane thực sự là hình vuông phẳng thì dichloromethane sẽ phải có 2 đồng phân (vị trí kề nhau và đối diện nhau).",
           "Bỏ bước này: mô hình chỉ còn để ngắm, học sinh không học được cách dùng mô hình 3D để loại trừ giả thuyết cấu trúc sai."
         ],
-        "actText": "Gạt công tắc«Thế chlorine»sang BẬT, xem hai quả cầu màu xanh lục được bố trí thế nào",
+        "actText": "Gạt công tắc «Thế chlorine» sang BẬT, xem hai quả cầu màu xanh lục được bố trí thế nào",
         "expectText": "Hai quả cầu chlorine xuất hiện; dù xoay theo hướng nào thì vị trí tương đối giữa hai nguyên tử Cl vẫn giống hệt nhau, chỉ có duy nhất một kiểu cấu trúc"
       },
       {
@@ -1322,9 +1322,9 @@
           "Liên kết đơn có thể quay quanh trục liên kết mà không làm đứt liên kết hóa học.",
           "Sự quay chỉ làm thay đổi cấu dạng, phân tử vẫn là cùng một chất.",
           "(Mở rộng) Liên kết đơn là liên kết σ có tính đối xứng trục nên quay tự do quanh trục liên kết; trong liên kết đôi và liên kết ba có liên kết π không thể quay tự do quanh trục liên kết.",
-          "Bỏ bước này: học sinh dễ nhầm tưởng«xoay một góc»sẽ tạo ra đồng phân mới."
+          "Bỏ bước này: học sinh dễ nhầm tưởng «xoay một góc» sẽ tạo ra đồng phân mới."
         ],
-        "actText": "Kéo thanh trượt«Góc quay liên kết đơn C—C»đến 180°",
+        "actText": "Kéo thanh trượt «Góc quay liên kết đơn C—C» đến 180°",
         "expectText": "Góc nhị diện quay từ 0° đến 180°, nhưng các góc liên kết H—C—C vẫn luôn là 109°28′, trật tự liên kết trong phân tử không hề thay đổi"
       },
       {
@@ -1341,7 +1341,7 @@
           "Alkane mạch hở có công thức chung CₙH₂ₙ₊₂, hai chất kế tiếp nhau trong dãy đồng đẳng hơn kém nhau một nhóm CH₂.",
           "Bỏ bước này: học sinh có thể hiểu lầm rằng phân tử càng lớn thì góc liên kết càng lớn."
         ],
-        "actText": "Kéo thanh«Phân tử hiện tại»lần lượt từ ethane qua propane đến butane",
+        "actText": "Kéo thanh «Phân tử hiện tại» lần lượt từ ethane qua propane đến butane",
         "expectText": "Tổng số nguyên tử tăng 8 → 11 → 14, công thức phân tử chuyển từ C₂H₆ → C₃H₈ → C₄H₁₀, nhưng góc liên kết vẫn luôn là 109°28′"
       },
       {
@@ -1358,7 +1358,7 @@
           "Hai chất có nhiệt độ sôi khác nhau: −0.5 ℃ so với −11.6 ℃.",
           "Bỏ bước này: học sinh sẽ nghĩ cứ cùng công thức phân tử thì chỉ là một chất duy nhất."
         ],
-        "actText": "Gạt công tắc«Mạch nhánh»sang BẬT để chuyển butane mạch thẳng thành butane mạch nhánh (isobutane)",
+        "actText": "Gạt công tắc «Mạch nhánh» sang BẬT để chuyển butane mạch thẳng thành butane mạch nhánh (isobutane)",
         "expectText": "Tổng số nguyên tử vẫn là 14, công thức phân tử vẫn là C₄H₁₀, độ dài liên kết và góc liên kết không đổi; điều thay đổi là khung mạch carbon: số nhóm methyl (–CH₃) ở đầu mạch tăng từ 2 lên 3"
       },
       {
@@ -1367,7 +1367,7 @@
         "q": "Vì sao 6 nguyên tử của ethylene cùng nằm trên một mặt phẳng, còn 4 nguyên tử của acetylene lại xếp trên một đường thẳng?",
         "eq": "C₂H₄ phẳng · C₂H₂ thẳng hàng",
         "eqCal": "Liên kết đôi & ba đều không quay được",
-        "concl": "Trong phân tử ethylene, giữa hai nguyên tử C là liên kết đôi không quay tự do được, khóa chặt cả 6 nguyên tử trên cùng một mặt phẳng với góc liên kết khoảng 120°; trong phân tử acetylene là liên kết ba càng không thể quay, khóa chặt 4 nguyên tử trên một đường thẳng với góc liên kết 180°. Khi kéo«Góc quay liên kết đơn C—C», chúng đứng yên bất động — chỉ có liên kết đơn như ở ethane mới quay được.",
+        "concl": "Trong phân tử ethylene, giữa hai nguyên tử C là liên kết đôi không quay tự do được, khóa chặt cả 6 nguyên tử trên cùng một mặt phẳng với góc liên kết khoảng 120°; trong phân tử acetylene là liên kết ba càng không thể quay, khóa chặt 4 nguyên tử trên một đường thẳng với góc liên kết 180°. Khi kéo «Góc quay liên kết đơn C—C», chúng đứng yên bất động — chỉ có liên kết đơn như ở ethane mới quay được.",
         "exam": "Trọng tâm: Ethylene có cấu trúc phẳng, acetylene có cấu trúc đường thẳng.",
         "points": [
           "Phân tử ethylene có 6 nguyên tử đồng phẳng, góc liên kết khoảng 120°.",
@@ -1376,7 +1376,7 @@
           "(Mở rộng · Chuyên đề Hóa học 10) Liên kết đôi gồm 1 liên kết σ + 1 liên kết π, liên kết ba gồm 1 liên kết σ + 2 liên kết π; nguyên tử C lần lượt ở trạng thái lai hóa sp² và sp.",
           "Bỏ bước này: học sinh rất dễ nhầm lẫn hình học không gian của ethylene và acetylene."
         ],
-        "actText": "Kéo thanh«Phân tử hiện tại»từ ethylene sang acetylene",
+        "actText": "Kéo thanh «Phân tử hiện tại» từ ethylene sang acetylene",
         "expectText": "Ethylene: cả 6 nguyên tử đều nằm trên cùng một mặt phẳng, góc liên kết 120°, độ dài C=C là 133 pm; chuyển sang acetylene: 4 nguyên tử nằm trên một đường thẳng, góc liên kết 180°, độ dài C≡C là 120 pm"
       },
       {
@@ -1410,7 +1410,7 @@
           "Khung mạch carbon khác nhau dẫn đến tính chất vật lý khác nhau.",
           "Nếu chưa vượt qua bài kiểm tra, hãy quay lại bước 6 để xem lại sự khác biệt giữa hai bộ khung mạch carbon."
         ],
-        "actText": "Trên bảng điều khiển trung tâm, hãy gạt công tắc«Mạch nhánh»sang BẬT để chuyển n-butane thành isobutane và duy trì trong 12 giây",
+        "actText": "Trên bảng điều khiển trung tâm, hãy gạt công tắc «Mạch nhánh» sang BẬT để chuyển n-butane thành isobutane và duy trì trong 12 giây",
         "expectText": "Thanh mục tiêu chuyển sang màu xanh lục, mô hình dừng ở phân tử isobutane có mạch phân nhánh"
       }
     ],
@@ -1482,7 +1482,7 @@
       "slug": "titration-step",
       "subject": "Hóa học THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Hóa học 11 — SGK GDPT 2018 Chương 1 Bài 2«Cân bằng trong dung dịch nước · Chuẩn độ acid – base»",
+      "locate": "Hóa học 11 — SGK GDPT 2018 Chương 1 Bài 2 «Cân bằng trong dung dịch nước · Chuẩn độ acid – base»",
       "title": "Chuẩn độ trung hòa acid mạnh – base mạnh",
       "cover": 4
     },
@@ -1553,7 +1553,7 @@
         "exam": "Câu hỏi nhận biết dụng cụ thường gặp: buret khóa thủy tinh và buret khóa cao su đựng được những chất nào, vì sao buret chính xác hơn ống đong.",
         "points": [
           "Hai chiếc buret phân công rõ ràng: buret khóa thủy tinh đựng HCl, buret khóa ống cao su dùng để lấy chính xác 20.00 mL dung dịch NaOH cần chuẩn độ.",
-          "Lót tờ giấy trắng dưới đáy bình tam giác để quan sát thật rõ khoảnh khắc«màu hồng vừa chuyển sang không màu».",
+          "Lót tờ giấy trắng dưới đáy bình tam giác để quan sát thật rõ khoảnh khắc «màu hồng vừa chuyển sang không màu».",
           "Thể tích dung dịch cần chuẩn độ 20.00 mL đã được lấy chính xác từ trước, vì vậy bình tam giác không cần sấy khô và tuyệt đối không được tráng bằng dung dịch cần chuẩn độ.",
           "Bỏ bước làm quen này: học sinh sẽ dùng buret như ống đong, chỉ cần đọc sai vạch chia là kết quả nồng độ sai hoàn toàn."
         ],
@@ -1566,15 +1566,15 @@
         "q": "Cùng một ống buret đựng HCl 0.1000 mol/L, nếu không tráng bằng dung dịch HCl trước thì chuyện gì sẽ xảy ra?",
         "eq": "c_eff = 0.1000 × 25.0 / (25.0 + 0.5)",
         "eqCal": "Tráng 2~3 lần · Mỗi lần 3~5 mL · Phải đuổi hết bọt khí ở đầu nhọn",
-        "concl": "Buret bắt buộc phải được tráng 2~3 lần bằng chính dung dịch HCl sẽ dùng, đuổi hết bọt khí ở đầu nhọn, sau đó điều chỉnh mặt chất lỏng về vạch«0»và ghi chính xác số đọc ban đầu; nếu không nồng độ dung dịch chuẩn hoặc hiệu số thể tích sẽ không chính xác.",
-        "exam": "Trọng tâm rất hay hỏi: vì sao phải tráng buret 2~3 lần bằng dung dịch chuẩn, không tráng thì kết quả bị lệch cao hay lệch thấp — đáp án là«dung dịch chuẩn bị loãng nên phải nhỏ nhiều hơn».",
+        "concl": "Buret bắt buộc phải được tráng 2~3 lần bằng chính dung dịch HCl sẽ dùng, đuổi hết bọt khí ở đầu nhọn, sau đó điều chỉnh mặt chất lỏng về vạch «0» và ghi chính xác số đọc ban đầu; nếu không nồng độ dung dịch chuẩn hoặc hiệu số thể tích sẽ không chính xác.",
+        "exam": "Trọng tâm rất hay hỏi: vì sao phải tráng buret 2~3 lần bằng dung dịch chuẩn, không tráng thì kết quả bị lệch cao hay lệch thấp — đáp án là «dung dịch chuẩn bị loãng nên phải nhỏ nhiều hơn».",
         "points": [
           "Tráng buret cuối cùng phải dùng **chính dung dịch sẽ nạp vào buret đó**, chứ không chỉ tráng nước cất — chỉ tráng nước cất tức là làm loãng dung dịch chuẩn.",
-          "Trước tiên kiểm tra khóa xem có rò nước không, sau đó tráng rửa rồi mới rót dung dịch vào; rót vượt quá vạch«0»khoảng 2~3 mL rồi xả nhẹ để điều chỉnh đúng vạch 0.",
+          "Trước tiên kiểm tra khóa xem có rò nước không, sau đó tráng rửa rồi mới rót dung dịch vào; rót vượt quá vạch «0» khoảng 2~3 mL rồi xả nhẹ để điều chỉnh đúng vạch 0.",
           "Bọt khí ở đầu nhọn buret bắt buộc phải đuổi ra hết; nếu không đuổi, hiệu số đọc trên buret sẽ lớn hơn thể tích thực tế chảy ra khi bọt khí thoát mất.",
           "Bỏ bước này: nồng độ tính ra bị lệch cao tới 0.0021 mol/L, nghiêm trọng hơn cả một lần đọc lệch vạch chia."
         ],
-        "actText": "Gạt công tắc«Tráng buret»sang Đã tráng bằng HCl 2~3 lần, xem nồng độ tính được quay về giá trị chuẩn thế nào",
+        "actText": "Gạt công tắc «Tráng buret» sang Đã tráng bằng HCl 2~3 lần, xem nồng độ tính được quay về giá trị chuẩn thế nào",
         "expectText": "Khi chưa tráng, nước đọng trong ống làm loãng HCl xuống 0.09804 mol/L, phải nhỏ tới 21.46 mL mới đạt điểm kết thúc, tính ra c(NaOH) = 0.1073 (lệch cao 0.0021); sau khi tráng, số đo trở về 21.04 mL / 0.1052"
       },
       {
@@ -1584,7 +1584,7 @@
         "eq": "HIn ⇌ H⁺ + In⁻ (màu dạng acid / màu dạng base)",
         "eqCal": "20.00 mL NaOH cần chuẩn độ · 2 giọt chỉ thị",
         "concl": "Chọn chất chỉ thị phenolphthalein theo SGK: khoảng đổi màu 8.2–10.0 của nó nằm trong bước nhảy pH, khi dung dịch chuyển từ màu hồng sang không màu chứng tỏ phản ứng đã vừa đủ; methyl da cam (3.1–4.4) cũng nằm trong bước nhảy pH nên cả hai đều chỉ thị được điểm kết thúc.",
-        "exam": "Khoảng đổi màu của chỉ thị là kiến thức cần nắm vững; câu hỏi«vì sao chuẩn độ acid mạnh – base mạnh dùng được cả hai chất chỉ thị»cần giải thích được là«khoảng đổi màu của cả hai đều nằm trong bước nhảy pH».",
+        "exam": "Khoảng đổi màu của chỉ thị là kiến thức cần nắm vững; câu hỏi «vì sao chuẩn độ acid mạnh – base mạnh dùng được cả hai chất chỉ thị» cần giải thích được là «khoảng đổi màu của cả hai đều nằm trong bước nhảy pH».",
         "points": [
           "Thể tích dung dịch cần chuẩn độ 20.00 mL được lấy chính xác bằng pipet hoặc buret base, chứ không đong ước chừng bằng ống đong.",
           "Chất chỉ thị chỉ thêm 2 giọt: thêm quá nhiều vừa tiêu tốn thêm một lượng nhỏ acid, vừa làm màu quá đậm khó nhận biết điểm kết thúc.",
@@ -1601,7 +1601,7 @@
         "eq": "Δn = c(HCl)·V − c(NaOH)·20.00",
         "eqCal": "Nhỏ từng giọt HCl 0.1000 mol/L · Vừa nhỏ vừa lắc đều bình tam giác",
         "concl": "Ở giai đoạn đầu, nồng độ kiềm chưa được trung hòa còn lớn nên việc thêm một lượng nhỏ acid ảnh hưởng rất ít đến pH; vì vậy chỉ có thể dựa vào sự đổi màu đột ngột của chỉ thị tại điểm kết thúc để nhận biết.",
-        "exam": "Câu hỏi thường gặp«Vì sao khi tiến sát điểm tương đương thì pH lại biến đổi đột ngột», nguyên nhân là do sự thay đổi bậc độ lớn của nồng độ ion H⁺/OH⁻ quanh điểm tương đương.",
+        "exam": "Câu hỏi thường gặp «Vì sao khi tiến sát điểm tương đương thì pH lại biến đổi đột ngột», nguyên nhân là do sự thay đổi bậc độ lớn của nồng độ ion H⁺/OH⁻ quanh điểm tương đương.",
         "points": [
           "Trong suốt 20 mL đầu tiên, pH chỉ dịch chuyển hơn 2 đơn vị, mắt thường không thể nhận ra sự thay đổi.",
           "Số đọc cuối trên buret bắt buộc phải đọc đến 0.01 mL, vì sự quyết định ở giai đoạn cuối chỉ chênh nhau đúng nửa giọt.",
@@ -1617,15 +1617,15 @@
         "q": "Nửa giọt cuối cùng này rốt cuộc đã làm thay đổi điều gì?",
         "eq": "V(HCl) = 21.04 mL đạt điểm tương đương",
         "eqCal": "Bước nhảy pH 4.30–9.70 (khoảng ±0.1 % thể tích quanh điểm tương đương)",
-        "concl": "Khi sát điểm kết thúc, chỉ một lượng cực nhỏ acid cũng gây ra bước nhảy pH làm màu chất chỉ thị biến đổi đột ngột báo hiệu phản ứng đã hoàn toàn; chỉ trong nửa giọt (0.02 mL), pH đã vượt qua toàn bộ khoảng đổi màu của phenolphthalein, vì vậy khoảnh khắc«màu hồng vừa chuyển sang không màu và bền trong 30 giây»chính là điểm kết thúc chuẩn độ.",
+        "concl": "Khi sát điểm kết thúc, chỉ một lượng cực nhỏ acid cũng gây ra bước nhảy pH làm màu chất chỉ thị biến đổi đột ngột báo hiệu phản ứng đã hoàn toàn; chỉ trong nửa giọt (0.02 mL), pH đã vượt qua toàn bộ khoảng đổi màu của phenolphthalein, vì vậy khoảnh khắc «màu hồng vừa chuyển sang không màu và bền trong 30 giây» chính là điểm kết thúc chuẩn độ.",
         "exam": "Vai trò của nửa giọt dung dịch, sự khác biệt giữa điểm kết thúc và điểm tương đương, và dấu hiệu dừng chuẩn độ thường được hỏi cùng nhau.",
         "points": [
           "Bước nhảy pH xảy ra là do trạng thái dư OH⁻ chuyển sang dư H⁺ chỉ trong khoảnh khắc một phần giọt dung dịch.",
           "Khi phenolphthalein vừa chuyển từ hồng sang không màu thì khóa buret ngay; nếu nhỏ tiếp sẽ làm V bị lệch lớn và nồng độ c tính ra bị lệch cao.",
-          "Tiêu chuẩn xác định điểm kết thúc là«màu không đổi lại trong vòng nửa phút (30 giây)».",
+          "Tiêu chuẩn xác định điểm kết thúc là «màu không đổi lại trong vòng nửa phút (30 giây)».",
           "Bỏ bước này: học sinh sẽ đánh đồng điểm kết thúc chuẩn độ với điểm tương đương mà bỏ qua độ chênh lệch rất nhỏ giữa điểm đổi màu chỉ thị và pH 7."
         ],
-        "actText": "Nhỏ thô dừng ở 21.00 mL (pH 9.99), sau đó vặn«Vi chỉnh nửa giọt»đến +0.04, xem pH nhảy vọt và màu sắc chuyển biến thế nào",
+        "actText": "Nhỏ thô dừng ở 21.00 mL (pH 9.99), sau đó vặn «Vi chỉnh nửa giọt» đến +0.04, xem pH nhảy vọt và màu sắc chuyển biến thế nào",
         "expectText": "Khi nhỏ thô đến 21.00 mL thì pH là 9.99, sau khi vi chỉnh thêm +0.04 (tổng cộng 21.04 mL) thì pH tụt xuống 7.00; từ 21.03 → 21.05 chỉ chênh nửa giọt nhưng pH nhảy vọt 4.77 đơn vị; phenolphthalein vừa chuyển từ hồng sang không màu; bước nhảy pH là 4.30–9.70"
       },
       {
@@ -1654,10 +1654,10 @@
         "concl": "Bản chất của chuẩn độ acid mạnh – base mạnh là H⁺ + OH⁻ → H₂O: tại điểm tương đương n(H⁺) = n(OH⁻), dung dịch trung tính (pH = 7.00); chất chỉ thị đổi màu vì đúng khoảnh khắc đó pH nhảy vọt qua khoảng đổi màu của nó.",
         "exam": "Câu hỏi giải thích vi mô: vì sao tỉ lệ là 1 : 1, vì sao khi phản ứng vừa đủ dung dịch lại trung tính, và vì sao chỉ thị đổi màu trong bước nhảy pH.",
         "points": [
-          "Cứ nhỏ vào 1 ion H⁺ thì tiêu thụ 1 ion OH⁻, vì vậy quan hệ hợp thức là«tỉ lệ số mol 1 : 1»chứ không phải«nồng độ bằng nhau».",
+          "Cứ nhỏ vào 1 ion H⁺ thì tiêu thụ 1 ion OH⁻, vì vậy quan hệ hợp thức là «tỉ lệ số mol 1 : 1» chứ không phải «nồng độ bằng nhau».",
           "Ở hai phía của điểm tương đương không thể đồng thời dư cả H⁺ lẫn OH⁻ vì phản ứng trung hòa diễn ra gần như hoàn toàn.",
           "Nguyên nhân chất chỉ thị đổi màu cũng là do sự chuyển dịch cân bằng phân li của chỉ thị khi nồng độ H⁺/OH⁻ thay đổi đột ngột.",
-          "Bỏ bước này: học sinh chỉ học vẹt«nửa giọt đổi màu»mà không giải thích được vì sao nửa giọt lại đủ làm đảo chiều môi trường."
+          "Bỏ bước này: học sinh chỉ học vẹt «nửa giọt đổi màu» mà không giải thích được vì sao nửa giọt lại đủ làm đảo chiều môi trường."
         ],
         "actText": "Bấm vào hộp phóng đại vi mô phía trên bàn để xem các ion kết hợp",
         "expectText": "Lúc đầu trong hộp có 105 ion OH⁻ và không có H⁺; khi nhỏ tới điểm tương đương, ion OH⁻ cuối cùng kết hợp với ion H⁺ vừa đi vào tạo thành H₂O, cả hai ion đều không còn dư; nhỏ thêm nữa thì trong dung dịch chỉ còn dư ion H⁺ (phóng đại minh họa, đang xem bình tam giác)"
@@ -1665,18 +1665,18 @@
       {
         "num": 8,
         "tag": "Sai số & Thao tác sai",
-        "q": "Bốn«sơ suất nhỏ»làm kết quả nồng độ lệch về phía nào?",
+        "q": "Bốn «sơ suất nhỏ» làm kết quả nồng độ lệch về phía nào?",
         "eq": "c(NaOH) = c(HCl)·V(HCl) / V(NaOH)",
         "eqCal": "Mỗi lần chỉ thử một lỗi thao tác, các mục còn lại giữ đúng chuẩn",
         "concl": "Mỗi thao tác sai đều làm lệch một đại lượng rồi truyền sai số sang nồng độ c: chưa tráng buret bằng HCl (0.1073), còn bọt khí ở đầu nhọn (0.1055), tráng bình tam giác bằng dung dịch mẫu (0.1068), trước nhìn từ trên xuống + sau nhìn từ dưới lên (0.1057) đều làm tăng hiệu số đọc hoặc lượng chất cần chuẩn độ → c bị lệch cao; trước nhìn từ dưới lên + sau nhìn từ trên xuống (0.1047) làm giảm hiệu số đọc → c bị lệch thấp.",
-        "exam": "Phân tích chiều hướng sai số là câu hỏi kinh điển: phải trình bày rõ chuỗi nhân quả«làm thay đổi đại lượng nào → hiệu số đọc V(HCl) tăng hay giảm → nồng độ c lệch về phía nào».",
+        "exam": "Phân tích chiều hướng sai số là câu hỏi kinh điển: phải trình bày rõ chuỗi nhân quả «làm thay đổi đại lượng nào → hiệu số đọc V(HCl) tăng hay giảm → nồng độ c lệch về phía nào».",
         "points": [
           "Chưa tráng buret bằng HCl → HCl bị nước đọng làm loãng → phải nhỏ nhiều hơn mới tới điểm kết thúc → hiệu số đọc lớn hơn thực tế → c bị lệch cao.",
           "Bọt khí ở đầu nhọn thoát ra trong lúc chuẩn độ → hiệu số đọc lớn hơn thể tích dung dịch thực tế chảy vào bình → c bị lệch cao.",
           "Trước nhìn từ dưới lên, sau nhìn từ trên xuống → hiệu số đọc bị nhỏ đi → c lệch thấp (0.1047); ngược lại trước nhìn từ trên xuống, sau nhìn từ dưới lên → hiệu số đọc lớn lên → c lệch cao (0.1057); tráng bình tam giác bằng dung dịch mẫu NaOH → lượng base trong bình tăng thêm → c lệch cao.",
-          "Bỏ bước này: học sinh chỉ học thuộc lòng mẹo«cao hay thấp», khi gặp hai lỗi xảy ra cùng lúc sẽ không suy luận được."
+          "Bỏ bước này: học sinh chỉ học thuộc lòng mẹo «cao hay thấp», khi gặp hai lỗi xảy ra cùng lúc sẽ không suy luận được."
         ],
-        "actText": "Tắt«Tráng buret»(thao tác sai), xem nồng độ tính được thay đổi thế nào; sau đó lần lượt gạt các công tắc Bọt khí, Cách đọc số đo (3 mức) và Bình tam giác",
+        "actText": "Tắt «Tráng buret»(thao tác sai), xem nồng độ tính được thay đổi thế nào; sau đó lần lượt gạt các công tắc Bọt khí, Cách đọc số đo (3 mức) và Bình tam giác",
         "expectText": "Gạt từng công tắc sẽ thấy hướng lệch: Chưa tráng buret → số đọc 21.46 mL (lệch lớn 0.42) → c = 0.1073 (lệch cao 0.0021); Còn bọt khí đầu nhọn → 0.1055 (lệch cao); Trước nhìn ngước · Sau nhìn chúc → 0.1047 (lệch thấp); Trước nhìn chúc · Sau nhìn ngước → 0.1057 (lệch cao); Tráng bình tam giác bằng dung dịch cần chuẩn độ → 0.1068 (lệch cao)"
       },
       {
@@ -1685,7 +1685,7 @@
         "q": "Kiểm tra: Thực hiện hoàn chỉnh một lần chuẩn độ theo đúng quy trình SGK",
         "eq": "c(NaOH) = c(HCl)·V(HCl) / V(NaOH)",
         "eqCal": "20.00 mL mẫu thử · HCl 0.1000 mol/L · 2 giọt phenolphthalein",
-        "concl": "Phần kiểm tra không có kết luận mới: đồng thời đảm bảo cả 5 bước«Tráng buret → Đuổi bọt khí → Thêm phenolphthalein → Nhỏ đến khi nửa giọt làm mất màu → Nhìn ngang đọc số đo»thì nồng độ c tính được mới nằm trong khoảng 0.1050–0.1054.",
+        "concl": "Phần kiểm tra không có kết luận mới: đồng thời đảm bảo cả 5 bước «Tráng buret → Đuổi bọt khí → Thêm phenolphthalein → Nhỏ đến khi nửa giọt làm mất màu → Nhìn ngang đọc số đo» thì nồng độ c tính được mới nằm trong khoảng 0.1050–0.1054.",
         "exam": "Cấu trúc trả lời điểm tối đa: Thao tác chuẩn + Kiểm soát tốc độ nửa giọt + Nhìn ngang tầm mắt đọc số đo + Tính nồng độ theo quan hệ hợp thức.",
         "points": [
           "Trước tiên kiểm tra cả 4 công tắc: tráng buret, bọt khí, cách đọc số đo, bình tam giác — chỉ cần lệch một chỗ là c sẽ vượt ra ngoài khoảng chuẩn.",
@@ -1694,7 +1694,7 @@
           "Bước tổng hợp: Kết hợp đồng thời các điều kiện tối ưu đã tìm được ở 8 bước trước."
         ],
         "actText": "Dùng phenolphthalein làm chỉ thị, nhỏ thô đến 21.00 mL rồi dùng vi chỉnh nửa giọt vặn đến 21.04–21.06 mL (màu hồng vừa chuyển sang không màu), đưa nồng độ c tính được vào khoảng 0.1052 ± 0.0002 và giữ trong 15 giây; giữa chừng cách đọc số đo sẽ bị gạt sai",
-        "expectText": "Biểu ngữ đạt chuẩn«Chuẩn độ trung hòa đạt yêu cầu»; trong quá trình chuẩn độ, cách đọc bị gạt sang«Trước nhìn từ dưới lên · Sau nhìn từ trên xuống»(hiệu số đọc bị hụt 0.10 mL, c tụt xuống 0.1047), hãy chỉnh về Nhìn ngang tầm mắt rồi vi chỉnh lại dV"
+        "expectText": "Biểu ngữ đạt chuẩn «Chuẩn độ trung hòa đạt yêu cầu»; trong quá trình chuẩn độ, cách đọc bị gạt sang «Trước nhìn từ dưới lên · Sau nhìn từ trên xuống»(hiệu số đọc bị hụt 0.10 mL, c tụt xuống 0.1047), hãy chỉnh về Nhìn ngang tầm mắt rồi vi chỉnh lại dV"
       }
     ],
     "quiz": [
@@ -1724,7 +1724,7 @@
       },
       {
         "tag": "③ Đọc số đo",
-        "q": "Vạch«0»của buret nằm ở phía trên. Nếu trước khi chuẩn độ nhìn ngước từ dưới lên để đọc, còn sau khi chuẩn độ lại nhìn chúc từ trên xuống, thì thể tích tính được so với giá trị thực sẽ",
+        "q": "Vạch «0» của buret nằm ở phía trên. Nếu trước khi chuẩn độ nhìn ngước từ dưới lên để đọc, còn sau khi chuẩn độ lại nhìn chúc từ trên xuống, thì thể tích tính được so với giá trị thực sẽ",
         "opts": [
           "Lớn hơn thực tế",
           "Nhỏ hơn thực tế",
@@ -1777,7 +1777,7 @@
       "slug": "chlorine-step",
       "subject": "Hóa học THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Hóa học 10 — SGK GDPT 2018 Chương 7«Nguyên tố nhóm VIIA (Halogen) · Đơn chất Chlorine và hợp chất»",
+      "locate": "Hóa học 10 — SGK GDPT 2018 Chương 7 «Nguyên tố nhóm VIIA (Halogen) · Đơn chất Chlorine và hợp chất»",
       "title": "Điều chế và tính chất của khí Chlorine",
       "cover": 3
     },
@@ -1855,8 +1855,8 @@
         "q": "Tại sao một bộ dụng cụ điều chế khí chlorine lại được chia thành từng ấy công đoạn?",
         "eq": "Điều chế khí → Tinh chế (nếu cần) → Thu khí → Xử lý khí thải (nếu cần)",
         "eqCal": "Phương pháp thiết kế bộ dụng cụ điều chế khí trong phòng thí nghiệm (SGK Hóa học 10)",
-        "concl": "Sơ đồ cơ bản gồm 3 phần«Điều chế → Thu khí → Xử lý khí thải»; khi cần thu khí tinh khiết và khô thì lắp thêm bộ phận tinh chế theo đúng thứ tự: Điều chế → Loại tạp chất → Thu khí → Xử lý khí thải. Bài học tách riêng bình rửa HCl và bình làm khô để có thể tháo lắp khảo sát.",
-        "exam": "Câu hỏi thường gặp«Bộ dụng cụ điều chế khí gồm những phần nào, nối theo thứ tự nào»: Điều chế → Tinh chế (loại tạp chất & làm khô) → Thu khí → Xử lý khí thải.",
+        "concl": "Sơ đồ cơ bản gồm 3 phần «Điều chế → Thu khí → Xử lý khí thải»; khi cần thu khí tinh khiết và khô thì lắp thêm bộ phận tinh chế theo đúng thứ tự: Điều chế → Loại tạp chất → Thu khí → Xử lý khí thải. Bài học tách riêng bình rửa HCl và bình làm khô để có thể tháo lắp khảo sát.",
+        "exam": "Câu hỏi thường gặp «Bộ dụng cụ điều chế khí gồm những phần nào, nối theo thứ tự nào»: Điều chế → Tinh chế (loại tạp chất & làm khô) → Thu khí → Xử lý khí thải.",
         "points": [
           "Bộ phận tạo khí phụ thuộc vào trạng thái chất phản ứng và điều kiện phản ứng: chất rắn MnO₂ tác dụng với chất lỏng HCl đặc, có đun nóng.",
           "Bộ phận loại tạp chất phụ thuộc vào tính chất của tạp chất: khí HCl bay hơi từ dung dịch HCl đặc tan cực tốt trong nước.",
@@ -1873,14 +1873,14 @@
         "eq": "MnO₂ + 4HCl(đặc) —△→ MnCl₂ + Cl₂↑ + 2H₂O",
         "eqCal": "Chất rắn + Chất lỏng, đun nóng",
         "concl": "Phản ứng giữa dung dịch HCl đặc và MnO₂ bắt buộc phải đun nóng mới xảy ra: nếu không đun nóng, dù nhỏ bao nhiêu HCl đặc cũng không sinh ra Cl₂.",
-        "exam": "Quên ghi điều kiện đun nóng«△ / t°»trên phương trình hóa học là lỗi mất điểm rất phổ biến, thường đi kèm với câu hỏi«dung dịch HCl loãng không phản ứng».",
+        "exam": "Quên ghi điều kiện đun nóng «△ / t°» trên phương trình hóa học là lỗi mất điểm rất phổ biến, thường đi kèm với câu hỏi «dung dịch HCl loãng không phản ứng».",
         "points": [
-          "Chất phản ứng là MnO₂ rắn và dung dịch HCl đặc, trên mũi tên phương trình hóa học phải ghi điều kiện đun nóng«△»hoặc«t°».",
+          "Chất phản ứng là MnO₂ rắn và dung dịch HCl đặc, trên mũi tên phương trình hóa học phải ghi điều kiện đun nóng «△» hoặc «t°».",
           "Khi không đun nóng, tốc độ sinh khí là 0.0 mL/min: dù hệ thống lắp kín đến đâu cũng không có khí thoát ra.",
           "Đun nóng bằng đèn cồn qua lưới tản nhiệt để đáy bình cầu nóng đều, tránh sôi bùng cục bộ.",
           "Bỏ đun nóng: toàn bộ dây chuyền không có lấy một bọt khí, các bình tinh chế và thu khí phía sau đều chạy không."
         ],
-        "actText": "Bật công tắc«Đun nóng», quan sát bột MnO₂ trong bình cầu và dòng khí trong ống dẫn",
+        "actText": "Bật công tắc «Đun nóng», quan sát bột MnO₂ trong bình cầu và dòng khí trong ống dẫn",
         "expectText": "Bọt khí bắt đầu xuất hiện: tốc độ sinh khí tăng từ 0.0 → 30.0 mL/min, bề mặt MnO₂ sủi bọt liên tục, các hạt dòng khí di chuyển dọc theo ống dẫn sang công đoạn kế tiếp"
       },
       {
@@ -1890,12 +1890,12 @@
         "eq": "MnO₂ + 4HCl(đặc) —△→ MnCl₂ + Cl₂↑ + 2H₂O",
         "eqCal": "HCl đặc 37 % → giảm xuống 20 % thì dừng phản ứng (HCl loãng không tác dụng với MnO₂)",
         "concl": "Dung dịch HCl đặc bị loãng dần trong quá trình phản ứng, khi thành HCl loãng thì không tác dụng với MnO₂ nữa nên khí tự ngừng thoát ra — đó là lý do trong thực tế phải lấy lượng MnO₂ dư thích hợp so với lý thuyết.",
-        "exam": "«HCl đặc không thể phản ứng hết»và«so sánh lượng khí Cl₂ thu được khi cho dư MnO₂ với khi cho giới hạn HCl»là hai cách hỏi của cùng một bản chất.",
+        "exam": "«HCl đặc không thể phản ứng hết» và «so sánh lượng khí Cl₂ thu được khi cho dư MnO₂ với khi cho giới hạn HCl» là hai cách hỏi của cùng một bản chất.",
         "points": [
           "Phản ứng tiêu thụ HCl làm dung dịch HCl đặc loãng dần, mà dung dịch HCl loãng thì không còn khả năng phản ứng với MnO₂.",
-          "Do đó HCl không bao giờ phản ứng hết hoàn toàn: câu hỏi bài tập SGK«Vì sao lượng MnO₂ cân thực tế phải lấy dư so với lượng tính theo lý thuyết»có đáp án nằm chính ở đây.",
+          "Do đó HCl không bao giờ phản ứng hết hoàn toàn: câu hỏi bài tập SGK «Vì sao lượng MnO₂ cân thực tế phải lấy dư so với lượng tính theo lý thuyết» có đáp án nằm chính ở đây.",
           "Tính theo bài tập SGK: để điều chế 4 bình khí chlorine 100 mL thì theo lý thuyết cần 1.427 g (khoảng 1.43 g) MnO₂.",
-          "Bỏ bước quan sát này: học sinh sẽ lầm tưởng«cứ cho dư HCl hoặc tính theo số mol HCl phản ứng hoàn toàn»dẫn đến kết quả tính lượng khí Cl₂ thu được bị cao hơn thực tế."
+          "Bỏ bước quan sát này: học sinh sẽ lầm tưởng «cứ cho dư HCl hoặc tính theo số mol HCl phản ứng hoàn toàn» dẫn đến kết quả tính lượng khí Cl₂ thu được bị cao hơn thực tế."
         ],
         "actText": "Không cần thao tác gì, hãy quan sát khoảng một phút: nồng độ HCl loãng dần, bọt khí thưa dần rồi dừng hẳn",
         "expectText": "Nồng độ phần trăm của HCl giảm từ 37 % xuống 20 %, tốc độ sinh khí giảm từ 30.0 mL/min về 0.0 mL/min, điểm trạng thái trên đồ thị trượt về mốc 20 % và bằng 0"
@@ -1907,14 +1907,14 @@
         "eq": "Khí HCl(g) tan mạnh trong dung dịch NaCl bão hòa",
         "eqCal": "Ống vào dài – ống ra ngắn · Đầu ống dẫn khí vào ngập dưới mặt dung dịch",
         "concl": "Acid HCl đặc dễ bay hơi nên dòng khí thoát ra luôn lẫn khí HCl; dung dịch NaCl bão hòa hấp thụ tốt HCl đồng thời ức chế sự hòa tan của Cl₂ (nhờ nồng độ Cl⁻ cao), vì vậy bình rửa đầu tiên dùng để loại bỏ HCl.",
-        "exam": "Câu hỏi«Có thể dùng dung dịch NaOH để loại bỏ HCl lẫn trong Cl₂ được không»xuất hiện rất thường xuyên; đáp án là không vì NaOH tác dụng với cả Cl₂.",
+        "exam": "Câu hỏi «Có thể dùng dung dịch NaOH để loại bỏ HCl lẫn trong Cl₂ được không» xuất hiện rất thường xuyên; đáp án là không vì NaOH tác dụng với cả Cl₂.",
         "points": [
           "Hoá chất loại tạp chất được chọn dựa trên tính chất của tạp chất: khí HCl tan cực tốt trong nước, dùng dung dịch NaCl bão hòa vừa giữ lại HCl vừa hạn chế sự hòa tan của Cl₂.",
           "Tuyệt đối không dùng dung dịch NaOH, NaHCO₃ hay vôi tôi xút để loại HCl: vì các chất kiềm này sẽ hấp thụ luôn cả khí Cl₂.",
-          "Bình rửa khí bắt buộc phải lắp theo nguyên tắc«ống vào dài – ống ra ngắn»: đầu ống vào ngập sâu trong dung dịch để dòng khí tiếp xúc triệt để với chất lỏng rửa.",
+          "Bình rửa khí bắt buộc phải lắp theo nguyên tắc «ống vào dài – ống ra ngắn»: đầu ống vào ngập sâu trong dung dịch để dòng khí tiếp xúc triệt để với chất lỏng rửa.",
           "Bỏ công đoạn này: độ tinh khiết trong bình thu tụt xuống 87.9 %, khí thu được lẫn nhiều HCl gây nhiễu khi làm thí nghiệm thử tính chất."
         ],
-        "actText": "Tháo bỏ công đoạn«Dung dịch NaCl bão hòa»(thao tác sai), quan sát độ tinh khiết trong bình thu khí và đầu ống dẫn khí",
+        "actText": "Tháo bỏ công đoạn «Dung dịch NaCl bão hòa»(thao tác sai), quan sát độ tinh khiết trong bình thu khí và đầu ống dẫn khí",
         "expectText": "Độ tinh khiết trong bình thu giảm từ 99.4 % → 87.9 %, tạp chất HCl tăng từ 0.5 % → 12.0 %; lắp bình trở lại thì độ tinh khiết hồi phục ngay"
       },
       {
@@ -1924,14 +1924,14 @@
         "eq": "Cl₂ + H₂O ⇌ HCl + HClO",
         "eqCal": "Loại bỏ HCl trước, làm khô sau",
         "concl": "Bước làm khô bắt buộc phải đặt sau bước loại HCl; đồng thời chỉ khi có mặt nước (tạo thành HClO có tính oxi hóa mạnh) thì khí chlorine mới làm phai màu băng vải nhuộm.",
-        "exam": "Thí nghiệm đối chứng«khí chlorine khô không có tính tẩy màu, khí chlorine ẩm có tính tẩy màu»là câu hỏi trọng tâm thường gặp trong các đề kiểm tra.",
+        "exam": "Thí nghiệm đối chứng «khí chlorine khô không có tính tẩy màu, khí chlorine ẩm có tính tẩy màu» là câu hỏi trọng tâm thường gặp trong các đề kiểm tra.",
         "points": [
           "Không được đảo ngược thứ tự: nếu làm khô bằng H₂SO₄ đặc trước rồi mới dẫn qua dung dịch NaCl bão hòa thì dòng khí sẽ lại cuốn theo hơi nước.",
           "Dung dịch H₂SO₄ đặc có tính háo nước, chỉ hút hơi nước mà không phản ứng với Cl₂, nên được đặt ngay sau bình loại HCl.",
           "Khí chlorine khô không làm mất màu băng vải màu khô: tác nhân thực sự có tính tẩy màu là HClO sinh ra khi Cl₂ tác dụng với nước.",
-          "Bỏ công đoạn này: hơi nước chiếm 2.5 %, băng vải khô bị ẩm và phai màu sẽ dẫn đến kết luận sai rằng«bản thân phân tử Cl₂ khô có tính tẩy màu»."
+          "Bỏ công đoạn này: hơi nước chiếm 2.5 %, băng vải khô bị ẩm và phai màu sẽ dẫn đến kết luận sai rằng «bản thân phân tử Cl₂ khô có tính tẩy màu»."
         ],
-        "actText": "Tháo bỏ công đoạn«Làm khô bằng H₂SO₄ đặc»(thao tác sai), quan sát thành trong bình thu khí và hai băng vải màu",
+        "actText": "Tháo bỏ công đoạn «Làm khô bằng H₂SO₄ đặc»(thao tác sai), quan sát thành trong bình thu khí và hai băng vải màu",
         "expectText": "Độ tinh khiết giảm từ 99.4 % → 97.0 %, hơi nước tăng từ 0.1 % → 2.5 %, thành trong bình thu đọng sương mờ; khí chlorine ẩm làm mất màu băng vải màu, trong khi băng vải khô khi có bình làm khô thì không đổi màu"
       },
       {
@@ -1941,7 +1941,7 @@
         "eq": "Phương pháp đẩy không khí ngửa bình · Ống vào dài, ống ra ngắn",
         "eqCal": "ρ(Cl₂) / ρ(không khí) = 3.214 / 1.293 = 2.486 (cùng ở 0 ℃)",
         "concl": "Chất khí nặng hơn không khí được thu bằng phương pháp đẩy không khí ngửa bình: khí đi vào sát đáy bình để đẩy không khí nhẹ hơn thoát ra ở cổ bình (ống vào dài, ống ra ngắn); do Cl₂ tan và tác dụng với nước nên không thu bằng phương pháp đẩy nước thường.",
-        "exam": "Hai câu hỏi«vì sao không thu Cl₂ bằng phương pháp đẩy nước thường»và«ống dẫn khí vào bình thu dài hay ngắn»luôn đi đôi với nhau.",
+        "exam": "Hai câu hỏi «vì sao không thu Cl₂ bằng phương pháp đẩy nước thường» và «ống dẫn khí vào bình thu dài hay ngắn» luôn đi đôi với nhau.",
         "points": [
           "So sánh tỉ khối: 3.214 / 1.293 = 2.486 > 1, khí chlorine nặng hơn không khí khoảng 2.5 lần nên thu bằng phương pháp đẩy không khí với bình đặt ngửa.",
           "Không dùng phương pháp đẩy nước thông thường: vì ở 25 ℃, 1 thể tích nước hòa tan khoảng 2 thể tích khí Cl₂ và Cl₂ còn phản ứng một phần với nước (tuy nhiên có thể thu bằng cách đẩy dung dịch NaCl bão hòa).",
@@ -1965,8 +1965,8 @@
           "Không dùng nước vôi trong (dung dịch Ca(OH)₂) để xử lý khí thải: vì Ca(OH)₂ ít tan trong nước, nồng độ quá loãng nên không đảm bảo hấp thụ triệt để khí Cl₂ dư.",
           "Bỏ công đoạn này: toàn bộ 30.0 mL/min khí Cl₂ độc hại xả thẳng ra phòng học, thí nghiệm như vậy tuyệt đối không được phép thực hiện."
         ],
-        "actText": "Tháo bỏ công đoạn«Hấp thụ khí thải bằng NaOH»(thao tác sai), quan sát đầu ống thoát khí và thanh trạng thái phía trên",
-        "expectText": "Lượng khí Cl₂ phát thải ra môi trường tăng từ 0.0 lên 30.0 mL/min, thanh rủi ro tăng từ 0.00 → 1.00, thanh trạng thái trên cùng chuyển sang«BÁO ĐỘNG»; đầu ống dẫn khí nhấc lên, khói màu vàng lục bốc ra nghi ngút"
+        "actText": "Tháo bỏ công đoạn «Hấp thụ khí thải bằng NaOH»(thao tác sai), quan sát đầu ống thoát khí và thanh trạng thái phía trên",
+        "expectText": "Lượng khí Cl₂ phát thải ra môi trường tăng từ 0.0 lên 30.0 mL/min, thanh rủi ro tăng từ 0.00 → 1.00, thanh trạng thái trên cùng chuyển sang «BÁO ĐỘNG»; đầu ống dẫn khí nhấc lên, khói màu vàng lục bốc ra nghi ngút"
       },
       {
         "num": 8,
@@ -1980,9 +1980,9 @@
           "Trong nước chlorine có chứa các phân tử Cl₂, H₂O, HClO và các ion H⁺, Cl⁻, ClO⁻ (cùng một lượng rất nhỏ OH⁻); chất có tác dụng tẩy màu và diệt khuẩn là HClO chứ không phải Cl₂.",
           "Hypochlorous acid kém bền, bị phân hủy dưới tác dụng của ánh sáng: 2HClO —ánh sáng→ 2HCl + O₂↑.",
           "Do tạo thành acid mạnh HCl và giải phóng khí O₂ nên sau khi chiếu sáng: pH giảm xuống, nồng độ ion Cl⁻ tăng lên và hàm lượng khí O₂ tăng lên.",
-          "Bỏ bước này: học sinh chỉ biết«nước chlorine tẩy màu được»mà không giải thích được vì sao nước chlorine để lâu ngoài ánh sáng lại biến thành dung dịch HCl và mất tính tẩy màu."
+          "Bỏ bước này: học sinh chỉ biết «nước chlorine tẩy màu được» mà không giải thích được vì sao nước chlorine để lâu ngoài ánh sáng lại biến thành dung dịch HCl và mất tính tẩy màu."
         ],
-        "actText": "Kéo thanh trượt«Thời gian chiếu sáng»từ 0 s đến 150 s, quan sát pH, nồng độ c(Cl⁻) và các hạt trong hộp phóng đại minh họa",
+        "actText": "Kéo thanh trượt «Thời gian chiếu sáng» từ 0 s đến 150 s, quan sát pH, nồng độ c(Cl⁻) và các hạt trong hộp phóng đại minh họa",
         "expectText": "pH giảm từ 2.10 → 1.62, nồng độ c(Cl⁻) tăng từ 200 → 850 mg/L, phần trăm thể tích khí O₂ tăng từ 20.0 % → 21.1 %; trong hộp phóng đại, phân tử HClO liên tục phân hủy giải phóng O₂, màu vàng lục của dung dịch nhạt dần"
       },
       {
@@ -2000,7 +2000,7 @@
           "Không có kiến thức mới: đồng thời đáp ứng đầy đủ điều kiện của cả 8 bước trước là vượt qua bài kiểm tra."
         ],
         "actText": "Đạt độ tinh khiết ≥ 99.0 %, bình thu đủ ≥ 95 mL khí, nối tốt bộ phận xử lý khí thải, chỉ số rủi ro nằm dưới vạch cảnh báo và duy trì trong 12 giây; giữa chừng tốc độ nhỏ giọt sẽ bị gạt về 0",
-        "expectText": "Biểu ngữ đạt chuẩn«Một bình khí chlorine tinh khiết»; ở giây thứ 6 tốc độ nhỏ giọt bị gạt về 0, hãy chỉnh lại về 40 giọt/min để tiếp tục thu khí"
+        "expectText": "Biểu ngữ đạt chuẩn «Một bình khí chlorine tinh khiết»; ở giây thứ 6 tốc độ nhỏ giọt bị gạt về 0, hãy chỉnh lại về 40 giọt/min để tiếp tục thu khí"
       }
     ],
     "quiz": [
@@ -2014,7 +2014,7 @@
           "MnO₂ + 4HCl(đặc) → MnCl₂ + 2Cl₂↑ + 2H₂O"
         ],
         "ans": 1,
-        "why": "Phương trình chuẩn: MnO₂ + 4HCl(đặc) —△→ MnCl₂ + Cl₂↑ + 2H₂O. Không được thiếu điều kiện đun nóng«△ / t°»và trạng thái«đặc»; cân bằng theo phương pháp thăng bằng electron với tỉ lệ nhường – nhận electron 1 : 2."
+        "why": "Phương trình chuẩn: MnO₂ + 4HCl(đặc) —△→ MnCl₂ + Cl₂↑ + 2H₂O. Không được thiếu điều kiện đun nóng «△ / t°» và trạng thái «đặc»; cân bằng theo phương pháp thăng bằng electron với tỉ lệ nhường – nhận electron 1 : 2."
       },
       {
         "tag": "① Điều chế",
@@ -2090,7 +2090,7 @@
       },
       {
         "tag": "Tổng hợp",
-        "q": "Hiện tượng thực nghiệm chứng minh«bản thân khí chlorine khô không có tính tẩy màu»là",
+        "q": "Hiện tượng thực nghiệm chứng minh «bản thân khí chlorine khô không có tính tẩy màu» là",
         "opts": [
           "Băng vải màu ẩm bị mất màu",
           "Băng vải màu khô không bị mất màu khi tiếp xúc với khí chlorine khô",

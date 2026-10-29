@@ -1,4 +1,4 @@
-# VietLab 3D — Thư viện 54 Bài giảng Khoa học 3D Tương tác (Chuẩn GDPT 2018)
+# VietLab 3D — Hệ thống 54 Bài giảng Khoa học 3D Tương tác (Chuẩn GDPT 2018)
 
 Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh THPT Việt Nam, bao gồm **54 mô phỏng 3D** thuộc 4 bộ môn: **Vật lý (10)**, **Hóa học (25)**, **Sinh học (5)** và **Địa lý (14)**.
 
@@ -11,14 +11,14 @@ Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho 
 ## Cấu trúc thư mục
 
 - [`index.html`](index.html) — Trang chủ cổng học liệu VietLab 3D (tích hợp bàn thí nghiệm 3D trực tiếp, bộ lọc theo môn/khối lớp/chương học và thanh tìm kiếm tiếng Việt có dấu & không dấu)
-- [`c/<slug>/index.html`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng `<iframe>`)
+- [`c/<slug>/index.html`](c/) — 54 trang hồ sơ bài giảng (cho phép chạy thử 3D ngay trên trang, xem phiếu đối chiếu GDPT 2018, mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng `<iframe>`)
 - [`courses/<slug>.html`](courses/) — 54 tệp bài giảng 3D tương tác độc lập
 - [`covers/<slug>.webp`](covers/) — Ảnh bìa độ phân giải cao của 54 bài giảng
 - [`catalog.json`](catalog.json) — Danh mục dữ liệu chuẩn hóa của toàn bộ 54 bài giảng
 - [`sitemap.xml`](sitemap.xml), [`robots.txt`](robots.txt), [`llms.txt`](llms.txt), [`llms-full.txt`](llms-full.txt) — Bộ tệp khám phá chuẩn SEO / GEO / AEO
-- [`guide/index.html`](guide/index.html) — Hướng dẫn sử dụng trong tiết học 45 phút
-- [`how/index.html`](how/index.html) — Phương pháp xây dựng & kiểm chứng học thuật
-- [`about/index.html`](about/index.html) — Giới thiệu dự án
+- [`guide/index.html`](guide/index.html) — Hướng dẫn giảng dạy trong tiết học 45 phút
+- [`how/index.html`](how/index.html) — Tiêu chuẩn học thuật & kiến trúc kỹ thuật
+- [`about/index.html`](about/index.html) — Hồ sơ dự án & bản quyền học liệu mở
 
 ---
 

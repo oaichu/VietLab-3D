@@ -39,6 +39,9 @@ function cleanVietnamesePunctuation(jsText) {
     .replace(/\\uFF09/g, ')')
     .replace(/：/g, ': ')
     .replace(/；/g, '; ')
+    .replace(/([0-9A-Za-z\u00C0-\u1EF9→=])«/g, '$1 «')
+    .replace(/»([0-9A-Za-z\u00C0-\u1EF9→=])/g, '» $1')
+    .replace(/»→/g, '» → ')
     .replace(/③ Dòng khí làm nguội nhanh \(quench\)/g, '③ Làm nguội nhanh');
 }
 
@@ -199,29 +202,30 @@ html body .phead { padding: 5px 8px; gap: 6px; }
 html body .phead h2 { font-size: 12px; letter-spacing: 0; padding: 2px 7px; }
 html body .phead .sub { font-size: 11px; }
 html body .pane { overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; }
-html body #left .cardhead .cq { font-size: 15px; line-height: 1.32; }
-html body #left .atxt { font-size: 12.5px; line-height: 1.4; }
-html body #left .ctxt, html body #left .pts li { font-size: 12px; line-height: 1.36; }
-html body #left .whybox span { font-size: 11.5px; line-height: 1.36; }
-html body #left .crumb { gap: 2px; }
-html body #left .crumb .ci { font-size: 11px; padding: 1px 4px; }
+html body #left .cardhead .cq { font-size: 14.5px; line-height: 1.42; font-weight: 700; text-wrap: balance; }
+html body #left .atxt { font-size: 12.5px; line-height: 1.48; }
+html body #left .ctxt { font-size: 12.4px; line-height: 1.5; }
+html body #left .pts li { font-size: 12px; line-height: 1.48; margin-bottom: 3px; }
+html body #left .whybox span { font-size: 11.6px; line-height: 1.46; }
+html body #left .crumb { gap: 3px; }
+html body #left .crumb .ci { font-size: 11px; padding: 1px 5px; }
 html body #right .kpi .lb { font-size: 11.5px; }
-html body #right .kpi .vv { font-size: clamp(24px, 2.1vw, 30px); }
-html body #right .kpi .cal { white-space: normal; line-height: 1.22; font-size: 11px; }
-html body #right .subs { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
-html body #right .sub { padding: 3px 5px 6px; display: flex; flex-direction: column; justify-content: space-between; }
+html body #right .kpi .vv { font-size: clamp(24px, 2.1vw, 30px); font-variant-numeric: tabular-nums; }
+html body #right .kpi .cal { white-space: normal; line-height: 1.25; font-size: 11px; }
+html body #right .subs { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; align-items: stretch; }
+html body #right .sub { padding: 4px 6px 6px; display: flex; flex-direction: column; justify-content: space-between; }
 html body #right .sub .lb {
   font-size: 10.5px;
-  line-height: 1.18;
+  line-height: 1.2;
   padding-left: 5px;
   white-space: normal;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 2.32em;
+  min-height: 2.4em;
 }
-html body #right .sub b { font-size: clamp(14.5px, 1.25vw, 17.5px); padding-left: 5px; margin: 1px 0; }
+html body #right .sub b { font-size: clamp(14.5px, 1.25vw, 17.5px); padding-left: 5px; margin: 2px 0; font-variant-numeric: tabular-nums; }
 html body #right .sub .cal {
   font-size: 10px;
   line-height: 1.15;

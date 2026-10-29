@@ -1,4 +1,4 @@
-# VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018
+# VietLab 3D — Hệ thống Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018
 
 > VietLab 3D (https://vietlab.9cloudmedia.com) là thư viện mã nguồn mở gồm 54 bài giảng mô phỏng 3D tương tác thời gian thực (WebGL2) thuộc 4 môn học THPT tại Việt Nam: Vật lý (10 bài), Hóa học (25 bài), Sinh học (5 bài) và Địa lý (14 bài). Toàn bộ học liệu được chuẩn hóa danh pháp quốc tế IUPAC và đối chiếu với Chương trình Giáo dục Phổ thông 2018 của Bộ Giáo dục và Đào tạo Việt Nam.
 
@@ -7,8 +7,8 @@
 - [Trang chủ VietLab 3D](https://vietlab.9cloudmedia.com/): Cổng tra cứu, lọc theo môn/khối lớp/chương học và tìm kiếm toàn bộ 54 bài giảng 3D.
 - [Hồ sơ Tri thức Đầy đủ cho AI/LLM (llms-full.txt)](https://vietlab.9cloudmedia.com/llms-full.txt): Bản tổng hợp toàn bộ phương trình, chuỗi nhân quả, câu hỏi từng bước, kết luận khoa học và giải đáp câu hỏi trắc nghiệm của 54 bài giảng.
 - [Danh mục JSON (catalog.json)](https://vietlab.9cloudmedia.com/catalog.json): Dữ liệu cấu trúc máy đọc của 54 mô phỏng.
-- [Hướng dẫn Sử dụng trong Lớp học](https://vietlab.9cloudmedia.com/guide/): Quy trình dạy học 45 phút, phím tắt và chế độ ngoại tuyến 1 tệp HTML.
-- [Phương pháp Xây dựng & Kiểm chứng](https://vietlab.9cloudmedia.com/how/): Kiến trúc kỹ thuật Three.js WebGL2 và quy trình kiểm chứng dữ kiện khoa học.
+- [Hướng dẫn Giảng dạy trong Lớp học](https://vietlab.9cloudmedia.com/guide/): Quy trình dạy học 45 phút, phím tắt và chế độ ngoại tuyến 1 tệp HTML.
+- [Tiêu chuẩn Học thuật & Kỹ thuật](https://vietlab.9cloudmedia.com/how/): Kiến trúc kỹ thuật Three.js WebGL2 và quy trình kiểm chứng dữ kiện khoa học.
 
 ## Vật lý (10 bài giảng)
 
