@@ -4,16 +4,18 @@ Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho 
 
 - **100% Tiếng Việt chuẩn Chương trình GDPT 2018:** Danh pháp Hóa học quốc tế IUPAC, thuật ngữ Vật lý – Sinh học – Địa lý và hệ thống câu hỏi dẫn dắt theo hướng phát triển năng lực.
 - **Đóng gói đơn tệp độc lập (Single-File HTML):** Mỗi bài giảng trong thư mục [`courses/`](courses/) là một tệp `.html` tự chứa toàn bộ động cơ 3D (Three.js WebGL2), mô hình toán học và giao diện tiếng Việt — chạy mượt trực tiếp trên trình duyệt hoặc tải về sử dụng ngoại tuyến 100%.
+- **Tối ưu hóa toàn diện SEO / GEO / AEO:** Tích hợp JSON-LD (`Course`, `LearningResource`, `WebApplication`, `FAQPage`), `sitemap.xml`, `robots.txt`, `llms.txt` và `llms-full.txt`.
 
 ---
 
 ## Cấu trúc thư mục
 
 - [`index.html`](index.html) — Trang chủ cổng học liệu VietLab 3D (tích hợp bàn thí nghiệm 3D trực tiếp, bộ lọc theo môn/khối lớp/chương học và thanh tìm kiếm tiếng Việt có dấu & không dấu)
-- [`c/<slug>/index.html`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, tải tệp HTML độc lập hoặc sao chép mã nhúng `<iframe>`)
+- [`c/<slug>/index.html`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng `<iframe>`)
 - [`courses/<slug>.html`](courses/) — 54 tệp bài giảng 3D tương tác độc lập
 - [`covers/<slug>.webp`](covers/) — Ảnh bìa độ phân giải cao của 54 bài giảng
 - [`catalog.json`](catalog.json) — Danh mục dữ liệu chuẩn hóa của toàn bộ 54 bài giảng
+- [`sitemap.xml`](sitemap.xml), [`robots.txt`](robots.txt), [`llms.txt`](llms.txt), [`llms-full.txt`](llms-full.txt) — Bộ tệp khám phá chuẩn SEO / GEO / AEO
 - [`guide/index.html`](guide/index.html) — Hướng dẫn sử dụng trong tiết học 45 phút
 - [`how/index.html`](how/index.html) — Phương pháp xây dựng & kiểm chứng học thuật
 - [`about/index.html`](about/index.html) — Giới thiệu dự án

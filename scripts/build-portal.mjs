@@ -2,7 +2,12 @@ import fs from 'fs';
 import path from 'path';
 
 const ROOT = 'D:/tongjiang-lab';
+const SITE_URL = 'https://vietlab.9cloudmedia.com';
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'catalog.json'), 'utf8'));
+const knowledgePath = path.join(ROOT, 'data', 'courses-knowledge.json');
+const knowledgeMap = fs.existsSync(knowledgePath)
+  ? JSON.parse(fs.readFileSync(knowledgePath, 'utf8'))
+  : {};
 
 const SUBJECTS = {
   phys: {
@@ -47,66 +52,35 @@ function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
-function unescapeJsString(raw) {
-  try {
-    return JSON.parse(`"${raw}"`);
-  } catch {
-    return raw
-      .replace(/\\x([0-9a-fA-F]{2})/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
-      .replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
-      .replace(/\\"/g, '"')
-      .replace(/\\\\/g, '\\');
-  }
-}
-
-function extractStepsFromCourseHtml(slug, fallbackSteps) {
-  const htmlPath = path.join(ROOT, 'courses', `${slug}.html`);
-  if (!fs.existsSync(htmlPath)) {
-    return fallbackSteps.map((t, i) => ({ num: i + 1, tag: t, q: '' }));
-  }
-  const html = fs.readFileSync(htmlPath, 'utf8');
-  const idx = html.indexOf('steps:[{');
-  if (idx === -1) {
-    return fallbackSteps.map((t, i) => ({ num: i + 1, tag: t, q: '' }));
-  }
-  let depth = 0;
-  let inStr = false;
-  let strCh = '';
-  let block = '';
-  for (let i = idx + 6; i < html.length; i++) {
-    const ch = html[i];
-    if (inStr) {
-      if (ch === '\\') {
-        i++;
-        continue;
-      }
-      if (ch === strCh) inStr = false;
-      continue;
-    }
-    if (ch === '"' || ch === "'" || ch === '`') {
-      inStr = true;
-      strCh = ch;
-      continue;
-    }
-    if (ch === '[') depth++;
-    else if (ch === ']') {
-      depth--;
-      if (depth === 0) {
-        block = html.slice(idx + 6, i + 1);
-        break;
-      }
-    }
-  }
-  const re = /tag:\s*"((?:[^"\\]|\\.)*)"\s*,\s*q:\s*"((?:[^"\\]|\\.)*)"/g;
-  const matches = [...block.matchAll(re)];
-  if (!matches.length) {
-    return fallbackSteps.map((t, i) => ({ num: i + 1, tag: t, q: '' }));
-  }
-  return matches.map((m, i) => ({
-    num: i + 1,
-    tag: unescapeJsString(m[1]),
-    q: unescapeJsString(m[2]),
-  }));
+function renderSeoHead({ title, desc, canonical, ogImage, ogType = 'website', keywords = '', jsonLd }) {
+  const imgUrl = ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`;
+  const ldStr = JSON.stringify(jsonLd).replace(/<\//g, '<\\/');
+  return `<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+${keywords ? `<meta name="keywords" content="${esc(keywords)}">\n` : ''}<meta name="author" content="VietLab 3D — Học liệu Khoa học Tương tác GDPT 2018">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="${esc(canonical)}">
+<link rel="alternate" hreflang="vi-VN" href="${esc(canonical)}">
+<link rel="alternate" type="text/markdown" href="${SITE_URL}/llms.txt" title="VietLab 3D — Chỉ mục Học liệu cho AI/LLM">
+<meta property="og:type" content="${esc(ogType)}">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="VietLab 3D — Học liệu Khoa học 3D GDPT 2018">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${esc(canonical)}">
+<meta property="og:image" content="${esc(imgUrl)}">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="${esc(title)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${esc(imgUrl)}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">${ldStr}</script>`;
 }
 
 function getTextbookList(c) {
@@ -115,10 +89,6 @@ function getTextbookList(c) {
     .split(' / ')
     .map((x) => x.trim())
     .filter(Boolean);
-}
-
-function getTextbookStr(c) {
-  return getTextbookList(c).join(' · ');
 }
 
 function buildBooksMeta(courses) {
@@ -202,6 +172,8 @@ function renderFooter() {
       <a href="/how/">Phương pháp xây dựng</a>
       <a href="/about/">Giới thiệu</a>
       <a href="/catalog.json">catalog.json</a>
+      <a href="/sitemap.xml">Sitemap</a>
+      <a href="/llms.txt">llms.txt (AI/GEO)</a>
       <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>
@@ -211,12 +183,15 @@ function renderFooter() {
 function renderCourseCard(c, withFilterAttrs = false) {
   const sName = SUBJECTS[c.subject]?.name || c.subjectLabel;
   const stepCount = c.steps.length;
+  const kb = knowledgeMap[c.slug];
+  const eqText = kb?.top?.total || '';
   const searchText = [
     c.title,
     c.question,
     c._textbookStr,
     sName,
     c.slug,
+    eqText,
     ...(c.steps || []),
   ]
     .join(' ')
@@ -228,7 +203,7 @@ function renderCourseCard(c, withFilterAttrs = false) {
 
   return `<article class="cc"${dataAttrs}>
   <a class="cc-thumb" href="/c/${c.slug}/">
-    <img src="/covers/${c.slug}.webp" alt="${esc(c.title)}" loading="lazy" width="640" height="400">
+    <img src="/covers/${c.slug}.webp" alt="${esc(c.title)} — Mô phỏng 3D môn ${esc(sName)}" loading="lazy" width="640" height="400">
     <span class="cc-badge">${esc(sName)}</span>
     <span class="cc-steps">${stepCount} bước</span>
   </a>
@@ -276,16 +251,91 @@ function buildHomePage(courses, booksMeta) {
     )
     .join('\n      ');
 
+  const homeJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'EducationalOrganization',
+        '@id': `${SITE_URL}/#organization`,
+        name: 'VietLab 3D',
+        alternateName: 'Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
+        url: `${SITE_URL}/`,
+        logo: `${SITE_URL}/favicon.svg`,
+        description:
+          'Thư viện 54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT được Việt hóa 100% theo Chương trình GDPT 2018 của Bộ Giáo dục và Đào tạo Việt Nam.',
+        sameAs: ['https://github.com/oaichu/vietlab-3d'],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
+        url: `${SITE_URL}/`,
+        name: 'VietLab 3D — Học liệu Khoa học 3D Tương tác GDPT 2018',
+        inLanguage: 'vi-VN',
+        publisher: { '@id': `${SITE_URL}/#organization` },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${SITE_URL}/?q={search_term_string}#courses`,
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      {
+        '@type': 'ItemList',
+        '@id': `${SITE_URL}/#courselist`,
+        name: 'Danh mục 54 Bài giảng Mô phỏng 3D Tương tác THPT (GDPT 2018)',
+        numberOfItems: courses.length,
+        itemListElement: courses.map((c, idx) => ({
+          '@type': 'ListItem',
+          position: idx + 1,
+          name: c.title,
+          description: `${c.question} (${c._textbookStr})`,
+          url: `${SITE_URL}/c/${c.slug}/`,
+        })),
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `${SITE_URL}/#faq`,
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'VietLab 3D gồm những môn học nào trong Chương trình GDPT 2018?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'VietLab 3D cung cấp 54 bài giảng mô phỏng 3D tương tác bao phủ 4 môn học bậc THPT theo Chương trình GDPT 2018: Vật lý (10 bài), Hóa học (25 bài), Sinh học (5 bài) và Địa lý (14 bài).',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Làm sao để sử dụng bài giảng 3D của VietLab 3D khi lớp học không có Internet?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Mỗi bài giảng trong VietLab 3D được đóng gói thành 1 tệp HTML độc lập duy nhất (~860 KB) tích hợp sẵn động cơ đồ họa Three.js WebGL2 và bộ giải toán học. Giáo viên chỉ cần nhấn nút «Tải tệp HTML» để lưu vào máy tính hoặc USB và mở trực tiếp trên trình duyệt mà không cần mạng.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'VietLab 3D có miễn phí và cho phép nhúng vào hệ thống LMS không?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Có. Toàn bộ 54 mô phỏng 3D được phát hành miễn phí theo giấy phép mở CC BY-NC-SA 4.0, không yêu cầu đăng nhập, và hỗ trợ mã nhúng <iframe> để tích hợp trực tiếp vào Canvas, Moodle, Google Sites hoặc Notion.',
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return `<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018</title>
-<meta name="description" content="54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT theo Chương trình GDPT 2018. Mở trực tiếp trên trình duyệt, tải về một tệp HTML duy nhất hoạt động ngoại tuyến.">
-<link rel="canonical" href="https://vietlab.9cloudmedia.com/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+${renderSeoHead({
+  title: 'VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018',
+  desc: '54 bài giảng mô phỏng 3D tương tác môn Vật lý, Hóa học, Sinh học và Địa lý THPT theo Chương trình GDPT 2018. Mở trực tiếp trên trình duyệt hoặc tải về 1 tệp HTML duy nhất hoạt động ngoại tuyến.',
+  canonical: `${SITE_URL}/`,
+  ogImage: '/covers/haber-step.webp',
+  keywords:
+    'VietLab 3D, mô phỏng 3D, thí nghiệm ảo 3D, học liệu số GDPT 2018, Vật lý 3D, Hóa học 3D, Sinh học 3D, Địa lý 3D, tổng hợp ammonia Haber, hiệu ứng quang điện, nguyên phân, ENSO',
+  jsonLd: homeJsonLd,
+})}
 </head>
 <body>
 ${renderNav('home')}
@@ -473,7 +523,16 @@ ${renderFooter()}
 
 function buildDetailPage(c, allCourses) {
   const sMeta = SUBJECTS[c.subject] || SUBJECTS.phys;
-  const steps = extractStepsFromCourseHtml(c.slug, c.steps || []);
+  const kb = knowledgeMap[c.slug] || null;
+  const steps = kb?.steps?.length
+    ? kb.steps
+    : (c.steps || []).map((t, i) => ({ num: i + 1, tag: t, q: '', eq: '', eqCal: '', concl: '', exam: '', points: [] }));
+  const units = kb?.units || [];
+  const chain = kb?.mainline?.chain || [];
+  const seps = kb?.mainline?.seps || [];
+  const totalEq = kb?.top?.total || '';
+  const quizList = kb?.quiz || [];
+
   const related = allCourses
     .filter((x) => x.subject === c.subject && x.slug !== c.slug)
     .slice(0, 6);
@@ -486,24 +545,193 @@ function buildDetailPage(c, allCourses) {
         <div>
           <div class="t">${esc(st.tag)}</div>
           ${st.q ? `<div class="q">${esc(st.q)}</div>` : ''}
+          ${st.eq ? `<div class="step-eq"><code>${esc(st.eq)}</code>${st.eqCal ? ` <span>· ${esc(st.eqCal)}</span>` : ''}</div>` : ''}
+          ${st.concl ? `<div class="step-concl"><strong>Kết luận:</strong> ${esc(st.concl)}</div>` : ''}
         </div>
       </li>`;
     })
     .join('\n        ');
 
-  const iframeSnippet = `<iframe src="https://vietlab.9cloudmedia.com/courses/${c.slug}.html" width="100%" height="640" style="border:0;border-radius:12px" allowfullscreen loading="lazy"></iframe>`;
+  const chainHtml = chain.length
+    ? `<div class="ch-chain" aria-label="Chuỗi nhân quả cốt lõi">
+      <span class="ch-chain-label">Mạch logic cốt lõi:</span>
+      ${chain
+        .map(
+          (item, idx) =>
+            `<span class="ch-chain-pill"><b>${esc(item.k)}</b><span>${esc(item.t)}</span></span>${
+              idx < chain.length - 1 ? `<span class="ch-chain-sep">${esc(seps[idx] || '→')}</span>` : ''
+            }`
+        )
+        .join('\n      ')}
+    </div>`
+    : '';
+
+  const unitsSectionHtml = units.length
+    ? `<section class="ch-sec">
+    <h2>Cấu trúc trạm thiết bị &amp; cụm mô hình 3D (${units.length} khu vực)</h2>
+    <div class="ugrid">
+      ${units
+        .map(
+          (u) => `<div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">${esc(u.no)}</span>
+          <span class="ucard-name">${esc(u.name)}</span>
+        </div>
+        <p class="ucard-brief">${esc(u.brief)}</p>
+      </div>`
+        )
+        .join('\n      ')}
+    </div>
+  </section>`
+    : '';
+
+  // Build FAQ items combining key step inquiry questions and quiz questions
+  const faqItems = [];
+  for (const st of steps) {
+    if (st.q && (st.concl || st.points?.length)) {
+      faqItems.push({
+        badge: `Bước ${st.num} · ${st.tag}`,
+        q: st.q,
+        concl: st.concl,
+        eq: st.eq,
+        exam: st.exam,
+      });
+    }
+  }
+  for (const qz of quizList.slice(0, 5)) {
+    if (qz.q && qz.why) {
+      const ansOpt = Array.isArray(qz.opts) && qz.opts[qz.ans] ? qz.opts[qz.ans] : '';
+      faqItems.push({
+        badge: `Câu hỏi ôn tập · ${qz.tag || sMeta.name}`,
+        q: qz.q,
+        concl: ansOpt ? `Đáp án đúng: ${ansOpt}. ${qz.why}` : qz.why,
+        eq: '',
+        exam: '',
+      });
+    }
+  }
+
+  const faqSectionHtml = faqItems.length
+    ? `<section class="ch-sec">
+    <h2>Câu hỏi Thường gặp &amp; Giải đáp Trọng tâm (Chuẩn GDPT 2018)</h2>
+    <div class="faq-list">
+      ${faqItems
+        .map(
+          (f, idx) => `<details class="faq-item"${idx < 2 ? ' open' : ''}>
+        <summary><span><span class="faq-tag">${esc(f.badge)}</span>${esc(f.q)}</span></summary>
+        <div class="faq-body">
+          ${f.eq ? `<p><strong>Phương trình / Quy luật:</strong> <code>${esc(f.eq)}</code></p>` : ''}
+          <p>${esc(f.concl)}</p>
+          ${f.exam ? `<p><strong>Lưu ý trọng tâm thi cử:</strong> ${esc(f.exam)}</p>` : ''}
+        </div>
+      </details>`
+        )
+        .join('\n      ')}
+    </div>
+  </section>`
+    : '';
+
+  const iframeSnippet = `<iframe src="${SITE_URL}/courses/${c.slug}.html" width="100%" height="640" style="border:0;border-radius:12px" allowfullscreen loading="lazy"></iframe>`;
   const issueTitle = encodeURIComponent(`[Báo lỗi học liệu] ${c.title} (${c.slug})`);
+
+  const detailJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': ['Course', 'LearningResource'],
+        '@id': `${SITE_URL}/c/${c.slug}/#course`,
+        name: `${c.title} — Mô phỏng 3D Tương tác (${sMeta.name})`,
+        headline: c.title,
+        description: `${c.question} Mô phỏng 3D tương tác gồm ${steps.length} bước khám phá thuộc môn ${sMeta.name} (${c._textbookStr}).`,
+        inLanguage: 'vi-VN',
+        learningResourceType: ['Interactive Simulation', '3D Virtual Lab', 'Course'],
+        educationalLevel: 'Trung học phổ thông (THPT) — Chương trình GDPT 2018',
+        educationalAlignment: {
+          '@type': 'AlignmentObject',
+          alignmentType: 'educationalSubject',
+          educationalFramework: 'Chương trình Giáo dục Phổ thông 2018 (Bộ GD&ĐT Việt Nam)',
+          targetName: c._textbookStr,
+        },
+        url: `${SITE_URL}/c/${c.slug}/`,
+        image: `${SITE_URL}/covers/${c.slug}.webp`,
+        isAccessibleForFree: true,
+        license: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+        provider: {
+          '@type': 'EducationalOrganization',
+          name: 'VietLab 3D',
+          url: `${SITE_URL}/`,
+        },
+        hasPart: steps.map((st) => ({
+          '@type': 'LearningResource',
+          position: st.num,
+          name: `Bước ${st.num}: ${st.tag}`,
+          description: `${st.q} ${st.concl || ''}`.trim(),
+        })),
+      },
+      {
+        '@type': 'WebApplication',
+        '@id': `${SITE_URL}/courses/${c.slug}.html#webapp`,
+        name: `${c.title} — Phòng thí nghiệm 3D WebGL2`,
+        url: `${SITE_URL}/courses/${c.slug}.html`,
+        applicationCategory: 'EducationalApplication',
+        operatingSystem: 'Web Browser (WebGL2)',
+        inLanguage: 'vi-VN',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'VND' },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/c/${c.slug}/#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: sMeta.name, item: `${SITE_URL}/?s=${c.subject}#courses` },
+          { '@type': 'ListItem', position: 3, name: c.title, item: `${SITE_URL}/c/${c.slug}/` },
+        ],
+      },
+      ...(faqItems.length
+        ? [
+            {
+              '@type': 'FAQPage',
+              '@id': `${SITE_URL}/c/${c.slug}/#faq`,
+              mainEntity: faqItems.slice(0, 10).map((f) => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: [f.eq ? `Phương trình: ${f.eq}.` : '', f.concl, f.exam ? `Lưu ý: ${f.exam}` : '']
+                    .filter(Boolean)
+                    .join(' '),
+                },
+              })),
+            },
+          ]
+        : []),
+    ],
+  };
+
+  const keywords = [
+    c.title,
+    `mô phỏng 3D ${c.title}`,
+    sMeta.name,
+    'GDPT 2018',
+    'VietLab 3D',
+    totalEq,
+    ...steps.map((s) => s.tag),
+  ]
+    .filter(Boolean)
+    .join(', ');
 
   return `<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(c.title)} · Mô phỏng 3D Tương tác — VietLab 3D</title>
-<meta name="description" content="${esc(c.question)} (${esc(c._textbookStr)}) — Bài giảng mô phỏng 3D tương tác gồm ${steps.length} bước khám phá.">
-<link rel="canonical" href="https://vietlab.9cloudmedia.com/c/${c.slug}/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+${renderSeoHead({
+  title: `${c.title} · Mô phỏng 3D Tương tác (${sMeta.name}) — VietLab 3D`,
+  desc: `${c.question} (${c._textbookStr}) — Bài giảng mô phỏng 3D tương tác gồm ${steps.length} bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.`,
+  canonical: `${SITE_URL}/c/${c.slug}/`,
+  ogImage: `/covers/${c.slug}.webp`,
+  ogType: 'article',
+  keywords,
+  jsonLd: detailJsonLd,
+})}
 </head>
 <body>
 ${renderNav('')}
@@ -519,10 +747,12 @@ ${renderNav('')}
     <div class="ch-badges">
       <span class="badge badge-s" data-s="${c.subject}">${esc(sMeta.name)}</span>
       <span class="badge">${steps.length} bước khám phá</span>
+      ${totalEq ? `<span class="badge">${esc(totalEq)}</span>` : ''}
       <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
     </div>
     <h1 class="ch-title">${esc(c.title)}</h1>
     <p class="ch-q">${esc(c.question)}</p>
+    ${chainHtml}
   </header>
 
   <section class="ch-main">
@@ -535,7 +765,7 @@ ${renderNav('')}
         </div>
       </div>
       <div class="pv" id="pv-stage" data-src="/courses/${c.slug}.html">
-        <img src="/covers/${c.slug}.webp" alt="${esc(c.title)}" width="1280" height="800">
+        <img src="/covers/${c.slug}.webp" alt="${esc(c.title)} — Mô phỏng 3D môn ${esc(sMeta.name)}" width="1280" height="800">
         <div class="pv-cta">
           <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
         </div>
@@ -567,12 +797,16 @@ ${renderNav('')}
     </aside>
   </section>
 
+  ${unitsSectionHtml}
+
   <section class="ch-sec">
     <h2>Mạch tư duy &amp; câu hỏi khám phá (${steps.length} bước)</h2>
     <ol class="track">
       ${trackHtml}
     </ol>
   </section>
+
+  ${faqSectionHtml}
 
   <section class="ch-sec">
     <h2>Đối chiếu Chương trình Giáo dục Phổ thông 2018</h2>
@@ -599,16 +833,65 @@ ${renderFooter()}
 }
 
 function buildGuidePage() {
+  const guideJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'HowTo',
+        '@id': `${SITE_URL}/guide/#howto`,
+        name: 'Hướng dẫn đưa mô phỏng 3D VietLab 3D vào tiết học 45 phút',
+        description:
+          'Quy trình 4 bước giúp giáo viên THPT sử dụng 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và giao bài tự học trên LMS.',
+        inLanguage: 'vi-VN',
+        totalTime: 'PT45M',
+        step: [
+          {
+            '@type': 'HowToStep',
+            position: 1,
+            name: 'Chuẩn bị trước giờ lên lớp (2 phút)',
+            text: 'Truy cập thư viện bài giảng theo Chương trình GDPT 2018 để mở trực tiếp hoặc tải tệp HTML độc lập (~860 KB) về USB nếu phòng học không có mạng.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 2,
+            name: 'Điều khiển bằng phím tắt trên bục giảng',
+            text: 'Dùng phím mũi tên trái/phải để chuyển bước, phím Space để bật/tắt trình chiếu tự động, phím R để đặt lại góc nhìn 3D.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 3,
+            name: 'Dạy học theo cấu trúc sư phạm 3 pha',
+            text: 'Đặt câu hỏi dự đoán mở đầu, thao tác kiểm chứng trực tiếp trên mô hình 3D, sau đó đối chiếu công thức và ghi chú dạy học.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 4,
+            name: 'Giao bài thực hành và nhúng vào LMS',
+            text: 'Học sinh thực hiện thử thách thực hành ở bước cuối hoặc làm bài qua khung nhúng iframe trên Canvas, Moodle, Google Sites.',
+          },
+        ],
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Hướng dẫn lớp học', item: `${SITE_URL}/guide/` },
+        ],
+      },
+    ],
+  };
+
   return `<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hướng dẫn sử dụng trong lớp học — VietLab 3D</title>
-<meta name="description" content="Hướng dẫn giáo viên và học sinh khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.">
-<link rel="canonical" href="https://vietlab.9cloudmedia.com/guide/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+${renderSeoHead({
+  title: 'Hướng dẫn sử dụng trong lớp học — VietLab 3D',
+  desc: 'Hướng dẫn giáo viên và học sinh khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.',
+  canonical: `${SITE_URL}/guide/`,
+  ogImage: '/covers/magnetic-step.webp',
+  keywords: 'hướng dẫn dạy học 3D, học liệu số THPT, kế hoạch bài dạy GDPT 2018, thí nghiệm ảo ngoại tuyến, VietLab 3D',
+  jsonLd: guideJsonLd,
+})}
 </head>
 <body>
 ${renderNav('guide')}
@@ -662,16 +945,39 @@ ${renderFooter()}
 }
 
 function buildHowPage() {
+  const howJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'TechArticle',
+        '@id': `${SITE_URL}/how/#article`,
+        headline: 'Kiến trúc kỹ thuật & tiêu chuẩn học thuật đằng sau 54 phòng thí nghiệm 3D VietLab 3D',
+        description:
+          'Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
+        inLanguage: 'vi-VN',
+        author: { '@type': 'EducationalOrganization', name: 'VietLab 3D', url: `${SITE_URL}/` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Phương pháp xây dựng', item: `${SITE_URL}/how/` },
+        ],
+      },
+    ],
+  };
+
   return `<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Phương pháp xây dựng &amp; Kiểm chứng học thuật — VietLab 3D</title>
-<meta name="description" content="Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.">
-<link rel="canonical" href="https://vietlab.9cloudmedia.com/how/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+${renderSeoHead({
+  title: 'Phương pháp xây dựng & Kiểm chứng học thuật — VietLab 3D',
+  desc: 'Quy trình thiết kế sư phạm, đối chiếu dữ kiện khoa học và kiến trúc kỹ thuật đóng gói đơn tệp HTML của 54 bài giảng 3D tương tác.',
+  canonical: `${SITE_URL}/how/`,
+  ogImage: '/covers/photoelectric-step.webp',
+  keywords: 'kiến trúc Three.js WebGL2, mô phỏng khoa học định lượng, chuẩn danh pháp IUPAC GDPT 2018, VietLab 3D',
+  jsonLd: howJsonLd,
+})}
 </head>
 <body>
 ${renderNav('how')}
@@ -714,16 +1020,39 @@ ${renderFooter()}
 }
 
 function buildAboutPage() {
+  const aboutJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'AboutPage',
+        '@id': `${SITE_URL}/about/#about`,
+        name: 'Giới thiệu dự án VietLab 3D — Học liệu Khoa học 3D Mở Chuẩn GDPT 2018',
+        description:
+          'Giới thiệu về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh Việt Nam theo Chương trình GDPT 2018.',
+        inLanguage: 'vi-VN',
+        mainEntity: { '@id': `${SITE_URL}/#organization` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Trang chủ VietLab 3D', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Giới thiệu dự án', item: `${SITE_URL}/about/` },
+        ],
+      },
+    ],
+  };
+
   return `<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Giới thiệu dự án — VietLab 3D</title>
-<meta name="description" content="Giới thiệu về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh Việt Nam theo Chương trình GDPT 2018.">
-<link rel="canonical" href="https://vietlab.9cloudmedia.com/about/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+${renderSeoHead({
+  title: 'Giới thiệu dự án — VietLab 3D',
+  desc: 'Giới thiệu về VietLab 3D — dự án học liệu khoa học 3D tương tác mã nguồn mở dành cho giáo viên và học sinh Việt Nam theo Chương trình GDPT 2018.',
+  canonical: `${SITE_URL}/about/`,
+  ogImage: '/covers/enso-step.webp',
+  keywords: 'giới thiệu VietLab 3D, học liệu mở CC BY-NC-SA 4.0, giáo dục STEM Việt Nam, GDPT 2018',
+  jsonLd: aboutJsonLd,
+})}
 </head>
 <body>
 ${renderNav('about')}
@@ -759,6 +1088,171 @@ ${renderFooter()}
 </html>`;
 }
 
+function buildSitemapXml(courses) {
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [
+    { loc: `${SITE_URL}/`, priority: '1.0', changefreq: 'weekly', img: `${SITE_URL}/covers/haber-step.webp`, title: 'VietLab 3D — 54 Mô phỏng Khoa học 3D GDPT 2018' },
+    { loc: `${SITE_URL}/guide/`, priority: '0.8', changefreq: 'monthly' },
+    { loc: `${SITE_URL}/how/`, priority: '0.8', changefreq: 'monthly' },
+    { loc: `${SITE_URL}/about/`, priority: '0.7', changefreq: 'monthly' },
+  ];
+
+  for (const c of courses) {
+    const img = `${SITE_URL}/covers/${c.slug}.webp`;
+    urls.push({
+      loc: `${SITE_URL}/c/${c.slug}/`,
+      priority: '0.9',
+      changefreq: 'weekly',
+      img,
+      title: `${c.title} — Chi tiết bài giảng & Giải đáp GDPT 2018`,
+    });
+    urls.push({
+      loc: `${SITE_URL}/courses/${c.slug}.html`,
+      priority: '0.9',
+      changefreq: 'weekly',
+      img,
+      title: `${c.title} — Phòng thí nghiệm 3D Tương tác`,
+    });
+  }
+
+  const itemsXml = urls
+    .map(
+      (u) => `  <url>
+    <loc>${esc(u.loc)}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${u.changefreq}</changefreq>
+    <priority>${u.priority}</priority>${
+      u.img
+        ? `\n    <image:image>
+      <image:loc>${esc(u.img)}</image:loc>
+      <image:title>${esc(u.title)}</image:title>
+    </image:image>`
+        : ''
+    }
+  </url>`
+    )
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${itemsXml}
+</urlset>
+`;
+}
+
+function buildRobotsTxt() {
+  return `User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+}
+
+function buildLlmsTxt(courses) {
+  const bySubj = { phys: [], chem: [], bio: [], geo: [] };
+  for (const c of courses) bySubj[c.subject]?.push(c);
+
+  const renderSection = (sKey) => {
+    const sMeta = SUBJECTS[sKey];
+    const list = bySubj[sKey] || [];
+    const lines = list.map((c) => {
+      const kb = knowledgeMap[c.slug];
+      const eq = kb?.top?.total ? ` | Phương trình/Quy luật: \`${kb.top.total}\`` : '';
+      return `- [${c.title}](${SITE_URL}/c/${c.slug}/) ([Mô phỏng 3D](${SITE_URL}/courses/${c.slug}.html)): ${c.question} (${c._textbookStr}${eq})`;
+    });
+    return `## ${sMeta.name} (${list.length} bài giảng)\n\n${lines.join('\n')}`;
+  };
+
+  return `# VietLab 3D — Nền tảng Học liệu Khoa học 3D Tương tác Chuẩn GDPT 2018
+
+> VietLab 3D (${SITE_URL}) là thư viện mã nguồn mở gồm 54 bài giảng mô phỏng 3D tương tác thời gian thực (WebGL2) thuộc 4 môn học THPT tại Việt Nam: Vật lý (10 bài), Hóa học (25 bài), Sinh học (5 bài) và Địa lý (14 bài). Toàn bộ học liệu được chuẩn hóa danh pháp quốc tế IUPAC và đối chiếu với Chương trình Giáo dục Phổ thông 2018 của Bộ Giáo dục và Đào tạo Việt Nam.
+
+## Tài liệu & Liên kết Hệ thống
+
+- [Trang chủ VietLab 3D](${SITE_URL}/): Cổng tra cứu, lọc theo môn/khối lớp/chương học và tìm kiếm toàn bộ 54 bài giảng 3D.
+- [Hồ sơ Tri thức Đầy đủ cho AI/LLM (llms-full.txt)](${SITE_URL}/llms-full.txt): Bản tổng hợp toàn bộ phương trình, chuỗi nhân quả, câu hỏi từng bước, kết luận khoa học và giải đáp câu hỏi trắc nghiệm của 54 bài giảng.
+- [Danh mục JSON (catalog.json)](${SITE_URL}/catalog.json): Dữ liệu cấu trúc máy đọc của 54 mô phỏng.
+- [Hướng dẫn Sử dụng trong Lớp học](${SITE_URL}/guide/): Quy trình dạy học 45 phút, phím tắt và chế độ ngoại tuyến 1 tệp HTML.
+- [Phương pháp Xây dựng & Kiểm chứng](${SITE_URL}/how/): Kiến trúc kỹ thuật Three.js WebGL2 và quy trình kiểm chứng dữ kiện khoa học.
+
+${renderSection('phys')}
+
+${renderSection('chem')}
+
+${renderSection('bio')}
+
+${renderSection('geo')}
+`;
+}
+
+function buildLlmsFullTxt(courses) {
+  const sections = courses.map((c, idx) => {
+    const sMeta = SUBJECTS[c.subject] || SUBJECTS.phys;
+    const kb = knowledgeMap[c.slug] || {};
+    const chain = (kb.mainline?.chain || []).map((x) => `${x.k}: ${x.t}`).join(' -> ');
+    const units = (kb.units || []).map((u) => `  - ${u.no} ${u.name}: ${u.brief}`).join('\n');
+    const steps = (kb.steps || [])
+      .map(
+        (st) =>
+          `  ${st.num}. [${st.tag}] Câu hỏi: ${st.q}\n` +
+          (st.eq ? `     - Phương trình/Quy luật: ${st.eq}${st.eqCal ? ` (${st.eqCal})` : ''}\n` : '') +
+          (st.concl ? `     - Kết luận: ${st.concl}\n` : '') +
+          (st.exam ? `     - Trọng tâm thi cử: ${st.exam}` : '')
+      )
+      .join('\n');
+    const quizzes = (kb.quiz || [])
+      .map((qz, qIdx) => {
+        const ans = Array.isArray(qz.opts) && qz.opts[qz.ans] ? qz.opts[qz.ans] : '';
+        return `  - Q${qIdx + 1}: ${qz.q}\n    Đáp án: ${ans} — Giải thích: ${qz.why}`;
+      })
+      .join('\n');
+
+    return `## ${idx + 1}. ${c.title} (${sMeta.name})
+- Slug: \`${c.slug}\`
+- Trang chi tiết: ${SITE_URL}/c/${c.slug}/
+- Mô phỏng 3D trực tiếp: ${SITE_URL}/courses/${c.slug}.html
+- Vị trí Chương trình GDPT 2018: ${c._textbookStr}
+- Câu hỏi trung tâm: ${c.question}
+${kb.top?.total ? `- Phương trình / Nguyên lý tổng quát: ${kb.top.total}\n` : ''}${chain ? `- Chuỗi nhân quả cốt lõi: ${chain}\n` : ''}${units ? `- Các trạm/cụm mô hình 3D:\n${units}\n` : ''}- Mạch khám phá từng bước:\n${steps}
+${quizzes ? `- Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:\n${quizzes}` : ''}`;
+  });
+
+  return `# VietLab 3D — Cơ sở Tri thức Toàn văn 54 Mô phỏng Khoa học 3D (GDPT 2018)
+
+> Tài liệu này cung cấp toàn bộ dữ kiện khoa học, phương trình, mạch câu hỏi nhận thức từng bước, kết luận cốt lõi và giải đáp câu hỏi ôn tập của 54 bài giảng 3D trên nền tảng VietLab 3D (${SITE_URL}).
+
+${sections.join('\n\n---\n\n')}
+`;
+}
+
 function buildReadme(courses) {
   const bySubj = { phys: [], chem: [], bio: [], geo: [] };
   for (const c of courses) bySubj[c.subject]?.push(c);
@@ -779,16 +1273,18 @@ Nền tảng học liệu khoa học 3D tương tác mã nguồn mở dành cho 
 
 - **100% Tiếng Việt chuẩn Chương trình GDPT 2018:** Danh pháp Hóa học quốc tế IUPAC, thuật ngữ Vật lý – Sinh học – Địa lý và hệ thống câu hỏi dẫn dắt theo hướng phát triển năng lực.
 - **Đóng gói đơn tệp độc lập (Single-File HTML):** Mỗi bài giảng trong thư mục [\`courses/\`](courses/) là một tệp \`.html\` tự chứa toàn bộ động cơ 3D (Three.js WebGL2), mô hình toán học và giao diện tiếng Việt — chạy mượt trực tiếp trên trình duyệt hoặc tải về sử dụng ngoại tuyến 100%.
+- **Tối ưu hóa toàn diện SEO / GEO / AEO:** Tích hợp JSON-LD (\`Course\`, \`LearningResource\`, \`WebApplication\`, \`FAQPage\`), \`sitemap.xml\`, \`robots.txt\`, \`llms.txt\` và \`llms-full.txt\`.
 
 ---
 
 ## Cấu trúc thư mục
 
 - [\`index.html\`](index.html) — Trang chủ cổng học liệu VietLab 3D (tích hợp bàn thí nghiệm 3D trực tiếp, bộ lọc theo môn/khối lớp/chương học và thanh tìm kiếm tiếng Việt có dấu & không dấu)
-- [\`c/<slug>/index.html\`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, tải tệp HTML độc lập hoặc sao chép mã nhúng \`<iframe>\`)
+- [\`c/<slug>/index.html\`](c/) — 54 trang chi tiết bài giảng (cho phép chạy thử 3D ngay trên trang, xem mạch câu hỏi từng bước, phương trình, kết luận, giải đáp AEO FAQ, tải tệp HTML độc lập hoặc sao chép mã nhúng \`<iframe>\`)
 - [\`courses/<slug>.html\`](courses/) — 54 tệp bài giảng 3D tương tác độc lập
 - [\`covers/<slug>.webp\`](covers/) — Ảnh bìa độ phân giải cao của 54 bài giảng
 - [\`catalog.json\`](catalog.json) — Danh mục dữ liệu chuẩn hóa của toàn bộ 54 bài giảng
+- [\`sitemap.xml\`](sitemap.xml), [\`robots.txt\`](robots.txt), [\`llms.txt\`](llms.txt), [\`llms-full.txt\`](llms-full.txt) — Bộ tệp khám phá chuẩn SEO / GEO / AEO
 - [\`guide/index.html\`](guide/index.html) — Hướng dẫn sử dụng trong tiết học 45 phút
 - [\`how/index.html\`](how/index.html) — Phương pháp xây dựng & kiểm chứng học thuật
 - [\`about/index.html\`](about/index.html) — Giới thiệu dự án
@@ -841,9 +1337,13 @@ fs.writeFileSync(path.join(ROOT, 'how', 'index.html'), buildHowPage(), 'utf8');
 fs.mkdirSync(path.join(ROOT, 'about'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'about', 'index.html'), buildAboutPage(), 'utf8');
 
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), buildSitemapXml(catalog), 'utf8');
+fs.writeFileSync(path.join(ROOT, 'robots.txt'), buildRobotsTxt(), 'utf8');
+fs.writeFileSync(path.join(ROOT, 'llms.txt'), buildLlmsTxt(catalog), 'utf8');
+fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), buildLlmsFullTxt(catalog), 'utf8');
 fs.writeFileSync(path.join(ROOT, 'README.md'), buildReadme(catalog), 'utf8');
 
 const redirects = catalog.map((c) => `/${c.slug} /courses/${c.slug}.html 200`).join('\n') + '\n';
 fs.writeFileSync(path.join(ROOT, '_redirects'), redirects, 'utf8');
 
-console.log(`Built index.html, ${catalog.length} /c/<slug>/index.html pages, /guide/, /how/, /about/, _redirects, and README.md.`);
+console.log(`Built index.html, ${catalog.length} /c/<slug>/index.html pages, /guide/, /how/, /about/, sitemap.xml, robots.txt, llms.txt, llms-full.txt, _redirects, and README.md.`);

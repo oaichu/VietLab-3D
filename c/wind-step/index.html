@@ -3,11 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió · Mô phỏng 3D Tương tác — VietLab 3D</title>
-<meta name="description" content="Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá.">
+<title>Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D</title>
+<meta name="description" content="Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta name="keywords" content="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió, mô phỏng 3D Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió, Địa lý, GDPT 2018, VietLab 3D, Lực gradien khí áp → Lực làm lệch hướng → Lực ma sát → Gió, Đường đẳng áp, Lực gradien, Lệch hướng do tự quay, Gió trên cao, Sát mặt đất, Nam bán cầu, Độ dày thưa, Thực hành đánh giá">
+<meta name="author" content="VietLab 3D — Học liệu Khoa học Tương tác GDPT 2018">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://vietlab.9cloudmedia.com/c/wind-step/">
+<link rel="alternate" hreflang="vi-VN" href="https://vietlab.9cloudmedia.com/c/wind-step/">
+<link rel="alternate" type="text/markdown" href="https://vietlab.9cloudmedia.com/llms.txt" title="VietLab 3D — Chỉ mục Học liệu cho AI/LLM">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="VietLab 3D — Học liệu Khoa học 3D GDPT 2018">
+<meta property="og:title" content="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta property="og:description" content="Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta property="og:url" content="https://vietlab.9cloudmedia.com/c/wind-step/">
+<meta property="og:image" content="https://vietlab.9cloudmedia.com/covers/wind-step.webp">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta name="twitter:description" content="Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta name="twitter:image" content="https://vietlab.9cloudmedia.com/covers/wind-step.webp">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Course","LearningResource"],"@id":"https://vietlab.9cloudmedia.com/c/wind-step/#course","name":"Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió — Mô phỏng 3D Tương tác (Địa lý)","headline":"Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió","description":"Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng? Mô phỏng 3D tương tác gồm 8 bước khám phá thuộc môn Địa lý (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất).","inLanguage":"vi-VN","learningResourceType":["Interactive Simulation","3D Virtual Lab","Course"],"educationalLevel":"Trung học phổ thông (THPT) — Chương trình GDPT 2018","educationalAlignment":{"@type":"AlignmentObject","alignmentType":"educationalSubject","educationalFramework":"Chương trình Giáo dục Phổ thông 2018 (Bộ GD&ĐT Việt Nam)","targetName":"Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất"},"url":"https://vietlab.9cloudmedia.com/c/wind-step/","image":"https://vietlab.9cloudmedia.com/covers/wind-step.webp","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","provider":{"@type":"EducationalOrganization","name":"VietLab 3D","url":"https://vietlab.9cloudmedia.com/"},"hasPart":[{"@type":"LearningResource","position":1,"name":"Bước 1: Đường đẳng áp","description":"Những đường kẻ ghi 1010, 1008 trên hình là gì? Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao. Độ chênh lệch khí áp trên một đơn vị khoảng cách gọi là gradien khí áp: khoảng cách 200 km, hai đường kề nhau chênh 2 hPa thì gradien là 1.0 hPa/(100 km)."},{"@type":"LearningResource","position":2,"name":"Bước 2: Lực gradien","description":"Khi chỉ có lực gradien khí áp, gió thổi về hướng nào? Lực gradien khí áp nằm ngang vuông góc với đường đẳng áp và hướng từ áp cao về áp thấp. Nếu không có ngoại lực nào khác, hướng gió sẽ trùng với hướng của lực này — đây là nguyên nhân trực tiếp hình thành gió."},{"@type":"LearningResource","position":3,"name":"Bước 3: Lệch hướng do tự quay","description":"Một khi gió bắt đầu thổi, tại sao lại bị bẻ lệch đi? Sự tự quay của Trái Đất làm không khí đang chuyển động liên tục lệch sang phải (Nam bán cầu lệch sang trái): hướng gió bắt đầu từ vuông góc với đường đẳng áp, bị lực làm lệch hướng (Coriolis) bẻ dần đi, cuối cùng song song với đường đẳng áp. Lực làm lệch hướng luôn vuông góc với hướng gió, chỉ làm đổi hướng gió chứ không làm thay đổi tốc độ gió."},{"@type":"LearningResource","position":4,"name":"Bước 4: Gió trên cao","description":"Tại sao gió ở trên cao lại luôn thổi dọc theo đường đẳng áp? Trên cao không có lực ma sát: lực gradien khí áp nằm ngang và lực làm lệch hướng có độ lớn bằng nhau, chiều ngược nhau, gió không lệch thêm nữa, hướng gió cuối cùng song song với đường đẳng áp."},{"@type":"LearningResource","position":5,"name":"Bước 5: Sát mặt đất","description":"Ở tầng sát mặt đất, tại sao gió lại cắt xiên? Sát mặt đất còn chịu thêm lực ma sát: lực ma sát ngược chiều với hướng gió và làm giảm tốc độ gió. Dưới tác dụng tổng hợp của ba lực, hướng gió cắt xiên đường đẳng áp và hướng về phía áp thấp."},{"@type":"LearningResource","position":6,"name":"Bước 6: Nam bán cầu","description":"Trong cùng một trường khí áp, gió ở Nam bán cầu thổi về phía nào? Trên cùng một trường khí áp, gió ở Bắc bán cầu lệch sang phải, ở Nam bán cầu lệch sang trái: hướng gió đối xứng gương sang phía bên kia, còn tốc độ gió và góc hợp với đường đẳng áp đều không đổi."},{"@type":"LearningResource","position":7,"name":"Bước 7: Độ dày thưa","description":"Tại sao nơi có các đường đẳng áp sít vào nhau thì gió lại mạnh hơn? Đường đẳng áp càng dày thì gradien khí áp càng lớn, sức gió càng mạnh; việc xác định hướng gió vẫn theo quy tắc «Bắc bán cầu lệch phải, cắt xiên đường đẳng áp hướng về phía áp thấp»."},{"@type":"LearningResource","position":8,"name":"Bước 8: Thực hành đánh giá","description":"Kiểm tra: Làm cho tốc độ gió ≥ 12 m/s và hướng gió sát với đường đẳng áp Độ lớn và hướng của gió do gradien khí áp và lực ma sát cùng quyết định: đường đẳng áp càng dày, mặt đệm càng nhẵn thì gió càng mạnh và càng gần như song song với đường đẳng áp."}]},{"@type":"WebApplication","@id":"https://vietlab.9cloudmedia.com/courses/wind-step.html#webapp","name":"Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió — Phòng thí nghiệm 3D WebGL2","url":"https://vietlab.9cloudmedia.com/courses/wind-step.html","applicationCategory":"EducationalApplication","operatingSystem":"Web Browser (WebGL2)","inLanguage":"vi-VN","offers":{"@type":"Offer","price":"0","priceCurrency":"VND"}},{"@type":"BreadcrumbList","@id":"https://vietlab.9cloudmedia.com/c/wind-step/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ VietLab 3D","item":"https://vietlab.9cloudmedia.com/"},{"@type":"ListItem","position":2,"name":"Địa lý","item":"https://vietlab.9cloudmedia.com/?s=geo#courses"},{"@type":"ListItem","position":3,"name":"Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió","item":"https://vietlab.9cloudmedia.com/c/wind-step/"}]},{"@type":"FAQPage","@id":"https://vietlab.9cloudmedia.com/c/wind-step/#faq","mainEntity":[{"@type":"Question","name":"Những đường kẻ ghi 1010, 1008 trên hình là gì?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Gradien khí áp = Chênh lệch khí áp giữa hai đường kề nhau ÷ Khoảng cách. Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao. Độ chênh lệch khí áp trên một đơn vị khoảng cách gọi là gradien khí áp: khoảng cách 200 km, hai đường kề nhau chênh 2 hPa thì gradien là 1.0 hPa/(100 km). Lưu ý: Hay thi: Đường đẳng áp là đường nối các điểm có khí áp bằng nhau ở cùng một độ cao, đừng nhầm với mặt đẳng áp."}},{"@type":"Question","name":"Khi chỉ có lực gradien khí áp, gió thổi về hướng nào?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Lực gradien khí áp nằm ngang ⊥ đường đẳng áp, hướng từ áp cao về áp thấp. Lực gradien khí áp nằm ngang vuông góc với đường đẳng áp và hướng từ áp cao về áp thấp. Nếu không có ngoại lực nào khác, hướng gió sẽ trùng với hướng của lực này — đây là nguyên nhân trực tiếp hình thành gió. Lưu ý: Hay thi: Nguyên nhân trực tiếp hình thành gió là lực gradien khí áp nằm ngang; cụm từ «vuông góc đường đẳng áp, áp cao→áp thấp» phải vẽ ra được."}},{"@type":"Question","name":"Một khi gió bắt đầu thổi, tại sao lại bị bẻ lệch đi?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Lực làm lệch hướng ⊥ hướng gió, chỉ đổi hướng không đổi tốc độ. Sự tự quay của Trái Đất làm không khí đang chuyển động liên tục lệch sang phải (Nam bán cầu lệch sang trái): hướng gió bắt đầu từ vuông góc với đường đẳng áp, bị lực làm lệch hướng (Coriolis) bẻ dần đi, cuối cùng song song với đường đẳng áp. Lực làm lệch hướng luôn vuông góc với hướng gió, chỉ làm đổi hướng gió chứ không làm thay đổi tốc độ gió. Lưu ý: Bắc bán cầu lệch phải, Nam bán cầu lệch trái; tính chất «chỉ đổi hướng gió, không đổi tốc độ gió» hầu như năm nào cũng thi."}},{"@type":"Question","name":"Tại sao gió ở trên cao lại luôn thổi dọc theo đường đẳng áp?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Trên cao: Lực gradien + Lực làm lệch = 0 → Hướng gió ∥ Đường đẳng áp. Trên cao không có lực ma sát: lực gradien khí áp nằm ngang và lực làm lệch hướng có độ lớn bằng nhau, chiều ngược nhau, gió không lệch thêm nữa, hướng gió cuối cùng song song với đường đẳng áp. Lưu ý: Gió trên cao song song với đường đẳng áp; đường đẳng áp càng dày thì gió trên cao cũng càng mạnh."}},{"@type":"Question","name":"Ở tầng sát mặt đất, tại sao gió lại cắt xiên?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Lực gradien + Lực làm lệch + Lực ma sát = 0 → Hướng gió cắt xiên đường đẳng áp. Sát mặt đất còn chịu thêm lực ma sát: lực ma sát ngược chiều với hướng gió và làm giảm tốc độ gió. Dưới tác dụng tổng hợp của ba lực, hướng gió cắt xiên đường đẳng áp và hướng về phía áp thấp. Lưu ý: Hướng gió sát mặt đất cắt xiên đường đẳng áp và vẫn hướng về phía áp thấp; ma sát làm giảm tốc độ gió."}},{"@type":"Question","name":"Trong cùng một trường khí áp, gió ở Nam bán cầu thổi về phía nào?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Bắc bán cầu lệch phải · Nam bán cầu lệch trái. Trên cùng một trường khí áp, gió ở Bắc bán cầu lệch sang phải, ở Nam bán cầu lệch sang trái: hướng gió đối xứng gương sang phía bên kia, còn tốc độ gió và góc hợp với đường đẳng áp đều không đổi. Lưu ý: Nam bán cầu lệch trái; trên cùng một sơ đồ đường đẳng áp, kết luận về hướng gió ở hai bán cầu ngược nhau."}},{"@type":"Question","name":"Tại sao nơi có các đường đẳng áp sít vào nhau thì gió lại mạnh hơn?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Đường đẳng áp càng dày → Gradien càng lớn → Gió càng mạnh. Đường đẳng áp càng dày thì gradien khí áp càng lớn, sức gió càng mạnh; việc xác định hướng gió vẫn theo quy tắc «Bắc bán cầu lệch phải, cắt xiên đường đẳng áp hướng về phía áp thấp». Lưu ý: Đường đẳng áp càng dày gió càng mạnh; khi nhận xét sức gió phải nêu đồng thời cả hai căn cứ là gradien khí áp và lực ma sát."}},{"@type":"Question","name":"Kiểm tra: Làm cho tốc độ gió ≥ 12 m/s và hướng gió sát với đường đẳng áp","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Tốc độ gió ≥ 12.0 m/s và Góc hợp ≤ 15°. Độ lớn và hướng của gió do gradien khí áp và lực ma sát cùng quyết định: đường đẳng áp càng dày, mặt đệm càng nhẵn thì gió càng mạnh và càng gần như song song với đường đẳng áp. Lưu ý: Tổng hợp: Gradien khí áp quyết định độ lớn của gió, lực ma sát quyết định góc hợp giữa gió và đường đẳng áp."}},{"@type":"Question","name":"Đường đẳng áp là","acceptedAnswer":{"@type":"Answer","text":"Đáp án đúng: Đường nối các điểm có cùng khí áp ở cùng một độ cao. Nguyên văn SGK: Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao (khác với «mặt đẳng áp»)."}},{"@type":"Question","name":"Nguyên nhân trực tiếp hình thành gió là","acceptedAnswer":{"@type":"Answer","text":"Đáp án đúng: Lực gradien khí áp nằm ngang. Chỉ cần trên mặt phẳng ngang tồn tại gradien khí áp thì sẽ sinh ra lực gradien khí áp nằm ngang, thúc đẩy khí quyển chảy từ vùng áp cao sang vùng áp thấp tạo thành gió."}}]}]}</script>
 </head>
 <body>
 <header class="nav">
@@ -38,10 +58,19 @@
     <div class="ch-badges">
       <span class="badge badge-s" data-s="geo">Địa lý</span>
       <span class="badge">8 bước khám phá</span>
+      <span class="badge">Lực gradien khí áp → Lực làm lệch hướng → Lực ma sát → Gió</span>
       <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
     </div>
     <h1 class="ch-title">Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió</h1>
     <p class="ch-q">Trên bản đồ thời tiết, vì sao gió không thổi thẳng góc từ vùng áp cao sang vùng áp thấp mà lại bị lệch hướng?</p>
+    <div class="ch-chain" aria-label="Chuỗi nhân quả cốt lõi">
+      <span class="ch-chain-label">Mạch logic cốt lõi:</span>
+      <span class="ch-chain-pill"><b>Áp suất</b><span>Đường đẳng áp càng dày, gradien khí áp càng lớn</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Lực</b><span>Lực gradien khí áp nằm ngang vuông góc với đường đẳng áp, hướng về phía áp thấp</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Lệch</b><span>Lực làm lệch hướng do Trái Đất tự quay (Coriolis) bẻ hướng gió sang phải (Nam bán cầu sang trái)</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Xiên</b><span>Trên cao hai lực cân bằng → Song song; Sát mặt đất thêm ma sát → Cắt xiên</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Độ lớn</b><span>Đường đẳng áp càng dày, gió càng mạnh</span></span>
+    </div>
   </header>
 
   <section class="ch-main">
@@ -54,7 +83,7 @@
         </div>
       </div>
       <div class="pv" id="pv-stage" data-src="/courses/wind-step.html">
-        <img src="/covers/wind-step.webp" alt="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió" width="1280" height="800">
+        <img src="/covers/wind-step.webp" alt="Chuyển động ngang của không khí — Các lực tác động đến hướng và tốc độ gió — Mô phỏng 3D môn Địa lý" width="1280" height="800">
         <div class="pv-cta">
           <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
         </div>
@@ -87,6 +116,26 @@
   </section>
 
   <section class="ch-sec">
+    <h2>Cấu trúc trạm thiết bị &amp; cụm mô hình 3D (2 khu vực)</h2>
+    <div class="ugrid">
+      <div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">①</span>
+          <span class="ucard-name">Mâm sát mặt đất (Tầng sát đất · Mặt 1010 hPa)</span>
+        </div>
+        <p class="ucard-brief">Tầng sát mặt đất: đường đẳng áp từ trái 1010 → phải 1000 hPa, lực ma sát phát huy tác dụng tại đây</p>
+      </div>
+      <div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">②</span>
+          <span class="ucard-name">Mâm trên cao (Mặt 500 hPa)</span>
+        </div>
+        <p class="ucard-brief">Mâm ở trên cao: đường đẳng áp từ trái 500 → phải 490 hPa, không chịu lực ma sát</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-sec">
     <h2>Mạch tư duy &amp; câu hỏi khám phá (8 bước)</h2>
     <ol class="track">
       <li>
@@ -94,6 +143,8 @@
         <div>
           <div class="t">Đường đẳng áp</div>
           <div class="q">Những đường kẻ ghi 1010, 1008 trên hình là gì?</div>
+          <div class="step-eq"><code>Gradien khí áp = Chênh lệch khí áp giữa hai đường kề nhau ÷ Khoảng cách</code> <span>· Chênh lệch kề nhau 2 hPa (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao. Độ chênh lệch khí áp trên một đơn vị khoảng cách gọi là gradien khí áp: khoảng cách 200 km, hai đường kề nhau chênh 2 hPa thì gradien là 1.0 hPa/(100 km).</div>
         </div>
       </li>
         <li>
@@ -101,6 +152,8 @@
         <div>
           <div class="t">Lực gradien</div>
           <div class="q">Khi chỉ có lực gradien khí áp, gió thổi về hướng nào?</div>
+          <div class="step-eq"><code>Lực gradien khí áp nằm ngang ⊥ đường đẳng áp, hướng từ áp cao về áp thấp</code> <span>· Chênh lệch kề nhau 2 hPa, khoảng cách 200 km (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Lực gradien khí áp nằm ngang vuông góc với đường đẳng áp và hướng từ áp cao về áp thấp. Nếu không có ngoại lực nào khác, hướng gió sẽ trùng với hướng của lực này — đây là nguyên nhân trực tiếp hình thành gió.</div>
         </div>
       </li>
         <li>
@@ -108,6 +161,8 @@
         <div>
           <div class="t">Lệch hướng do tự quay</div>
           <div class="q">Một khi gió bắt đầu thổi, tại sao lại bị bẻ lệch đi?</div>
+          <div class="step-eq"><code>Lực làm lệch hướng ⊥ hướng gió, chỉ đổi hướng không đổi tốc độ</code> <span>· Bắc bán cầu 40°: f = 9.4×10⁻⁵ s⁻¹ (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Sự tự quay của Trái Đất làm không khí đang chuyển động liên tục lệch sang phải (Nam bán cầu lệch sang trái): hướng gió bắt đầu từ vuông góc với đường đẳng áp, bị lực làm lệch hướng (Coriolis) bẻ dần đi, cuối cùng song song với đường đẳng áp. Lực làm lệch hướng luôn vuông góc với hướng gió, chỉ làm đổi hướng gió chứ không làm thay đổi tốc độ gió.</div>
         </div>
       </li>
         <li>
@@ -115,6 +170,8 @@
         <div>
           <div class="t">Gió trên cao</div>
           <div class="q">Tại sao gió ở trên cao lại luôn thổi dọc theo đường đẳng áp?</div>
+          <div class="step-eq"><code>Trên cao: Lực gradien + Lực làm lệch = 0 → Hướng gió ∥ Đường đẳng áp</code> <span>· Không chịu lực ma sát (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Trên cao không có lực ma sát: lực gradien khí áp nằm ngang và lực làm lệch hướng có độ lớn bằng nhau, chiều ngược nhau, gió không lệch thêm nữa, hướng gió cuối cùng song song với đường đẳng áp.</div>
         </div>
       </li>
         <li>
@@ -122,6 +179,8 @@
         <div>
           <div class="t">Sát mặt đất</div>
           <div class="q">Ở tầng sát mặt đất, tại sao gió lại cắt xiên?</div>
+          <div class="step-eq"><code>Lực gradien + Lực làm lệch + Lực ma sát = 0 → Hướng gió cắt xiên đường đẳng áp</code> <span>· Hệ số ma sát 0.6 (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Sát mặt đất còn chịu thêm lực ma sát: lực ma sát ngược chiều với hướng gió và làm giảm tốc độ gió. Dưới tác dụng tổng hợp của ba lực, hướng gió cắt xiên đường đẳng áp và hướng về phía áp thấp.</div>
         </div>
       </li>
         <li>
@@ -129,6 +188,8 @@
         <div>
           <div class="t">Nam bán cầu</div>
           <div class="q">Trong cùng một trường khí áp, gió ở Nam bán cầu thổi về phía nào?</div>
+          <div class="step-eq"><code>Bắc bán cầu lệch phải · Nam bán cầu lệch trái</code> <span>· Cùng điều kiện, chỉ đổi bán cầu (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Trên cùng một trường khí áp, gió ở Bắc bán cầu lệch sang phải, ở Nam bán cầu lệch sang trái: hướng gió đối xứng gương sang phía bên kia, còn tốc độ gió và góc hợp với đường đẳng áp đều không đổi.</div>
         </div>
       </li>
         <li>
@@ -136,6 +197,8 @@
         <div>
           <div class="t">Độ dày thưa</div>
           <div class="q">Tại sao nơi có các đường đẳng áp sít vào nhau thì gió lại mạnh hơn?</div>
+          <div class="step-eq"><code>Đường đẳng áp càng dày → Gradien càng lớn → Gió càng mạnh</code> <span>· Chênh lệch kề nhau 2 hPa không đổi, chỉ đổi khoảng cách (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Đường đẳng áp càng dày thì gradien khí áp càng lớn, sức gió càng mạnh; việc xác định hướng gió vẫn theo quy tắc «Bắc bán cầu lệch phải, cắt xiên đường đẳng áp hướng về phía áp thấp».</div>
         </div>
       </li>
         <li>
@@ -143,9 +206,121 @@
         <div>
           <div class="t">Thực hành đánh giá</div>
           <div class="q">Kiểm tra: Làm cho tốc độ gió ≥ 12 m/s và hướng gió sát với đường đẳng áp</div>
+          <div class="step-eq"><code>Tốc độ gió ≥ 12.0 m/s và Góc hợp ≤ 15°</code> <span>· Bắc bán cầu · Sát mặt đất (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Độ lớn và hướng của gió do gradien khí áp và lực ma sát cùng quyết định: đường đẳng áp càng dày, mặt đệm càng nhẵn thì gió càng mạnh và càng gần như song song với đường đẳng áp.</div>
         </div>
       </li>
     </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Câu hỏi Thường gặp &amp; Giải đáp Trọng tâm (Chuẩn GDPT 2018)</h2>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary><span><span class="faq-tag">Bước 1 · Đường đẳng áp</span>Những đường kẻ ghi 1010, 1008 trên hình là gì?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Gradien khí áp = Chênh lệch khí áp giữa hai đường kề nhau ÷ Khoảng cách</code></p>
+          <p>Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao. Độ chênh lệch khí áp trên một đơn vị khoảng cách gọi là gradien khí áp: khoảng cách 200 km, hai đường kề nhau chênh 2 hPa thì gradien là 1.0 hPa/(100 km).</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Đường đẳng áp là đường nối các điểm có khí áp bằng nhau ở cùng một độ cao, đừng nhầm với mặt đẳng áp.</p>
+        </div>
+      </details>
+      <details class="faq-item" open>
+        <summary><span><span class="faq-tag">Bước 2 · Lực gradien</span>Khi chỉ có lực gradien khí áp, gió thổi về hướng nào?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Lực gradien khí áp nằm ngang ⊥ đường đẳng áp, hướng từ áp cao về áp thấp</code></p>
+          <p>Lực gradien khí áp nằm ngang vuông góc với đường đẳng áp và hướng từ áp cao về áp thấp. Nếu không có ngoại lực nào khác, hướng gió sẽ trùng với hướng của lực này — đây là nguyên nhân trực tiếp hình thành gió.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Nguyên nhân trực tiếp hình thành gió là lực gradien khí áp nằm ngang; cụm từ «vuông góc đường đẳng áp, áp cao→áp thấp» phải vẽ ra được.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 3 · Lệch hướng do tự quay</span>Một khi gió bắt đầu thổi, tại sao lại bị bẻ lệch đi?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Lực làm lệch hướng ⊥ hướng gió, chỉ đổi hướng không đổi tốc độ</code></p>
+          <p>Sự tự quay của Trái Đất làm không khí đang chuyển động liên tục lệch sang phải (Nam bán cầu lệch sang trái): hướng gió bắt đầu từ vuông góc với đường đẳng áp, bị lực làm lệch hướng (Coriolis) bẻ dần đi, cuối cùng song song với đường đẳng áp. Lực làm lệch hướng luôn vuông góc với hướng gió, chỉ làm đổi hướng gió chứ không làm thay đổi tốc độ gió.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Bắc bán cầu lệch phải, Nam bán cầu lệch trái; tính chất «chỉ đổi hướng gió, không đổi tốc độ gió» hầu như năm nào cũng thi.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 4 · Gió trên cao</span>Tại sao gió ở trên cao lại luôn thổi dọc theo đường đẳng áp?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Trên cao: Lực gradien + Lực làm lệch = 0 → Hướng gió ∥ Đường đẳng áp</code></p>
+          <p>Trên cao không có lực ma sát: lực gradien khí áp nằm ngang và lực làm lệch hướng có độ lớn bằng nhau, chiều ngược nhau, gió không lệch thêm nữa, hướng gió cuối cùng song song với đường đẳng áp.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Gió trên cao song song với đường đẳng áp; đường đẳng áp càng dày thì gió trên cao cũng càng mạnh.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 5 · Sát mặt đất</span>Ở tầng sát mặt đất, tại sao gió lại cắt xiên?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Lực gradien + Lực làm lệch + Lực ma sát = 0 → Hướng gió cắt xiên đường đẳng áp</code></p>
+          <p>Sát mặt đất còn chịu thêm lực ma sát: lực ma sát ngược chiều với hướng gió và làm giảm tốc độ gió. Dưới tác dụng tổng hợp của ba lực, hướng gió cắt xiên đường đẳng áp và hướng về phía áp thấp.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hướng gió sát mặt đất cắt xiên đường đẳng áp và vẫn hướng về phía áp thấp; ma sát làm giảm tốc độ gió.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 6 · Nam bán cầu</span>Trong cùng một trường khí áp, gió ở Nam bán cầu thổi về phía nào?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Bắc bán cầu lệch phải · Nam bán cầu lệch trái</code></p>
+          <p>Trên cùng một trường khí áp, gió ở Bắc bán cầu lệch sang phải, ở Nam bán cầu lệch sang trái: hướng gió đối xứng gương sang phía bên kia, còn tốc độ gió và góc hợp với đường đẳng áp đều không đổi.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Nam bán cầu lệch trái; trên cùng một sơ đồ đường đẳng áp, kết luận về hướng gió ở hai bán cầu ngược nhau.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 7 · Độ dày thưa</span>Tại sao nơi có các đường đẳng áp sít vào nhau thì gió lại mạnh hơn?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Đường đẳng áp càng dày → Gradien càng lớn → Gió càng mạnh</code></p>
+          <p>Đường đẳng áp càng dày thì gradien khí áp càng lớn, sức gió càng mạnh; việc xác định hướng gió vẫn theo quy tắc «Bắc bán cầu lệch phải, cắt xiên đường đẳng áp hướng về phía áp thấp».</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Đường đẳng áp càng dày gió càng mạnh; khi nhận xét sức gió phải nêu đồng thời cả hai căn cứ là gradien khí áp và lực ma sát.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 8 · Thực hành đánh giá</span>Kiểm tra: Làm cho tốc độ gió ≥ 12 m/s và hướng gió sát với đường đẳng áp</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Tốc độ gió ≥ 12.0 m/s và Góc hợp ≤ 15°</code></p>
+          <p>Độ lớn và hướng của gió do gradien khí áp và lực ma sát cùng quyết định: đường đẳng áp càng dày, mặt đệm càng nhẵn thì gió càng mạnh và càng gần như song song với đường đẳng áp.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Tổng hợp: Gradien khí áp quyết định độ lớn của gió, lực ma sát quyết định góc hợp giữa gió và đường đẳng áp.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ① Đường đẳng áp</span>Đường đẳng áp là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Đường nối các điểm có cùng khí áp ở cùng một độ cao. Nguyên văn SGK: Đường đẳng áp là đường nối các điểm có cùng trị số khí áp ở cùng một độ cao (khác với «mặt đẳng áp»).</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ② Nguyên nhân trực tiếp</span>Nguyên nhân trực tiếp hình thành gió là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Lực gradien khí áp nằm ngang. Chỉ cần trên mặt phẳng ngang tồn tại gradien khí áp thì sẽ sinh ra lực gradien khí áp nằm ngang, thúc đẩy khí quyển chảy từ vùng áp cao sang vùng áp thấp tạo thành gió.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ③ Hướng</span>Hướng của lực gradien khí áp nằm ngang là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Vuông góc với đường đẳng áp, hướng từ áp cao về áp thấp. Nguyên văn SGK: Hướng của lực gradien khí áp nằm ngang vuông góc với đường đẳng áp và chỉ từ áp cao về áp thấp.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ④ Lệch hướng</span>Tác dụng của lực làm lệch hướng (Coriolis) đối với gió là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Chỉ làm thay đổi hướng gió, không làm thay đổi tốc độ gió. Lực làm lệch hướng luôn vuông góc với hướng gió, vì vậy chỉ làm thay đổi hướng gió chứ không làm thay đổi độ lớn tốc độ gió.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ⑤ Trên cao</span>Khi không chịu lực ma sát, hướng gió cuối cùng sẽ</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Song song với đường đẳng áp. Ở trên cao không có lực ma sát, lực gradien và lực làm lệch có độ lớn bằng nhau, ngược chiều nhau, nên hướng gió song song với đường đẳng áp.</p>
+          
+        </div>
+      </details>
+    </div>
   </section>
 
   <section class="ch-sec">
@@ -163,7 +338,7 @@
     <div class="cgrid">
       <article class="cc">
   <a class="cc-thumb" href="/c/river-step/">
-    <img src="/covers/river-step.webp" alt="Sự hình thành và phát triển địa hình sông ngòi" loading="lazy" width="640" height="400">
+    <img src="/covers/river-step.webp" alt="Sự hình thành và phát triển địa hình sông ngòi — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">8 bước</span>
   </a>
@@ -179,7 +354,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/insolation-step/">
-    <img src="/covers/insolation-step.webp" alt="Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu" loading="lazy" width="640" height="400">
+    <img src="/covers/insolation-step.webp" alt="Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -195,7 +370,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/currents-step/">
-    <img src="/covers/currents-step.webp" alt="Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý" loading="lazy" width="640" height="400">
+    <img src="/covers/currents-step.webp" alt="Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -211,7 +386,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/enso-step/">
-    <img src="/covers/enso-step.webp" alt="Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO)" loading="lazy" width="640" height="400">
+    <img src="/covers/enso-step.webp" alt="Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO) — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">7 bước</span>
   </a>
@@ -227,7 +402,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/heating-step/">
-    <img src="/covers/heating-step.webp" alt="Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính" loading="lazy" width="640" height="400">
+    <img src="/covers/heating-step.webp" alt="Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -243,7 +418,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/karst-step/">
-    <img src="/covers/karst-step.webp" alt="Sự hình thành và nhận diện địa hình Karst (Các-xtơ)" loading="lazy" width="640" height="400">
+    <img src="/covers/karst-step.webp" alt="Sự hình thành và nhận diện địa hình Karst (Các-xtơ) — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">7 bước</span>
   </a>
@@ -273,6 +448,8 @@
       <a href="/how/">Phương pháp xây dựng</a>
       <a href="/about/">Giới thiệu</a>
       <a href="/catalog.json">catalog.json</a>
+      <a href="/sitemap.xml">Sitemap</a>
+      <a href="/llms.txt">llms.txt (AI/GEO)</a>
       <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>

@@ -4,7 +4,6 @@ import path from 'path';
 import vm from 'vm';
 
 const ROOT = 'D:/tongjiang-lab';
-const CJK_RE = /[\u4e00-\u9fff]/;
 
 function countCjk(str) {
   let count = 0;
@@ -34,7 +33,7 @@ if (catalog.length !== 54) fail(`catalog.json has ${catalog.length} courses, exp
 if (countCjk(catRaw) > 0) fail(`catalog.json contains ${countCjk(catRaw)} CJK characters`);
 console.log(`1. catalog.json: ${catalog.length} courses, 0 CJK characters.`);
 
-// 2. Verify all 54 courses/<slug>.html
+// 2. Verify all 54 courses/<slug>.html (JS syntax, 0 CJK, UI optimization & SEO/GEO/AEO blocks)
 let courseOk = 0;
 for (const c of catalog) {
   const fpath = path.join(ROOT, 'courses', `${c.slug}.html`);
@@ -46,6 +45,22 @@ for (const c of catalog) {
   const cjk = countCjk(html);
   if (cjk > 0) {
     fail(`courses/${c.slug}.html still has ${cjk} CJK chars`);
+    continue;
+  }
+  if (!html.includes('id="vietlab-ui-opt"')) {
+    fail(`courses/${c.slug}.html missing vietlab-ui-opt CSS`);
+    continue;
+  }
+  if (!html.includes('id="vietlab-canvas-guard"')) {
+    fail(`courses/${c.slug}.html missing vietlab-canvas-guard script`);
+    continue;
+  }
+  if (!html.includes('type="application/ld+json"')) {
+    fail(`courses/${c.slug}.html missing JSON-LD`);
+    continue;
+  }
+  if (!html.includes('id="vietlab-aeo-kb"')) {
+    fail(`courses/${c.slug}.html missing vietlab-aeo-kb AEO article`);
     continue;
   }
   const m = html.match(/<script type="module">([\s\S]*?)<\/script>/);
@@ -60,14 +75,18 @@ for (const c of catalog) {
     fail(`JS SyntaxError in courses/${c.slug}.html: ${err.message}`);
   }
 }
-console.log(`2. courses/*.html: ${courseOk}/54 courses passed JS syntax check & 0 CJK check.`);
+console.log(`2. courses/*.html: ${courseOk}/54 courses passed JS syntax, 0 CJK, 3D UI guard & SEO/GEO/AEO checks.`);
 
-// 3. Verify Portal Pages & Assets
+// 3. Verify Portal Pages, Assets & SEO/GEO/AEO Discovery Files
 const portalFiles = [
   'index.html',
   'guide/index.html',
   'how/index.html',
   'about/index.html',
+  'sitemap.xml',
+  'robots.txt',
+  'llms.txt',
+  'llms-full.txt',
   'assets/site.css',
   'assets/site.js',
   'assets/hero.js',
@@ -87,7 +106,7 @@ for (const rel of portalFiles) {
     fail(`${rel} contains ${cjk} CJK characters`);
   }
 }
-console.log(`3. Core portal pages & assets (${portalFiles.length} files): 0 CJK characters.`);
+console.log(`3. Core portal pages, assets & SEO/GEO discovery files (${portalFiles.length} files): 0 CJK characters.`);
 
 // 4. Verify all 54 /c/<slug>/index.html & covers/<slug>.webp
 let detailOk = 0;
@@ -113,9 +132,13 @@ for (const c of catalog) {
     fail(`c/${c.slug}/index.html has ${liMatches.length} track steps, expected ${c.steps.length}`);
     continue;
   }
+  if (!dHtml.includes('application/ld+json') || !dHtml.includes('og:image')) {
+    fail(`c/${c.slug}/index.html missing JSON-LD or OpenGraph tags`);
+    continue;
+  }
   detailOk++;
 }
-console.log(`4. Detail pages c/<slug>/index.html & covers: ${detailOk}/54 verified (0 CJK, full step track).`);
+console.log(`4. Detail pages c/<slug>/index.html & covers: ${detailOk}/54 verified (0 CJK, full step track, JSON-LD & AEO FAQ).`);
 
 // 5. HTTP Server Smoke Test
 const server = http.createServer((req, res) => {
@@ -140,10 +163,15 @@ const testRoutes = [
   '/guide/',
   '/how/',
   '/about/',
+  '/sitemap.xml',
+  '/robots.txt',
+  '/llms.txt',
+  '/llms-full.txt',
   '/c/photoelectric-step/',
   '/c/haber-step/',
   '/c/mitosis-step/',
   '/c/enso-step/',
+  '/courses/haber-step.html',
   '/courses/photoelectric-step.html',
   '/assets/site.css',
   '/assets/site.js',
@@ -169,5 +197,5 @@ if (failures > 0) {
   console.error(`\nVERIFICATION FAILED with ${failures} error(s).`);
   process.exit(1);
 } else {
-  console.log('\nPASS: 100% Vietnamese localization & SaaS portal verification succeeded with 0 errors!');
+  console.log('\nPASS: 100% Vietnamese localization, 3D display optimization & SEO/GEO/AEO verification succeeded with 0 errors!');
 }

@@ -3,11 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) · Mô phỏng 3D Tương tác — VietLab 3D</title>
-<meta name="description" content="Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 7 bước khám phá.">
+<title>Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D</title>
+<meta name="description" content="Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 7 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta name="keywords" content="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực), mô phỏng 3D Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực), Địa lý, GDPT 2018, VietLab 3D, Nhận nhiệt không đều + Lực làm lệch hướng (Coriolis), Áp thấp xích đạo, 30° Hạ xuống, 60° Trườn lên, 7 Đai áp – 6 Đai gió, Dịch chuyển theo mùa, Phân bố biển – lục địa, Kiểm tra · Magellan">
+<meta name="author" content="VietLab 3D — Học liệu Khoa học Tương tác GDPT 2018">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://vietlab.9cloudmedia.com/c/circulation-step/">
+<link rel="alternate" hreflang="vi-VN" href="https://vietlab.9cloudmedia.com/c/circulation-step/">
+<link rel="alternate" type="text/markdown" href="https://vietlab.9cloudmedia.com/llms.txt" title="VietLab 3D — Chỉ mục Học liệu cho AI/LLM">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="VietLab 3D — Học liệu Khoa học 3D GDPT 2018">
+<meta property="og:title" content="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta property="og:description" content="Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 7 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta property="og:url" content="https://vietlab.9cloudmedia.com/c/circulation-step/">
+<meta property="og:image" content="https://vietlab.9cloudmedia.com/covers/circulation-step.webp">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) · Mô phỏng 3D Tương tác (Địa lý) — VietLab 3D">
+<meta name="twitter:description" content="Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió? (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất) — Bài giảng mô phỏng 3D tương tác gồm 7 bước khám phá, giải thích chi tiết công thức và câu hỏi trọng tâm GDPT 2018.">
+<meta name="twitter:image" content="https://vietlab.9cloudmedia.com/covers/circulation-step.webp">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Course","LearningResource"],"@id":"https://vietlab.9cloudmedia.com/c/circulation-step/#course","name":"Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) — Mô phỏng 3D Tương tác (Địa lý)","headline":"Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực)","description":"Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió? Mô phỏng 3D tương tác gồm 7 bước khám phá thuộc môn Địa lý (Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất).","inLanguage":"vi-VN","learningResourceType":["Interactive Simulation","3D Virtual Lab","Course"],"educationalLevel":"Trung học phổ thông (THPT) — Chương trình GDPT 2018","educationalAlignment":{"@type":"AlignmentObject","alignmentType":"educationalSubject","educationalFramework":"Chương trình Giáo dục Phổ thông 2018 (Bộ GD&ĐT Việt Nam)","targetName":"Địa lý 10 (GDPT 2018) · Chương 4: Khí quyển — Nhiệt, Khí áp và Gió · Bài: Khí áp và gió trên Trái Đất"},"url":"https://vietlab.9cloudmedia.com/c/circulation-step/","image":"https://vietlab.9cloudmedia.com/covers/circulation-step.webp","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","provider":{"@type":"EducationalOrganization","name":"VietLab 3D","url":"https://vietlab.9cloudmedia.com/"},"hasPart":[{"@type":"LearningResource","position":1,"name":"Bước 1: Áp thấp xích đạo","description":"Tại sao xích đạo lại là một đai áp thấp? Xích đạo nhận nhiều bức xạ Mặt Trời, không khí sát mặt đất nóng lên giãn nở bốc cao làm khí áp giảm, hình thành đai áp thấp xích đạo (nguyên nhân nhiệt lực)."},{"@type":"LearningResource","position":2,"name":"Bước 2: 30° Hạ xuống","description":"Không khí bốc lên cao, tại sao đi đến vĩ độ 30° lại hạ xuống? Lực làm lệch hướng khiến dòng khí trên cao ở khoảng vĩ độ 30° lệch thành gió Tây, không khí tích tụ và hạ xuống tạo thành đai áp cao cận nhiệt; gió Tín phong Đông Bắc và Tín phong Đông Nam hội tụ bốc lên ở xích đạo, khép kín vòng hoàn lưu vĩ độ thấp."},{"@type":"LearningResource","position":3,"name":"Bước 3: 60° Trườn lên","description":"Tại sao ở khoảng vĩ độ 60° lại xuất hiện thêm một đai áp thấp? Không khí ấm trườn lên dọc theo frông cực tạo thành đai áp thấp ôn đới (nguyên nhân động lực); nhờ đó Bắc bán cầu có ba vòng hoàn lưu, và Nam bán cầu cũng tương tự có ba vòng hoàn lưu."},{"@type":"LearningResource","position":4,"name":"Bước 4: 7 Đai áp – 6 Đai gió","description":"Bảy đai khí áp và sáu đai gió là một đường thẳng hay là các vành đai bao quanh Trái Đất? Đai là vành đai bao quanh Trái Đất. Toàn cầu có 7 đai khí áp và 6 đai gió; hướng gió đi từ áp cao về áp thấp, rồi lệch phải ở Bắc bán cầu và lệch trái ở Nam bán cầu."},{"@type":"LearningResource","position":5,"name":"Bước 5: Dịch chuyển theo mùa","description":"Sau khi tia bức xạ Mặt Trời vuông góc dịch chuyển lên phía Bắc, tại sao mùa hè ở Rome lại trở nên khô hạn? Các đai khí áp và đai gió dịch chuyển theo vị trí Mặt Trời lên thiên đỉnh, ở Bắc bán cầu mùa hè lệch về Bắc, mùa đông lệch về Nam; Rome mùa hè chịu sự khống chế của đai áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới, tạo nên khí hậu Địa Trung Hải hè khô đông mưa."},{"@type":"LearningResource","position":6,"name":"Bước 6: Phân bố biển – lục địa","description":"Tại sao vào tháng 1 ở châu Á lại xuất hiện một trung tâm áp cao khổng lồ? Sự chênh lệch nhiệt lực giữa biển và lục địa làm các đai khí áp theo vĩ tuyến ở Bắc bán cầu bị chia cắt thành các trung tâm áp cao và áp thấp: tháng 1 áp cao châu Á (Xibia) cắt đứt đai áp thấp ôn đới, tháng 7 áp thấp châu Á (Nam Á) cắt đứt đai áp cao cận nhiệt; các trung tâm khí áp thay đổi theo mùa tạo nên hoàn lưu gió mùa."},{"@type":"LearningResource","position":7,"name":"Bước 7: Kiểm tra · Magellan","description":"Kiểm tra: Bốn chặng hải trình của đoàn thuyền Magellan lần lượt chịu sự khống chế của đai nào? Gió Tây ôn đới → Ngược gió; Đai áp cao cận nhiệt → Lặng gió; Gió Tín phong Đông Nam → Xuôi gió; Đai áp thấp xích đạo → Biển lặng gió êm."}]},{"@type":"WebApplication","@id":"https://vietlab.9cloudmedia.com/courses/circulation-step.html#webapp","name":"Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) — Phòng thí nghiệm 3D WebGL2","url":"https://vietlab.9cloudmedia.com/courses/circulation-step.html","applicationCategory":"EducationalApplication","operatingSystem":"Web Browser (WebGL2)","inLanguage":"vi-VN","offers":{"@type":"Offer","price":"0","priceCurrency":"VND"}},{"@type":"BreadcrumbList","@id":"https://vietlab.9cloudmedia.com/c/circulation-step/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ VietLab 3D","item":"https://vietlab.9cloudmedia.com/"},{"@type":"ListItem","position":2,"name":"Địa lý","item":"https://vietlab.9cloudmedia.com/?s=geo#courses"},{"@type":"ListItem","position":3,"name":"Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực)","item":"https://vietlab.9cloudmedia.com/c/circulation-step/"}]},{"@type":"FAQPage","@id":"https://vietlab.9cloudmedia.com/c/circulation-step/#faq","mainEntity":[{"@type":"Question","name":"Tại sao xích đạo lại là một đai áp thấp?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Nhận nhiệt không đều + Lực làm lệch hướng → Hoàn lưu khí quyển. Xích đạo nhận nhiều bức xạ Mặt Trời, không khí sát mặt đất nóng lên giãn nở bốc cao làm khí áp giảm, hình thành đai áp thấp xích đạo (nguyên nhân nhiệt lực). Lưu ý: Hay thi: Đai áp thấp xích đạo và đai áp cao cực có nguyên nhân nhiệt lực; đai áp cao cận nhiệt và đai áp thấp ôn đới (cận cực) có nguyên nhân động lực."}},{"@type":"Question","name":"Không khí bốc lên cao, tại sao đi đến vĩ độ 30° lại hạ xuống?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Lực làm lệch hướng: Bắc bán cầu lệch phải · Nam bán cầu lệch trái · Xích đạo không lệch. Lực làm lệch hướng khiến dòng khí trên cao ở khoảng vĩ độ 30° lệch thành gió Tây, không khí tích tụ và hạ xuống tạo thành đai áp cao cận nhiệt; gió Tín phong Đông Bắc và Tín phong Đông Nam hội tụ bốc lên ở xích đạo, khép kín vòng hoàn lưu vĩ độ thấp. Lưu ý: Dễ nhầm: Đai áp cao cận nhiệt không phải hình thành do không khí lạnh đi rồi hạ xuống, mà do dòng khí trên cao bị chặn lại tích tụ và hạ xuống (nguyên nhân động lực)."}},{"@type":"Question","name":"Tại sao ở khoảng vĩ độ 60° lại xuất hiện thêm một đai áp thấp?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Gió Tây ôn đới ấm và nhẹ → Trườn lên trên gió Đông cực lạnh và nặng. Không khí ấm trườn lên dọc theo frông cực tạo thành đai áp thấp ôn đới (nguyên nhân động lực); nhờ đó Bắc bán cầu có ba vòng hoàn lưu, và Nam bán cầu cũng tương tự có ba vòng hoàn lưu. Lưu ý: Dễ nhầm: Đai áp thấp ôn đới (cận cực) không phải do mặt đất nóng làm không khí bốc lên, mà do hai khối khí nóng lạnh gặp nhau khiến không khí ấm trườn lên (nguyên nhân động lực)."}},{"@type":"Question","name":"Bảy đai khí áp và sáu đai gió là một đường thẳng hay là các vành đai bao quanh Trái Đất?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Xác định hướng gió: ① Hướng từ áp cao về áp thấp ② Bắc bán cầu lệch phải, Nam bán cầu lệch trái. Đai là vành đai bao quanh Trái Đất. Toàn cầu có 7 đai khí áp và 6 đai gió; hướng gió đi từ áp cao về áp thấp, rồi lệch phải ở Bắc bán cầu và lệch trái ở Nam bán cầu. Lưu ý: Hay thi: Khi xác định hướng gió, trước tiên vẽ mũi tên từ áp cao về áp thấp, sau đó bẻ lệch sang phải ở Bắc bán cầu và sang trái ở Nam bán cầu; «gió Tây» nghĩa là gió thổi từ hướng Tây sang hướng Đông."}},{"@type":"Question","name":"Sau khi tia bức xạ Mặt Trời vuông góc dịch chuyển lên phía Bắc, tại sao mùa hè ở Rome lại trở nên khô hạn?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Mặt Trời lên thiên đỉnh dịch về Bắc → Các đai khí áp và đai gió dịch chuyển toàn bộ về phía Bắc. Các đai khí áp và đai gió dịch chuyển theo vị trí Mặt Trời lên thiên đỉnh, ở Bắc bán cầu mùa hè lệch về Bắc, mùa đông lệch về Nam; Rome mùa hè chịu sự khống chế của đai áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới, tạo nên khí hậu Địa Trung Hải hè khô đông mưa. Lưu ý: Dễ nhầm: Dịch chuyển theo mùa là cả hệ thống đai cùng tịnh tiến đồng bộ, không phải «chỉ các đai ở Bắc bán cầu chạy lên phía Bắc»; khí hậu Địa Trung Hải có đặc trưng hè khô đông mưa, không phải mưa quanh năm."}},{"@type":"Question","name":"Tại sao vào tháng 1 ở châu Á lại xuất hiện một trung tâm áp cao khổng lồ?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Mô hình lý tưởng + Chênh lệch nhiệt lực biển – lục địa = Phân bố khí áp thực tế. Sự chênh lệch nhiệt lực giữa biển và lục địa làm các đai khí áp theo vĩ tuyến ở Bắc bán cầu bị chia cắt thành các trung tâm áp cao và áp thấp: tháng 1 áp cao châu Á (Xibia) cắt đứt đai áp thấp ôn đới, tháng 7 áp thấp châu Á (Nam Á) cắt đứt đai áp cao cận nhiệt; các trung tâm khí áp thay đổi theo mùa tạo nên hoàn lưu gió mùa. Lưu ý: Hay thi: Tháng 1 ở Bắc bán cầu, đai áp thấp ôn đới bị áp cao lạnh trên lục địa cắt đứt; tháng 7, đai áp cao cận nhiệt bị áp thấp nóng trên lục địa cắt đứt."}},{"@type":"Question","name":"Kiểm tra: Bốn chặng hải trình của đoàn thuyền Magellan lần lượt chịu sự khống chế của đai nào?","acceptedAnswer":{"@type":"Answer","text":"Phương trình: Chặng hải trình → Đai đi qua → Tình trạng gió. Gió Tây ôn đới → Ngược gió; Đai áp cao cận nhiệt → Lặng gió; Gió Tín phong Đông Nam → Xuôi gió; Đai áp thấp xích đạo → Biển lặng gió êm. Lưu ý: Hay thi: Cho một tuyến hải trình hoặc một địa điểm, yêu cầu xác định đai khí áp hay đai gió tại đó rồi nêu tình trạng gió hoặc thời tiết."}},{"@type":"Question","name":"Khi SGK phân tích sự hình thành các đai khí áp và đai gió, nhân tố gây ra sự vận động của khí quyển là","acceptedAnswer":{"@type":"Answer","text":"Đáp án đúng: Sự nhận nhiệt không đều giữa các vĩ độ cao – thấp và lực làm lệch hướng (Coriolis). SGK tr.48: Giả sử bề mặt Trái Đất đồng nhất, nhân tố gây ra sự vận động của khí quyển là sự nhận nhiệt không đều giữa các vùng vĩ độ cao – thấp và lực làm lệch hướng do Trái Đất tự quay."}},{"@type":"Question","name":"Đai áp cao cận nhiệt ở khoảng vĩ độ 30° Bắc và Nam được hình thành do","acceptedAnswer":{"@type":"Answer","text":"Đáp án đúng: Dòng khí trên cao tích tụ tại đây rồi hạ xuống (nguyên nhân động lực). Dòng khí từ trên cao xích đạo đi tới khoảng vĩ độ 30° bị lệch thành gió Tây, tích tụ và hạ xuống làm khí áp mặt đất tăng cao. Còn lạnh đi rồi hạ xuống là nguyên nhân của đai áp cao cực."}},{"@type":"Question","name":"Nguyên nhân hình thành đai áp thấp ôn đới (cận cực) là","acceptedAnswer":{"@type":"Answer","text":"Đáp án đúng: Gió Tây ôn đới ấm và nhẹ trườn lên trên gió Đông cực lạnh và nặng. Gió Đông cực và gió Tây ôn đới ấm hơn gặp nhau ở khoảng vĩ độ 60°, không khí ấm trườn lên cao tạo thành đai áp thấp tương đối."}}]}]}</script>
 </head>
 <body>
 <header class="nav">
@@ -38,10 +58,19 @@
     <div class="ch-badges">
       <span class="badge badge-s" data-s="geo">Địa lý</span>
       <span class="badge">7 bước khám phá</span>
+      <span class="badge">Nhận nhiệt không đều + Lực làm lệch hướng (Coriolis)</span>
       <span class="badge badge-v">✓ Đã kiểm chứng dữ kiện &amp; thuật ngữ GDPT 2018</span>
     </div>
     <h1 class="ch-title">Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực)</h1>
     <p class="ch-q">Vì sao hạm đội Magellan có chặng thuận gió Mậu dịch, có chặng ngược gió Tây ôn đới, và khi đi qua vĩ độ 30° lại gặp vùng lặng gió?</p>
+    <div class="ch-chain" aria-label="Chuỗi nhân quả cốt lõi">
+      <span class="ch-chain-label">Mạch logic cốt lõi:</span>
+      <span class="ch-chain-pill"><b>Nhận nhiệt</b><span>Xích đạo nóng bốc lên → Đai áp thấp xích đạo</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Lệch hướng</b><span>30° tích tụ hạ xuống · 60° khí ấm trườn lên → Ba vòng hoàn lưu</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Phân bố</b><span>Bảy đai khí áp · Sáu đai gió · Bao quanh Trái Đất</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Dịch chuyển</b><span>Theo tia bức xạ Mặt Trời vuông góc: hè lên Bắc, đông xuống Nam → Khống chế luân phiên</span></span><span class="ch-chain-sep">→</span>
+      <span class="ch-chain-pill"><b>Biển – Lục địa</b><span>Lục địa đông lạnh hè nóng → Trung tâm khí áp → Gió mùa</span></span>
+    </div>
   </header>
 
   <section class="ch-main">
@@ -54,7 +83,7 @@
         </div>
       </div>
       <div class="pv" id="pv-stage" data-src="/courses/circulation-step.html">
-        <img src="/covers/circulation-step.webp" alt="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực)" width="1280" height="800">
+        <img src="/covers/circulation-step.webp" alt="Các đai khí áp, đới gió và hoàn lưu khí quyển ba vòng (Hadley, Ferrel, Cực) — Mô phỏng 3D môn Địa lý" width="1280" height="800">
         <div class="pv-cta">
           <button type="button" class="pv-btn" data-pv-start><span class="play">▶</span>Khởi chạy mô phỏng 3D ngay trên trang</button>
         </div>
@@ -87,6 +116,33 @@
   </section>
 
   <section class="ch-sec">
+    <h2>Cấu trúc trạm thiết bị &amp; cụm mô hình 3D (3 khu vực)</h2>
+    <div class="ugrid">
+      <div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">①</span>
+          <span class="ucard-name">Hoàn lưu vĩ độ thấp</span>
+        </div>
+        <p class="ucard-brief">0°–30°: Xích đạo bốc lên · 30° hạ xuống</p>
+      </div>
+      <div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">②</span>
+          <span class="ucard-name">Hoàn lưu vĩ độ trung bình</span>
+        </div>
+        <p class="ucard-brief">30°–60°: 30° hạ xuống · 60° trườn lên</p>
+      </div>
+      <div class="ucard">
+        <div class="ucard-top">
+          <span class="ucard-no">③</span>
+          <span class="ucard-name">Hoàn lưu vĩ độ cao</span>
+        </div>
+        <p class="ucard-brief">60°–90°: 60° trườn lên · Vùng cực hạ xuống</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch-sec">
     <h2>Mạch tư duy &amp; câu hỏi khám phá (7 bước)</h2>
     <ol class="track">
       <li>
@@ -94,6 +150,8 @@
         <div>
           <div class="t">Áp thấp xích đạo</div>
           <div class="q">Tại sao xích đạo lại là một đai áp thấp?</div>
+          <div class="step-eq"><code>Nhận nhiệt không đều + Lực làm lệch hướng → Hoàn lưu khí quyển</code> <span>· Giả định SGK: Bề mặt Trái Đất đồng nhất</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Xích đạo nhận nhiều bức xạ Mặt Trời, không khí sát mặt đất nóng lên giãn nở bốc cao làm khí áp giảm, hình thành đai áp thấp xích đạo (nguyên nhân nhiệt lực).</div>
         </div>
       </li>
         <li>
@@ -101,6 +159,8 @@
         <div>
           <div class="t">30° Hạ xuống</div>
           <div class="q">Không khí bốc lên cao, tại sao đi đến vĩ độ 30° lại hạ xuống?</div>
+          <div class="step-eq"><code>Lực làm lệch hướng: Bắc bán cầu lệch phải · Nam bán cầu lệch trái · Xích đạo không lệch</code> <span>· Trên cao 30°N: Dòng khí lệch thành gió Tây → Tích tụ hạ xuống</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Lực làm lệch hướng khiến dòng khí trên cao ở khoảng vĩ độ 30° lệch thành gió Tây, không khí tích tụ và hạ xuống tạo thành đai áp cao cận nhiệt; gió Tín phong Đông Bắc và Tín phong Đông Nam hội tụ bốc lên ở xích đạo, khép kín vòng hoàn lưu vĩ độ thấp.</div>
         </div>
       </li>
         <li>
@@ -108,6 +168,8 @@
         <div>
           <div class="t">60° Trườn lên</div>
           <div class="q">Tại sao ở khoảng vĩ độ 60° lại xuất hiện thêm một đai áp thấp?</div>
+          <div class="step-eq"><code>Gió Tây ôn đới ấm và nhẹ → Trườn lên trên gió Đông cực lạnh và nặng</code> <span>· Khoảng 60°N: Frông cực</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Không khí ấm trườn lên dọc theo frông cực tạo thành đai áp thấp ôn đới (nguyên nhân động lực); nhờ đó Bắc bán cầu có ba vòng hoàn lưu, và Nam bán cầu cũng tương tự có ba vòng hoàn lưu.</div>
         </div>
       </li>
         <li>
@@ -115,6 +177,8 @@
         <div>
           <div class="t">7 Đai áp – 6 Đai gió</div>
           <div class="q">Bảy đai khí áp và sáu đai gió là một đường thẳng hay là các vành đai bao quanh Trái Đất?</div>
+          <div class="step-eq"><code>Xác định hướng gió: ① Hướng từ áp cao về áp thấp ② Bắc bán cầu lệch phải, Nam bán cầu lệch trái</code> <span>· Toàn cầu: 7 đai khí áp · 6 đai gió</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Đai là vành đai bao quanh Trái Đất. Toàn cầu có 7 đai khí áp và 6 đai gió; hướng gió đi từ áp cao về áp thấp, rồi lệch phải ở Bắc bán cầu và lệch trái ở Nam bán cầu.</div>
         </div>
       </li>
         <li>
@@ -122,6 +186,8 @@
         <div>
           <div class="t">Dịch chuyển theo mùa</div>
           <div class="q">Sau khi tia bức xạ Mặt Trời vuông góc dịch chuyển lên phía Bắc, tại sao mùa hè ở Rome lại trở nên khô hạn?</div>
+          <div class="step-eq"><code>Mặt Trời lên thiên đỉnh dịch về Bắc → Các đai khí áp và đai gió dịch chuyển toàn bộ về phía Bắc</code> <span>· Biên độ dịch chuyển 10° là thiết lập của học liệu (Minh họa)</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Các đai khí áp và đai gió dịch chuyển theo vị trí Mặt Trời lên thiên đỉnh, ở Bắc bán cầu mùa hè lệch về Bắc, mùa đông lệch về Nam; Rome mùa hè chịu sự khống chế của đai áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới, tạo nên khí hậu Địa Trung Hải hè khô đông mưa.</div>
         </div>
       </li>
         <li>
@@ -129,6 +195,8 @@
         <div>
           <div class="t">Phân bố biển – lục địa</div>
           <div class="q">Tại sao vào tháng 1 ở châu Á lại xuất hiện một trung tâm áp cao khổng lồ?</div>
+          <div class="step-eq"><code>Mô hình lý tưởng + Chênh lệch nhiệt lực biển – lục địa = Phân bố khí áp thực tế</code> <span>· Mùa đông lục địa nguội nhanh → Áp cao lạnh; Mùa hè lục địa nóng nhanh → Áp thấp nóng</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Sự chênh lệch nhiệt lực giữa biển và lục địa làm các đai khí áp theo vĩ tuyến ở Bắc bán cầu bị chia cắt thành các trung tâm áp cao và áp thấp: tháng 1 áp cao châu Á (Xibia) cắt đứt đai áp thấp ôn đới, tháng 7 áp thấp châu Á (Nam Á) cắt đứt đai áp cao cận nhiệt; các trung tâm khí áp thay đổi theo mùa tạo nên hoàn lưu gió mùa.</div>
         </div>
       </li>
         <li>
@@ -136,9 +204,113 @@
         <div>
           <div class="t">Kiểm tra · Magellan</div>
           <div class="q">Kiểm tra: Bốn chặng hải trình của đoàn thuyền Magellan lần lượt chịu sự khống chế của đai nào?</div>
+          <div class="step-eq"><code>Chặng hải trình → Đai đi qua → Tình trạng gió</code> <span>· Kiểm tra lấy vị trí đai vào tháng 3 (gần Xuân phân) · Thiết lập</span></div>
+          <div class="step-concl"><strong>Kết luận:</strong> Gió Tây ôn đới → Ngược gió; Đai áp cao cận nhiệt → Lặng gió; Gió Tín phong Đông Nam → Xuôi gió; Đai áp thấp xích đạo → Biển lặng gió êm.</div>
         </div>
       </li>
     </ol>
+  </section>
+
+  <section class="ch-sec">
+    <h2>Câu hỏi Thường gặp &amp; Giải đáp Trọng tâm (Chuẩn GDPT 2018)</h2>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary><span><span class="faq-tag">Bước 1 · Áp thấp xích đạo</span>Tại sao xích đạo lại là một đai áp thấp?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Nhận nhiệt không đều + Lực làm lệch hướng → Hoàn lưu khí quyển</code></p>
+          <p>Xích đạo nhận nhiều bức xạ Mặt Trời, không khí sát mặt đất nóng lên giãn nở bốc cao làm khí áp giảm, hình thành đai áp thấp xích đạo (nguyên nhân nhiệt lực).</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Đai áp thấp xích đạo và đai áp cao cực có nguyên nhân nhiệt lực; đai áp cao cận nhiệt và đai áp thấp ôn đới (cận cực) có nguyên nhân động lực.</p>
+        </div>
+      </details>
+      <details class="faq-item" open>
+        <summary><span><span class="faq-tag">Bước 2 · 30° Hạ xuống</span>Không khí bốc lên cao, tại sao đi đến vĩ độ 30° lại hạ xuống?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Lực làm lệch hướng: Bắc bán cầu lệch phải · Nam bán cầu lệch trái · Xích đạo không lệch</code></p>
+          <p>Lực làm lệch hướng khiến dòng khí trên cao ở khoảng vĩ độ 30° lệch thành gió Tây, không khí tích tụ và hạ xuống tạo thành đai áp cao cận nhiệt; gió Tín phong Đông Bắc và Tín phong Đông Nam hội tụ bốc lên ở xích đạo, khép kín vòng hoàn lưu vĩ độ thấp.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Dễ nhầm: Đai áp cao cận nhiệt không phải hình thành do không khí lạnh đi rồi hạ xuống, mà do dòng khí trên cao bị chặn lại tích tụ và hạ xuống (nguyên nhân động lực).</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 3 · 60° Trườn lên</span>Tại sao ở khoảng vĩ độ 60° lại xuất hiện thêm một đai áp thấp?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Gió Tây ôn đới ấm và nhẹ → Trườn lên trên gió Đông cực lạnh và nặng</code></p>
+          <p>Không khí ấm trườn lên dọc theo frông cực tạo thành đai áp thấp ôn đới (nguyên nhân động lực); nhờ đó Bắc bán cầu có ba vòng hoàn lưu, và Nam bán cầu cũng tương tự có ba vòng hoàn lưu.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Dễ nhầm: Đai áp thấp ôn đới (cận cực) không phải do mặt đất nóng làm không khí bốc lên, mà do hai khối khí nóng lạnh gặp nhau khiến không khí ấm trườn lên (nguyên nhân động lực).</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 4 · 7 Đai áp – 6 Đai gió</span>Bảy đai khí áp và sáu đai gió là một đường thẳng hay là các vành đai bao quanh Trái Đất?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Xác định hướng gió: ① Hướng từ áp cao về áp thấp ② Bắc bán cầu lệch phải, Nam bán cầu lệch trái</code></p>
+          <p>Đai là vành đai bao quanh Trái Đất. Toàn cầu có 7 đai khí áp và 6 đai gió; hướng gió đi từ áp cao về áp thấp, rồi lệch phải ở Bắc bán cầu và lệch trái ở Nam bán cầu.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Khi xác định hướng gió, trước tiên vẽ mũi tên từ áp cao về áp thấp, sau đó bẻ lệch sang phải ở Bắc bán cầu và sang trái ở Nam bán cầu; «gió Tây» nghĩa là gió thổi từ hướng Tây sang hướng Đông.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 5 · Dịch chuyển theo mùa</span>Sau khi tia bức xạ Mặt Trời vuông góc dịch chuyển lên phía Bắc, tại sao mùa hè ở Rome lại trở nên khô hạn?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Mặt Trời lên thiên đỉnh dịch về Bắc → Các đai khí áp và đai gió dịch chuyển toàn bộ về phía Bắc</code></p>
+          <p>Các đai khí áp và đai gió dịch chuyển theo vị trí Mặt Trời lên thiên đỉnh, ở Bắc bán cầu mùa hè lệch về Bắc, mùa đông lệch về Nam; Rome mùa hè chịu sự khống chế của đai áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới, tạo nên khí hậu Địa Trung Hải hè khô đông mưa.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Dễ nhầm: Dịch chuyển theo mùa là cả hệ thống đai cùng tịnh tiến đồng bộ, không phải «chỉ các đai ở Bắc bán cầu chạy lên phía Bắc»; khí hậu Địa Trung Hải có đặc trưng hè khô đông mưa, không phải mưa quanh năm.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 6 · Phân bố biển – lục địa</span>Tại sao vào tháng 1 ở châu Á lại xuất hiện một trung tâm áp cao khổng lồ?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Mô hình lý tưởng + Chênh lệch nhiệt lực biển – lục địa = Phân bố khí áp thực tế</code></p>
+          <p>Sự chênh lệch nhiệt lực giữa biển và lục địa làm các đai khí áp theo vĩ tuyến ở Bắc bán cầu bị chia cắt thành các trung tâm áp cao và áp thấp: tháng 1 áp cao châu Á (Xibia) cắt đứt đai áp thấp ôn đới, tháng 7 áp thấp châu Á (Nam Á) cắt đứt đai áp cao cận nhiệt; các trung tâm khí áp thay đổi theo mùa tạo nên hoàn lưu gió mùa.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Tháng 1 ở Bắc bán cầu, đai áp thấp ôn đới bị áp cao lạnh trên lục địa cắt đứt; tháng 7, đai áp cao cận nhiệt bị áp thấp nóng trên lục địa cắt đứt.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Bước 7 · Kiểm tra · Magellan</span>Kiểm tra: Bốn chặng hải trình của đoàn thuyền Magellan lần lượt chịu sự khống chế của đai nào?</span></summary>
+        <div class="faq-body">
+          <p><strong>Phương trình / Quy luật:</strong> <code>Chặng hải trình → Đai đi qua → Tình trạng gió</code></p>
+          <p>Gió Tây ôn đới → Ngược gió; Đai áp cao cận nhiệt → Lặng gió; Gió Tín phong Đông Nam → Xuôi gió; Đai áp thấp xích đạo → Biển lặng gió êm.</p>
+          <p><strong>Lưu ý trọng tâm thi cử:</strong> Hay thi: Cho một tuyến hải trình hoặc một địa điểm, yêu cầu xác định đai khí áp hay đai gió tại đó rồi nêu tình trạng gió hoặc thời tiết.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ① Nhận nhiệt</span>Khi SGK phân tích sự hình thành các đai khí áp và đai gió, nhân tố gây ra sự vận động của khí quyển là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Sự nhận nhiệt không đều giữa các vĩ độ cao – thấp và lực làm lệch hướng (Coriolis). SGK tr.48: Giả sử bề mặt Trái Đất đồng nhất, nhân tố gây ra sự vận động của khí quyển là sự nhận nhiệt không đều giữa các vùng vĩ độ cao – thấp và lực làm lệch hướng do Trái Đất tự quay.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ② Lệch hướng</span>Đai áp cao cận nhiệt ở khoảng vĩ độ 30° Bắc và Nam được hình thành do</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Dòng khí trên cao tích tụ tại đây rồi hạ xuống (nguyên nhân động lực). Dòng khí từ trên cao xích đạo đi tới khoảng vĩ độ 30° bị lệch thành gió Tây, tích tụ và hạ xuống làm khí áp mặt đất tăng cao. Còn lạnh đi rồi hạ xuống là nguyên nhân của đai áp cao cực.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ② Lệch hướng</span>Nguyên nhân hình thành đai áp thấp ôn đới (cận cực) là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Gió Tây ôn đới ấm và nhẹ trườn lên trên gió Đông cực lạnh và nặng. Gió Đông cực và gió Tây ôn đới ấm hơn gặp nhau ở khoảng vĩ độ 60°, không khí ấm trườn lên cao tạo thành đai áp thấp tương đối.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ③ Phân bố</span>Hướng gió thịnh hành của đai gió Tín phong vĩ độ thấp ở Bắc bán cầu là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Gió Đông Bắc. Dòng khí chảy từ đai áp cao cận nhiệt về đai áp thấp xích đạo vốn là gió Bắc, ở Bắc bán cầu bị lệch sang phải thành gió Đông Bắc.</p>
+          
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span><span class="faq-tag">Câu hỏi ôn tập · ③ Phân bố</span>Hướng gió thịnh hành của đai gió Tây ôn đới ở Bắc bán cầu là</span></summary>
+        <div class="faq-body">
+          
+          <p>Đáp án đúng: Gió Tây Nam. Dòng khí chảy từ đai áp cao cận nhiệt về phía Bắc lệch dần sang phải thành gió Tây Nam, gọi là gió Tây ôn đới. Gió Tây Bắc là gió Tây ôn đới ở Nam bán cầu.</p>
+          
+        </div>
+      </details>
+    </div>
   </section>
 
   <section class="ch-sec">
@@ -156,7 +328,7 @@
     <div class="cgrid">
       <article class="cc">
   <a class="cc-thumb" href="/c/river-step/">
-    <img src="/covers/river-step.webp" alt="Sự hình thành và phát triển địa hình sông ngòi" loading="lazy" width="640" height="400">
+    <img src="/covers/river-step.webp" alt="Sự hình thành và phát triển địa hình sông ngòi — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">8 bước</span>
   </a>
@@ -172,7 +344,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/insolation-step/">
-    <img src="/covers/insolation-step.webp" alt="Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu" loading="lazy" width="640" height="400">
+    <img src="/covers/insolation-step.webp" alt="Chuyển động biểu kiến của Mặt Trời, các mùa và năm đới khí hậu — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -188,7 +360,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/currents-step/">
-    <img src="/covers/currents-step.webp" alt="Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý" loading="lazy" width="640" height="400">
+    <img src="/covers/currents-step.webp" alt="Quy luật phân bố dòng biển trên thế giới và hệ quả địa lý — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -204,7 +376,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/enso-step/">
-    <img src="/covers/enso-step.webp" alt="Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO)" loading="lazy" width="640" height="400">
+    <img src="/covers/enso-step.webp" alt="Tương tác Biển – Khí quyển: Hiện tượng El Niño và La Niña (ENSO) — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">7 bước</span>
   </a>
@@ -220,7 +392,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/heating-step/">
-    <img src="/covers/heating-step.webp" alt="Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính" loading="lazy" width="640" height="400">
+    <img src="/covers/heating-step.webp" alt="Quá trình thụ nhiệt của khí quyển và hiệu ứng nhà kính — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">9 bước</span>
   </a>
@@ -236,7 +408,7 @@
 </article>
       <article class="cc">
   <a class="cc-thumb" href="/c/karst-step/">
-    <img src="/covers/karst-step.webp" alt="Sự hình thành và nhận diện địa hình Karst (Các-xtơ)" loading="lazy" width="640" height="400">
+    <img src="/covers/karst-step.webp" alt="Sự hình thành và nhận diện địa hình Karst (Các-xtơ) — Mô phỏng 3D môn Địa lý" loading="lazy" width="640" height="400">
     <span class="cc-badge">Địa lý</span>
     <span class="cc-steps">7 bước</span>
   </a>
@@ -266,6 +438,8 @@
       <a href="/how/">Phương pháp xây dựng</a>
       <a href="/about/">Giới thiệu</a>
       <a href="/catalog.json">catalog.json</a>
+      <a href="/sitemap.xml">Sitemap</a>
+      <a href="/llms.txt">llms.txt (AI/GEO)</a>
       <a href="https://github.com/oaichu/vietlab-3d" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>
