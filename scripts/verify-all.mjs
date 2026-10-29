@@ -105,6 +105,13 @@ for (const rel of portalFiles) {
   if (cjk > 0) {
     fail(`${rel} contains ${cjk} CJK characters`);
   }
+  const srcMatches = content.matchAll(/src="(\/[^"]+)"/g);
+  for (const m of srcMatches) {
+    const assetRel = m[1].slice(1);
+    if (!fs.existsSync(path.join(ROOT, assetRel))) {
+      fail(`${rel} references missing asset src="${m[1]}"`);
+    }
+  }
 }
 console.log(`3. Core portal pages, assets & SEO/GEO discovery files (${portalFiles.length} files): 0 CJK characters.`);
 

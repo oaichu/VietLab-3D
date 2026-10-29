@@ -18,35 +18,32 @@ if (stageEl) {
 
   import("./hero.js")
     .then((m) => {
-      const api = m.mountHero(stageEl, {
-        B: 1,
-        v: 1,
-        q: 1,
-        onReadout(a) {
-          if (bVal) bVal.textContent = a.B.toFixed(2) + " T";
-          if (vVal) vVal.textContent = a.v.toFixed(2) + " v₀";
-          if (rOut) {
-            rOut.textContent =
-              "r = " +
-              a.r.toFixed(2) +
-              " m · T = " +
-              a.T.toFixed(2) +
-              " ns" +
-              (a.out ? " · Vượt ngoài bàn" : "");
-          }
-        },
+      const api = m.mountHero(stageEl, (W, S) => {
+        if (bVal) bVal.textContent = S.B.toFixed(2) + " T";
+        if (vVal) vVal.textContent = (S.v / 1e6).toFixed(2) + "×10⁶ m/s";
+        if (rOut) {
+          rOut.textContent =
+            "r = " +
+            (W.r * 100).toFixed(2) +
+            " cm · T = " +
+            (W.T * 1e9).toFixed(0) +
+            " ns" +
+            (W.out ? " · Vượt ngoài bàn" : "");
+        }
       });
-      bIn?.addEventListener("input", () => api.setB(parseFloat(bIn.value)));
-      vIn?.addEventListener("input", () => api.setV(parseFloat(vIn.value)));
+      bIn?.addEventListener("input", () => api.set("B", parseFloat(bIn.value)));
+      vIn?.addEventListener("input", () => api.set("v", parseFloat(vIn.value) * 1e6));
       qBtns.forEach((btn) =>
         btn.addEventListener("click", () => {
           qBtns.forEach((x) => x.classList.remove("on"));
           btn.classList.add("on");
-          api.setQ(parseInt(btn.dataset.hq, 10));
+          api.set("sign", parseInt(btn.dataset.hq, 10));
         })
       );
     })
-    .catch(() => {});
+    .catch((err) => {
+      console.error("Hero 3D error:", err);
+    });
 }
 
 const libEl = document.getElementById("lib");

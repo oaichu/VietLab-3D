@@ -15,7 +15,7 @@ const SUBJECTS = {
     code: 'VẬT LÝ · 10 BÀI GIẢNG',
     name: 'Vật lý',
     count: 10,
-    cover: '/covers/magnetic-step.webp',
+    cover: '/covers/current-field-step.webp',
     desc: 'Từ định luật II Newton, cơ năng, cảm ứng điện từ đến hiệu ứng quang điện và chuyển động Brown — biến phương trình thành thực nghiệm 3D định lượng.',
   },
   chem: {
@@ -362,12 +362,12 @@ ${renderNav('home')}
         <div class="stage" id="stage" role="region" aria-label="Bàn thí nghiệm 3D tương tác: Chuyển động của hạt mang điện trong từ trường đều">
           <div class="hud-top">
             <span class="hud-pill"><span class="live"></span>Mô phỏng thời gian thực · Lực Lorentz F = qvB</span>
-            <span class="hud-pill hide-xs" id="h-read">r = 1.15 m · T = 2.20 ns</span>
+            <span class="hud-pill hide-xs" id="h-read">r = 4.18 cm · T = 131 ns</span>
           </div>
           <div class="hud-bot">
             <div class="hud-ctrl">
-              <label>B <input id="hb" type="range" min="0.4" max="2.2" step="0.05" value="1"><span class="val" id="hb-val">1.00 T</span></label>
-              <label>v <input id="hv" type="range" min="0.4" max="1.8" step="0.05" value="1"><span class="val" id="hv-val">1.00 v₀</span></label>
+              <label>B <input id="hb" type="range" min="0.2" max="1.2" step="0.05" value="0.5"><span class="val" id="hb-val">0.50 T</span></label>
+              <label>v <input id="hv" type="range" min="0.8" max="3.6" step="0.1" value="2.0"><span class="val" id="hv-val">2.00×10⁶ m/s</span></label>
               <div class="hud-seg" role="group" aria-label="Điện tích hạt">
                 <button type="button" class="on" data-hq="1">+q Proton</button>
                 <button type="button" data-hq="-1">−q Phản proton</button>
@@ -888,7 +888,7 @@ ${renderSeoHead({
   title: 'Hướng dẫn sử dụng trong lớp học — VietLab 3D',
   desc: 'Hướng dẫn giáo viên và học sinh khai thác hiệu quả 54 bài giảng mô phỏng 3D tương tác trong tiết học 45 phút, dạy học ngoại tuyến và tự học tại nhà.',
   canonical: `${SITE_URL}/guide/`,
-  ogImage: '/covers/magnetic-step.webp',
+  ogImage: '/covers/current-field-step.webp',
   keywords: 'hướng dẫn dạy học 3D, học liệu số THPT, kế hoạch bài dạy GDPT 2018, thí nghiệm ảo ngoại tuyến, VietLab 3D',
   jsonLd: guideJsonLd,
 })}

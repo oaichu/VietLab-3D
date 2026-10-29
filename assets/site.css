@@ -285,12 +285,21 @@ button, input, select { font: inherit; color: inherit; }
   color: var(--fg-stage);
   user-select: none;
 }
-.stage canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+.stage canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  cursor: grab;
+  z-index: 1;
+}
 .stage canvas:active { cursor: grabbing; }
 .hud-top, .hud-bot {
   position: absolute;
   left: 14px;
   right: 14px;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
