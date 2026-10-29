@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Chuyển động ngang của khí quyển — Gió — Mô phỏng 3D Tương tác (Địa lý THPT · GDPT 2018) | VietLab 3D</title>
 <meta name="description" content="Tại sao gió trên bản đồ thời tiết không thổi thẳng một mạch từ áp cao sang áp thấp? Phương trình / Nguyên lý: Lực gradien khí áp → Lực làm lệch hướng → Lực ma sát → Gió. Bài giảng mô phỏng 3D tương tác gồm 8 bước khám phá theo Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Chuyển động ngang của khí quyển — Gió».">
 <meta name="keywords" content="Chuyển động ngang của khí quyển — Gió, mô phỏng 3D Chuyển động ngang của khí quyển — Gió, Địa lý THPT, GDPT 2018, VietLab 3D, Đường đẳng áp, Lực gradien, Lệch hướng do tự quay, Gió trên cao, Sát mặt đất, Nam bán cầu, Độ dày thưa, Thực hành đánh giá, Mâm sát mặt đất (Tầng sát đất · Mặt 1010 hPa), Mâm trên cao (Mặt 500 hPa)">
@@ -170,24 +170,105 @@ html body .sec[data-layout="wide"] .sec-k { width: 126px; flex: none; line-heigh
 }
 @media (max-width: 1120px) {
   html:root {
-    --panelw-l: 256px;
-    --panelw-r: 252px;
+    --panelw-l: clamp(252px, 28vw, 290px);
+    --panelw-r: clamp(248px, 27vw, 284px);
     --top-h: 44px;
     --steps-h: 38px;
     --foot-h: 44px;
   }
   html body #top .chain5 { display: none; }
+  html body #steps { overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  html body #steps::-webkit-scrollbar { display: none; }
   html body #steps .sb { display: none; }
+  html body #steps .track { min-width: max-content; padding-right: 12px; }
+  html body .sec[data-layout="wide"] { grid-template-columns: 1fr; }
 }
 @media (max-width: 780px) {
   html:root {
-    --panelw-l: min(300px, calc(100vw - 44px));
-    --panelw-r: min(290px, calc(100vw - 44px));
+    --panelw-l: min(320px, calc(100vw - 48px));
+    --panelw-r: min(312px, calc(100vw - 48px));
+    --top-h: 42px;
+    --steps-h: 36px;
+    --foot-h: 42px;
   }
+  html body #top { padding: 3px 8px; }
+  html body #top .row1 { gap: 5px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  html body #top .row1::-webkit-scrollbar { display: none; }
+  html body #top .brand h1 { max-width: 38vw; font-size: 13.5px; }
   html body #top .brand .eq,
-  html body #top .mq .k,
-  html body #foot .foot2 { display: none; }
-  html body #secview { left: 10px; right: 10px; }
+  html body #top .mq,
+  html body #foot .foot2 { display: none !important; }
+  html body #left.collapsed { transform: translateX(-108%); opacity: 0; pointer-events: none; }
+  html body #right.collapsed { transform: translateX(108%); opacity: 0; pointer-events: none; }
+  html body #tabL,
+  html body #tabR {
+    width: 30px;
+    height: 78px;
+    font-size: 12px;
+    font-weight: 600;
+    top: calc(var(--top-h) + var(--steps-h) + 14px);
+  }
+  html body #eqb,
+  html body #eqb.tight {
+    max-width: calc(100vw - 84px);
+    padding: 4px 8px 5px;
+  }
+  html body #eqb .beq { font-size: 12.5px; }
+  html body #eqb .btags { display: none; }
+  html body .anno { max-width: min(200px, 46vw); font-size: 11px; }
+  html body #secview { left: 8px; right: 8px; top: calc(var(--top-h) + var(--steps-h) + 12px); bottom: calc(var(--foot-h) + 8px); }
+  html body #toast { left: 12px; right: 12px; max-width: calc(100vw - 24px); justify-content: center; }
+}
+@media (max-width: 540px) {
+  html:root {
+    --panelw-l: calc(100vw - 48px);
+    --panelw-r: calc(100vw - 48px);
+  }
+  html body #top .stat { display: none; }
+  html body #left,
+  html body #right {
+    top: auto;
+    max-height: calc(52dvh - var(--foot-h));
+    bottom: calc(var(--foot-h) + 8px);
+  }
+  html body #foot {
+    left: 6px;
+    right: 6px;
+    bottom: max(4px, env(safe-area-inset-bottom));
+    padding: 2px 8px;
+  }
+  html body #foot .nav .navbtn { padding: 4px 10px; font-size: 12px; }
+  html body #foot .nav .navbtn.pri { padding: 5px 14px; font-size: 12px; }
+  html body #foot .nav .cur { font-size: 12px; }
+}
+@media (max-height: 540px) and (orientation: landscape) {
+  html:root {
+    --top-h: 34px;
+    --steps-h: 30px;
+    --foot-h: 34px;
+    --panelw-l: min(270px, 42vw);
+    --panelw-r: min(264px, 42vw);
+  }
+  html body #top .chain5,
+  html body #top .mq,
+  html body #foot .foot2 { display: none !important; }
+  html body #left,
+  html body #right {
+    top: calc(var(--top-h) + var(--steps-h) + 8px);
+    bottom: calc(var(--foot-h) + 6px);
+    max-height: none;
+  }
+}
+@media (pointer: coarse) {
+  html body .phead .fold { width: 28px; height: 28px; font-size: 14px; }
+  html body #right .trk { height: 22px; }
+  html body #right .trk input { height: 22px; }
+  html body #right .trk input::-webkit-slider-thumb { width: 20px; height: 20px; margin-top: -7px; }
+  html body #right .sw { padding: 6px 8px; }
+  html body #right .sw button { width: 38px; height: 22px; }
+  html body #right .sw button::after { width: 18px; height: 18px; }
+  html body #right .sw button.on::after { transform: translateX(16px); }
+  html body .qz-opts button { padding: 8px 10px; font-size: 13px; }
 }
 </style>
 <script id="vietlab-canvas-guard">
@@ -241,18 +322,47 @@ html body .sec[data-layout="wide"] .sec-k { width: 126px; flex: none; line-heigh
     CanvasRenderingContext2D.prototype.fillText = function(t, x, y, w) { return fitCall(origFill, this, t, x, y, w); };
     CanvasRenderingContext2D.prototype.strokeText = function(t, x, y, w) { return fitCall(origStroke, this, t, x, y, w); };
   }
+  var mutualBound = false;
+  function bindResponsivePanels() {
+    if (mutualBound) return;
+    var tabL = document.getElementById("tabL");
+    var tabR = document.getElementById("tabR");
+    var left = document.getElementById("left");
+    var right = document.getElementById("right");
+    if (!tabL || !tabR || !left || !right) return;
+    mutualBound = true;
+    tabL.addEventListener("click", function() {
+      if (window.innerWidth <= 960 && window.__lab && window.__lab.hud) {
+        window.__lab.hud.fold("R", true);
+      }
+    });
+    tabR.addEventListener("click", function() {
+      if (window.innerWidth <= 960 && window.__lab && window.__lab.hud) {
+        window.__lab.hud.fold("L", true);
+      }
+    });
+    var stepsEl = document.getElementById("steps");
+    if (stepsEl && typeof MutationObserver !== "undefined") {
+      new MutationObserver(function() {
+        var activeChip = stepsEl.querySelector(".chip.on");
+        if (activeChip && typeof activeChip.scrollIntoView === "function") {
+          activeChip.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+        }
+      }).observe(stepsEl, { subtree: true, attributes: true, attributeFilter: ["class"] });
+    }
+  }
   function enhanceVietLabUI() {
     document.querySelectorAll("#top .chain5 .cd, #right .sub, #right .slh .lb, #right .sw .nm, #top .brand h1").forEach(function(el) {
       if (!el.getAttribute("title") && el.textContent) {
         el.setAttribute("title", el.textContent.trim().replace(/\s+/g, " "));
       }
     });
+    bindResponsivePanels();
     if (window.__lab && window.__lab.hud && typeof window.__lab.hud.layoutTrack === "function") {
       window.__lab.hud.layoutTrack();
     }
-    if (!window.__STEP_TEST && !navigator.webdriver && window.innerWidth <= 900 && window.__lab && window.__lab.hud) {
+    if (!window.__STEP_TEST && !navigator.webdriver && window.innerWidth <= 960 && window.__lab && window.__lab.hud) {
       window.__lab.hud.fold("R", true);
-      if (window.innerWidth <= 640) window.__lab.hud.fold("L", true);
     }
   }
   window.addEventListener("DOMContentLoaded", function() {
@@ -262,6 +372,15 @@ html body .sec[data-layout="wide"] .sec-k { width: 126px; flex: none; line-heigh
         enhanceVietLabUI();
         window.dispatchEvent(new Event("resize"));
       });
+    }
+  });
+  window.addEventListener("resize", function() {
+    if (!window.__STEP_TEST && !navigator.webdriver && window.innerWidth <= 960 && window.__lab && window.__lab.hud) {
+      var l = document.getElementById("left");
+      var r = document.getElementById("right");
+      if (l && r && !l.classList.contains("collapsed") && !r.classList.contains("collapsed")) {
+        window.__lab.hud.fold("R", true);
+      }
     }
   });
 })();

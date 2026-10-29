@@ -5816,7 +5816,7 @@
         "eq": "hν > W₀",
         "eqCal": "Natri (Na) · 365.0 nm (hν/e 3.3992 eV) · U 0.00 V · P 200 μW",
         "concl": "Khi chiếu sáng, catốt K phát xạ quang electron, anốt A thu nhận chúng tạo thành dòng quang điện trong mạch; khi U = 0 dòng điện vẫn khác 0 (do electron bứt ra đã có sẵn động năng ban đầu); dòng điện này xuất hiện gần như tức thời — SGK chỉ nêu “xảy ra ngay lập tức / gần như tức thời” mà không đưa ra bậc độ lớn, nên bài học này cũng không hiển thị thời gian thiết lập dòng điện.",
-        "exam": "Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm này (Yêu cầu cần đạt 3.4.1 “Thông qua thí nghiệm, tìm hiểu hiện tượng quang điện”; bài này không phải thí nghiệm bắt buộc, mục A1 đã nêu rõ). Trình tự thao tác: quan sát thang đo trước khi đọc số liệu.",
+        "exam": "Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm này (Yêu cầu cần đạt 3.4.1 “Thông qua thí nghiệm, tìm hiểu hiện tượng quang điện”; bài này không phải thí nghiệm bắt buộc). Trình tự thao tác: quan sát thang đo trước khi đọc số liệu.",
         "points": [
           "Trong tế bào quang điện, catốt K ở bên phải, anốt A ở bên trái, ánh sáng chiếu qua cửa sổ phía trên vào cực K (theo đúng Hình 4.2-1 SGK, không vẽ ngược).",
           "Đồng hồ μA mắc nối tiếp ở nhánh catốt K, vôn kế mắc song song hai đầu ống; bộ phân áp cấp điện áp 0…6.00 V, công tắc đảo chiều quyết định dấu âm dương.",
@@ -5934,7 +5934,7 @@
         "q": "Nhãn máy ghi 2.29 eV, tại sao kết quả đo thực tế lại lệch đi?",
         "eq": "U_c = (h/e)ν − W₀′/e",
         "eqCal": "Natri (Na) · 365.0 nm · Dụng cụ thực · Uc 1.11 → 1.09 V · I_sat 2.935 → 2.994 μA",
-        "concl": "Cần tách bạch hai vấn đề: ① Giá trị danh định ≠ Giá trị thực tế — con số 2.29 eV trong bảng tr. 73 SGK là giá trị chuẩn của “kim loại Natri”; nhưng trạng thái bề mặt catốt của chiếc ống quang điện cụ thể này có khác biệt, làm W₀ thực tế = 2.305 eV, dẫn đến ở cùng tần số thì Uc giảm đi 0.015 V. Đó chính là lý do “bắt buộc phải đo thực nghiệm chứ không thể chỉ tra bảng”. ② Hai nguồn sai số phép đo có chiều hướng riêng, cần tính riêng rồi tổng hợp lại: độ chia nhỏ nhất 0.01 V buộc Uc_đo phải làm tròn lên theo nấc lưới (ở chế độ Lý tưởng lệch +0.0008 V, luôn nằm trong khoảng 0–+0.01 V); ở chế độ Thực, thang đo điện áp lệch +0.4 % làm điện áp thực lớn hơn số chỉ, khiến điểm triệt tiêu rơi vào số đọc nhỏ hơn (giá trị thực quy đổi ra số đọc là 1.0898 V, tức số đọc bị hụt 0.0044 V); tổng hợp cả hai yếu tố = đo được 1.09 V, nhỏ hơn giá trị thực 1.0942 là 0.0042 V — vì vậy 1.09 < 1.0942 không phải là tính sai. Ngoài ra I_sat_đo bị hụt 0.0069 μA do ở 6.00 V chưa thu đạt 100 %; khi cường độ sáng vượt quá thang đo thì số chỉ bị cắt phẳng ở 5.000 → dòng bão hòa đo được chắc chắn bị nhỏ đi (nhưng Uc không bị ảnh hưởng).",
+        "concl": "Cần tách bạch hai vấn đề: ① Giá trị danh định ≠ Giá trị thực tế — con số 2.29 eV trong bảng số liệu chuẩn SGK là giá trị chuẩn của “kim loại Natri”; nhưng trạng thái bề mặt catốt của chiếc ống quang điện cụ thể này có khác biệt, làm W₀ thực tế = 2.305 eV, dẫn đến ở cùng tần số thì Uc giảm đi 0.015 V. Đó chính là lý do “bắt buộc phải đo thực nghiệm chứ không thể chỉ tra bảng”. ② Hai nguồn sai số phép đo có chiều hướng riêng, cần tính riêng rồi tổng hợp lại: độ chia nhỏ nhất 0.01 V buộc Uc_đo phải làm tròn lên theo nấc lưới (ở chế độ Lý tưởng lệch +0.0008 V, luôn nằm trong khoảng 0–+0.01 V); ở chế độ Thực, thang đo điện áp lệch +0.4 % làm điện áp thực lớn hơn số chỉ, khiến điểm triệt tiêu rơi vào số đọc nhỏ hơn (giá trị thực quy đổi ra số đọc là 1.0898 V, tức số đọc bị hụt 0.0044 V); tổng hợp cả hai yếu tố = đo được 1.09 V, nhỏ hơn giá trị thực 1.0942 là 0.0042 V — vì vậy 1.09 < 1.0942 không phải là tính sai. Ngoài ra I_sat_đo bị hụt 0.0069 μA do ở 6.00 V chưa thu đạt 100 %; khi cường độ sáng vượt quá thang đo thì số chỉ bị cắt phẳng ở 5.000 → dòng bão hòa đo được chắc chắn bị nhỏ đi (nhưng Uc không bị ảnh hưởng).",
         "exam": "Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số của dụng cụ thực tế (Yêu cầu cần đạt “Tìm tòi khám phá khoa học”); trọng tâm: Tại sao phải đo W₀ — giá trị 2.29 eV trong bảng SGK là giá trị danh định của “kim loại Natri”, còn trạng thái bề mặt catốt của từng ống thực tế là khác nhau.",
         "points": [
           "Ba độ lệch ở chế độ Thực là các hằng số cố định, cùng một điều kiện thí nghiệm sẽ luôn cho ra cùng một bộ số đọc (mang tính tất định, không phải sai số ngẫu nhiên).",
@@ -6175,7 +6175,7 @@
           "Nếu bỏ qua bước này: q chỉ là một “con số hiện sẵn”, học sinh không biết phương pháp thực nghiệm để “đo” ra nó."
         ],
         "actText": "Gạt công tắc sang chốt 2 để phóng điện (sơ đồ Hình 10.4-2a), quan sát phần diện tích được tô màu trên màn hình và số đọc q",
-        "expectText": "Ở bước này chuyển sang sơ đồ Hình 10.4-2a (điện trở R và cảm biến dòng điện chỉ nằm ở nhánh phóng) để vẽ đường cong phóng điện: τ vẫn là 1.55 s, đường cong phóng điện nằm phía dưới trục hoành; số đọc q giảm từ 3.76 mC (t = 0) xuống 1.38 mC (t = 1τ). Đếm ô vuông (lưới Hình 10.4-3 SGK có kích thước mỗi ô 0.4 s × 0.2 mA): đường cong bao phủ 45 ô, mỗi ô ứng với 0.08 mC, tính được 3.60 mC, nhỏ hơn diện tích tích phân chính xác 3.73 mC là 0.13 mC (hụt 3.6 %); hình chữ nhật hẹp thẳng đứng (0–0.2 s) ở Câu hỏi (1) tr. 39 SGK có diện tích = 0.48 mC."
+        "expectText": "Ở bước này chuyển sang sơ đồ Hình 10.4-2a (điện trở R và cảm biến dòng điện chỉ nằm ở nhánh phóng) để vẽ đường cong phóng điện: τ vẫn là 1.55 s, đường cong phóng điện nằm phía dưới trục hoành; số đọc q giảm từ 3.76 mC (t = 0) xuống 1.38 mC (t = 1τ). Đếm ô vuông (lưới Hình 10.4-3 SGK có kích thước mỗi ô 0.4 s × 0.2 mA): đường cong bao phủ 45 ô, mỗi ô ứng với 0.08 mC, tính được 3.60 mC, nhỏ hơn diện tích tích phân chính xác 3.73 mC là 0.13 mC (hụt 3.6 %); hình chữ nhật hẹp thẳng đứng (0–0.2 s) trong câu hỏi thực hành SGK có diện tích = 0.48 mC."
       },
       {
         "num": 5,
@@ -9326,7 +9326,7 @@
         "q": "Vận tốc v_B được tính từ hai điểm nào? Tại sao không tính bằng (h_C − h_B)/T?",
         "eq": "v_B = (h_C − h_A)/(2T) · ΔEp = mgh_B · ΔEk = ½mv_B²",
         "eqCal": "v 1.9600 m/s · ΔEp = ΔEk 0.3842 J · ½v² = gh 1.9208",
-        "concl": "Nguyên văn Hình 8.5-3 tr. 97 SGK: “Vận tốc tức thời tại điểm B bằng vận tốc trung bình giữa hai điểm A và C” — vận tốc tức thời tại thời điểm chính giữa của chuyển động biến đổi đều bằng vận tốc trung bình trong khoảng thời gian đó, nên phải lấy độ dịch chuyển giữa A và C chia cho 2T; đáp án bài tập SGK SGK chính là ΔEp = mgh_B, ΔEk = ½mv_B² (không được lấy g nhân t để tính v, cũng không được lấy (h_C − h_B)/T làm vận tốc tại B).",
+        "concl": "Theo SGK GDPT 2018: “Vận tốc tức thời tại điểm B bằng vận tốc trung bình giữa hai điểm A và C” — vận tốc tức thời tại thời điểm chính giữa của chuyển động biến đổi đều bằng vận tốc trung bình trong khoảng thời gian đó, nên phải lấy độ dịch chuyển giữa A và C chia cho 2T; đáp án bài tập SGK SGK chính là ΔEp = mgh_B, ΔEk = ½mv_B² (không được lấy g nhân t để tính v, cũng không được lấy (h_C − h_B)/T làm vận tốc tại B).",
         "exam": "Trọng tâm kiểm tra: Cách tính vận tốc tức thời từ băng giấy.",
         "points": [
           "v_B được tính bằng khoảng cách giữa hai điểm A, C chia cho 2T, chứ không phải (h_C − h_B)/T.",
@@ -9343,7 +9343,7 @@
         "q": "Biểu diễn 4 điểm đo lên đồ thị ½v²–h sẽ thu được hình dạng gì? Hệ số góc bằng bao nhiêu khi so sánh với g?",
         "eq": "½v² = k·h, k = Σ(h·½v²)/Σh²",
         "eqCal": "k 9.80 m/s² (Độ lệch 0.00 %)",
-        "concl": "Vẽ đồ thị ½v² theo h thu được đường thẳng đi qua gốc tọa độ chính là hệ quả trực tiếp khi giản ước khối lượng m ở phương trình bảo toàn cơ năng tại mục “Phân tích dữ liệu” tr. 96 SGK (½v² = gh); hệ số góc chính là gia tốc trọng trường g đo được từ băng giấy, so sánh nó với 9.8 m/s² chính là bước “kiểm chứng”. Nguyên văn trong SGK: Thiết kế bảng tương ứng theo phương án thí nghiệm đã chọn để ghi số liệu.",
+        "concl": "Vẽ đồ thị ½v² theo h thu được đường thẳng đi qua gốc tọa độ chính là hệ quả trực tiếp khi giản ước khối lượng m ở phương trình bảo toàn cơ năng tại mục Phân tích dữ liệu trong SGK (½v² = gh); hệ số góc chính là gia tốc trọng trường g đo được từ băng giấy, so sánh nó với 9.8 m/s² chính là bước “kiểm chứng”. Nguyên văn trong SGK: Thiết kế bảng tương ứng theo phương án thí nghiệm đã chọn để ghi số liệu.",
         "exam": "Trọng tâm kiểm tra: Xử lý dữ liệu bằng đồ thị và tìm đại lượng vật lý từ hệ số góc.",
         "points": [
           "Bốn điểm đo phải nằm trên đường thẳng đi qua gốc tọa độ và có hệ số góc bằng g — chứ không chỉ “trông giống đường thẳng”.",
@@ -9360,7 +9360,7 @@
         "q": "Đổi quả nặng từ 0.050 kg lên 0.500 kg thì h và v trên băng giấy có thay đổi không? Cân có phải là dụng cụ bắt buộc phải dùng không?",
         "eq": "½v² = gh (Giản ước m) · δ = −f/(mg)",
         "eqCal": "−5.10 % / −2.55 % / −1.28 % / −0.51 %",
-        "concl": "Chú thích bên lề trong SGK đặt câu hỏi “Trong khi làm thí nghiệm, thực ra có thể không cần đo khối lượng của vật. Hãy suy nghĩ xem tại sao?” — Bởi vì ở hai vế của ½mv² = mgh đều có thừa số m, khi lập tỉ số hoặc rút gọn sẽ triệt tiêu nhau, chỉ cần so sánh ½v² với gh là đủ nên không bắt buộc phải dùng cân. Trong điều kiện thực tế, quả nặng càng lớn thì tỉ phần công của lực cản càng nhỏ (δ = −f/(mg)), đây chính là ý trả lời đầu tiên cho Câu hỏi 1 tr. 96 SGK “Làm thế nào để giảm ảnh hưởng của lực cản”.",
+        "concl": "Chú thích bên lề trong SGK đặt câu hỏi “Trong khi làm thí nghiệm, thực ra có thể không cần đo khối lượng của vật. Hãy suy nghĩ xem tại sao?” — Bởi vì ở hai vế của ½mv² = mgh đều có thừa số m, khi lập tỉ số hoặc rút gọn sẽ triệt tiêu nhau, chỉ cần so sánh ½v² với gh là đủ nên không bắt buộc phải dùng cân. Trong điều kiện thực tế, quả nặng càng lớn thì tỉ phần công của lực cản càng nhỏ (δ = −f/(mg)), đây chính là ý trả lời đầu tiên cho Câu hỏi thảo luận trong SGK “Làm thế nào để giảm ảnh hưởng của lực cản”.",
         "exam": "Trọng tâm kiểm tra: Giữ biến cố định + Chú thích SGK “thực ra có thể không cần đo khối lượng của vật”.",
         "points": [
           "Ở chế độ Lý tưởng, thay đổi khối lượng không làm thay đổi bất kỳ giá trị nào của h, v hay hệ số góc — đây là bằng chứng trực tiếp cho thấy “có thể không cần đo khối lượng”.",
@@ -9377,7 +9377,7 @@
         "q": "Hiện tượng “độ giảm thế năng lớn hơn một chút so với độ tăng động năng” là do tính toán sai hay do bản thân thiết bị? Nếu băng giấy bị lệch nghiêng thì sao?",
         "eq": "ΔEk = ΔEp − f·h · δ = −f/(mg) · k = g − f/m",
         "eqCal": "δ −1.28 % / −3.21 % · k 9.68 / 9.49",
-        "concl": "Nguyên văn Bài tập 1(3) tr. 98 SGK “Nhiều kết quả thí nghiệm cho thấy độ giảm thế năng trọng trường lớn hơn một chút so với độ tăng động năng, theo em nguyên nhân là gì?” có đáp án là: khi quả nặng rơi phải chịu lực cản không khí và lực ma sát giữa băng giấy với khe dẫn hướng, lực cản sinh công âm ⇒ ΔEk = ΔEp − f·h, làm δ = −f/(mg) < 0 (chiều lệch luôn mang dấu âm); cách khắc phục: chọn quả nặng có khối lượng lớn (Bước 6), giữ băng giấy thẳng đứng và chỉnh các khe dẫn hướng thẳng hàng.",
+        "concl": "Bài tập vận dụng trong SGK “Nhiều kết quả thí nghiệm cho thấy độ giảm thế năng trọng trường lớn hơn một chút so với độ tăng động năng, theo em nguyên nhân là gì?” có đáp án là: khi quả nặng rơi phải chịu lực cản không khí và lực ma sát giữa băng giấy với khe dẫn hướng, lực cản sinh công âm ⇒ ΔEk = ΔEp − f·h, làm δ = −f/(mg) < 0 (chiều lệch luôn mang dấu âm); cách khắc phục: chọn quả nặng có khối lượng lớn (Bước 6), giữ băng giấy thẳng đứng và chỉnh các khe dẫn hướng thẳng hàng.",
         "exam": "Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số.",
         "points": [
           "Cả hai mức lực cản đều không làm mất tính chất đi qua gốc tọa độ mà chỉ làm giảm hệ số góc (khác với sai số tịnh tiến khi chưa cân bằng ma sát trên mặt phẳng nghiêng).",
@@ -9857,7 +9857,7 @@
         "q": "Gõ búa nhỏ xuống, viên bi A bị ném ngang đồng thời viên bi B rơi tự do — viên bi nào chạm đất trước? Nếu thay đổi độ cao bàn đỡ hoặc thay đổi lực gõ búa thì kết quả có thay đổi không?",
         "eq": "y = ½gt²",
         "eqCal": "Độ cao rơi 0.36 m · t 0.2711 s · Độ lệch thời gian = 0",
-        "concl": "Chuyển động thành phần theo phương thẳng đứng chính là chuyển động rơi tự do (vận tốc đầu bằng 0, gia tốc g) và hoàn toàn độc lập với vận tốc ban đầu theo phương ngang. trong SGK đặt câu hỏi “Từ thí nghiệm này, chuyển động thành phần theo phương thẳng đứng của chuyển động ném ngang là chuyển động gì?” để học sinh tự rút ra kết luận từ hiện tượng “hai viên bi chạm đất cùng lúc” ở Hình 5.3-2 tr. 11.",
+        "concl": "Chuyển động thành phần theo phương thẳng đứng chính là chuyển động rơi tự do (vận tốc đầu bằng 0, gia tốc g) và hoàn toàn độc lập với vận tốc ban đầu theo phương ngang. trong SGK đặt câu hỏi “Từ thí nghiệm này, chuyển động thành phần theo phương thẳng đứng của chuyển động ném ngang là chuyển động gì?” để học sinh tự rút ra kết luận từ hiện tượng “hai viên bi chạm đất cùng lúc” trong thí nghiệm đối chứng SGK.",
         "exam": "Trọng tâm kiểm tra: Bản chất chuyển động thành phần theo phương thẳng đứng của vật ném ngang.",
         "points": [
           "Chuyển động thành phần theo phương thẳng đứng không phụ thuộc vào vận tốc đầu theo phương ngang: dù đổi độ cao rơi hay đổi lực gõ thì hai viên bi vẫn chạm đất đồng thời.",
@@ -10664,7 +10664,7 @@
         "q": "Thiết bị này tên là gì? Tay quay, puli bậc, rãnh dài, tay ngang, ống lồng, thước đo có tác dụng gì? Tại sao giá trị đọc được là “số vạch” chứ không phải “Newton”?",
         "eq": "Fn = mω²r",
         "eqCal": "Trái 8 vạch · Phải 8 vạch · Tỉ số vạch 1.00",
-        "concl": "Quả cầu chuyển động tròn đều, lực hướng tâm do áp lực của tấm chắn tay ngang tác dụng lên quả cầu cung cấp; phản lực của quả cầu lên tấm chắn truyền qua đòn bẩy làm ống lồng hạ xuống, để lộ thước đo. SGK trang 29 nêu rõ: “Dựa vào các vạch chia đều đỏ trắng xen kẽ lộ ra trên thước đo, có thể tính sơ bộ tỉ số lực hướng tâm tác dụng lên hai quả cầu” — thiết bị này cho biết tỉ số chứ không cho biết mỗi lực bằng bao nhiêu Newton.",
+        "concl": "Quả cầu chuyển động tròn đều, lực hướng tâm do áp lực của tấm chắn tay ngang tác dụng lên quả cầu cung cấp; phản lực của quả cầu lên tấm chắn truyền qua đòn bẩy làm ống lồng hạ xuống, để lộ thước đo. SGK nêu rõ: “Dựa vào các vạch chia đều đỏ trắng xen kẽ lộ ra trên thước đo, có thể tính sơ bộ tỉ số lực hướng tâm tác dụng lên hai quả cầu” — thiết bị này cho biết tỉ số chứ không cho biết mỗi lực bằng bao nhiêu Newton.",
         "exam": "Nhận biết dụng cụ + “Lực hướng tâm được đặt tên theo tác dụng”.",
         "points": [
           "Tám bộ phận có chức năng riêng: tay quay tạo tốc độ quay, puli bậc tạo tỉ số tốc độ góc, rãnh dài đặt bán kính, tấm chắn tay ngang nhận áp lực, ống lồng và thước đo biến áp lực thành số vạch; các con số trên nhãn (tay quay 1, rãnh dài 4, rãnh ngắn 5, puli bậc 2·3) là số thứ tự bộ phận trong Hình 6.2-4 SGK, không phải độ chia hay bậc tốc độ.",
@@ -10749,7 +10749,7 @@
         "q": "Gộp cả ba đại lượng lại thì viết thế nào? Khi cả ba đại lượng đều khác nhau, tỉ số vạch có thể vẫn bằng 1.00 được không?",
         "eq": "Fn = mω²r = m v²/r",
         "eqCal": "32 ÷ 32 = 1.00 · Hai nghiệm cùng giá trị",
-        "concl": "Gộp cả ba đại lượng lại ta được Fn = mω²r; kết hợp với v = ωr suy ra ngay Fn = m v²/r (hai công thức đóng khung đỏ trên cùng trang 29 SGK). Hai chế độ khác nhau có thể ghép ra cùng một tỉ số vạch chỉ khi “số mũ của ba đại lượng lần lượt là 1, 1, 2” — đây là bằng chứng thuyết phục nhất của bài học này.",
+        "concl": "Gộp cả ba đại lượng lại ta được Fn = mω²r; kết hợp với v = ωr suy ra ngay Fn = m v²/r. Hai chế độ khác nhau có thể ghép ra cùng một tỉ số vạch chỉ khi “số mũ của ba đại lượng lần lượt là 1, 1, 2” — đây là bằng chứng thuyết phục nhất của bài học này.",
         "exam": "Tổng hợp: Suy diễn qua lại giữa hai công thức + tính toán bằng số liệu bài tập SGK (0.16 N là đáp số bài tập, không phải số đọc trên máy).",
         "points": [
           "Tổng hợp ba đại lượng: Fn = mω²r, rồi dùng v = ωr đổi thành Fn = m v²/r (hai khung đỏ trên cùng một trang, biểu diễn cùng một quy luật).",
@@ -14858,7 +14858,7 @@
         "q": "Tại sao bên trong ống dây lại gần như là từ trường đều? Ở ngoài miệng ống từ trường giảm xuống còn bao nhiêu?",
         "eq": "B_trong = μ0 n I (n = N/L)",
         "eqCal": "Mở rộng · 400 vòng · L = 12.0 cm",
-        "concl": "Dữ kiện A2.8 + A2.15 + Bài tập 6 SGK: Từ trường bên ngoài ống dây có dòng điện rất giống từ trường của một nam châm thẳng, còn bên trong ống dây gần như là từ trường đều (các đường sức từ là những đường thẳng song song cách đều nhau); bên trong ống dây đường sức từ đi từ cực Nam (S) sang cực Bắc (N), vì vậy đầu mà ngón cái chỉ tới (đầu +x) chính là cực Bắc (N). Tại đúng miệng ống chỉ có nửa phía trong đóng góp nên cảm ứng từ xấp xỉ bằng một nửa ở tâm (0.51 lần).",
+        "concl": "Theo SGK GDPT 2018: Từ trường bên ngoài ống dây có dòng điện rất giống từ trường của một nam châm thẳng, còn bên trong ống dây gần như là từ trường đều (các đường sức từ là những đường thẳng song song cách đều nhau); bên trong ống dây đường sức từ đi từ cực Nam (S) sang cực Bắc (N), vì vậy đầu mà ngón cái chỉ tới (đầu +x) chính là cực Bắc (N). Tại đúng miệng ống chỉ có nửa phía trong đóng góp nên cảm ứng từ xấp xỉ bằng một nửa ở tâm (0.51 lần).",
         "exam": "Trọng tâm kiểm tra (Bài tập 6 SGK): Từ trường bên trong ống dây mạnh hơn ở ngoài miệng ống, căn cứ nhận biết là mật độ đường sức từ.",
         "points": [
           "Bên trong ống dây gần như là từ trường đều: các đường sức từ song song và cách đều nhau (tiêu chí nhận biết từ trường đều ở Bài 2 SGK).",
@@ -15107,7 +15107,7 @@
         "q": "Khi đun nóng huyền phù từ 20 ℃ lên 100 ℃, chuyển động của hạt thay đổi mạnh đến mức nào?",
         "eq": "D = kT/(6πη(T)r) (mở rộng)",
         "eqCal": "η giảm khi nhiệt độ tăng",
-        "concl": "Thí nghiệm trong SGK “Thay đổi nhiệt độ của huyền phù và lặp lại thao tác trên” đưa ra kết luận: nhiệt độ càng cao thì chuyển động của hạt than nhỏ càng rõ rệt; tr.4 khẳng định “Nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử”. Về mặt định lượng (mở rộng), độ nhớt của chất lỏng giảm mạnh khi nhiệt độ tăng làm lực cản nhớt giảm xuống, nên D ∝ T/η(T) tăng tới 4.5807 lần, mạnh hơn nhiều so với tỉ số T đơn thuần (1.2730 lần). Lưu ý mô phỏng: bài học cho phép kéo nhiệt độ đến 100 ℃ để làm nổi bật xu hướng vật lý — trong thực tế nước ở 100 ℃ sẽ sôi và xuất hiện dòng đối lưu mạnh làm không thể quan sát ổn định chuyển động Brown dưới kính hiển vi.",
+        "concl": "Thí nghiệm trong SGK “Thay đổi nhiệt độ của huyền phù và lặp lại thao tác trên” đưa ra kết luận: nhiệt độ càng cao thì chuyển động của hạt than nhỏ càng rõ rệt; SGK khẳng định “Nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử”. Về mặt định lượng (mở rộng), độ nhớt của chất lỏng giảm mạnh khi nhiệt độ tăng làm lực cản nhớt giảm xuống, nên D ∝ T/η(T) tăng tới 4.5807 lần, mạnh hơn nhiều so với tỉ số T đơn thuần (1.2730 lần). Lưu ý mô phỏng: bài học cho phép kéo nhiệt độ đến 100 ℃ để làm nổi bật xu hướng vật lý — trong thực tế nước ở 100 ℃ sẽ sôi và xuất hiện dòng đối lưu mạnh làm không thể quan sát ổn định chuyển động Brown dưới kính hiển vi.",
         "exam": "Trọng tâm kiểm tra: Nhiệt độ càng cao chuyển động Brown càng mãnh liệt; nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử (theo SGK GDPT 2018).",
         "points": [
           "Nhiệt độ càng cao, chuyển động hỗn loạn của các phân tử càng mãnh liệt, va đập vào hạt càng mạnh.",
@@ -15158,7 +15158,7 @@
         "q": "Nhỏ một giọt mực vào cốc nước tĩnh lặng, tại sao sau một lúc vùng nước xung quanh đều hóa đen?",
         "eq": "c(x) ∝ exp(−x²/2w²)",
         "eqCal": "Bảo toàn diện tích: Đỉnh hạ thấp thì bề rộng trải ra",
-        "concl": "Theo SGK GDPT 2018: nêu rõ: Hiện tượng khuếch tán không phải do tác dụng từ bên ngoài (như đối lưu, trọng lực...) gây ra, cũng không phải là kết quả của phản ứng hóa học, mà sinh ra do chuyển động hỗn loạn không ngừng của bản thân các phân tử vật chất, và là một trong những bằng chứng trực tiếp chứng tỏ các phân tử chuyển động hỗn loạn không ngừng; tr.4 nêu “Nhiệt độ càng cao thì sự khuếch tán diễn ra càng nhanh” — cùng một thời điểm quan sát, bề rộng khuếch tán ở 100 ℃ lớn gần gấp đôi so với ở 20 ℃, trong khi chiều cao đỉnh giảm còn một nửa: diện tích dưới đường cong được bảo toàn (bảo toàn lượng chất), nên đỉnh thấp xuống thì bề rộng trải ra.",
+        "concl": "Theo SGK GDPT 2018: nêu rõ: Hiện tượng khuếch tán không phải do tác dụng từ bên ngoài (như đối lưu, trọng lực...) gây ra, cũng không phải là kết quả của phản ứng hóa học, mà sinh ra do chuyển động hỗn loạn không ngừng của bản thân các phân tử vật chất, và là một trong những bằng chứng trực tiếp chứng tỏ các phân tử chuyển động hỗn loạn không ngừng; SGK nêu “Nhiệt độ càng cao thì sự khuếch tán diễn ra càng nhanh” — cùng một thời điểm quan sát, bề rộng khuếch tán ở 100 ℃ lớn gần gấp đôi so với ở 20 ℃, trong khi chiều cao đỉnh giảm còn một nửa: diện tích dưới đường cong được bảo toàn (bảo toàn lượng chất), nên đỉnh thấp xuống thì bề rộng trải ra.",
         "exam": "Trọng tâm kiểm tra: Hiện tượng khuếch tán là bằng chứng trực tiếp của chuyển động hỗn loạn phân tử; nhiệt độ càng cao khuếch tán càng nhanh; không cần ngoại lực tác dụng.",
         "points": [
           "Hiện tượng khuếch tán diễn ra nhờ chuyển động nhiệt của các phân tử, không cần khuấy trộn và cũng không phải phản ứng hóa học.",

@@ -221,3 +221,27 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
     });
   });
 });
+
+// Mobile navigation drawer auto-close on link click, outside click, or Escape
+const navHeader = document.querySelector(".nav");
+const navToggle = document.querySelector(".nav-toggle");
+if (navHeader && navToggle) {
+  const closeNav = () => {
+    navHeader.classList.remove("nav-open");
+    navToggle.setAttribute("aria-expanded", "false");
+  };
+  navHeader.querySelectorAll(".nav-link, .nav-cta").forEach((link) => {
+    link.addEventListener("click", closeNav);
+  });
+  document.addEventListener("click", (e) => {
+    if (navHeader.classList.contains("nav-open") && !navHeader.contains(e.target)) {
+      closeNav();
+    }
+  });
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && navHeader.classList.contains("nav-open")) {
+      closeNav();
+    }
+  });
+}
+

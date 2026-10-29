@@ -101,7 +101,11 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'start:{doy:165,hour:4,lat:40,lon:120}',
-      'start:{doy:165,hour:4,lat:21,lon:105}'
+      'start:{doy:165,hour:5,lat:21,lon:105}'
+    ],
+    [
+      'start:{doy:165,hour:4,lat:21,lon:105}',
+      'start:{doy:165,hour:5,lat:21,lon:105}'
     ],
     [
       'start:{doy:172,hour:0,lat:40,lon:120}',
@@ -109,7 +113,7 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'start:{doy:172,hour:4,lat:40,lon:120}',
-      'start:{doy:172,hour:5,lat:40,lon:105}'
+      'start:{doy:172,hour:5,lat:21,lon:105}'
     ],
     [
       'start:{doy:172,hour:4,lat:40,lon:105},chain:1',
@@ -129,7 +133,11 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'start:{doy:172,hour:4,lat:40,lon:105},chain:4',
-      'start:{doy:172,hour:5,lat:40,lon:105},chain:4'
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:4'
+    ],
+    [
+      'start:{doy:172,hour:5,lat:40,lon:105},chain:4',
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:4'
     ],
     [
       'Mm={ref:{doy:172,hour:4,lon:120,lat:40}',
@@ -505,8 +513,9 @@ function cleanPedagogicalCitations(js) {
   // 2. Replace raw internal fact-sheet codes & page numbers in step.ref:"..."
   js = js.replace(/\bref:"((?:[^"\\]|\\.)*)"/g, (full, refVal) => {
     if (
-      !refVal.startsWith('Chuẩn yêu cầu cần đạt') &&
-      (/\b[AB][1-9]\b|[AB][1-9][\.\-]|facts|Hồ sơ chuẩn|Dữ kiện|Dữ liệu mục|SGK|\btr\.\s*\d|\btrang\s*\d|\bp\.\d|Bảng giá trị chuẩn|Mở rộng/i.test(refVal))
+      !refVal.startsWith('Đã ') &&
+      (refVal.startsWith('Chuẩn yêu cầu cần đạt') ||
+        /\b[AB][1-9]\b|[AB][1-9][\.\-]|facts|Hồ sơ chuẩn|Dữ kiện|Dữ liệu mục|SGK|\btr\.\s*\d|\btrang\s*\d|\bp\.\d|Bảng giá trị chuẩn|Mở rộng/i.test(refVal))
     ) {
       return `ref:"Chuẩn yêu cầu cần đạt · ${courseLocate}"`;
     }
@@ -520,10 +529,11 @@ function cleanPedagogicalCitations(js) {
 
     // Prefixes in explanations
     s = s
-      .replace(/^(?:Dữ kiện|Nguyên văn)\s+[AB]\d(?:\.\d+)?(?:\s*\+\s*(?:[AB]\d(?:\.\d+)?|Hình\s*[\d\.\-a-z]+))*\s*(?:SGK)?\s*:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^(?:Dữ kiện|Nguyên văn)\s+[AB]\d(?:\.\d+)?(?:\s*\+\s*(?:[AB]\d(?:\.\d+)?|Hình\s*[\d\.\-a-z]+|Bài tập\s*\d+))*\s*(?:SGK)?\s*:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^(?:Nguyên văn\s+)?Hình\s+[\d\.\-a-z]+\s+tr\.\s*\d+\s+SGK:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^Nguyên văn\s+Bài tập\s+[\d\(\)]+\s+tr\.\s*\d+\s+SGK\s*/gi, 'Bài tập vận dụng trong SGK ')
       .replace(/^(?:Nguyên văn\s+)?SGK\s*tr\.\s*[\d–\-,\s]+:?\s*/gi, 'Theo SGK GDPT 2018: ')
       .replace(/^Bảng\s+(?:[\d\.\-]+\s+|tr\.\s*\d+\s*\+\s*tr\.\s*\d+\s*)SGK:\s*/gi, 'Theo SGK GDPT 2018: ')
-      .replace(/^Hình\s+[\d\.\-a-z]+\s+tr\.\s*\d+\s+SGK:\s*/gi, 'Theo SGK GDPT 2018: ')
       .replace(/^Bài tập\s+[\d\(\)]+\s+tr\.\s*\d+\s+SGK\s+hỏi đúng vấn đề này:\s*/gi, 'Theo SGK GDPT 2018: ')
       .replace(/^SGK\s+Hoạt động\s+câu\s+\d+(?:\s+ý\s+\d+)?\s*\(tr\.\s*\d+\)$/gi, `Chuẩn yêu cầu cần đạt · ${courseLocate}`)
       .replace(/^Mở đầu\s+SGK\s+tr\.\s*\d+$/gi, `Chuẩn yêu cầu cần đạt · ${courseLocate}`)
@@ -532,6 +542,8 @@ function cleanPedagogicalCitations(js) {
 
     // Parenthetical citations with A1-A7 / B1-B4 / tr. xx / p. xx / Hình / Bảng
     s = s
+      .replace(/,\s*mục\s+[AB]\d\s+đã nêu rõ/gi, '')
+      .replace(/\s*\(hai công thức đóng khung đỏ trên cùng trang\s*\d+\s*SGK\)/gi, '')
       .replace(/\s*\(Câu hỏi\s*\(\d+\)\s*tr\.\s*\d+\s*SGK[^")]*\)/gi, '')
       .replace(/\s*\(Công thức\s*\(\d+\)\s*tr\.\s*\d+\s*SGK[^")]*\)/gi, '')
       .replace(/\s*\(Bài tập\s*\d+\(\d+\)\s*tr\.\s*\d+\)/gi, '')
@@ -548,6 +560,14 @@ function cleanPedagogicalCitations(js) {
       .replace(/theo facts\s+[AB]\d[\d\.\–\-]*,?\s*/gi, 'theo mô hình học liệu, ')
       .replace(/theo mô hình học liệu,\s*B4\.6/gi, 'theo mô hình học liệu')
       .replace(/Chú thích bên lề tr\.\s*\d+\s*SGK/gi, 'Chú thích bên lề trong SGK')
+      .replace(/trong bảng tr\.\s*\d+\s*SGK/gi, 'trong bảng số liệu chuẩn SGK')
+      .replace(/ở Câu hỏi\s*\(\d+\)\s*tr\.\s*\d+\s*SGK/gi, 'trong câu hỏi thực hành SGK')
+      .replace(/tại mục “Phân tích dữ liệu” tr\.\s*\d+\s*SGK/gi, 'tại mục Phân tích dữ liệu trong SGK')
+      .replace(/Câu hỏi\s*\d+\s*tr\.\s*\d+\s*SGK/gi, 'Câu hỏi thảo luận trong SGK')
+      .replace(/ở Hình\s*[\d\.\-]+\s*tr\.\s*\d+/gi, 'trong thí nghiệm đối chứng SGK')
+      .replace(/SGK trang\s*\d+\s*nêu rõ:/gi, 'SGK nêu rõ:')
+      .replace(/\btr\.\s*\d+\s*khẳng định\b/gi, 'SGK khẳng định')
+      .replace(/\btr\.\s*\d+\s*nêu\b/gi, 'SGK nêu')
       .replace(/tính theo toán tử\s+[AB]\d[\d\.]*/gi, 'tính theo phương trình chuẩn')
       .replace(/chiều sai lệch cố định ở\s+[AB]\d[\d\.]*,\s*/gi, '')
       .replace(/lỗi nhận thức\s+[AB]\d[\d\.]*/gi, 'lỗi nhận thức thường gặp')

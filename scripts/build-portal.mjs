@@ -56,7 +56,7 @@ function renderSeoHead({ title, desc, canonical, ogImage, ogType = 'website', ke
   const imgUrl = ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`;
   const ldStr = JSON.stringify(jsonLd).replace(/<\//g, '<\\/');
   return `<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${keywords ? `<meta name="keywords" content="${esc(keywords)}">\n` : ''}<meta name="author" content="VietLab 3D — Học liệu Khoa học Tương tác GDPT 2018">
@@ -79,7 +79,7 @@ ${keywords ? `<meta name="keywords" content="${esc(keywords)}">\n` : ''}<meta na
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${esc(imgUrl)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css?v=20261029b">
+<link rel="stylesheet" href="/assets/site.css?v=20261029c">
 <script type="application/ld+json">${ldStr}</script>`;
 }
 
@@ -154,7 +154,10 @@ function renderNav(activePage) {
       <span>VietLab 3D</span>
       <span class="brand-sub">GDPT 2018 · 54 Bài giảng</span>
     </a>
-    <nav class="nav-links" aria-label="Điều hướng chính">
+    <button class="nav-toggle" type="button" aria-label="Mở menu điều hướng" aria-expanded="false" onclick="var n=this.closest('.nav'),o=n.classList.toggle('nav-open');this.setAttribute('aria-expanded',o?'true':'false')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Điều hướng chính" onclick="if(event.target.closest('a')){var n=this.closest('.nav');n.classList.remove('nav-open');var b=n.querySelector('.nav-toggle');if(b)b.setAttribute('aria-expanded','false')}">
       <a href="/#courses"${activePage === 'home' ? ' class="active"' : ''}>Danh mục Học liệu</a>
       <a href="/guide/"${activePage === 'guide' ? ' class="active"' : ''}>Hướng dẫn Giảng dạy</a>
       <a class="hide-m" href="/how/"${activePage === 'how' ? ' class="active"' : ''}>Tiêu chuẩn Học thuật</a>
@@ -524,7 +527,7 @@ ${renderNav('home')}
 
 <script id="books" type="application/json">${JSON.stringify(booksMeta)}</script>
 ${renderFooter()}
-<script type="module" src="/assets/site.js?v=20261029b"></script>
+<script type="module" src="/assets/site.js?v=20261029c"></script>
 </body>
 </html>`;
 }
@@ -864,7 +867,7 @@ ${renderNav('')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js?v=20261029b"></script>
+<script type="module" src="/assets/site.js?v=20261029c"></script>
 </body>
 </html>`;
 }
@@ -1001,7 +1004,7 @@ ${renderNav('guide')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js?v=20261029b"></script>
+<script type="module" src="/assets/site.js?v=20261029c"></script>
 </body>
 </html>`;
 }
@@ -1081,7 +1084,7 @@ ${renderNav('how')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js?v=20261029b"></script>
+<script type="module" src="/assets/site.js?v=20261029c"></script>
 </body>
 </html>`;
 }
@@ -1155,7 +1158,7 @@ ${renderNav('about')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js?v=20261029b"></script>
+<script type="module" src="/assets/site.js?v=20261029c"></script>
 </body>
 </html>`;
 }

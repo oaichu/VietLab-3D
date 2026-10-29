@@ -46,12 +46,12 @@ for (const c of catalog) {
     fail(`courses/${c.slug}.html still has ${cjk} CJK chars`);
     continue;
   }
-  if (!html.includes('id="vietlab-ui-opt"')) {
-    fail(`courses/${c.slug}.html missing vietlab-ui-opt CSS`);
+  if (!html.includes('id="vietlab-ui-opt"') || !html.includes('orientation: landscape') || !html.includes('pointer: coarse')) {
+    fail(`courses/${c.slug}.html missing vietlab-ui-opt multi-device responsive CSS`);
     continue;
   }
-  if (!html.includes('id="vietlab-canvas-guard"')) {
-    fail(`courses/${c.slug}.html missing vietlab-canvas-guard script`);
+  if (!html.includes('id="vietlab-canvas-guard"') || !html.includes('bindResponsivePanels')) {
+    fail(`courses/${c.slug}.html missing vietlab-canvas-guard responsive panel script`);
     continue;
   }
   if (!html.includes('type="application/ld+json"')) {
@@ -119,6 +119,12 @@ const siteJs = fs.readFileSync(path.join(ROOT, 'assets/site.js'), 'utf8');
 const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 if (!siteCss.includes('.cc[hidden]') || !siteCss.includes('display: none !important')) {
   fail('assets/site.css missing .cc[hidden] { display: none !important; } rule');
+}
+if (!siteCss.includes('.nav-toggle') || !siteCss.includes('@media (max-width: 860px)') || !siteCss.includes('@media (max-width: 560px)')) {
+  fail('assets/site.css missing multi-device responsive rules (.nav-toggle, 860px, 560px)');
+}
+if (!indexHtml.includes('class="nav-toggle"') || !indexHtml.includes('viewport-fit=cover')) {
+  fail('index.html missing mobile nav-toggle button or viewport-fit=cover');
 }
 if (!siteJs.includes('c.style.display = v ? "" : "none"') || !siteJs.includes('state.q = ""')) {
   fail('assets/site.js missing explicit display toggle or search reset on subject tab click');
