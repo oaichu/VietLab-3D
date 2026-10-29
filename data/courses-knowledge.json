@@ -316,7 +316,7 @@
       "total": "Thung lũng sông đào sâu, mở rộng, kéo dài: Hình chữ V → Hình lòng máng"
     },
     "mainline": {
-      "q": "Tại sao đường bờ đoạn sông Trường Giang qua Trấn Giang lại liên tục dịch chuyển về phía bắc?",
+      "q": "Tại sao ở các khúc uốn sông Hồng và sông Cửu Long (Việt Nam), một bên bờ liên tục sạt lở còn bờ đối diện lại bồi tụ bãi nổi làm lòng sông dịch chuyển?",
       "chain": [
         {
           "k": "Độ chênh cao",
@@ -447,7 +447,7 @@
         "points": [
           "Bờ lõm là phía ngoài khúc uốn, bờ lồi là phía trong khúc uốn, không phải là \"bờ trái hay bờ phải\".",
           "Sự chênh lệch tốc độ dòng chảy giữa hai bờ (1.09 : 0.57) chính là nguyên nhân gây ra sự khác biệt giữa xói lở và bồi tụ.",
-          "Ở đoạn sông Trường Giang qua Trấn Giang, bờ nam là bờ lồi (bồi tụ), bờ bắc là bờ lõm (xói lở), nên đường bờ dịch chuyển về phía bắc.",
+          "Ở các khúc uốn điển hình của hạ lưu sông Hồng hay sông Tiền – sông Hậu (Việt Nam), nơi có bờ nam là bờ lồi (bồi tụ phù sa) và bờ bắc là bờ lõm (xói lở mạnh do dòng chủ lưu ép sát), đường bờ sông sẽ liên tục dịch chuyển về phía bắc.",
           "Bỏ qua bước này: Chỉ học thuộc lòng \"bờ lõm xâm thực, bờ lồi bồi tụ\", khi gặp dòng sông thực tế sẽ không phân biệt được bờ nào là bờ lõm."
         ],
         "actText": "Kéo giai đoạn phát triển từ giai đoạn trẻ sang giai đoạn trưởng thành để lòng sông uốn khúc",
@@ -520,7 +520,7 @@
       },
       {
         "tag": "③ Khúc uốn",
-        "q": "Đoạn sông Trường Giang qua Trấn Giang có bờ nam là bờ lồi, bờ bắc là bờ lõm, do đó đường bờ",
+        "q": "Một đoạn sông uốn khúc ở hạ lưu sông Hồng có bờ nam là bờ lồi (bồi tụ), bờ bắc là bờ lõm (xói lở), do đó đường bờ",
         "opts": [
           "Dịch chuyển về phía nam",
           "Dịch chuyển về phía bắc",
@@ -858,7 +858,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 2,
-      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương \"Chuyển động của Trái Đất\" (Hệ quả chuyển động quanh Mặt Trời)",
+      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương Chuyển động của Trái Đất (Hệ quả chuyển động quanh Mặt Trời)",
       "title": "Chuyển động biểu kiến của Mặt Trời, Bốn mùa và Năm vòng đai nhiệt"
     },
     "top": {
@@ -949,23 +949,23 @@
           "Bỏ qua bước này: Chỉ nhớ vẹt bốn ngày đặc biệt mà không hiểu bản chất chuyển động biểu kiến, cũng không kết nối được với nguyên nhân sinh ra các mùa."
         ],
         "actText": "Kéo ngày tháng từ Hạ chí (21/6) đến Đông chí (22/12), quan sát điểm lên thiên đỉnh trên mặt cầu và vĩ độ lên thiên đỉnh ở bảng điều khiển",
-        "expectText": "Chấm đỏ ở mặt trước quả cầu di chuyển về phía nam dọc theo kinh tuyến Bắc Kinh, để lại quỹ đạo màu đỏ, lần lượt đi qua Chí tuyến Bắc, Xích đạo (Thu phân 23/9, 0.0°), Chí tuyến Nam; vĩ độ điểm lên thiên đỉnh giảm từ 23.4°N xuống 23.4°S, nhãn cạnh chấm đỏ vào ngày Hạ chí ghi \"Đổi hướng\", khi đang kéo ghi \"Dịch về nam\", đến Đông chí lại ghi \"Đổi hướng\"; trong hình nhỏ góc trên bên trái, Trái Đất đi dọc quỹ đạo đến vị trí Đông chí với hướng trục không đổi"
+        "expectText": "Chấm đỏ ở mặt trước quả cầu di chuyển về phía nam dọc theo kinh tuyến quan sát, để lại quỹ đạo màu đỏ, lần lượt đi qua Chí tuyến Bắc, Xích đạo (Thu phân 23/9, 0.0°), Chí tuyến Nam; vĩ độ điểm lên thiên đỉnh giảm từ 23.4°N xuống 23.4°S, nhãn cạnh chấm đỏ vào ngày Hạ chí ghi \"Đổi hướng\", khi đang kéo ghi \"Dịch về nam\", đến Đông chí lại ghi \"Đổi hướng\"; trong hình nhỏ góc trên bên trái, Trái Đất đi dọc quỹ đạo đến vị trí Đông chí với hướng trục không đổi"
       },
       {
         "num": 3,
         "tag": "Độ cao Mặt Trời lúc chính ngọ",
-        "q": "Vào chính ngọ ngày Hạ chí ở Bắc Kinh, Mặt Trời lên cao bao nhiêu độ?",
+        "q": "Vào chính ngọ ngày Hạ chí tại trạm vĩ độ 40°N (và tại Việt Nam ~20°N–21°N), Mặt Trời lên cao bao nhiêu độ?",
         "eq": "a = 90° − |φ − δ|",
         "eqCal": "φ = Vĩ độ địa phương, δ = Vĩ độ điểm lên thiên đỉnh (Bắc dương, Nam âm)",
-        "concl": "Độ cao Mặt Trời lúc chính ngọ a = 90° − |φ − δ|: tại điểm lên thiên đỉnh là 90°, trên đường phân chia sáng - tối là 0°, các nơi khác giảm dần theo độ chênh lệch vĩ độ so với điểm lên thiên đỉnh; tại Bắc Kinh (40°N) ngày Hạ chí đạt 73°26′, ngày Đông chí đạt 26°34′.",
+        "concl": "Độ cao Mặt Trời lúc chính ngọ a = 90° − |φ − δ|: tại điểm lên thiên đỉnh là 90°, trên đường phân chia sáng - tối là 0°, các nơi khác giảm dần theo độ chênh lệch vĩ độ so với điểm lên thiên đỉnh; tại vĩ tuyến 40°N ngày Hạ chí đạt 73°26′, ngày Đông chí đạt 26°34′ (tại vùng nội chí tuyến Việt Nam đều có 2 lần đạt 90° trong năm).",
         "exam": "Thường gặp trong thi cử: Dấu của δ khi thay vào công thức (ngày Đông chí lấy dấu âm); công thức \"90° − vĩ độ địa phương + 23°26′\" chỉ đúng cho khu vực từ Chí tuyến Bắc trở về cực Bắc.",
         "points": [
           "Độ cao Mặt Trời (góc nhập xạ) là góc hợp bởi tia sáng Mặt Trời và mặt phẳng chân trời; tại điểm Mặt Trời lên thiên đỉnh, độ cao Mặt Trời bằng 90°.",
           "Độ cao Mặt Trời lúc chính ngọ là độ cao Mặt Trời lớn nhất trong một ngày, phản ánh cường độ bức xạ Mặt Trời mạnh hay yếu.",
-          "Độ cao Mặt Trời lúc chính ngọ được tính theo công thức a = 90° − |φ − δ|, trong đó δ lấy giá trị dương vào nửa năm mùa hạ và giá trị âm vào nửa năm mùa đông; tại Bắc Kinh (40°N), ngày Hạ chí là 73°26′, ngày Đông chí là 26°34′. Góc giữa tấm phẳng nhỏ tại Bắc Kinh trên quả cầu với tia sáng nằm ngang chính là góc a; mô hình phóng to phía trên đặt phẳng mặt đất này để dễ quan sát số đo góc thay đổi theo ngày.",
+          "Độ cao Mặt Trời lúc chính ngọ được tính theo công thức a = 90° − |φ − δ|, trong đó δ lấy giá trị dương vào nửa năm mùa hạ và giá trị âm vào nửa năm mùa đông; tại trạm tham chiếu 40°N, ngày Hạ chí là 73°26′, ngày Đông chí là 26°34′ (còn tại Hà Nội 21°02′N thuộc vùng nội chí tuyến Việt Nam, ngày Hạ chí đạt ~87°36′, Đông chí đạt ~45°32′ và có 2 lần Mặt Trời lên thiên đỉnh đạt 90°). Góc giữa mặt phẳng chân trời tại điểm quan sát trên quả cầu với tia sáng chính là góc a.",
           "Bỏ qua bước này: Không tính được độ cao Mặt Trời lúc chính ngọ ở bất kì địa điểm nào, dẫn đến phải học thuộc lòng kiến thức về bốn mùa và năm vòng đai nhiệt."
         ],
-        "actText": "Kéo ngày tháng từ Hạ chí đến Đông chí, quan sát mặt phẳng chân trời Bắc Kinh phóng to ở phía trên: Mặt Trời trượt dọc cung kinh tuyến về phía nào và số đo góc thay đổi ra sao",
+        "actText": "Kéo ngày tháng từ Hạ chí đến Đông chí, quan sát mặt phẳng chân trời địa phương phóng to ở phía trên: Mặt Trời trượt dọc cung kinh tuyến về phía nào và số đo góc thay đổi ra sao",
         "expectText": "Độ cao Mặt Trời lúc chính ngọ giảm từ 73.4° xuống 26.6° (tương ứng với ví dụ tính toán 73°26′ và 26°34′ trong SGK); trong mô hình phóng to, Mặt Trời trượt xuống thấp dần trên bầu trời phía nam, bóng cọc ngày càng dài ra và luôn hướng về phía bắc"
       },
       {
@@ -982,7 +982,7 @@
           "Đỉnh cực đại vào ngày Hạ chí nằm ở Chí tuyến Bắc, ngày Đông chí nằm ở Chí tuyến Nam, còn ngày Xuân phân và Thu phân nằm ở Xích đạo.",
           "Bỏ qua bước này: Sẽ lầm tưởng rằng \"càng về phía nam càng nóng\" luôn đúng ở mọi nơi mà không nhận ra đỉnh cực đại cũng dịch chuyển."
         ],
-        "actText": "Kéo điểm quan sát từ Bắc Kinh (40°N) lên thẳng 80°N, xem số đo, đỉnh đường cong trên bảng điều khiển và đối chiếu với hàng góc ở rìa quả cầu",
+        "actText": "Kéo điểm quan sát từ vĩ tuyến 40°N lên thẳng 80°N, xem số đo, đỉnh đường cong trên bảng điều khiển và đối chiếu với hàng góc ở rìa quả cầu",
         "expectText": "Độ cao Mặt Trời lúc chính ngọ giảm từ 73.4° xuống 33.4°; đường cong luôn đạt cực đại tại một vị trí duy nhất, đó chính là vĩ độ có Mặt Trời lên thiên đỉnh (23.4°N), và giảm dần về hai phía bắc - nam; hàng góc ở rìa quả cầu giảm dần từ 90.0° tại điểm lên thiên đỉnh về hai phía bắc - nam (80°N là 33.4°, 40°N là 73.4°, Xích đạo là 66.6°, 40°S là 26.6°), hoàn toàn khớp với đường cong"
       },
       {
@@ -1016,7 +1016,7 @@
           "Chỉ ở vùng giữa hai chí tuyến Bắc và Nam, δ mới có lúc vượt qua φ, làm hướng Mặt Trời lúc chính ngọ đổi chiều bắc - nam theo mùa.",
           "Bỏ qua bước này: Sẽ ngộ nhận \"Mặt Trời lúc chính ngọ luôn ở hướng nam\" áp dụng cho toàn cầu, học sinh vùng nhiệt đới rất dễ nhầm điểm này."
         ],
-        "actText": "Kéo điểm quan sát từ 40°N vào vùng nội chí tuyến (20°N), xem trong mô hình phóng to Mặt Trời nằm ở phía nào so với thiên đỉnh và bóng cọc ngả về hướng nào",
+        "actText": "Kéo điểm quan sát từ 40°N về vùng nội chí tuyến — vĩ độ Bắc Bộ Việt Nam (20°N, khu vực Hà Nội – Ninh Bình – Thanh Hóa), xem trong mô hình phóng to Mặt Trời nằm ở phía nào so với thiên đỉnh và bóng cọc ngả về hướng nào",
         "expectText": "Hướng Mặt Trời lúc chính ngọ chuyển từ \"Phía nam\" sang \"Phía bắc\", bóng cọc lật sang phía nam; kéo ngược về 40°N lại trở về \"Phía nam\"; kéo đúng vào vĩ độ lên thiên đỉnh sẽ hiển thị \"Thiên đỉnh\""
       },
       {
@@ -1110,7 +1110,7 @@
       },
       {
         "tag": "③ Độ cao Mặt Trời",
-        "q": "Độ cao Mặt Trời lúc chính ngọ tại Bắc Kinh (40°N) vào ngày Đông chí xấp xỉ bằng",
+        "q": "Độ cao Mặt Trời lúc chính ngọ tại vĩ tuyến tham chiếu 40°N vào ngày Đông chí xấp xỉ bằng",
         "opts": [
           "73°26′",
           "50°",
@@ -2274,7 +2274,7 @@
         "no": "⑥",
         "tag": "Đá vôi tạo xỉ",
         "q": "SiO₂ trong quặng là tạp chất, làm thế nào để đuổi nó ra ngoài?",
-        "eq": "CaCO₃(s) → CaO(s) + CO₂(g) ；SiO₂(s) + CaO(s) → CaSiO₃(l)",
+        "eq": "CaCO₃(s) → CaO(s) + CO₂(g) ; SiO₂(s) + CaO(s) → CaSiO₃(l)",
         "eqCal": "Đá vôi phân hủy ở 800–1000 ℃ · Cửa sổ độ kiềm 1.00–1.30",
         "concl": "CaCO₃ phân hủy tạo CaO trước (thu nhiệt), sau đó CaO kéo SiO₂ tạo thành xỉ lỏng CaSiO₃ nổi trên mặt gang: xỉ loãng thì gang mới sạch, không thêm đá vôi tuy đỡ tốn than cốc nhưng không loại bỏ được tạp chất.",
         "exam": "Câu hỏi thường gặp: «Vai trò của việc thêm đá vôi là gì?» — Không phải để cung cấp CO₂, mà để nhiệt phân tạo CaO giúp tạo xỉ loại bỏ tạp chất SiO₂.",
@@ -2738,7 +2738,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 1,
-      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương Thủy quyển: \"Tính chất của nước biển\" và \"Sóng, thủy triều, dòng biển\"",
+      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương Thủy quyển: Tính chất của nước biển và Sóng, thủy triều, dòng biển",
       "title": "Quy luật phân bố và ảnh hưởng của các dòng biển trên thế giới"
     },
     "top": {
@@ -2874,7 +2874,7 @@
         "concl": "Dòng biển gió mùa ở Bắc Ấn Độ Dương đảo chiều theo gió mùa (mùa đông chảy về tây ngược chiều kim đồng hồ, mùa hạ chảy về đông thuận chiều kim đồng hồ); Dòng biển Trôi gió Tây ở bán cầu Nam quanh năm chảy từ tây sang đông bao quanh Nam Cực, không phải vòng hoàn lưu khép kín.",
         "exam": "Dễ nhầm: Nhớ ngược chiều dòng biển gió mùa Bắc Ấn Độ Dương — mùa đông gió Đông Bắc → chảy về tây → ngược chiều kim đồng hồ; mùa hạ gió Tây Nam → chảy về đông → thuận chiều kim đồng hồ.",
         "points": [
-          "Ở vùng biển Bắc Ấn Độ Dương, mùa đông thịnh hành gió mùa Đông Bắc nên nước biển chảy về phía tây và xoáy ngược chiều kim đồng hồ; mùa hạ thịnh hành gió mùa Tây Nam nên nước biển chảy về phía đông và xoáy thuận chiều kim đồng hồ.",
+          "Ở vùng biển Bắc Ấn Độ Dương (cũng như trên Biển Đông Việt Nam), dòng biển đổi chiều rõ rệt theo gió mùa: tại Bắc Ấn Độ Dương, mùa đông thịnh hành gió mùa Đông Bắc nên nước biển chảy về phía tây và xoáy ngược chiều kim đồng hồ; mùa hạ thịnh hành gió mùa Tây Nam nên nước biển chảy về phía đông và xoáy thuận chiều kim đồng hồ (trên Biển Đông Việt Nam, dòng biển mùa đông chảy hướng Đông Bắc – Tây Nam, mùa hạ chảy hướng Tây Nam – Đông Bắc).",
           "Đối với Dòng biển Trôi gió Tây ở bán cầu Nam: vùng biển bao quanh lục địa Nam Cực rất rộng lớn, quanh năm chịu ảnh hưởng của gió Tây ôn đới nên dòng nước chảy từ tây sang đông vòng quanh Nam Cực mà không tạo thành vòng hoàn lưu khép kín.",
           "Cả hai đều không tạo thành vòng hoàn lưu khép kín cố định nhưng vì hai nguyên nhân khác nhau: một nơi bị lục địa bao bọc nửa kín và gió thịnh hành đổi chiều theo mùa; một nơi mặt biển thông suốt hoàn toàn và quanh năm chỉ chịu tác động của đới gió Tây.",
           "Bỏ qua bước này: Sẽ nhớ sai rằng \"vĩ độ trung bình - cao ở bán cầu Nam cũng có vòng hoàn lưu khép kín\" và \"dòng biển Bắc Ấn Độ Dương chảy một chiều quanh năm\"."
@@ -2926,7 +2926,7 @@
         "exam": "Thường gặp trong thi cử: Nguyên nhân hình thành ngư trường lớn — giao thoa dòng biển nóng - lạnh và dòng nước trồi do gió xa bờ, bản chất đều là đưa muối dinh dưỡng lên tầng nước có ánh sáng.",
         "points": [
           "Ở nơi giao thoa giữa dòng biển lạnh và dòng biển nóng, nước biển xáo trộn mạnh, các chất dinh dưỡng lắng đọng dưới đáy biển được đưa lên tầng mặt, sinh vật phù du phát triển mạnh, thu hút cá tụ tập tạo thành ngư trường lớn.",
-          "Ở vùng biển ven bờ Peru, dưới tác động của gió Mậu dịch Đông Nam, nước biển tầng mặt bị đẩy lệch ra xa bờ, nước lạnh từ tầng sâu mang theo chất dinh dưỡng dưới đáy biển trồi lên, cũng tạo nên ngư trường nổi tiếng thế giới.",
+          "Ở vùng biển ven bờ Peru, dưới tác động của gió Mậu dịch Đông Nam, nước biển tầng mặt bị đẩy lệch ra xa bờ, nước lạnh từ tầng sâu mang theo chất dinh dưỡng dưới đáy biển trồi lên tạo nên ngư trường lớn (tương tự tại vùng biển Ninh Thuận – Bình Thuận Việt Nam vào mùa hạ, gió mùa Tây Nam cũng tạo nên vùng nước trồi giàu dinh dưỡng và ngư trường trọng điểm).",
           "Yếu tố quyết định tạo nên ngư trường lớn là muối dinh dưỡng được đưa lên tầng mặt có ánh sáng, chứ không chỉ đơn thuần là \"nhiệt độ nước thích hợp\"; ngư trường Newfoundland sau khi bị đánh bắt quá mức vào thập niên 1950 đã suy giảm nghiêm trọng, buộc Canada phải cấm đánh bắt cá tuyết vào năm 1992.",
           "Bỏ qua bước này: Sẽ tưởng rằng ngư trường chỉ phụ thuộc vào nhiệt độ nước và không giải thích được vì sao ngư trường Peru, Newfoundland lại phân bố đúng ở những vị trí đó."
         ],
@@ -3056,7 +3056,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 (SGK GDPT 2018) · Chuyên đề Khí quyển và Thủy quyển: \"Tương tác Biển—Khí quyển\"",
+      "locate": "Địa lý 10 (SGK GDPT 2018) · Chuyên đề Khí quyển và Thủy quyển: Tương tác Biển—Khí quyển",
       "title": "Tương tác Biển—Khí quyển và hiện tượng El Niño, La Niña"
     },
     "top": {
@@ -3177,7 +3177,7 @@
         "points": [
           "Vào một số năm, nhiệt độ nước biển tầng mặt ở khu vực trung tâm và phía đông Thái Bình Dương gần Xích đạo tăng cao bất thường, đó chính là hiện tượng El Niño.",
           "Khi đó, chênh lệch nhiệt độ tây - đông giảm xuống (+8.0 → +5.6 ℃) và gió Mậu dịch yếu đi (6.00 → 4.20 m/s).",
-          "Dòng khí giáng xuống ở phía đông yếu đi, thậm chí chuyển thành dòng bốc lên, khiến bờ đông từ khô hạn chuyển sang mưa lũ (+72 mm/tháng); dòng bốc lên ở phía tây yếu đi, chuyển sang khô hạn (−45 mm/tháng).",
+          "Dòng khí giáng xuống ở phía đông yếu đi, thậm chí chuyển thành dòng bốc lên, khiến bờ đông từ khô hạn chuyển sang mưa lũ (+72 mm/tháng); dòng bốc lên ở phía tây (Đông Nam Á, Việt Nam, Indonesia, Australia) yếu đi, chuyển sang khô hạn (−45 mm/tháng), tại Việt Nam thường gây thiếu hụt lượng mưa, nắng nóng kéo dài và xâm nhập mặn sâu ở Đồng bằng sông Cửu Long.",
           "Bỏ qua bước này: Không giải thích được trận lũ lụt lịch sử ở Peru nêu ở phần mở đầu bài học."
         ],
         "actText": "Kéo \"Dị thường nhiệt độ biển khu vực trung tâm và đông Xích đạo\" lên +2.4 ℃ (đợt El Niño mạnh năm 1997—98): quan sát dải màu phía đông ấm lên và cột khí đảo chiều từ giáng xuống thành bốc lên",
@@ -3211,7 +3211,7 @@
         "points": [
           "La Niña là hiện tượng nhiệt độ nước biển tầng mặt khu vực trung tâm và phía đông Thái Bình Dương gần Xích đạo giảm thấp bất thường, trái ngược với El Niño.",
           "Chênh lệch nhiệt độ tây - đông tăng lên (+10.0 ℃), gió Mậu dịch thổi mạnh hơn (7.50 m/s), dòng khí giáng xuống ở phía đông càng mạnh hơn (−2.333).",
-          "Hệ quả cũng ngược lại: bờ đông càng khô hạn hơn (−60 mm/tháng), bờ tây mưa nhiều và ngập lụt hơn (+60 mm/tháng).",
+          "Hệ quả cũng ngược lại: bờ đông càng khô hạn hơn (−60 mm/tháng), bờ tây (Đông Nam Á, Việt Nam, Indonesia) mưa nhiều hơn (+60 mm/tháng), tại Việt Nam thường kèm theo mưa bão dồn dập và lũ lụt lớn ở miền Trung.",
           "Bỏ qua bước này: Học sinh chỉ biết đến \"pha nóng\" (El Niño) và sẽ viết ngược dấu hoàn toàn khi gặp câu hỏi về La Niña trong bài thi."
         ],
         "actText": "Kéo dị thường nhiệt độ biển xuống −2.0 ℃ (đợt La Niña năm 1973—74): toàn bộ dải màu và mũi tên ở hai phía đông - tây đều đảo ngược so với El Niño",
@@ -3246,7 +3246,7 @@
           "Núi lửa phun trào"
         ],
         "ans": 1,
-        "why": "Dữ kiện A1.3 ②#2 (SGK Địa lý 10): Đại dương cung cấp khoảng 87.5 % hơi nước cho khí quyển."
+        "why": "Theo SGK GDPT 2018: Đại dương cung cấp khoảng 87.5 % hơi nước cho khí quyển."
       },
       {
         "tag": "② Nhiệt lượng",
@@ -3258,7 +3258,7 @@
           "Dòng biển"
         ],
         "ans": 1,
-        "why": "Dữ kiện A1.3 ②#6 (Hình 4.15 SGK Địa lý 10)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Đại dương truyền nhiệt lượng vào khí quyển chủ yếu thông qua quá trình bốc hơi và ngưng tụ của nước biển (nhiệt ẩn hóa hơi)."
       },
       {
         "tag": "③ Động năng",
@@ -3270,7 +3270,7 @@
           "Động đất"
         ],
         "ans": 1,
-        "why": "Dữ kiện A1.3 ②#4 (SGK Địa lý 10): Dòng biển nóng Bắc và Nam Xích đạo được hình thành do gió Mậu dịch thổi."
+        "why": "Theo SGK GDPT 2018: Dòng biển nóng Bắc và Nam Xích đạo được hình thành do gió Mậu dịch thổi."
       },
       {
         "tag": "④ Năm bình thường",
@@ -3282,7 +3282,7 @@
           "Bờ đông ấm, bờ tây lạnh"
         ],
         "ans": 1,
-        "why": "Dữ kiện A2.3 #2 và Hình 4.18 (SGK Địa lý 10)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Vào năm bình thường, vùng biển phía tây Thái Bình Dương Xích đạo ấm nên không khí bốc lên gây mưa; vùng biển phía đông lạnh do nước trồi nên không khí giáng xuống, thời tiết khô ráo."
       },
       {
         "tag": "⑤ El Niño",
@@ -3294,7 +3294,7 @@
           "Nước biển toàn cầu nóng lên cùng lúc"
         ],
         "ans": 1,
-        "why": "Dữ kiện A2.3 #3 (SGK Địa lý 10): Nhiệt độ nước biển tầng mặt khu vực trung tâm và phía đông tăng cao bất thường."
+        "why": "Theo SGK GDPT 2018: Nhiệt độ nước biển tầng mặt khu vực trung tâm và phía đông tăng cao bất thường."
       },
       {
         "tag": "⑥ Ảnh hưởng",
@@ -3306,7 +3306,7 @@
           "Cả hai bờ đều không đổi"
         ],
         "ans": 0,
-        "why": "Dữ kiện A2.3 #4/#5 (SGK Địa lý 10): Bờ đông mưa nhiều gây lũ lụt; bờ tây khô ráo ít mưa, gây hạn hán hoặc cháy rừng."
+        "why": "Theo SGK GDPT 2018: Bờ đông mưa nhiều gây lũ lụt; bờ tây khô ráo ít mưa, gây hạn hán hoặc cháy rừng."
       },
       {
         "tag": "⑦ La Niña",
@@ -3318,7 +3318,7 @@
           "Gió Mậu dịch biến mất"
         ],
         "ans": 1,
-        "why": "Dữ kiện A2.3 #6 (SGK Địa lý 10): Nhiệt độ nước biển tầng mặt trung tâm và phía đông giảm thấp bất thường, chênh lệch nhiệt độ tây - đông tăng lên."
+        "why": "Theo SGK GDPT 2018: Nhiệt độ nước biển tầng mặt trung tâm và phía đông giảm thấp bất thường, chênh lệch nhiệt độ tây - đông tăng lên."
       },
       {
         "tag": "⑧ Ngưỡng xác định",
@@ -3524,7 +3524,7 @@
         "no": "⑦",
         "tag": "Biến thành sản phẩm gì",
         "q": "Cùng một hệ thống khí hóa này, làm sao lúc thì sản xuất methanol, lúc thì sản xuất ammonia?",
-        "eq": "3H₂(g) + N₂(g) ⇌ 2NH₃(g)；CO + 2H₂ → CH₃OH",
+        "eq": "3H₂(g) + N₂(g) ⇌ 2NH₃(g); CO + 2H₂ → CH₃OH",
         "eqCal": "Methanol: H₂/CO ≈ 2; Tổng hợp ammonia: H₂/N₂ = 3 + phối trộn N₂",
         "concl": "Methanol cần H₂/CO ≈ 2, còn tổng hợp ammonia cần H₂/N₂ = 3. Tuyến methanol đi theo chuyển hóa một phần + phối khí đường vòng (55 % qua lò chuyển hóa); tuyến ammonia đi theo chuyển hóa sâu + phối trộn N₂ (từ trạm tách không khí). Cùng một cụm khí hóa, chỉ cần thay đổi chiều sâu chuyển hóa và cách phối khí.",
         "exam": "«Tại sao tổng hợp ammonia phải phối trộn N₂ còn methanol thì không?» — Vì trong NH₃ có nguyên tố nitrogen là chất phản ứng, còn nguyên tố carbon trong methanol lấy từ CO.",
@@ -4235,7 +4235,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương Khí quyển: \"Quá trình thụ nhiệt của khí quyển\" và \"Khí nhà kính\"",
+      "locate": "Địa lý 10 (SGK GDPT 2018) · Chương Khí quyển: Quá trình thụ nhiệt của khí quyển và Khí nhà kính",
       "title": "Quá trình thụ nhiệt của khí quyển"
     },
     "top": {
@@ -4459,7 +4459,7 @@
           "Không liên quan đến bức xạ Mặt Trời"
         ],
         "ans": 1,
-        "why": "SGK Địa lý 10: \"Một phần nhỏ bị khí quyển hấp thụ hoặc phản xạ\" — suy giảm = hấp thụ + phản xạ (A2.1-b, A7-8)."
+        "why": "SGK Địa lý 10: \"Một phần nhỏ bị khí quyển hấp thụ hoặc phản xạ\" — suy giảm = hấp thụ + phản xạ."
       },
       {
         "tag": "② Sóng ngắn và sóng dài",
@@ -4471,7 +4471,7 @@
           "Cả hai có cùng bước sóng"
         ],
         "ans": 2,
-        "why": "Nhiệt độ càng thấp thì bước sóng của phần bức xạ mạnh nhất càng dài (A2.1-d); ở điều kiện tham chiếu, Mặt Trời là 0.50 µm, mặt đất là 10.01 µm."
+        "why": "Nhiệt độ càng thấp thì bước sóng của phần bức xạ mạnh nhất càng dài; ở điều kiện tham chiếu, Mặt Trời là 0.50 µm, mặt đất là 10.01 µm."
       },
       {
         "tag": "③ Bức xạ nghịch",
@@ -4483,7 +4483,7 @@
           "Sự phản xạ bức xạ Mặt Trời của khí quyển"
         ],
         "ans": 2,
-        "why": "Dữ kiện A2.2-d: Phần lớn bức xạ khí quyển hướng xuống mặt đất, ngược chiều với bức xạ mặt đất nên gọi là bức xạ nghịch khí quyển (A7-3)."
+        "why": "Theo SGK GDPT 2018: Phần lớn bức xạ khí quyển hướng xuống mặt đất, ngược chiều với bức xạ mặt đất nên gọi là bức xạ nghịch khí quyển."
       },
       {
         "tag": "④ Nguồn nhiệt",
@@ -4495,7 +4495,7 @@
           "Địa nhiệt"
         ],
         "ans": 1,
-        "why": "Dữ kiện A2.2-b và Trọng tâm chương 5: Bức xạ sóng dài của mặt đất là nguồn nhiệt chủ yếu, trực tiếp của khí quyển tầng thấp (A7-1)."
+        "why": "Theo SGK GDPT 2018: Bức xạ sóng dài của mặt đất là nguồn nhiệt chủ yếu, trực tiếp của khí quyển tầng thấp."
       },
       {
         "tag": "⑤ Mây",
@@ -4507,7 +4507,7 @@
           "Tác dụng giữ nhiệt của mây không liên quan đến biên độ nhiệt"
         ],
         "ans": 2,
-        "why": "Dữ kiện A2.2-e + Câu 2 hoạt động SGK: Trời quang mây 10.5 ℃, trời âm u hoàn toàn 6.3 ℃ (A7-6)."
+        "why": "Theo SGK GDPT 2018: Trời quang mây 10.5 ℃, trời âm u hoàn toàn 6.3 ℃."
       },
       {
         "tag": "⑥ Mặt Trăng",
@@ -4519,7 +4519,7 @@
           "Albedo bề mặt Mặt Trăng thấp hơn"
         ],
         "ans": 2,
-        "why": "Câu 3 hoạt động SGK; ở điều kiện tham chiếu của bài, Trái Đất là 7.8 ℃, đối chứng không có khí quyển là 24.9 ℃ (A7-7)."
+        "why": "Câu 3 hoạt động SGK; ở điều kiện tham chiếu của bài, Trái Đất là 7.8 ℃, đối chứng không có khí quyển là 24.9 ℃."
       },
       {
         "tag": "⑦ Khí nhà kính",
@@ -4531,7 +4531,7 @@
           "Phá hủy tầng ozon"
         ],
         "ans": 1,
-        "why": "Dữ kiện A2.2-f: Tia hồng ngoại xuyên qua được O2 và N2 nhưng không xuyên qua được CO2 và hơi nước; khí nhà kính hấp thụ bức xạ sóng dài mặt đất (A7-9)."
+        "why": "Theo SGK GDPT 2018: Tia hồng ngoại xuyên qua được O2 và N2 nhưng không xuyên qua được CO2 và hơi nước; khí nhà kính hấp thụ bức xạ sóng dài mặt đất."
       },
       {
         "tag": "⑧ Số đo",
@@ -4553,7 +4553,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thạch quyển — Bài «Các dạng địa hình phổ biến: Địa hình Karst» (tr.66–69)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thạch quyển — Bài «Các dạng địa hình phổ biến: Địa hình Karst»",
       "title": "Sự hình thành và nhận diện địa hình Karst"
     },
     "top": {
@@ -4617,13 +4617,13 @@
         "tag": "Hòa tan",
         "q": "Loại đá nào có thể bị nước «hòa tan» tạo nên địa hình?",
         "eq": "Hòa tan trong nước và bị cuốn đi / kết tủa trở lại",
-        "eqCal": "Điển hình nhất ở Quảng Tây · Quý Châu · Vân Nam (và Hạ Long, Phong Nha, Hà Giang)",
+        "eqCal": "Điển hình tại Việt Nam: Vịnh Hạ Long (Quảng Ninh), Phong Nha – Kẻ Bàng (Quảng Bình), Cao nguyên đá Đồng Văn (Hà Giang), Tràng An (Ninh Bình)",
         "concl": "Vật chất của đá dễ hòa tan (như đá vôi) hòa tan trong nước và bị cuốn đi hoặc kết tủa trở lại, tạo thành các dạng địa hình đa dạng trên mặt đất và dưới lòng đất, gọi chung là địa hình Karst.",
         "exam": "Dễ nhầm: Nói nguyên nhân hình thành địa hình Karst là «gió mài mòn (phong thực)» hoặc «dòng chảy vận chuyển bồi tụ» — thực chất là vật chất hòa tan trong nước bị cuốn đi hoặc kết tủa trở lại.",
         "points": [
           "Một bộ phận đá cấu tạo nên vỏ Trái Đất là đá dễ hòa tan, điển hình như đá vôi.",
           "Trong điều kiện thích hợp, vật chất của loại đá này hòa tan trong nước và bị cuốn đi, hoặc kết tủa trở lại.",
-          "Nhờ đó trên mặt đất và dưới lòng đất hình thành các dạng địa hình đa dạng, gọi chung là địa hình Karst; điển hình ở Quảng Tây, Quý Châu, Vân Nam (Trung Quốc) hay Vịnh Hạ Long, Phong Nha - Kẻ Bàng (Việt Nam).",
+          "Nhờ đó trên mặt đất và dưới lòng đất hình thành các dạng địa hình đa dạng, gọi chung là địa hình Karst; tại Việt Nam phát triển vô cùng điển hình ở Vịnh Hạ Long (Quảng Ninh), Phong Nha – Kẻ Bàng (Quảng Bình), Cao nguyên đá Đồng Văn (Hà Giang), Tràng An – Tam Cốc (Ninh Bình) và Bắc Sơn (Lạng Sơn).",
           "Nếu bỏ qua bước này: học sinh sẽ nhầm nguyên nhân hình thành Karst là do gió thổi mòn hoặc dòng chảy vận chuyển bồi tụ cơ học."
         ],
         "actText": "Kéo góc nhìn xoay quanh khối đá: quan sát mặt phân lớp, khe nứt của tầng đá và mưa rơi từ phía trên",
@@ -4633,15 +4633,15 @@
         "num": 2,
         "tag": "Rãnh→Chảo",
         "q": "Rãnh Karst mở rộng thành lòng chảo Karst như thế nào?",
-        "eq": "Rãnh Karst → Lòng chảo Karst (Bá tử / Cánh đồng Karst)",
-        "eqCal": "Bá tử là tên gọi địa phương của lòng chảo Karst có đáy phẳng",
-        "concl": "Rãnh Karst phát triển tiếp có thể tạo thành lòng chảo Karst diện tích lớn; lòng chảo có đáy bằng phẳng được người dân địa phương gọi là Bá tử (cánh đồng Karst), là vùng canh tác nông nghiệp quan trọng.",
-        "exam": "Dễ nhầm: Coi «Bá tử» là một kiểu địa hình riêng biệt — đó chỉ là tên gọi địa phương của lòng chảo Karst đáy phẳng ở vùng Vân Nam, Quý Châu.",
+        "eq": "Rãnh Karst → Lòng chảo Karst (Cánh đồng Karst / Thung lũng đá vôi)",
+        "eqCal": "Cánh đồng Karst (thung lũng đá vôi) là lòng chảo Karst có đáy bằng phẳng",
+        "concl": "Rãnh Karst phát triển tiếp có thể tạo thành lòng chảo Karst diện tích lớn; lòng chảo có đáy bằng phẳng tạo nên các cánh đồng Karst (thung lũng đá vôi), là vùng canh tác nông nghiệp quan trọng ở miền núi đá vôi Việt Nam.",
+        "exam": "Dễ nhầm: Coi cánh đồng Karst (thung lũng giữa núi đá vôi) là một kiểu địa hình riêng biệt — thực chất đó là lòng chảo Karst có đáy bằng phẳng.",
         "points": [
           "Rãnh Karst có dạng dải dài hoặc dạng lưới, làm mặt đất gồ ghề lồi lõm, đi lại hiểm trở.",
           "Rãnh Karst phát triển thêm nữa có thể tạo thành lòng chảo Karst có diện tích lớn hơn.",
-          "Lòng chảo Karst có đáy bằng phẳng ở Vân Nam, Quý Châu được gọi là «Bá tử» (cánh đồng giữa núi đá vôi), là vùng canh tác nông nghiệp quan trọng tại địa phương — đây là tên gọi địa phương của lòng chảo Karst chứ không phải một kiểu địa hình khác.",
-          "Nếu bỏ qua bước này: «Bá tử» sẽ bị hiểu nhầm thành một kiểu địa hình độc lập."
+          "Lòng chảo Karst có đáy bằng phẳng phủ trầm tích ở các vùng núi đá vôi Việt Nam (như Hà Giang, Cao Bằng, Lạng Sơn, Hòa Bình, Ninh Bình) tạo thành các «cánh đồng Karst» (địa phương thường gọi là «thung» hoặc «lũng» giữa núi đá vôi), là vùng canh tác nông nghiệp và quần cư quan trọng — đây là dạng lòng chảo Karst đáy phẳng chứ không phải một kiểu địa hình tách biệt.",
+          "Nếu bỏ qua bước này: học sinh sẽ hiểu nhầm «cánh đồng Karst / thung lũng đá vôi» thành một kiểu địa hình tách rời khỏi quá trình tiến hóa của lòng chảo Karst."
         ],
         "actText": "Kéo «Giai đoạn tiến hóa» từ Rãnh Karst sang Lòng chảo Karst: quan sát mặt đất biến đổi từ các rãnh nông thành một vùng trũng rộng",
         "expectText": "Độ chênh cao địa hình 1 → 6 m; độ sâu hòa tan tích lũy 4 → 14 m; tỷ lệ khối đá còn lại 100 % → 85 %; thời gian đạt tới 20.0 → 70.0 vạn năm"
@@ -4743,31 +4743,31 @@
           "Bào mòn do băng hà"
         ],
         "ans": 1,
-        "why": "Theo SGK tr.66 (A2.1), A5 #1."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Đá dễ hòa tan (như đá vôi CaCO₃) bị nước giàu CO₂ ăn mòn hòa tan rồi cuốn đi, hoặc kết tủa trở lại tạo thành các dạng địa hình Karst trên mặt đất và dưới lòng đất."
       },
       {
         "tag": "② Phân bố",
         "q": "Khu vực có địa hình Karst điển hình nhất (trong bài học) là",
         "opts": [
-          "Quảng Tây, Quý Châu, Vân Nam",
-          "Đồng bằng Đông Bắc",
-          "Cao nguyên Nội Mông",
-          "Bồn địa Tarim"
+          "Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An",
+          "Đồng bằng phù sa trẻ sông Cửu Long",
+          "Cao nguyên đất đỏ bazan Tây Nguyên",
+          "Vùng đồi cát ven biển Nam Trung Bộ"
         ],
         "ans": 0,
-        "why": "A2.1: «Khu vực Quảng Tây, Quý Châu, Vân Nam có địa hình Karst điển hình và phân bố rộng rãi nhất», A5 #2."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Tại Việt Nam, địa hình Karst phát triển điển hình và rộng khắp tại các vùng núi đá vôi lớn ở Bắc Bộ và Bắc Trung Bộ như Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An – Tam Cốc."
       },
       {
-        "tag": "③ Bá tử (Cánh đồng Karst)",
-        "q": "Nhận định đúng về «Bá tử» là",
+        "tag": "③ Cánh đồng Karst (Thung lũng đá vôi)",
+        "q": "Nhận định đúng về «Cánh đồng Karst» (thung lũng giữa núi đá vôi) là",
         "opts": [
-          "Là một kiểu địa hình độc lập hoàn toàn",
-          "Là tên gọi địa phương của lòng chảo Karst đáy phẳng ở Vân Nam, Quý Châu",
-          "Là một dạng của Rừng đá",
-          "Là châu thổ do sông bồi tụ tạo thành"
+          "Là một kiểu địa hình độc lập hoàn toàn với Karst",
+          "Là dạng lòng chảo Karst có đáy bằng phẳng phủ trầm tích, thuận lợi cho canh tác ở vùng núi đá vôi",
+          "Là một dạng của Rừng đá trên đỉnh núi",
+          "Là châu thổ do sông lớn bồi tụ ở cửa biển"
         ],
         "ans": 1,
-        "why": "A2.2 #3 (p.67)，A5 #3。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Lòng chảo Karst mở rộng và có đáy bằng phẳng phủ lớp đất trầm tích tạo thành cánh đồng Karst (thung lũng đá vôi), là vùng canh tác nông nghiệp quan trọng ở miền núi đá vôi."
       },
       {
         "tag": "④ Cụm đỉnh và Rừng đá",
@@ -4779,7 +4779,7 @@
           "Không thể phân biệt hai dạng này"
         ],
         "ans": 0,
-        "why": "Hình 4.2 (A2.2 #6), A5 #4."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Cụm đỉnh đá vôi có phần bệ đá dưới chân nối liền nhau, còn Rừng đá có các đỉnh tháp đá vôi tách rời nhau trên nền phẳng."
       },
       {
         "tag": "⑤ Trình tự tiến hóa",
@@ -4791,7 +4791,7 @@
           "Lòng chảo → Rãnh Karst → Đỉnh sót → Rừng đá"
         ],
         "ans": 1,
-        "why": "Theo đúng trình tự A2.2 #1–#4 (SGK tr.67)."
+        "why": "Theo trình tự tiến hóa địa hình Karst bề mặt: Rãnh Karst → Lòng chảo Karst → Cụm đỉnh, Rừng đá → Đỉnh sót → Đồi sót (SGK Địa lý 10 GDPT 2018)."
       },
       {
         "tag": "⑥ Hang động Karst",
@@ -4803,7 +4803,7 @@
           "Đều nằm lộ trên mặt đất"
         ],
         "ans": 1,
-        "why": "A2.3 #1 (p.68)，A5 #8。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Hang động Karst (như động Phong Nha, hang Sơn Đoòng ở Quảng Bình) có quy mô từ vài mét đến hàng chục, hàng trăm kilômét và thường phân bố thành nhiều tầng."
       },
       {
         "tag": "⑦ Nhũ đá và Măng đá",
@@ -4815,7 +4815,7 @@
           "Nhũ đá hướng lên trên, măng đá hướng xuống dưới"
         ],
         "ans": 2,
-        "why": "Theo SGK A2.3 #2 (tr.68), A5 #6."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Nước chứa Ca(HCO₃)₂ nhỏ giọt từ trần hang kết tủa CaCO₃ tạo nhũ đá rủ từ trên xuống; nước rơi xuống đáy hang kết tủa bồi đắp từ dưới lên tạo măng đá."
       },
       {
         "tag": "⑧ Cột đá",
@@ -4827,7 +4827,7 @@
           "Magma nguội lạnh đông đặc tạo thành"
         ],
         "ans": 0,
-        "why": "A2.3 #2 (p.68)，A5 #7。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Khi nhũ đá từ trần hang phát triển dài xuống và nối liền với măng đá từ đáy hang vươn lên sẽ tạo thành cột đá vững chắc."
       }
     ]
   },
@@ -4985,7 +4985,7 @@
         "no": "⑤",
         "tag": "Vùng nung",
         "q": "Nhiệt độ lò cần cao đến mức nào? Hạ thấp một chút để tiết kiệm than tại sao lại không được?",
-        "eq": "2CaO + SiO₂ → 2CaO·SiO₂ ；3CaO + SiO₂ → 3CaO·SiO₂",
+        "eq": "2CaO + SiO₂ → 2CaO·SiO₂ ; 3CaO + SiO₂ → 3CaO·SiO₂",
         "eqCal": "Vùng nung 1350–1450 ℃ · Pha lỏng xuất hiện từ khoảng trên 1280 ℃",
         "concl": "Vùng nung cần đạt 1350–1450 ℃: pha lỏng xuất hiện từ trên 1280 ℃ nhưng phải đến 1350–1450 ℃ lượng pha lỏng mới đủ để C₂S kết hợp mạnh với CaO tạo thành C₃S; nếu thiếu nhiệt, CaO còn dư ở dạng tự do làm f-CaO tăng cao, gây mất ổn định thể tích.",
         "exam": "Trọng tâm ôn tập \"Hậu quả khi nhiệt độ vùng nung không đủ\": C₃S tạo thành không đủ, f-CaO tăng cao, độ ổn định thể tích kém.",
@@ -5158,7 +5158,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 1,
-      "locate": "Địa lý 10 & 11 — SGK GDPT 2018 · Chuyên đề «Biến đổi khí hậu toàn cầu, Chu trình Carbon và An ninh quốc gia» (tr.81–89)",
+      "locate": "Địa lý 10 & 11 — SGK GDPT 2018 · Chuyên đề «Biến đổi khí hậu toàn cầu, Chu trình Carbon và An ninh quốc gia»",
       "title": "Biến đổi khí hậu toàn cầu và An ninh quốc gia"
     },
     "top": {
@@ -5173,7 +5173,7 @@
           "t": "Nhiên liệu hóa thạch + Sử dụng đất: hai nguồn phát thải nhân sinh đưa carbon trở lại khí quyển"
         },
         {
-          "k": "phút",
+          "k": "Phân bổ",
           "t": "Một phần được đại dương và đất liền hấp thụ, phần còn lại lưu giữ lâu dài trong khí quyển"
         },
         {
@@ -5275,7 +5275,7 @@
           "Lượng CO₂ do con người thải vào khí quyển có một phần được đại dương và đất liền hấp thụ thông qua chu trình carbon, phần còn lại sẽ lưu giữ lâu dài trong khí quyển.",
           "Đó chính là nguyên nhân khiến hàm lượng CO₂ trong khí quyển không ngừng tăng lên, nhưng không phải «thải ra bao nhiêu thì khí quyển tăng bấy nhiêu».",
           "Mốc chuẩn tỷ lệ lưu giữ là giá trị quan trắc 0.44 (khoảng quan trắc 0.38–0.50); kéo giảm tỷ lệ này xuống tương đương với biện pháp «tăng bể hấp thụ (tăng hấp thụ khí nhà kính)» trong SGK.",
-          "Nếu bỏ qua bước này: học sinh sẽ tưởng «thải ra bao nhiêu thì trong khí quyển tăng thêm bấy nhiêu»——đây là lỗi sai phổ biến nhất của bài học."
+          "Nếu bỏ qua bước này: học sinh sẽ tưởng «thải ra bao nhiêu thì trong khí quyển tăng thêm bấy nhiêu» — đây là lỗi sai phổ biến nhất của bài học."
         ],
         "actText": "Kéo «Tỷ lệ lưu giữ trong khí quyển» từ 0.44 xuống 0.20 (tương đương tăng bể hấp thụ): quan sát sự tăng giảm ngược chiều của hai phần tăng thêm",
         "expectText": "Tích lũy vẫn là 550 PgC: lượng tăng trong khí quyển 242 → 110, đại dương và đất liền hấp thụ 308 → 440; nồng độ 392.2 → 329.9 ppm, độ tăng nhiệt cân bằng 1.489 → 0.741 ℃; nếu kéo lên 0.70 thì tăng nhiệt 2.176 ℃"
@@ -5302,7 +5302,7 @@
         "tag": "Vượt ngưỡng",
         "q": "Nếu cứ tiếp tục phát thải như vậy mãi thì sẽ đi tới đâu?",
         "eq": "dT tăng đơn điệu theo lượng phát thải tích lũy",
-        "eqCal": "Ngưỡng nguy hiểm 2 ℃ (SGK tr.85)",
+        "eqCal": "Ngưỡng nguy hiểm 2 ℃ (theo SGK GDPT 2018)",
         "concl": "Mức tăng nhiệt tăng đơn điệu theo lượng phát thải tích lũy; giữ nguyên cường độ trong thời gian dài gấp đôi sẽ làm lượng tích lũy gấp đôi, độ tăng nhiệt cân bằng tăng từ 1.489 ℃ lên 2.595 ℃, vượt qua ngưỡng nguy hiểm 2 ℃.",
         "exam": "Dễ nhầm: Đánh đồng trực tiếp mức tăng nhiệt với lượng phát thải của một năm đơn lẻ mà bỏ qua tính tích lũy.",
         "points": [
@@ -5323,7 +5323,7 @@
         "concl": "Mất không gian sinh tồn là tác động nghiêm trọng nhất (độ cao tối đa của đất liền Tuvalu chưa tới 5 mét); ngoài ra còn có 3 nhóm khác là làm trầm trọng khủng hoảng tài nguyên/thiên tai, làm gay gắt tranh chấp tài nguyên giữa các nước và chịu hệ lụy từ nước khác, tất cả đều tác động trực tiếp đến an ninh quốc gia.",
         "exam": "Dễ nhầm: Cho rằng tác động của biến đổi khí hậu tới an ninh quốc gia chỉ có «đảo nhỏ bị ngập»; SGK nêu 4 nhóm tác động, trong đó «nghiêm trọng nhất» dùng để chỉ nhóm thứ nhất.",
         "points": [
-          "Mất không gian sinh tồn là tác động nghiêm trọng nhất của biến đổi khí hậu đối với an ninh quốc gia: các quốc đảo nhỏ như Maldives, Tuvalu... đối mặt với nguy cơ bị nước biển nhấn chìm.",
+          "Mất không gian sinh tồn là tác động nghiêm trọng nhất của biến đổi khí hậu đối với an ninh quốc gia: các quốc đảo nhỏ như Maldives, Tuvalu đối mặt với nguy cơ bị nước biển nhấn chìm, và tại Việt Nam các vùng đồng bằng trũng thấp ven biển như Đồng bằng sông Cửu Long, Đồng bằng sông Hồng cũng đứng trước nguy cơ ngập lụt và xâm nhập mặn nghiêm trọng khi mực nước biển dâng.",
           "Nhóm thứ hai: Làm trầm trọng thêm khủng hoảng tài nguyên hoặc thiên tai — các tài nguyên chiến lược như nước ngọt, đất canh tác bị suy giảm cả về số lượng lẫn tính ổn định.",
           "Nhóm thứ ba: Làm gay gắt thêm các tranh chấp tài nguyên giữa các quốc gia; Nhóm thứ tư: Chịu hệ lụy lan truyền từ các quốc gia khác (người tị nạn môi trường, biến động giá cả thị trường tài nguyên quốc tế).",
           "Nếu bỏ qua bước này: biến đổi khí hậu chỉ dừng lại ở «con số nhiệt độ» mà không kết nối được tới tầng «an ninh quốc gia»."
@@ -5377,7 +5377,7 @@
           "Chỉ diễn ra bên trong thạch quyển"
         ],
         "ans": 1,
-        "why": "Theo định nghĩa SGK tr.82 (A2.1, A7-4)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Chu trình carbon là sự di chuyển và chuyển hóa không ngừng của nguyên tố carbon giữa bốn quyển: khí quyển, thủy quyển, sinh quyển và thạch quyển."
       },
       {
         "tag": "② Hai con đường",
@@ -5389,7 +5389,7 @@
           "Đô thị hóa và phát triển du lịch"
         ],
         "ans": 0,
-        "why": "Theo SGK A2.2: «thông qua hai phương thức sử dụng nhiên liệu hóa thạch và thay đổi sử dụng đất» (A7-5)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Từ sau Cách mạng công nghiệp, con người làm biến đổi chu trình carbon toàn cầu chủ yếu qua việc đốt nhiên liệu hóa thạch và thay đổi mục đích sử dụng đất (chặt phá rừng)."
       },
       {
         "tag": "③ Đích đến của khí thải",
@@ -5401,7 +5401,7 @@
           "Được thực vật hấp thụ hết ngay một lần"
         ],
         "ans": 2,
-        "why": "Theo SGK tr.82, tiêu chí cốt lõi của bài học (A2.2, A7-6)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Lượng CO₂ do con người phát thải một phần được đại dương và hệ sinh thái lục địa hấp thụ, phần còn lại tích tụ lâu dài trong khí quyển."
       },
       {
         "tag": "④ Hiệu ứng nhà kính",
@@ -5413,7 +5413,7 @@
           "Phá hủy tầng ozone"
         ],
         "ans": 1,
-        "why": "Theo SGK A2.3: khí nhà kính hấp thụ mạnh bức xạ sóng dài của mặt đất, có tác dụng giữ nhiệt cho Trái Đất (A7-1/3)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Khí nhà kính hấp thụ mạnh bức xạ sóng dài (hồng ngoại) của mặt đất và phát xạ ngược lại mặt đất, giữ nhiệt cho tầng đối lưu."
       },
       {
         "tag": "⑤ Phát thải tích lũy",
@@ -5425,7 +5425,7 @@
           "Lượng mưa của năm hiện tại"
         ],
         "ans": 1,
-        "why": "Theo Hình 3.33 và câu hỏi hoạt động 1 SGK: độ tăng nhiệt tăng đơn điệu theo lượng phát thải tích lũy (A7-12)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Biên độ nóng lên toàn cầu tăng đơn điệu gần như tuyến tính theo tổng lượng CO₂ phát thải tích lũy."
       },
       {
         "tag": "⑥ 2 ℃",
@@ -5437,7 +5437,7 @@
           "Nhiệt độ nước biển tăng thêm 2 ℃"
         ],
         "ans": 0,
-        "why": "Theo A2.5: «tăng vượt quá 2 ℃ so với trước Cách mạng công nghiệp»; SGK không hề nói «dưới 2 ℃ là không có ảnh hưởng» (A7-14)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Ngưỡng 2 ℃ trong Thỏa thuận Paris là giới hạn cảnh báo nguy hiểm so với thời kỳ tiền công nghiệp; ngay cả dưới 2 ℃ biến đổi khí hậu vẫn gây ra nhiều tác động đáng kể."
       },
       {
         "tag": "⑦ An ninh quốc gia",
@@ -5449,7 +5449,7 @@
           "Chịu hệ lụy lan truyền từ các quốc gia khác"
         ],
         "ans": 2,
-        "why": "A2.4 chỉ dùng cụm từ «nghiêm trọng nhất» cho nhóm tác động ① (A7-11)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Mực nước biển dâng làm ngập lụt và thu hẹp không gian sinh tồn ở các quốc đảo và vùng đồng bằng trũng thấp ven biển là mối đe dọa trực tiếp, nghiêm trọng nhất."
       },
       {
         "tag": "⑧ Biện pháp ứng phó",
@@ -5461,7 +5461,7 @@
           "Thiết lập hệ thống cảnh báo sớm, tổ chức di dân"
         ],
         "ans": 0,
-        "why": "A2.6: Giảm nhẹ = Giảm phát thải + Tăng bể hấp thụ; còn công trình chống lũ, bảo hiểm thiên tai, chuyển đổi cơ cấu cây trồng thuộc về Thích ứng (A7-7/8)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Giảm nhẹ biến đổi khí hậu gồm giảm phát thải khí nhà kính (năng lượng sạch) và tăng bể hấp thụ carbon (trồng rừng); các biện pháp công trình chống lũ, chuyển đổi cây trồng thuộc nhóm Thích ứng."
       }
     ]
   },
@@ -5471,7 +5471,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thạch quyển — Bài «Nội lực và sự hình thành địa hình kiến tạo: Uốn nếp & Đứt gãy» (tr.26–32)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thạch quyển — Bài «Nội lực và sự hình thành địa hình kiến tạo: Uốn nếp & Đứt gãy»",
       "title": "Sự hình thành địa hình kiến tạo"
     },
     "top": {
@@ -5479,7 +5479,7 @@
       "total": "Nén ép → Uốn nếp · Đứt gãy → Dịch chuyển"
     },
     "mainline": {
-      "q": "Vì sao trên cao nguyên Thanh Tạng lại tìm thấy hóa thạch lá cây thân gỗ lá rộng — sức mạnh nào đã nâng bề mặt Trái Đất lên cao rồi lại cắt xẻ nó ra?",
+      "q": "Vì sao trên các dãy núi cao như Himalaya hay Hoàng Liên Sơn lại tìm thấy dấu tích trầm tích và hóa thạch sinh vật cổ — sức mạnh nội lực nào đã nâng bề mặt Trái Đất lên cao rồi cắt xẻ nó ra?",
       "chain": [
         {
           "k": "Nén",
@@ -5611,10 +5611,10 @@
         "eq": "relief = throw",
         "eqCal": "Khối nâng thành núi · Khối sụt thành thung lũng",
         "concl": "Đứt gãy có dịch chuyển thẳng đứng là chủ yếu: khối đá nâng lên thường tạo thành núi khối tảng hoặc vùng cao (địa lũy), khối đá hạ xuống thường tạo thành thung lũng hoặc vùng trũng (địa hào); dọc tuyến đứt gãy đá vụn nát dễ phát triển thành khe rãnh và sông suối.",
-        "exam": "Dễ nhầm: Gọi các núi khối tảng (Hoa Sơn, Lư Sơn, Thái Sơn) là núi uốn nếp; hoặc gọi địa hào (đồng bằng Vị Hà, thung lũng Phần Hà) là thung lũng thuần túy do dòng chảy xâm thực.",
+        "exam": "Dễ nhầm: Gọi các núi khối tảng / địa lũy (như dãy Con Voi) là núi uốn nếp; hoặc gọi các địa hào / trũng sụt đứt gãy (như trũng sụt Sông Hồng) là thung lũng thuần túy chỉ do dòng chảy xâm thực.",
         "points": [
           "Khi dịch chuyển theo phương thẳng đứng là chủ yếu, các khối đá nâng hạ xen kẽ: khối trước và khối sau nâng lên, khối ở giữa sụt xuống tương đối.",
-          "Khối đá nâng lên qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng cao (như Hoa Sơn, Lư Sơn, Thái Sơn); khối đá sụt xuống tương đối thường tạo thành thung lũng hoặc vùng trũng thấp (như đồng bằng Vị Hà, thung lũng Phần Hà).",
+          "Khối đá nâng lên (địa lũy) qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng núi cao (như dãy núi Con Voi, khối nâng Hoàng Liên Sơn ở Việt Nam); khối đá sụt xuống tương đối (địa hào) thường tạo thành thung lũng kiến tạo hoặc vùng trũng bồi tụ phù sa (như trũng sụt Đồng bằng sông Hồng, thung lũng đứt gãy sông Chảy – sông Lô).",
           "Biên độ dịch chuyển thẳng đứng chính là độ cao tương đối của núi khối tảng: 60 → 160 m.",
           "Nếu bỏ qua bước này: các ví dụ địa lũy và địa hào sẽ thiếu hình ảnh trực quan, học sinh dễ nhầm núi khối tảng thành núi uốn nếp. (Dọc theo tuyến đứt gãy đá bị nghiền vỡ vụn nát, dễ bị phong hóa xâm thực nên thường phát triển thành khe rãnh, thung lũng sông)"
         ],
@@ -5650,7 +5650,7 @@
           "Magma xâm nhập"
         ],
         "ans": 1,
-        "why": "Theo SGK tr.27 (A2.2 #1)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Do lực nén ép theo phương nằm ngang của nội lực, các tầng đá trầm tích bị biến dạng dẻo và uốn cong thành các nếp uốn."
       },
       {
         "tag": "② Nếp lồi và Nếp lõm",
@@ -5662,7 +5662,7 @@
           "Cả hai không liên quan đến sự uốn cong của tầng đá"
         ],
         "ans": 2,
-        "why": "A2.2 #1 (p.27)。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Ở nếp lồi các tầng đá uốn vồng lên trên; ở nếp lõm các tầng đá uốn võng xuống dưới."
       },
       {
         "tag": "③ Tuổi địa tầng",
@@ -5674,7 +5674,7 @@
           "Không thể xác định tuổi giữa nhân và hai cánh"
         ],
         "ans": 0,
-        "why": "Theo Hình 2.15 (nhân nếp lồi cổ, hai cánh trẻ) + chú thích «① Cổ nhất, ⑦ Trẻ nhất» (A2.2 #6, A5 #8)."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Ở nếp lồi, tầng đá cổ nhất nằm ở phần nhân (tâm) và các tầng đá trẻ hơn nằm đối xứng ở hai bên cánh; ở nếp lõm thì ngược lại."
       },
       {
         "tag": "④ Nghịch đảo địa hình",
@@ -5686,7 +5686,7 @@
           "Mực nước ngầm hạ thấp"
         ],
         "ans": 1,
-        "why": "Theo SGK A2.2 #2 (tr.27), A5 #2."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Đỉnh nếp lồi chịu lực căng nên phát sinh nhiều khe nứt, dễ bị ngoại lực xâm thực khoét sâu thành thung lũng; còn đáy nếp lõm chịu lực nén ép nên đá đặc chắc, khó bị bào mòn và trở thành đỉnh núi."
       },
       {
         "tag": "⑤ Dịch chuyển đứt gãy",
@@ -5698,31 +5698,31 @@
           "Không liên quan đến tầng đá"
         ],
         "ans": 2,
-        "why": "A2.3 #1 (p.27)，A5 #4。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Sự dịch chuyển dọc mặt đứt gãy của các khối đá có cả thành phần dịch chuyển theo phương nằm ngang và phương thẳng đứng."
       },
       {
         "tag": "⑥ Núi khối tảng",
         "q": "Các núi nào sau đây thuộc kiểu núi khối tảng (địa lũy)?",
         "opts": [
-          "Hoa Sơn, Lư Sơn, Thái Sơn",
-          "Dãy Himalaya",
-          "Núi Phú Sĩ",
-          "Dãy Tần Lĩnh (phần chính)"
+          "Dãy núi khối tảng Con Voi, khối nâng Hoàng Liên Sơn",
+          "Dãy Himalaya (núi uốn nếp trẻ)",
+          "Núi lửa Phú Sĩ",
+          "Các nếp uốn trầm tích điển hình"
         ],
         "ans": 0,
-        "why": "A2.3 #3 (tr.28): Khối đá nâng lên thường tạo thành núi khối tảng hoặc vùng cao, như Hoa Sơn, Lư Sơn, Thái Sơn; A5 #6."
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Trong đứt gãy kiến tạo, khối đá được nâng lên (địa lũy) thường tạo thành núi khối tảng hoặc vùng núi cao, tiêu biểu ở Việt Nam là dãy núi Con Voi (nằm giữa đứt gãy sông Hồng và sông Chảy)."
       },
       {
         "tag": "⑦ Thung lũng đứt gãy",
-        "q": "Nguyên nhân hình thành đồng bằng Vị Hà và thung lũng Phần Hà là",
+        "q": "Nguyên nhân kiến tạo hình thành vùng trũng sụt Đồng bằng sông Hồng (địa hào sông Hồng) và các thung lũng đứt gãy là",
         "opts": [
-          "Dòng chảy xâm thực tạo thành thung lũng",
-          "Khối đá sụt xuống tương đối tạo thành thung lũng hoặc vùng trũng (địa hào)",
+          "Thuần túy do dòng chảy xâm thực tạo thành thung lũng",
+          "Khối đá sụt xuống tương đối dọc đứt gãy tạo thành vùng trũng kiến tạo (địa hào), sau đó được phù sa bồi đắp",
           "Băng hà xâm thực",
-          "Miệng núi lửa"
+          "Miệng núi lửa cổ sụp đổ"
         ],
         "ans": 1,
-        "why": "A2.3 #3 (p.28)，A5 #7。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Khối đá bị sụt lún tương đối dọc theo các đới đứt gãy kiến tạo tạo thành địa hào (như trũng sụt Sông Hồng), sau đó được sông ngòi bồi tụ phù sa tạo nên đồng bằng."
       },
       {
         "tag": "⑧ Khe rãnh đứt gãy",
@@ -5734,7 +5734,7 @@
           "Tại đứt gãy tầng đá cứng hơn"
         ],
         "ans": 1,
-        "why": "A2.3 #4 (p.28)，A5 #9。"
+        "why": "Theo SGK Địa lý 10 GDPT 2018: Dọc theo đới đứt gãy (như đứt gãy sông Hồng, sông Chảy, sông Lô ở miền Bắc Việt Nam), đá bị nghiền ép vụn nát nên dễ bị phong hóa và dòng chảy xâm thực tạo thành thung lũng sông suối."
       }
     ]
   },
@@ -5744,7 +5744,7 @@
       "title": "Hiệu ứng quang điện",
       "subject": "Vật lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Thí nghiệm",
-      "locate": "Chuyên đề Vật lý 12 · Chương IV Bài 2 (tr. 71–77)",
+      "locate": "Chuyên đề Vật lý 12 · Chương IV Bài 2",
       "cover": 0
     },
     "top": {
@@ -5779,7 +5779,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -5833,7 +5833,7 @@
         "eq": "I_s ∝ tốc độ phát photon",
         "eqCal": "Natri (Na) · 365.0 nm · P 200 μW · U 0 → +6.00 V",
         "concl": "SGK tr. 72: Khi điện áp tăng, dòng quang điện tiến dần tới giá trị bão hòa, dù tiếp tục tăng điện áp dòng điện cũng không tăng thêm — vì số electron thoát ra trong một đơn vị thời gian là xác định, khi điện áp đủ lớn thì toàn bộ số electron này đều bị cực A thu hết; khi U = 0 dòng điện vẫn khác 0.",
-        "exam": "Trọng tâm kiểm tra: Giải thích tại sao khi tăng điện áp dòng quang điện lại đạt bão hòa (nguyên văn SGK tr. 72); nhận định “dòng bão hòa càng lớn thì Uc càng lớn” là sai (A7.10).",
+        "exam": "Trọng tâm kiểm tra: Giải thích tại sao khi tăng điện áp dòng quang điện lại đạt bão hòa (theo SGK GDPT 2018); nhận định “dòng bão hòa càng lớn thì Uc càng lớn” là sai (A7.10).",
         "points": [
           "Khi U = 0 dòng điện khác 0 (0.294 μA) — khi bứt ra, các quang electron đã mang sẵn động năng ban đầu.",
           "Dòng quang điện bão hòa do cường độ sáng quyết định, không do điện áp quyết định; ô I_sat phải tăng đến 6.00 V mới hiện số và nhỏ hơn giá trị thực 0.0069 μA (chiều lệch có thể kiểm chứng lại).",
@@ -5926,7 +5926,7 @@
           "Nếu bỏ qua bước này: hằng số h chỉ là một con số học thuộc lòng, học sinh không biết nó được đo đạc thực nghiệm như thế nào."
         ],
         "actText": "Trên cùng một catốt Natri (Na): lần lượt quét đến điểm 0 ở các bước sóng 365.0 / 404.7 / 435.8 nm, ghi lại từng giá trị trên ô Uc (tổng cộng 3 dòng), rồi quan sát đường khớp tuyến tính",
-        "expectText": "Natri (Na) · P 200 μW, ba điểm đo (đều lấy từ “nấc dừng tại điểm 0”): (8.2192, 1.11), (7.4129, 0.78), (6.8839, 0.56) nằm thẳng hàng; hệ số góc đường khớp a = 0.4117 V/(10¹⁴ Hz) → h_đo = 6.596×10⁻³⁴ J·s, lệch −0.46 % so với giá trị SGK h = 6.626 070 15×10⁻³⁴ J·s (SGK tr. 75 nêu kết quả của Millikan phù hợp trong cỡ 0.5 %); tung độ gốc −2.2731 V → công thoát W₀ đo được là 2.2731 eV (bảng SGK là 2.29); hoành độ gốc 5.5216×10¹⁴ Hz (bảng SGK νc là 5.53)."
+        "expectText": "Natri (Na) · P 200 μW, ba điểm đo (đều lấy từ “nấc dừng tại điểm 0”): (8.2192, 1.11), (7.4129, 0.78), (6.8839, 0.56) nằm thẳng hàng; hệ số góc đường khớp a = 0.4117 V/(10¹⁴ Hz) → h_đo = 6.596×10⁻³⁴ J·s, lệch −0.46 % so với giá trị SGK h = 6.626 070 15×10⁻³⁴ J·s (theo SGK GDPT 2018); tung độ gốc −2.2731 V → công thoát W₀ đo được là 2.2731 eV (bảng SGK là 2.29); hoành độ gốc 5.5216×10¹⁴ Hz (bảng SGK νc là 5.53)."
       },
       {
         "num": 8,
@@ -5974,7 +5974,7 @@
           "Cả ba đều có"
         ],
         "ans": 0,
-        "why": "Ánh sáng 546.1 nm có tần số 5.4935×10¹⁴ Hz, chỉ có Natri có tần số giới hạn cao hơn giá trị này nên Natri không bứt ra được quang electron nào (dữ kiện A2.2, B2.1 Bảng 2)."
+        "why": "Ánh sáng 546.1 nm có tần số 5.4935×10¹⁴ Hz, chỉ có Natri có tần số giới hạn cao hơn giá trị này nên Natri không bứt ra được quang electron nào."
       },
       {
         "tag": "② Cường độ sáng",
@@ -5986,7 +5986,7 @@
           "Tần số giới hạn"
         ],
         "ans": 0,
-        "why": "Cường độ sáng chỉ làm tăng số photon chiếu tới trong một đơn vị thời gian → số electron bứt ra nhiều hơn → dòng quang điện bão hòa tăng lên; còn điện áp hãm, động năng ban đầu cực đại và tần số giới hạn đều do tần số ánh sáng và bản chất kim loại quyết định (dữ kiện A2.3, A2.5, kiểm chứng D4)."
+        "why": "Cường độ sáng chỉ làm tăng số photon chiếu tới trong một đơn vị thời gian → số electron bứt ra nhiều hơn → dòng quang điện bão hòa tăng lên; còn điện áp hãm, động năng ban đầu cực đại và tần số giới hạn đều do tần số ánh sáng và bản chất kim loại quyết định."
       },
       {
         "tag": "③ Điện áp hãm",
@@ -5998,7 +5998,7 @@
           "Chỉ hiển thị khi đặt điện áp thuận"
         ],
         "ans": 0,
-        "why": "Ô Uc chỉ hiển thị khi “dừng ở đúng nấc điện áp ngược đầu tiên làm dòng điện về 0”; nếu tiếp tục tăng sang nấc tiếp theo mà nấc trước đó đã bằng 0 thì không còn là “lần đầu tiên về 0” nữa (dữ kiện B2.1 mục 8, Cổng kiểm tra A M1)."
+        "why": "Ô Uc chỉ hiển thị khi “dừng ở đúng nấc điện áp ngược đầu tiên làm dòng điện về 0”; nếu tiếp tục tăng sang nấc tiếp theo mà nấc trước đó đã bằng 0 thì không còn là “lần đầu tiên về 0” nữa."
       },
       {
         "tag": "④ Thay đổi kim loại",
@@ -6010,7 +6010,7 @@
           "Kali (K) > Natri (Na) > Rubidi (Rb)"
         ],
         "ans": 0,
-        "why": "Ở cùng một tần số, công thoát W₀ càng lớn thì Ek = hν − W₀ càng nhỏ, nên Uc = Ek/e càng nhỏ; thực nghiệm đo được 1.11 V (Na) < 1.15 (K) < 1.27 (Rb), do đó thứ tự độ lớn là Rubidi (Rb) > Kali (K) > Natri (Na) (dữ kiện A2.9, B2.1 Bảng 1)."
+        "why": "Ở cùng một tần số, công thoát W₀ càng lớn thì Ek = hν − W₀ càng nhỏ, nên Uc = Ek/e càng nhỏ; thực nghiệm đo được 1.11 V (Na) < 1.15 (K) < 1.27 (Rb), do đó thứ tự độ lớn là Rubidi (Rb) > Kali (K) > Natri (Na)."
       },
       {
         "tag": "⑤ Đo hằng số h",
@@ -6022,7 +6022,7 @@
           "6.6×10⁻¹⁹ J·s"
         ],
         "ans": 0,
-        "why": "h = a × 10⁻¹⁴ × e = 0.4117 × 10⁻¹⁴ × 1.602×10⁻¹⁹ = 6.596×10⁻³⁴ J·s, nhỏ hơn giá trị 6.626×10⁻³⁴ trong SGK khoảng 0.46 % (dữ kiện B2.1 mục 10, A2.11)."
+        "why": "h = a × 10⁻¹⁴ × e = 0.4117 × 10⁻¹⁴ × 1.602×10⁻¹⁹ = 6.596×10⁻³⁴ J·s, nhỏ hơn giá trị 6.626×10⁻³⁴ trong SGK khoảng 0.46 %."
       },
       {
         "tag": "⑥ Sai số",
@@ -6034,7 +6034,7 @@
           "Lúc lớn lúc nhỏ thất thường"
         ],
         "ans": 0,
-        "why": "Khi vượt quá giới hạn đo, số chỉ bị cắt phẳng ở mức 5.000 μA (giá trị thực là 5.8838), nên dòng bão hòa đo được chắc chắn bị nhỏ hơn thực tế; trong khi đó dòng điện ở nhánh ngược chỉ vào khoảng 0.1–0.6 μA nên Uc không bị ảnh hưởng (dữ kiện B1.1, B2.1 mục 12, kiểm chứng D7)."
+        "why": "Khi vượt quá giới hạn đo, số chỉ bị cắt phẳng ở mức 5.000 μA (giá trị thực là 5.8838), nên dòng bão hòa đo được chắc chắn bị nhỏ hơn thực tế; trong khi đó dòng điện ở nhánh ngược chỉ vào khoảng 0.1–0.6 μA nên Uc không bị ảnh hưởng."
       }
     ]
   },
@@ -6079,7 +6079,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -6132,8 +6132,8 @@
         "q": "Gạt công tắc sang chốt 1, dòng điện chạy theo chiều nào? Kim đồng hồ lệch về phía nào?",
         "eq": "i = (U − u_C) / R",
         "eqCal": "U 8.0 V · R 3.3 kΩ · C 470 μF · Sơ đồ Hình 10.4-1",
-        "concl": "Dòng điện nạp chảy vào bản cực trên làm điện tích trên bản cực tăng lên; u_C càng cao thì độ chênh lệch điện áp còn lại càng nhỏ, làm dòng điện càng giảm; khi u_C đạt bằng U thì dòng điện bằng 0. Ngay cả khi ngắt khỏi nguồn điện, điện tích trên hai bản cực vẫn được giữ lại trong tụ điện nhờ lực hút tĩnh điện giữa chúng (SGK tr. 38).",
-        "exam": "Trọng tâm kiểm tra: Giải thích tại sao dòng điện nạp giảm dần; công thức Q = C·U; sau khi ngắt nguồn điện tích vẫn còn lưu giữ (nguyên văn SGK tr. 38).",
+        "concl": "Dòng điện nạp chảy vào bản cực trên làm điện tích trên bản cực tăng lên; u_C càng cao thì độ chênh lệch điện áp còn lại càng nhỏ, làm dòng điện càng giảm; khi u_C đạt bằng U thì dòng điện bằng 0. Ngay cả khi ngắt khỏi nguồn điện, điện tích trên hai bản cực vẫn được giữ lại trong tụ điện nhờ lực hút tĩnh điện giữa chúng (theo SGK GDPT 2018).",
+        "exam": "Trọng tâm kiểm tra: Giải thích tại sao dòng điện nạp giảm dần; công thức Q = C·U; sau khi ngắt nguồn điện tích vẫn còn lưu giữ (theo SGK GDPT 2018).",
         "points": [
           "Chiều của dòng điện nạp là “đi vào bản cực trên”, mũi tên trên mặt bàn phải hướng vào bản cực trên.",
           "Theo sơ đồ Hình 10.4-1, quá trình nạp điện cũng đi qua R nên kim đồng hồ từ từ trở về vạch 0 (τ = R·C = 1.55 s), nhưng không bị lệch ngược chiều.",
@@ -6274,7 +6274,7 @@
           "Lệch sang phía ngược lại rồi quay về phía ban đầu"
         ],
         "ans": 1,
-        "why": "Dòng điện nạp đi vào bản cực trên, còn dòng phóng điện đi từ bản cực dương qua R về bản cực âm nên có chiều ngược lại; cả hai dòng đều đi qua cùng một đồng hồ có vạch 0 ở giữa nên kim sẽ lệch sang phía đối diện (dữ kiện A2.12, B2.1 mục 15)."
+        "why": "Dòng điện nạp đi vào bản cực trên, còn dòng phóng điện đi từ bản cực dương qua R về bản cực âm nên có chiều ngược lại; cả hai dòng đều đi qua cùng một đồng hồ có vạch 0 ở giữa nên kim sẽ lệch sang phía đối diện."
       },
       {
         "tag": "② Nạp điện",
@@ -6286,7 +6286,7 @@
           "Ngày càng tăng lên"
         ],
         "ans": 0,
-        "why": "Khi u_C tăng lên thì hiệu số (U − u_C) giảm xuống, làm dòng điện i = (U − u_C)/R giảm theo; khi u_C đạt bằng U thì dòng điện bằng không (dữ kiện A2.6, Bảng nạp điện 1a)."
+        "why": "Khi u_C tăng lên thì hiệu số (U − u_C) giảm xuống, làm dòng điện i = (U − u_C)/R giảm theo; khi u_C đạt bằng U thì dòng điện bằng không."
       },
       {
         "tag": "③ Phóng điện",
@@ -6298,7 +6298,7 @@
           "Đảo chiều trước rồi phục hồi lại"
         ],
         "ans": 0,
-        "why": "Quá trình phóng điện chỉ làm giảm lượng điện tích trên hai bản cực chứ không tráo đổi dấu của bản dương và bản âm, do đó chiều cường độ điện trường luôn hướng từ bản trên xuống bản dưới và chỉ yếu dần đi (dữ kiện A2.13, kiểm chứng D3: Ê·ĥ = +1)."
+        "why": "Quá trình phóng điện chỉ làm giảm lượng điện tích trên hai bản cực chứ không tráo đổi dấu của bản dương và bản âm, do đó chiều cường độ điện trường luôn hướng từ bản trên xuống bản dưới và chỉ yếu dần đi."
       },
       {
         "tag": "④ Diện tích",
@@ -6310,7 +6310,7 @@
           "0.072 mC"
         ],
         "ans": 1,
-        "why": "Mỗi ô nhỏ ứng với 0.4 s × 0.2 mA = 0.08 mC, lấy 45 ô × 0.08 = 3.60 mC, lệch −0.13 mC so với diện tích chính xác 3.73 mC (dữ kiện B2.1 mục 11)."
+        "why": "Mỗi ô nhỏ ứng với 0.4 s × 0.2 mA = 0.08 mC, lấy 45 ô × 0.08 = 3.60 mC, lệch −0.13 mC so với diện tích chính xác 3.73 mC."
       },
       {
         "tag": "④ Đồ thị",
@@ -6322,7 +6322,7 @@
           "4700 μF"
         ],
         "ans": 1,
-        "why": "C = q/u_C = Hệ số góc × 1000 = 470 μF (dữ kiện B2.1 mục 9; q/mC = 0.47 × u/V)."
+        "why": "C = q/u_C = Hệ số góc × 1000 = 470 μF."
       },
       {
         "tag": "⑤ Sai số",
@@ -6334,7 +6334,7 @@
           "Lúc lớn lúc nhỏ không thể xác định"
         ],
         "ans": 1,
-        "why": "Khi dòng điện vượt quá giới hạn đo, phần đỉnh của đường cong bị cắt phẳng làm diện tích dưới đường cong giảm xuống, do đó điện lượng đo được chắc chắn nhỏ hơn giá trị thực (dữ kiện B2.1 mục 12: Diện tích ÷ (C·U) bằng 0.9770 < 0.9933)."
+        "why": "Khi dòng điện vượt quá giới hạn đo, phần đỉnh của đường cong bị cắt phẳng làm diện tích dưới đường cong giảm xuống, do đó điện lượng đo được chắc chắn nhỏ hơn giá trị thực bằng 0.9770 < 0.9933)."
       }
     ]
   },
@@ -6344,7 +6344,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 2,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Trái Đất — Bài «Chuyển động tự quay và chuyển động quanh Mặt Trời của Trái Đất; Hệ quả địa lý» (tr.2–14)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Trái Đất — Bài «Chuyển động tự quay và chuyển động quanh Mặt Trời của Trái Đất; Hệ quả địa lý»",
       "title": "Hệ quả địa lý của chuyển động Trái Đất"
     },
     "top": {
@@ -6352,7 +6352,7 @@
       "total": "Tự quay → Luân phiên ngày đêm · Quay quanh Mặt Trời → Dịch chuyển tia sáng Mặt Trời chiếu vuông góc"
     },
     "mainline": {
-      "q": "Cùng một thời điểm, vì sao ở Bắc Kinh/Hà Nội là buổi trưa còn ở New York lại là nửa đêm, và vì sao ngày mùa hè lại dài hơn ngày mùa đông?",
+      "q": "Cùng một thời điểm, vì sao ở Hà Nội (Việt Nam) là buổi trưa còn ở New York lại là nửa đêm, và vì sao ở Bắc bán cầu ngày mùa hè lại dài hơn ngày mùa đông?",
       "chain": [
         {
           "k": "Tự quay",
@@ -6466,7 +6466,7 @@
         "eq": "Phía Đông sớm hơn phía Tây · Kinh độ cách nhau 15° thì giờ địa phương lệch nhau 1 giờ",
         "eqCal": "1° = 4 phút",
         "concl": "Trái Đất tự quay từ Tây sang Đông nên địa điểm ở phía Đông thấy Mặt Trời mọc trước và có giờ sớm hơn phía Tây; kinh độ cách nhau 15° thì giờ địa phương lệch nhau 1 giờ.",
-        "exam": "Thường gặp trong đề thi: Cho kinh độ hai nơi để tính giờ địa phương; «Giờ Bắc Kinh» là giờ của múi giờ Đông 8 (UTC+8, giờ địa phương của kinh tuyến 120°E), không phải giờ địa phương tại kinh tuyến 116°E của Bắc Kinh.",
+        "exam": "Thường gặp trong đề thi: Cho kinh độ hai nơi để tính giờ địa phương; «Giờ Việt Nam (Giờ Hà Nội)» là giờ của múi giờ Đông 7 (UTC+7, giờ địa phương tại kinh tuyến chuẩn 105°E đi qua lãnh thổ Việt Nam), áp dụng thống nhất trên toàn quốc (dù trung tâm Hà Nội ở kinh độ khoảng 105°51′E).",
         "points": [
           "Do Trái Đất tự quay từ Tây sang Đông nên trên cùng một vĩ độ, địa điểm ở phía Đông sẽ thấy Mặt Trời mọc trước địa điểm ở phía Tây, dẫn đến sự chênh lệch sớm - muộn về thời gian.",
           "Kinh độ cứ cách nhau 15° thì giờ địa phương chênh nhau 1 giờ (1° = 4 phút); địa điểm càng ở về phía Đông thì giờ càng sớm (số chỉ giờ lớn hơn).",
@@ -6481,7 +6481,7 @@
         "tag": "Múi giờ & Đường chuyển ngày",
         "q": "Nếu cả thế giới chỉ dùng giờ địa phương thì rất bất tiện, phải làm sao? Vì sao đi qua kinh tuyến 180° lại lùi về ngày hôm qua?",
         "eq": "Toàn cầu chia 24 múi giờ · Mỗi múi rộng 15° · Hai múi liền kề lệch nhau 1 giờ",
-        "eqCal": "Giờ Bắc Kinh = Giờ múi Đông 8 (UTC+8) = Giờ địa phương của kinh tuyến 120°E",
+        "eqCal": "Giờ Việt Nam (Hà Nội) = Giờ múi Đông 7 (UTC+7) = Giờ địa phương của kinh tuyến chuẩn 105°E",
         "concl": "Toàn cầu chia làm 24 múi giờ, mỗi múi rộng 15°, lấy giờ địa phương của kinh tuyến giữa làm giờ múi; lấy kinh tuyến 180° làm đường chuyển ngày quốc tế, đi từ múi Đông 12 sang phía Đông vào múi Tây 12 thì giờ không đổi nhưng lùi 1 ngày.",
         "exam": "Dễ nhầm: Đi từ Tây sang Đông vượt qua kinh tuyến 180° thì phải lùi 1 ngày lịch (nhiều học sinh nhớ ngược); múi Đông 12 có ngày lịch sớm hơn múi Tây 12 một ngày.",
         "points": [
@@ -6520,29 +6520,29 @@
         "exam": "Thường gặp trong đề thi: Vận dụng công thức H = 90° − |φ − δ| để tính góc nhập xạ lúc chính ngọ; ở phía Bắc Chí tuyến Bắc quanh năm lúc chính ngọ Mặt Trời ở hướng Nam nên bóng vật luôn ngả về hướng Bắc.",
         "points": [
           "Độ cao Mặt Trời là góc hợp bởi tia sáng Mặt Trời và mặt phẳng chân trời: tại điểm Mặt Trời lên thiên đỉnh là 90°, trên đường phân chia sáng tối là 0°; độ cao Mặt Trời lúc chính ngọ (12h trưa địa phương - góc nhập xạ) là độ cao Mặt Trời lớn nhất trong ngày.",
-          "Công thức H = 90° − |φ − δ|, càng gần vĩ độ có Mặt Trời lên thiên đỉnh thì H càng lớn; tại 40°N vào ngày Hạ chí H = 73°26′, ngày Đông chí H = 26°34′.",
+          "Công thức H = 90° − |φ − δ|, càng gần vĩ độ có Mặt Trời lên thiên đỉnh thì H càng lớn; tại vĩ tuyến 40°N ngày Hạ chí H = 73°26′, Đông chí H = 26°34′ (còn tại Hà Nội 21°02′N thuộc vùng nội chí tuyến Việt Nam, Hạ chí đạt 87°36′, Đông chí đạt 45°32′ và có 2 lần đạt 90°).",
           "Quy luật phân bố theo vĩ độ: vào hai ngày Phân giảm dần từ Xích đạo về hai cực; ngày Hạ chí giảm dần từ Chí tuyến Bắc về hai phía Bắc - Nam; ngày Đông chí giảm dần từ Chí tuyến Nam về hai phía; khu vực phía Bắc Chí tuyến Bắc quanh năm lúc chính ngọ Mặt Trời luôn nằm ở hướng Nam.",
           "Nếu bỏ qua bước này: học sinh không giải thích được vì sao cùng vào mùa hè vùng nội chí tuyến - cận chí tuyến nắng chiếu gần đỉnh đầu hơn vùng ôn đới, cũng như vì sao khoảng cách đón nắng giữa các tòa nhà ở bán cầu Bắc lại phải tính theo ngày Đông chí."
         ],
         "actText": "Kéo ngày từ Hạ chí (ngày 172) đến Đông chí (ngày 356), chú ý số đọc Góc nhập xạ lúc chính ngọ",
-        "expectText": "Tại Bắc Kinh (40°N), độ cao Mặt Trời lúc chính ngọ giảm từ 73.4° (Hạ chí 73°26′) → 26.6° (Đông chí 26°34′); vĩ độ có Mặt Trời lên thiên đỉnh dịch chuyển từ Chí tuyến Bắc về Chí tuyến Nam"
+        "expectText": "Tại vĩ tuyến tham chiếu 40°N, độ cao Mặt Trời lúc chính ngọ giảm từ 73.4° (Hạ chí 73°26′) → 26.6° (Đông chí 26°34′); vĩ độ có Mặt Trời lên thiên đỉnh dịch chuyển từ Chí tuyến Bắc về Chí tuyến Nam (quét qua toàn bộ lãnh thổ Việt Nam từ 23°23′N đến 8°34′N khiến nước ta có 2 lần Mặt Trời lên thiên đỉnh trong năm)"
       },
       {
         "num": 9,
         "tag": "Kiểm tra · Đổi múi giờ",
-        "q": "Kiểm tra: Lễ khai mạc World Cup diễn ra tại Moscow lúc 17:30 ngày 14/6 (múi Đông 3), hỏi giờ Bắc Kinh (múi Đông 8) là mấy giờ?",
-        "eq": "Giờ Bắc Kinh = Giờ múi Đông 8 (UTC+8) = Giờ địa phương của kinh tuyến 120°E",
-        "eqCal": "Moscow (Đông 3) 17:30 → Bắc Kinh (Đông 8) 22:30",
-        "concl": "Lễ khai mạc tại Moscow (múi Đông 3) lúc 17:30 giờ địa phương, Bắc Kinh ở múi Đông 8, lệch nhau 5 múi giờ về phía Đông nên giờ Bắc Kinh là 22:30.",
+        "q": "Kiểm tra: Lễ khai mạc World Cup diễn ra tại Moscow lúc 17:30 ngày 14/6 (múi Đông 3), hỏi Giờ Việt Nam (Hà Nội, múi Đông 7) là mấy giờ?",
+        "eq": "Giờ Việt Nam (Hà Nội) = Giờ múi Đông 7 (UTC+7) = Giờ địa phương của kinh tuyến chuẩn 105°E",
+        "eqCal": "Moscow (Đông 3) 17:30 → Việt Nam / Hà Nội (Đông 7) 21:30",
+        "concl": "Lễ khai mạc tại Moscow (múi Đông 3) lúc 17:30 giờ địa phương, Việt Nam (Hà Nội) ở múi Đông 7 (UTC+7), lệch nhau 4 múi giờ về phía Đông nên Giờ Việt Nam là 21:30.",
         "exam": "Thường gặp trong đề thi: Cho múi giờ của hai địa điểm để tính giờ khu vực; khi qua đường chuyển ngày quốc tế thì «giờ giữ nguyên, ngày thay đổi».",
         "points": [
-          "Trước hết tính độ lệch múi giờ giữa hai nơi: Moscow ở múi Đông 3 (UTC+3), Bắc Kinh ở múi Đông 8 (UTC+8), cách nhau 5 múi giờ.",
-          "Càng về phía Đông giờ càng sớm hơn, nên Giờ Bắc Kinh = 17:30 + 5 giờ = 22:30 (tức 14:30 giờ UTC).",
-          "Giờ Bắc Kinh là giờ múi của múi Đông 8, tức là giờ địa phương tại kinh tuyến 120°E, không phải giờ địa phương tại kinh độ 116°E của Bắc Kinh.",
+          "Trước hết tính độ lệch múi giờ giữa hai nơi: Moscow ở múi Đông 3 (UTC+3), Việt Nam (Hà Nội) ở múi Đông 7 (UTC+7), cách nhau 4 múi giờ.",
+          "Càng về phía Đông giờ càng sớm hơn, nên Giờ Việt Nam = 17:30 + 4 giờ = 21:30 (tức 14:30 giờ UTC).",
+          "Giờ Việt Nam là giờ múi của múi Đông 7 (UTC+7), tức giờ địa phương tại kinh tuyến chuẩn 105°E đi qua lãnh thổ Việt Nam (kinh độ trung tâm Hà Nội khoảng 105°51′E).",
           "Nếu bỏ qua bước này: học sinh sẽ dễ tính nhầm khi đi du lịch quốc tế, xem lịch thi đấu thể thao thế giới hoặc tính ngày giờ chuyến bay qua đường chuyển ngày."
         ],
-        "actText": "Chỉnh kinh độ về 120°E, giờ quốc tế (UTC) về 14.5 giờ, ngày về 14/6 (ngày thứ 165) để giờ địa phương tại 120°E (giờ Bắc Kinh) dừng ở 22:30",
-        "expectText": "Đạt chuẩn: Giờ địa phương (120°E) là 22:30, múi giờ Đông 8, ngày 14/6; giữa chừng giờ quốc tế sẽ bị lệch về 08:00, hãy chỉnh lại về 14:30"
+        "actText": "Chỉnh kinh độ về 105°E, giờ quốc tế (UTC) về 14.5 giờ (14:30), ngày về 14/6 (ngày thứ 165) để giờ địa phương tại kinh tuyến chuẩn 105°E (Giờ Việt Nam) dừng ở 21:30",
+        "expectText": "Đạt chuẩn: Giờ Việt Nam (105°E) là 21:30, múi giờ Đông 7 (UTC+7), ngày 14/6; giữa chừng giờ quốc tế sẽ bị lệch về 08:00, hãy chỉnh lại về 14:30"
       }
     ],
     "quiz": [
@@ -6556,7 +6556,7 @@
           "1 năm sao"
         ],
         "ans": 1,
-        "why": "SGK tr.2: Lấy Mặt Trời làm mốc tham chiếu là ngày mặt trời 24 giờ; lấy ngôi sao ở rất xa làm mốc tham chiếu là 23 giờ 56 phút 4 giây (ngày sao) — đây mới là chu kỳ tự quay thực sự của Trái Đất."
+        "why": "Theo SGK GDPT 2018: Lấy Mặt Trời làm mốc tham chiếu là ngày mặt trời 24 giờ; lấy ngôi sao ở rất xa làm mốc tham chiếu là 23 giờ 56 phút 4 giây (ngày sao) — đây mới là chu kỳ tự quay thực sự của Trái Đất."
       },
       {
         "tag": "① Tự quay",
@@ -6568,7 +6568,7 @@
           "Tại hai điểm cực tốc độ góc đạt giá trị lớn nhất"
         ],
         "ans": 1,
-        "why": "SGK tr.3 & tr.14 trọng tâm 1: Tốc độ góc bằng nhau ở mọi vĩ độ trừ hai điểm cực Bắc - Nam (khoảng 15°/giờ); tốc độ dài giảm dần từ Xích đạo về hai cực."
+        "why": "Theo SGK GDPT 2018: Tốc độ góc bằng nhau ở mọi vĩ độ trừ hai điểm cực Bắc - Nam (khoảng 15°/giờ); tốc độ dài giảm dần từ Xích đạo về hai cực."
       },
       {
         "tag": "② Quay quanh Mặt Trời",
@@ -6580,7 +6580,7 @@
           "Khoảng cách Nhật - Địa không liên quan đến tốc độ chuyển động trên quỹ đạo"
         ],
         "ans": 1,
-        "why": "SGK tr.3: Đầu tháng 1 hằng năm Trái Đất ở gần Mặt Trời nhất (điểm cận nhật), đầu tháng 7 ở xa nhất (điểm viễn nhật); tr.14 trọng tâm 2: tại điểm cận nhật tốc độ chuyển động nhanh hơn."
+        "why": "Theo SGK GDPT 2018: Đầu tháng 1 hằng năm Trái Đất ở gần Mặt Trời nhất (điểm cận nhật), đầu tháng 7 ở xa nhất (điểm viễn nhật); tr.14 trọng tâm 2: tại điểm cận nhật tốc độ chuyển động nhanh hơn."
       },
       {
         "tag": "③ Luân phiên ngày đêm",
@@ -6592,7 +6592,7 @@
           "24 giờ; do Trái Đất quay quanh Mặt Trời"
         ],
         "ans": 0,
-        "why": "SGK tr.7: Trái Đất tự quay không ngừng nên ngày và đêm luân phiên liên tục với chu kỳ là 1 ngày mặt trời (24 giờ)."
+        "why": "Theo SGK GDPT 2018: Trái Đất tự quay không ngừng nên ngày và đêm luân phiên liên tục với chu kỳ là 1 ngày mặt trời (24 giờ)."
       },
       {
         "tag": "④ Bình minh & Hoàng hôn",
@@ -6616,7 +6616,7 @@
           "1 ngày"
         ],
         "ans": 2,
-        "why": "SGK tr.8: Tại cùng một thời điểm, các kinh độ khác nhau có giờ địa phương khác nhau; kinh độ cách nhau 15° thì giờ địa phương chênh nhau 1 giờ."
+        "why": "Theo SGK GDPT 2018: Tại cùng một thời điểm, các kinh độ khác nhau có giờ địa phương khác nhau; kinh độ cách nhau 15° thì giờ địa phương chênh nhau 1 giờ."
       },
       {
         "tag": "⑥ Đường chuyển ngày quốc tế",
@@ -6628,7 +6628,7 @@
           "Cả giờ và ngày lịch đều không đổi"
         ],
         "ans": 0,
-        "why": "SGK tr.10: Đi từ múi Đông 12 về phía Đông vào múi Tây 12, giờ đồng hồ giữ nguyên nhưng ngày lịch giảm 1 ngày; đi ngược lại thì ngày lịch tăng 1 ngày."
+        "why": "Theo SGK GDPT 2018: Đi từ múi Đông 12 về phía Đông vào múi Tây 12, giờ đồng hồ giữ nguyên nhưng ngày lịch giảm 1 ngày; đi ngược lại thì ngày lịch tăng 1 ngày."
       },
       {
         "tag": "⑦ Độ dài ngày đêm",
@@ -6640,7 +6640,7 @@
           "Ngày địa cực (Toàn ngày)"
         ],
         "ans": 3,
-        "why": "SGK tr.11: Ngày Hạ chí Mặt Trời chiếu vuông góc tại Chí tuyến Bắc, bán cầu Bắc có ngày dài nhất, đêm ngắn nhất, khu vực từ Vòng cực Bắc đến cực Bắc đều là ngày địa cực (24 giờ ban ngày)."
+        "why": "Theo SGK GDPT 2018: Ngày Hạ chí Mặt Trời chiếu vuông góc tại Chí tuyến Bắc, bán cầu Bắc có ngày dài nhất, đêm ngắn nhất, khu vực từ Vòng cực Bắc đến cực Bắc đều là ngày địa cực (24 giờ ban ngày)."
       }
     ]
   },
@@ -6650,7 +6650,7 @@
       "title": "Thí nghiệm: Khảo sát mối liên hệ giữa gia tốc với lực và khối lượng",
       "subject": "Vật lý",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Vật lý 10 · Chương IV Bài 2 (SGK tr. 88–93)",
+      "locate": "Vật lý 10 · Chương IV Bài 2",
       "cover": 4
     },
     "top": {
@@ -6685,7 +6685,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -6721,7 +6721,7 @@
         "q": "Các dụng cụ trên bàn dùng để làm gì? Tại sao đầu máng phía gắn đồng hồ đánh dấu lại phải kê cao lên?",
         "eq": "F = m_h·g, m đọc từ cân, a tính từ băng giấy",
         "eqCal": "Đã cân bằng lực cản · Dụng cụ lý tưởng",
-        "concl": "Thí nghiệm này lấy trọng lượng của các quả nặng treo làm lực kéo (SGK tr. 88 “Lực kéo tác dụng lên xe lăn có thể coi bằng trọng lượng của các quả nặng treo”), dùng băng giấy để tính gia tốc (tr. 89 Phương pháp 2), dùng cân để đo khối lượng (tr. 89) — bộ thí nghiệm theo đúng Phương án tham khảo 1 ở Hình 4.2-2.",
+        "concl": "Thí nghiệm này lấy trọng lượng của các quả nặng treo làm lực kéo (theo SGK GDPT 2018), dùng băng giấy để tính gia tốc (tr. 89 Phương pháp 2), dùng cân để đo khối lượng (tr. 89) — bộ thí nghiệm theo đúng Phương án tham khảo 1 ở Hình 4.2-2.",
         "exam": "Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc (Yêu cầu cần đạt tr. 13 “Biết sử dụng các dụng cụ thí nghiệm cơ học cơ bản để thu thập dữ liệu”).",
         "points": [
           "Nhận diện dụng cụ: máng gỗ dài được kê cao một đầu, ròng rọc ở đầu thấp, đồng hồ đánh dấu ở đầu cao, băng giấy nối từ đuôi xe luồn qua khe dẫn hướng.",
@@ -6738,7 +6738,7 @@
         "q": "Tại sao phải kê cao một đầu máng gỗ? Kê đến mức nào thì coi là “đã cân bằng tốt”? Nếu kê quá cao thì sao?",
         "eq": "m·g·sinθ₀ = μ·m·g·cosθ₀ → tanθ₀ = μ",
         "eqCal": "θ₀ = 1.146° · μ = 0.020 (Thiết lập của học liệu)",
-        "concl": "Cân bằng lực cản chính là làm cho thành phần trọng lực dọc theo máng gỗ vừa vặn triệt tiêu lực ma sát (SGK tr. 90 “Sao cho khi không chịu lực kéo, xe lăn có thể kéo theo băng giấy chuyển động thẳng đều dọc theo máng gỗ”); tiêu chí kiểm tra là khoảng cách giữa các chấm trên băng giấy đều nhau chứ không phải “cứ kê lên là xong”; nếu kê quá cao sẽ làm dư ra một lượng gia tốc μ·g = 0.196 m/s².",
+        "concl": "Cân bằng lực cản chính là làm cho thành phần trọng lực dọc theo máng gỗ vừa vặn triệt tiêu lực ma sát (theo SGK GDPT 2018); tiêu chí kiểm tra là khoảng cách giữa các chấm trên băng giấy đều nhau chứ không phải “cứ kê lên là xong”; nếu kê quá cao sẽ làm dư ra một lượng gia tốc μ·g = 0.196 m/s².",
         "exam": "Trọng tâm kiểm tra: Cách thực hiện và tiêu chí cân bằng lực cản; giải thích tại sao không được bỏ qua việc “kéo theo băng giấy”.",
         "points": [
           "Khi cân bằng lực cản phải thỏa mãn đồng thời ba điều kiện “Không treo quả nặng + Kéo theo băng giấy + Chuyển động thẳng đều” — nếu chỉ kê máng mà không luồn băng giấy thì ma sát của băng giấy chưa được bù trừ, coi như chưa cân bằng đủ.",
@@ -6770,13 +6770,13 @@
         "num": 4,
         "tag": "Tính gia tốc",
         "q": "Làm thế nào để từ một băng giấy tìm ra gia tốc a? Tại sao không dùng trực tiếp công thức a = 2x/t²?",
-        "eq": "vₙ = (xₙ + xₙ₊₁)/(2T)；a = [(x₃+x₄) − (x₁+x₂)]/(4T²)",
+        "eq": "vₙ = (xₙ + xₙ₊₁)/(2T); a = [(x₃+x₄) − (x₁+x₂)]/(4T²)",
         "eqCal": "v 0.4806 / 0.5611 / 0.6417 · Δx 8.06 mm · a 0.81",
-        "concl": "Hiệu hai quãng đường liên tiếp không đổi ⟹ chuyển động nhanh dần đều; vₙ = (xₙ + xₙ₊₁)/(2T) (SGK tr. 23–24 “Dùng vận tốc trung bình trên đoạn nhỏ để đại diện cho vận tốc tức thời tại điểm chính giữa”), hệ số góc của đường thẳng nối 3 điểm chính là gia tốc a (mục Phân tích dữ liệu tr. 37 SGK). Vì băng giấy đã lược bỏ các chấm dày đặc ở đoạn đầu nên vận tốc tại mốc đầu v₀ = 0.40 m/s ≠ 0, do đó không thể áp dụng công thức a = 2x/t².",
+        "concl": "Hiệu hai quãng đường liên tiếp không đổi ⟹ chuyển động nhanh dần đều; vₙ = (xₙ + xₙ₊₁)/(2T) (theo SGK GDPT 2018), hệ số góc của đường thẳng nối 3 điểm chính là gia tốc a (mục Phân tích dữ liệu tr. 37 SGK). Vì băng giấy đã lược bỏ các chấm dày đặc ở đoạn đầu nên vận tốc tại mốc đầu v₀ = 0.40 m/s ≠ 0, do đó không thể áp dụng công thức a = 2x/t².",
         "exam": "Trọng tâm kiểm tra: Tính gia tốc từ băng giấy (hệ số góc đồ thị v–t / phương pháp hiệu số liên tiếp); điều kiện áp dụng công thức “a = 2x/t² đòi hỏi vận tốc ban đầu bằng 0”.",
         "points": [
           "Phải có “hiệu số” giữa các đoạn liên tiếp không đổi mới chứng tỏ là chuyển động biến đổi đều; còn bản thân các đoạn tăng dần là bình thường.",
-          "Vận tốc tại điểm giữa được tính bằng trung bình cộng trên hai đoạn kề trước và kề sau nó (SGK tr. 23–24 “Khoảng thời gian càng nhỏ thì càng sát giá trị tức thời”).",
+          "Vận tốc tại điểm giữa được tính bằng trung bình cộng trên hai đoạn kề trước và kề sau nó (theo SGK GDPT 2018).",
           "Gia tốc a là hệ số góc của đồ thị v–t, chứ không phải lấy một đoạn chia cho thời gian.",
           "Tự tính kiểm tra với băng giấy ở Hình 4.2-6 SGK: 6.19 / 6.70 / 7.21 / 7.72 cm, T = 0.1 s → Δx = 0.51 cm → a = 0.51 m/s²."
         ],
@@ -6789,8 +6789,8 @@
         "q": "Giữ nguyên khối lượng xe lăn, treo thêm mỗi lần một quả nặng thì a thay đổi bao nhiêu? Biểu diễn 5 điểm đo lên đồ thị sẽ thu được hình dạng gì?",
         "eq": "a = F / m (m không đổi) · k_F = Σ(F·a)/ΣF²",
         "eqCal": "k_F 2.781 kg⁻¹ → m_đo 0.360 kg",
-        "concl": "Giữ biến cố định: khi chỉ thay đổi lực kéo thì a ∝ F; đồ thị a–F là đường thẳng đi qua gốc tọa độ (SGK tr. 91 “Nếu các điểm này nằm sát một đường thẳng đi qua gốc tọa độ thì chứng tỏ gia tốc a tỉ lệ thuận với lực kéo F”), hệ số góc chính là 1/m. Năm giá trị này trùng khớp từng chữ số với Bảng 4 trong SGK — trong đó ô 0.67 trong SGK để trống yêu cầu học sinh tự điền (tính theo a = F/m ra đúng 0.67).",
-        "exam": "Trọng tâm kiểm tra: Dựa vào đường thẳng a–F đi qua gốc tọa độ để kết luận tỉ lệ thuận, và tìm khối lượng từ hệ số góc (SGK tr. 91).",
+        "concl": "Giữ biến cố định: khi chỉ thay đổi lực kéo thì a ∝ F; đồ thị a–F là đường thẳng đi qua gốc tọa độ (theo SGK GDPT 2018), hệ số góc chính là 1/m. Năm giá trị này trùng khớp từng chữ số với Bảng 4 trong SGK — trong đó ô 0.67 trong SGK để trống yêu cầu học sinh tự điền (tính theo a = F/m ra đúng 0.67).",
+        "exam": "Trọng tâm kiểm tra: Dựa vào đường thẳng a–F đi qua gốc tọa độ để kết luận tỉ lệ thuận, và tìm khối lượng từ hệ số góc (theo SGK GDPT 2018).",
         "points": [
           "Kiểm soát biến số: ở bước này chỉ được thay đổi số quả nặng treo, tuyệt đối không thay đổi số quả cân đặt trên xe.",
           "Năm điểm đo nằm trên đường thẳng đi qua gốc tọa độ, hệ số góc chính bằng 1/m (2.781 → 0.360 kg = số đọc trên cân).",
@@ -6806,8 +6806,8 @@
         "q": "Giữ lực kéo không đổi, vẽ đồ thị a theo m ta thấy điều gì? Tại sao SGK lại chuyển sang vẽ đồ thị a–1/m?",
         "eq": "a ∝ 1/m (F không đổi) · k_R = Σ((1/m)·a)/Σ(1/m)²",
         "eqCal": "k_R 0.292 N ≈ F 0.29 N",
-        "concl": "Từ đường cong hypebol rất khó kết luận trực tiếp mối quan hệ tỉ lệ nghịch (SGK tr. 91 “Chúng ta rất khó nhận biết trực quan bằng mắt thường xem đường cong có phải là hypebol hay không”); khi đổi sang trục a–1/m, nếu đồ thị là đường thẳng đi qua gốc tọa độ thì có thể khẳng định ngay a ∝ 1/m (nguyên văn SGK tr. 92) — bước này chính là phép đổi trục từ Hình 4.2-4 → Hình 4.2-5 → Hình 4.2-7 trong SGK. Năm con số này trùng khớp với Bảng 5 SGK, trong đó ô ứng với m = 0.31 kg là ô trống để học sinh tự tính điền vào kết quả 0.94.",
-        "exam": "Trọng tâm kiểm tra: Đồ thị a–1/m (SGK tr. 92; Bài tập 2 tr. 93 yêu cầu vẽ đồ thị này).",
+        "concl": "Từ đường cong hypebol rất khó kết luận trực tiếp mối quan hệ tỉ lệ nghịch (theo SGK GDPT 2018); khi đổi sang trục a–1/m, nếu đồ thị là đường thẳng đi qua gốc tọa độ thì có thể khẳng định ngay a ∝ 1/m (theo SGK GDPT 2018) — bước này chính là phép đổi trục từ Hình 4.2-4 → Hình 4.2-5 → Hình 4.2-7 trong SGK. Năm con số này trùng khớp với Bảng 5 SGK, trong đó ô ứng với m = 0.31 kg là ô trống để học sinh tự tính điền vào kết quả 0.94.",
+        "exam": "Trọng tâm kiểm tra: Đồ thị a–1/m (theo SGK GDPT 2018).",
         "points": [
           "Đồ thị a–m là đường cong hypebol nên không thể kết luận ngay bằng mắt là “tỉ lệ nghịch” — bắt buộc phải tuyến tính hóa bằng cách đổi trục.",
           "Sau khi đổi trục, đường thẳng phải “đi qua gốc tọa độ” chứ không chỉ “trông giống đường thẳng”.",
@@ -6875,7 +6875,7 @@
           "0.5 s"
         ],
         "ans": 2,
-        "why": "0.02 s × 5 khoảng = 0.1 s (dữ kiện trong Bài tập 2 tr. 93 SGK)."
+        "why": "0.02 s × 5 khoảng = 0.1 s."
       },
       {
         "tag": "Tiêu chí đồ thị",
@@ -6887,7 +6887,7 @@
           "Tích của a và m có thay đổi hay không"
         ],
         "ans": 2,
-        "why": "SGK tr. 91–92: Khi đồ thị a–m là đường cong thì không thể nhận biết trực quan có phải hypebol (tỉ lệ nghịch) hay không, do đó phải chuyển sang vẽ đồ thị a–1/m; nếu thu được đường thẳng đi qua gốc tọa độ mới kết luận được chúng tỉ lệ nghịch."
+        "why": "Theo SGK GDPT 2018: Khi đồ thị a–m là đường cong thì không thể nhận biết trực quan có phải hypebol (tỉ lệ nghịch) hay không, do đó phải chuyển sang vẽ đồ thị a–1/m; nếu thu được đường thẳng đi qua gốc tọa độ mới kết luận được chúng tỉ lệ nghịch."
       },
       {
         "tag": "Chiều sai số",
@@ -8272,7 +8272,7 @@
           "Hằng số cân bằng K bị giảm xuống"
         ],
         "ans": 1,
-        "why": "Do xảy ra phản ứng 2Fe³⁺ + Fe = 3Fe²⁺ làm nồng độ c(Fe³⁺) giảm xuống → Q tăng lên lớn hơn K → cân bằng chuyển dịch theo chiều nghịch (mục A3.3)."
+        "why": "Do xảy ra phản ứng 2Fe³⁺ + Fe = 3Fe²⁺ làm nồng độ c(Fe³⁺) giảm xuống → Q tăng lên lớn hơn K → cân bằng chuyển dịch theo chiều nghịch."
       },
       {
         "tag": "② Ống chromium",
@@ -8284,7 +8284,7 @@
           "Nguyên tố Cr đã bị oxi hóa"
         ],
         "ans": 1,
-        "why": "Thêm kiềm trung hòa H⁺ làm tỉ số Q = c²(CrO₄²⁻)·c²(H⁺)/c(Cr₂O₇²⁻) giảm xuống nhỏ hơn K → cân bằng chuyển dịch theo chiều thuận, tạo thêm nhiều ion CrO₄²⁻ màu vàng (mục A3.4)."
+        "why": "Thêm kiềm trung hòa H⁺ làm tỉ số Q = c²(CrO₄²⁻)·c²(H⁺)/c(Cr₂O₇²⁻) giảm xuống nhỏ hơn K → cân bằng chuyển dịch theo chiều thuận, tạo thêm nhiều ion CrO₄²⁻ màu vàng."
       },
       {
         "tag": "③ Trạm nhiệt độ",
@@ -9041,7 +9041,7 @@
         "num": 5,
         "tag": "Mạnh và yếu",
         "q": "Cùng là acid một nấc nồng độ 0.10 mol/L, tại sao dung dịch HCl đạt 21 mA còn CH₃COOH chỉ có 1 mA?",
-        "eq": "HCl = H⁺ + Cl⁻ ；CH₃COOH ⇌ CH₃COO⁻ + H⁺",
+        "eq": "HCl = H⁺ + Cl⁻ ; CH₃COOH ⇌ CH₃COO⁻ + H⁺",
         "eqCal": "0.10 mol/L · 25 ℃ · Thí nghiệm so sánh độ dẫn điện",
         "concl": "Dung dịch HCl và dung dịch CH₃COOH có cùng nồng độ mol nhưng có pH và độ dẫn điện khác nhau rõ rệt, chứng tỏ nồng độ ion H⁺ trong hai dung dịch khác nhau, tức mức độ phân li khác nhau: HCl phân li hoàn toàn, còn CH₃COOH chỉ phân li một phần (theo SGK Hóa học 11).",
         "exam": "Câu hỏi trọng tâm: Phân biệt chất điện li mạnh / chất điện li yếu và cách viết phương trình điện li; điều kiện đối chứng khi so sánh độ dẫn điện (cùng nồng độ, cùng nhiệt độ).",
@@ -9204,7 +9204,7 @@
       "title": "Thí nghiệm: Kiểm chứng định luật bảo toàn cơ năng",
       "subject": "Vật lý",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Vật lý 10 · Chương VIII Bài 5 (SGK tr. 95–98)",
+      "locate": "Vật lý 10 · Chương VIII Bài 5",
       "cover": 4
     },
     "top": {
@@ -9239,7 +9239,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -9417,7 +9417,7 @@
           "Ngắt điện trước rồi mới thả quả nặng"
         ],
         "ans": 1,
-        "why": "Nguyên văn SGK tr. 98 “Trong thí nghiệm, bật nguồn điện trước, sau đó mới thả quả nặng”: nếu buông tay trước sẽ làm mất trắng các chấm ở đoạn đầu băng giấy."
+        "why": "Theo SGK GDPT 2018: “Trong thí nghiệm, bật nguồn điện trước, sau đó mới thả quả nặng”: nếu buông tay trước sẽ làm mất trắng các chấm ở đoạn đầu băng giấy."
       },
       {
         "tag": "Tính vận tốc v",
@@ -9536,7 +9536,7 @@
         "concl": "Phẫu diện đất là mặt cắt dọc thẳng đứng từ mặt đất xuống dưới, gồm các tầng đất có đặc điểm hình thái khác nhau phân bố gần như nằm ngang; trong đất tự nhiên, phẫu diện đất rừng phức tạp nhất, từ trên xuống gồm: tầng thảm mục (hữu cơ), tầng mùn, tầng rửa trôi, tầng tích tụ, tầng đá mẹ và tầng đá gốc.",
         "exam": "Điểm thi trọng tâm: Tên gọi và thứ tự 6 tầng từ trên xuống dưới của phẫu diện đất rừng; tầng nào có màu nhạt nhất (tầng rửa trôi), tầng nào sét nặng và chặt (tầng tích tụ).",
         "points": [
-          "Đất được cấu tạo bởi 4 thành phần: chất khoáng, chất hữu cơ, nước và không khí; khi quan sát thực địa cần chú ý màu sắc, thành phần cơ giới (kết cấu) và cấu tạo phẫu diện đất (SGK tr.88).",
+          "Đất được cấu tạo bởi 4 thành phần: chất khoáng, chất hữu cơ, nước và không khí; khi quan sát thực địa cần chú ý màu sắc, thành phần cơ giới (kết cấu) và cấu tạo phẫu diện đất (theo SGK GDPT 2018).",
           "Phẫu diện đất là mặt cắt thẳng đứng từ mặt đất xuống tới đá gốc, các tầng đất phân bố gần như nằm ngang, là kết quả của quá trình chuyển hóa, di chuyển và tích lũy vật chất.",
           "Phẫu diện đất rừng tự nhiên phức tạp và đầy đủ nhất, gồm 6 tầng từ trên xuống dưới: Tầng thảm mục (hữu cơ) → Tầng mùn → Tầng rửa trôi → Tầng tích tụ → Tầng đá mẹ → Tầng đá gốc; càng xuống sâu chất hữu cơ càng giảm.",
           "Nếu bỏ qua bước này: học sinh sẽ gọi chung mọi phẫu diện là 3 lớp «đất mặt / đất tầng giữa / đất đáy», và không phân biệt được tầng rửa trôi bị mất chất với tầng tích tụ nhận chất."
@@ -9549,13 +9549,13 @@
         "tag": "Đá mẹ",
         "q": "Khi đá mẹ khác nhau, thành phần cơ giới (chất đất) sẽ thay đổi như thế nào?",
         "eq": "Đá mẹ → Thành phần khoáng vật · Trạng thái dinh dưỡng · Thành phần cơ giới",
-        "eqCal": "Đá mẹ là cơ sở vật chất cho sự hình thành và phát triển của đất (SGK tr.91)",
+        "eqCal": "Đá mẹ là cơ sở vật chất cho sự hình thành và phát triển của đất (theo SGK GDPT 2018)",
         "concl": "Đá mẹ là sản phẩm phong hóa từ đá gốc, là cơ sở vật chất của quá trình hình thành đất; nó quyết định thành phần khoáng vật, dinh dưỡng khoáng và ảnh hưởng trực tiếp tới thành phần cơ giới của đất.",
         "exam": "Điểm thi trọng tâm: Nhân tố chủ đạo hình thành đất tím (hoặc đất bazan, đất đá vôi) là đá mẹ; đá mẹ chủ yếu quyết định thành phần cơ giới và khoáng chất, không trực tiếp quyết định lượng chất hữu cơ.",
         "points": [
           "Đá mẹ (mẫu chất) là sản phẩm phong hóa của đá gốc, là cơ sở vật chất cho sự hình thành đất.",
           "Đá mẹ quyết định thành phần khoáng vật và trạng thái dinh dưỡng khoáng của đất, đồng thời ảnh hưởng trực tiếp tới thành phần cơ giới của đất: đá mẹ cát → đất sỏi sạn / đất cát; đá mẹ sét → đất sét.",
-          "Ở bồn địa Tứ Xuyên có đá gốc màu tím nên đất hình thành trên đó cũng mang màu tím — nhân tố chủ đạo của hiện tượng này chính là đá mẹ.",
+          "Ở vùng Tây Nguyên và Đông Nam Bộ Việt Nam, đá mẹ bazan phong hóa tạo nên lớp đất đỏ bazan (feralit nâu đỏ) giàu khoáng chất; hay nơi có đá gốc màu tím thì đất hình thành trên đó cũng mang màu tím — nhân tố chủ đạo quyết định màu sắc và thành phần khoáng của đất chính là đá mẹ.",
           "Nếu bỏ qua bước này: học sinh sẽ tưởng thành phần cơ giới của đất chỉ do «trồng cây gì» quyết định, và không giải thích được nguồn gốc của đất tím (hay đất đỏ bazan)."
         ],
         "actText": "Kéo «Đá mẹ» từ đá mẹ thịt (pha) sang đá mẹ sét, quan sát kích thước hạt và thành phần cơ giới đất",
@@ -9566,7 +9566,7 @@
         "tag": "Sinh học",
         "q": "Nếu loại bỏ hoàn toàn thực vật và sinh vật, khối vật chất này có còn là đất nữa không?",
         "eq": "Không có tác động của sinh vật thì không thể hình thành đất",
-        "eqCal": "Sinh vật là nhân tố hình thành đất cơ bản và năng động nhất (SGK tr.91)",
+        "eqCal": "Sinh vật là nhân tố hình thành đất cơ bản và năng động nhất (theo SGK GDPT 2018)",
         "concl": "Sinh vật là nhân tố cơ bản và năng động nhất trong sự hình thành đất; xác sinh vật cung cấp chất hữu cơ, vi sinh vật chuyển hóa chất hữu cơ thành mùn, và tuần hoàn sinh học giúp tập trung các nguyên tố dinh dưỡng ở tầng đất mặt.",
         "exam": "Điểm thi trọng tâm: Vì sao nói «không có tác động của sinh vật thì không thể hình thành đất»; khi sinh vật bằng 0 % thì hai tầng nào trong phẫu diện biến mất (tầng thảm mục và tầng mùn).",
         "points": [
@@ -9583,7 +9583,7 @@
         "tag": "Khí hậu",
         "q": "Trên cùng một loại đá mẹ, khí hậu nóng ẩm và khí hậu khô lạnh có tạo ra loại đất giống nhau không?",
         "eq": "Phong hóa · Rửa trôi ∝ Nhiệt độ × Lượng mưa",
-        "eqCal": "Nóng ẩm: hình thành đất nhanh, nhiều hạt sét, nhưng phân giải chất hữu cơ nhanh (SGK tr.91)",
+        "eqCal": "Nóng ẩm: hình thành đất nhanh, nhiều hạt sét, nhưng phân giải chất hữu cơ nhanh (theo SGK GDPT 2018)",
         "concl": "Điều kiện nhiệt - ẩm quyết định tốc độ phong hóa và rửa trôi: vùng nóng ẩm hình thành đất nhanh, nhiều hạt sét, rửa trôi mạnh, phân giải hữu cơ nhanh; môi trường lạnh ẩm thuận lợi tích lũy chất hữu cơ, còn vùng khô nóng tích lũy ít.",
         "exam": "Điểm thi trọng tâm: Giải thích vì sao đất vùng nóng ẩm có nhiều hạt sét, tầng đất dày nhanh nhưng hàm lượng chất hữu cơ lại thấp; sự khác biệt về tích lũy hữu cơ giữa vùng lạnh ẩm và vùng nóng ẩm / khô hạn.",
         "points": [
@@ -9600,7 +9600,7 @@
         "tag": "Địa hình",
         "q": "Đất ở đỉnh núi và đất ở đồng bằng chân núi có kích thước hạt thô mịn giống nhau không?",
         "eq": "Đất sỏi sạn → Đất cát → Đất thịt → Đất sét",
-        "eqCal": "Từ đỉnh núi xuống vùng trũng thấp, hạt đá mẹ biến đổi từ thô sang mịn (SGK tr.91)",
+        "eqCal": "Từ đỉnh núi xuống vùng trũng thấp, hạt đá mẹ biến đổi từ thô sang mịn (theo SGK GDPT 2018)",
         "concl": "Từ đỉnh núi xuống vùng trũng thấp bằng phẳng, hạt đá mẹ nhỏ dần từ thô sang mịn, lần lượt phân bố đất sỏi sạn, đất cát, đất thịt và đất sét; vì vậy đất ở đỉnh núi có hạt thô hơn còn ở đồng bằng chân núi có hạt mịn hơn.",
         "exam": "Điểm thi trọng tâm: Nguyên nhân khiến đất ở đỉnh núi có hạt thô còn ở đồng bằng chân núi có hạt mịn; thứ tự 4 loại đất từ hạt thô đến hạt mịn.",
         "points": [
@@ -9617,7 +9617,7 @@
         "tag": "Thời gian",
         "q": "Lớp đất dày 20 cm dưới chân chúng ta cần bao lâu để hình thành trong tự nhiên?",
         "eq": "Thời gian càng dài → Tầng đất càng dày · Phân hóa càng rõ rệt",
-        "eqCal": "Hình thành 20 cm đất canh tác cần 100—1 000 năm (SGK tr.92)",
+        "eqCal": "Hình thành 20 cm đất canh tác cần 100—1 000 năm (theo SGK GDPT 2018)",
         "concl": "Thời gian hình thành đất càng dài thì tầng đất càng dày và phân hóa càng rõ rệt; ở trạng thái tự nhiên, để tạo ra lớp đất canh tác dày 20 cm thường cần từ 100—1 000 năm.",
         "exam": "Điểm thi trọng tâm: Vai trò của thời gian đối với độ dày và mức độ phân tầng của đất; khoảng thời gian cần thiết để hình thành 20 cm đất canh tác trong tự nhiên.",
         "points": [
@@ -9675,7 +9675,7 @@
           "Tầng đá mẹ"
         ],
         "ans": 1,
-        "why": "Tầng rửa trôi: các khoáng chất hòa tan trong nước theo dòng nước ngấm di chuyển xuống dưới, làm tầng này mất khoáng chất nên có màu nhạt (SGK tr.89 Hình 5.17)."
+        "why": "Tầng rửa trôi: các khoáng chất hòa tan trong nước theo dòng nước ngấm di chuyển xuống dưới, làm tầng này mất khoáng chất nên có màu nhạt."
       },
       {
         "tag": "② Phẫu diện đất",
@@ -9691,7 +9691,7 @@
       },
       {
         "tag": "③ Đá mẹ",
-        "q": "Ở bồn địa Tứ Xuyên có những nơi đá gốc màu tím và đất hình thành trên đó cũng có màu tím; nhân tố hình thành đất chủ đạo của hiện tượng này là",
+        "q": "Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên đá mẹ bazan hình thành lớp đất đỏ bazan đặc trưng (hoặc trên đá gốc màu tím hình thành đất màu tím); nhân tố hình thành đất chủ đạo quyết định đặc tính này là",
         "opts": [
           "Đá mẹ",
           "Khí hậu",
@@ -9711,7 +9711,7 @@
           "Số lượng sinh vật không liên quan đến hàm lượng chất hữu cơ"
         ],
         "ans": 1,
-        "why": "SGK tr.91: Sinh vật là nhân tố cơ bản và năng động nhất ảnh hưởng đến sự phát triển của đất; không có tác động của sinh vật thì không thể hình thành đất."
+        "why": "Theo SGK GDPT 2018: Sinh vật là nhân tố cơ bản và năng động nhất ảnh hưởng đến sự phát triển của đất; không có tác động của sinh vật thì không thể hình thành đất."
       },
       {
         "tag": "⑤ Khí hậu",
@@ -9723,7 +9723,7 @@
           "Tốc độ hình thành đất chậm, tầng đất dày"
         ],
         "ans": 0,
-        "why": "SGK tr.91: Vùng nóng ẩm có quá trình phong hóa hóa học và rửa trôi diễn ra mạnh, tỷ lệ hạt sét trong đất cao; nhưng chất hữu cơ bị phân giải nhanh nên tích lũy ít."
+        "why": "Theo SGK GDPT 2018: Vùng nóng ẩm có quá trình phong hóa hóa học và rửa trôi diễn ra mạnh, tỷ lệ hạt sét trong đất cao; nhưng chất hữu cơ bị phân giải nhanh nên tích lũy ít."
       },
       {
         "tag": "⑥ Địa hình",
@@ -9735,7 +9735,7 @@
           "Đầu tiên thô, sau đó mịn rồi lại biến thành thô"
         ],
         "ans": 1,
-        "why": "SGK tr.91: Từ đỉnh núi xuống vùng trũng thấp bằng phẳng, các hạt đá mẹ biến đổi theo quy luật từ thô đến mịn, lần lượt phân bố đất sỏi sạn, đất cát, đất thịt và đất sét."
+        "why": "Theo SGK GDPT 2018: Từ đỉnh núi xuống vùng trũng thấp bằng phẳng, các hạt đá mẹ biến đổi theo quy luật từ thô đến mịn, lần lượt phân bố đất sỏi sạn, đất cát, đất thịt và đất sét."
       },
       {
         "tag": "⑦ Thời gian",
@@ -9747,7 +9747,7 @@
           "1—10 năm"
         ],
         "ans": 1,
-        "why": "SGK tr.92: Để hình thành lớp đất dày 20 cm có thể canh tác trong tự nhiên thường cần từ 100—1 000 năm."
+        "why": "Theo SGK GDPT 2018: Để hình thành lớp đất dày 20 cm có thể canh tác trong tự nhiên thường cần từ 100—1 000 năm."
       },
       {
         "tag": "⑧ Hoạt động của con người",
@@ -9759,7 +9759,7 @@
           "Tầng canh tác → Tầng đất tự nhiên → Tầng đế cày"
         ],
         "ans": 1,
-        "why": "SGK tr.89–90 Hình 5.18: Phẫu diện đất canh tác thường chia thành tầng canh tác, tầng đế cày và tầng đất tự nhiên; tầng canh tác còn gọi là tầng đất mặt, tầng đế cày còn gọi là tầng dưới mặt."
+        "why": "Theo SGK GDPT 2018: Phẫu diện đất canh tác thường chia thành tầng canh tác, tầng đế cày và tầng đất tự nhiên; tầng canh tác còn gọi là tầng đất mặt, tầng đế cày còn gọi là tầng dưới mặt."
       }
     ]
   },
@@ -9769,7 +9769,7 @@
       "title": "Thí nghiệm: Khảo sát đặc điểm của chuyển động ném ngang",
       "subject": "Vật lý",
       "type": "Nguyên lý & Hiện tượng",
-      "locate": "Vật lý 10 · Chương V Bài 3 (SGK tr. 10–13)",
+      "locate": "Vật lý 10 · Chương V Bài 3",
       "cover": 3
     },
     "top": {
@@ -9804,7 +9804,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -9892,7 +9892,7 @@
         "eq": "x = v₀t　y = ½gt²",
         "eqCal": "4 nấc (y,x): 20/95.83 · 80/191.66 · 180/287.49 · 320/383.33 mm",
         "concl": "Độ sâu tấm chắn được chọn theo tỉ lệ 1 : 4 : 9 : 16 là để ở bước tiếp theo xác định được các khoảng thời gian bằng nhau (tỉ số t = 1 : 2 : 3 : 4); việc chấm 4 điểm lên giấy trắng chính là nửa đầu của thao tác “dùng đường cong trơn nối các vết chấm lại” trong SGK.",
-        "exam": "Trọng tâm kiểm tra: Thao tác chấm vết quỹ đạo (SGK tr. 12); bảng số liệu thực hành.",
+        "exam": "Trọng tâm kiểm tra: Thao tác chấm vết quỹ đạo (theo SGK GDPT 2018); bảng số liệu thực hành.",
         "points": [
           "Bốn độ sâu tấm chắn theo tỉ lệ 1 : 4 : 9 : 16 không phải chọn ngẫu nhiên, mà được thiết kế để tỉ số thời gian rơi tương ứng đúng bằng 1 : 2 : 3 : 4.",
           "Giấy trắng + giấy than ghi lại vị trí mép dưới của viên bi khi chạm tấm chắn (chi tiết này sẽ dùng ở Bước 8).",
@@ -9908,8 +9908,8 @@
         "q": "Trên bàn không có đồng hồ bấm giây. Làm sao biết được viên bi thép rơi tới 4 độ sâu đó mất bao nhiêu thời gian?",
         "eq": "t = √(2y/g)　T = 0.0639 s",
         "eqCal": "t = 0.0639 / 0.1278 / 0.1917 / 0.2556 s",
-        "concl": "“Khoảng thời gian bằng nhau” được suy ngược từ kết luận chuyển động thành phần theo phương thẳng đứng là rơi tự do (nguyên văn SGK tr. 12 “tìm cách xác định các ‘khoảng thời gian bằng nhau’”) — nhờ đó toàn bộ thí nghiệm không cần dùng đồng hồ bấm giây.",
-        "exam": "Trọng tâm kiểm tra: Dùng chuyển động theo phương thẳng đứng để định thời gian (SGK tr. 12; cùng phương pháp tư duy với Bài tập 3 tr. 13).",
+        "concl": "“Khoảng thời gian bằng nhau” được suy ngược từ kết luận chuyển động thành phần theo phương thẳng đứng là rơi tự do (theo SGK GDPT 2018) — nhờ đó toàn bộ thí nghiệm không cần dùng đồng hồ bấm giây.",
+        "exam": "Trọng tâm kiểm tra: Dùng chuyển động theo phương thẳng đứng để định thời gian (theo SGK GDPT 2018).",
         "points": [
           "Không có đồng hồ bấm giây vẫn xác định được “các khoảng thời gian bằng nhau”: tất cả nhờ suy ngược từ công thức y = ½gt².",
           "Tỉ số y là 1:4:9:16 ⟹ tỉ số t là 1:2:3:4, chỉ cần độ sâu của nấc 1 là ấn định được ngay khoảng thời gian T.",
@@ -9925,7 +9925,7 @@
         "q": "Khi các khoảng thời gian đã bằng nhau, hãy xét độ dịch chuyển theo phương ngang — mỗi khoảng có bằng nhau không? Đổi cách vẽ đồ thị có giúp nhìn rõ hơn không?",
         "eq": "Δx = v₀T (Không đổi)",
         "eqCal": "Δx 95.83 mm · v₀ 1.50 m/s · Tỉ số x 1:2:3:4",
-        "concl": "Trong những khoảng thời gian bằng nhau, độ dịch chuyển theo phương ngang bằng nhau ⟹ vận tốc thành phần theo phương ngang không đổi (SGK tr. 12 “sau đó xét độ dịch chuyển của chuyển động thành phần theo phương ngang trong các khoảng thời gian bằng nhau”). Sai lệch ở phương thẳng đứng không làm thay đổi tính chất thẳng đều của phương ngang: khi đầu máng bị hếch lên thì Δx vẫn là 95.33 / 95.58 / 95.64 mm, điều bị phá vỡ chỉ là “4 điểm đó không còn cách đều nhau về thời gian nữa”.",
+        "concl": "Trong những khoảng thời gian bằng nhau, độ dịch chuyển theo phương ngang bằng nhau ⟹ vận tốc thành phần theo phương ngang không đổi (theo SGK GDPT 2018). Sai lệch ở phương thẳng đứng không làm thay đổi tính chất thẳng đều của phương ngang: khi đầu máng bị hếch lên thì Δx vẫn là 95.33 / 95.58 / 95.64 mm, điều bị phá vỡ chỉ là “4 điểm đó không còn cách đều nhau về thời gian nữa”.",
         "exam": "Trọng tâm kiểm tra: Dựa vào các độ dịch chuyển trong những khoảng thời gian bằng nhau để kết luận tính chất chuyển động thành phần (A7.3) và công thức v₀ = Δx/T.",
         "points": [
           "Δx phải không đổi mới kết luận được là chuyển động đều (cả ba khoảng cách phải bằng nhau), chứ không chỉ ước chừng bằng mắt.",
@@ -10011,7 +10011,7 @@
           "Tính từ độ cao vạch thả bi trên máng nghiêng"
         ],
         "ans": 1,
-        "why": "Nguyên văn SGK tr. 12 “tìm cách xác định các ‘khoảng thời gian bằng nhau’”: vì chuyển động thành phần theo phương thẳng đứng là rơi tự do nên tỉ số y là 1:4:9:16 ⟹ tỉ số thời gian t là 1:2:3:4, từ đó xác định được T = √(2y₁/g)."
+        "why": "Theo SGK GDPT 2018: “tìm cách xác định các ‘khoảng thời gian bằng nhau’”: vì chuyển động thành phần theo phương thẳng đứng là rơi tự do nên tỉ số y là 1:4:9:16 ⟹ tỉ số thời gian t là 1:2:3:4, từ đó xác định được T = √(2y₁/g)."
       },
       {
         "tag": "Phương ngang",
@@ -10023,7 +10023,7 @@
           "Không thể xác định"
         ],
         "ans": 1,
-        "why": "Trong những khoảng thời gian bằng nhau có độ dịch chuyển bằng nhau ⟹ vận tốc thành phần theo phương ngang không đổi ⟹ chuyển động thẳng đều (SGK tr. 12). Cũng chính nhờ đó mà v₀ = Δx/T."
+        "why": "Trong những khoảng thời gian bằng nhau có độ dịch chuyển bằng nhau ⟹ vận tốc thành phần theo phương ngang không đổi ⟹ chuyển động thẳng đều. Cũng chính nhờ đó mà v₀ = Δx/T."
       },
       {
         "tag": "Sai số",
@@ -10035,7 +10035,7 @@
           "Có nấc lớn hơn, có nấc nhỏ hơn"
         ],
         "ans": 2,
-        "why": "Vết in trên giấy trắng là mép dưới của viên bi, trong khi tâm bi nằm cao hơn đó một đoạn bằng bán kính r: việc đọc thiếu mất một lượng r trong y làm cho giá trị v₀ tính từ v₀ = x√(g/2y) luôn bị lớn hơn thực tế, và tỉ số r/y càng lớn (điểm rơi càng ở phía trên cao) thì độ lệch dương càng lớn (dữ kiện A2.15)."
+        "why": "Vết in trên giấy trắng là mép dưới của viên bi, trong khi tâm bi nằm cao hơn đó một đoạn bằng bán kính r: việc đọc thiếu mất một lượng r trong y làm cho giá trị v₀ tính từ v₀ = x√(g/2y) luôn bị lớn hơn thực tế, và tỉ số r/y càng lớn (điểm rơi càng ở phía trên cao) thì độ lệch dương càng lớn."
       }
     ]
   },
@@ -10264,7 +10264,7 @@
           "Nhập bào"
         ],
         "ans": 1,
-        "why": "Glucose đi vào hồng cầu cần nhờ protein vận chuyển nhưng không tiêu tốn năng lượng, thuộc khuếch tán tăng cường (Bài tập 2 ý C tr. 72)."
+        "why": "Glucose đi vào hồng cầu cần nhờ protein vận chuyển nhưng không tiêu tốn năng lượng, thuộc khuếch tán tăng cường."
       },
       {
         "tag": "② Vận chuyển chủ động",
@@ -10686,7 +10686,7 @@
         "points": [
           "Thiết bị thí nghiệm cho hai quả cầu quay đồng thời và đọc đồng thời: chỉ cần một đại lượng khác nhau thì độ lệch trên thước đo không còn do riêng “đại lượng đang xét” gây ra.",
           "“Kiểm tra thiết bị” = đồng bộ bốn mục (cùng khối lượng, cùng bán kính, cùng tốc độ góc, cùng tốc độ quay), tiêu chí là hai thước đo cao bằng nhau (tỉ số vạch 1.00).",
-          "Tay quay phải quay đều (nguyên văn SGK tr.28), khi tốc độ quay bị rung thì ống lồng sẽ tự nhấp nhô lên xuống.",
+          "Tay quay phải quay đều (theo SGK GDPT 2018), khi tốc độ quay bị rung thì ống lồng sẽ tự nhấp nhô lên xuống.",
           "Nếu bỏ bước này: tỉ số đọc được ở ba bước sau đều lẫn biến số khác, mọi kết luận đều sai lệch."
         ],
         "actText": "Chỉnh từng mục hai quả cầu, rãnh dài, dây đai về cùng điều kiện: cùng khối lượng, đều ở 4.0 cm, dây đai bậc I",
@@ -10714,7 +10714,7 @@
         "tag": "Quan hệ với bán kính",
         "q": "Chuyển quả cầu ở rãnh dài sang vị trí 6.0 cm, 8.0 cm thì số vạch tăng gấp mấy lần? Tỉ lệ thuận với bán kính hay tỉ lệ thuận với bình phương bán kính?",
         "eq": "F ∝ r (m, ω không đổi)",
-        "eqCal": "12 ÷ 8 = 1.50；16 ÷ 8 = 2.00",
+        "eqCal": "12 ÷ 8 = 1.50; 16 ÷ 8 = 2.00",
         "concl": "Khi chỉ thay đổi bán kính, tỉ số vạch bằng tỉ số bán kính ⟹ F ∝ r (bậc nhất, không phải bình phương); bán kính tăng gấp đôi thì lực cũng tăng gấp đôi, đồng thời tốc độ dài cũng tăng gấp đôi (v = ωr) — vì vậy “F ∝ v²” và “F ∝ r” hoàn toàn không mâu thuẫn: khi v tăng thì r cũng tăng.",
         "exam": "Trọng tâm kiểm tra: Số mũ của bán kính (bậc nhất), mối liên hệ v = ωr.",
         "points": [
@@ -10731,7 +10731,7 @@
         "tag": "Quan hệ với tốc độ góc",
         "q": "Chuyển dây đai từ cùng tầng sang lệch một tầng, lệch hai tầng, quả cầu phải quay nhanh gấp 2 lần, 3 lần — số vạch có tăng gấp 2 lần, 3 lần không?",
         "eq": "F ∝ ω² (m, r không đổi)",
-        "eqCal": "8 ÷ 32 = 0.25；8 ÷ 72 = 0.11",
+        "eqCal": "8 ÷ 32 = 0.25; 8 ÷ 72 = 0.11",
         "concl": "Tốc độ góc quả cầu phải tăng 2 lần thì lực hướng tâm tăng 4 lần; tăng 3 lần thì lực tăng 9 lần ⟹ F ∝ ω² (không phải bậc nhất theo ω). Bài tập 3 SGK tr.26 nêu “truyền động ma sát không trượt → ω tỉ lệ nghịch với r” chính là nguồn gốc của tỉ số puli bậc 1:2:3 ở bước này.",
         "exam": "Trọng tâm kiểm tra: Số mũ của ω (bình phương), truyền động ma sát không trượt ⇒ ω tỉ lệ nghịch với r (Bài tập 3 SGK tr.26).",
         "points": [
@@ -10904,7 +10904,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -10980,7 +10980,7 @@
         "q": "Công tắc đã ngắt rồi, dòng điện qua bóng đèn lấy từ đâu? Tại sao đèn lại còn sáng hơn trước? Trả lời bốn câu hỏi ở SGK tr.41 như thế nào?",
         "eq": "i_đèn(0⁺) = −I_L0 = −U/R_L",
         "eqCal": "U 3.0 V · Cuộn dây B 6.0 Ω · Bóng đèn 12.0 Ω",
-        "concl": "Sau khi ngắt công tắc, bản thân cuộn dây trở thành một nguồn điện, dòng điện tiếp tục chạy theo mạch kín duy nhất còn thông là “Cuộn dây → Bóng đèn”: dòng điện qua bóng đèn nhảy từ +0.2500 A sang −0.5000 A (độ lớn bằng dòng điện qua cuộn dây lúc trước, chiều ngược lại); điện trở thuần của cuộn dây là 6.0 Ω nhỏ hơn điện trở bóng đèn 12.0 Ω, nên I_L0 > I_đèn0, làm bóng đèn sáng hơn lúc trước (SGK tr.43: “đôi khi còn sáng hơn cả trước khi ngắt công tắc”); toàn bộ năng lượng của đợt sáng này đều lấy từ năng lượng từ trường tích lũy trong cuộn dây.",
+        "concl": "Sau khi ngắt công tắc, bản thân cuộn dây trở thành một nguồn điện, dòng điện tiếp tục chạy theo mạch kín duy nhất còn thông là “Cuộn dây → Bóng đèn”: dòng điện qua bóng đèn nhảy từ +0.2500 A sang −0.5000 A (độ lớn bằng dòng điện qua cuộn dây lúc trước, chiều ngược lại); điện trở thuần của cuộn dây là 6.0 Ω nhỏ hơn điện trở bóng đèn 12.0 Ω, nên I_L0 > I_đèn0, làm bóng đèn sáng hơn lúc trước (theo SGK GDPT 2018); toàn bộ năng lượng của đợt sáng này đều lấy từ năng lượng từ trường tích lũy trong cuộn dây.",
         "exam": "Bẫy hay gặp trong đề thi: Khi đèn lóe sáng, chiều dòng điện qua bóng đèn chắc chắn bị đảo ngược (A7.3); bộ phận nào đóng vai trò nguồn điện sau khi ngắt công tắc (A7.5); câu hỏi thảo luận 1–4 SGK tr.41.",
         "points": [
           "Bốn câu hỏi thảo luận ở SGK tr.41 chỉ nêu câu hỏi mà không in sẵn đáp án: bài học suy ra trực tiếp từ nguyên lý — tắt chậm hơn / chạy theo vòng “Cuộn dây → Bóng đèn” / chiều ngược lại / có thể sáng hơn (điều kiện R_L < R_đèn).",
@@ -10997,7 +10997,7 @@
         "q": "Hiện tượng lóe sáng chỉ kéo dài 0.0770 s, mắt thường nhìn thấy “lóe sáng” nhưng có nhìn thấy “chiều dòng điện” không? Làm sao ghi lại được quá trình này?",
         "eq": "i_đèn(t) = −I_L0·e^(−t/τ)",
         "eqCal": "Lấy mẫu 1000 Hz · Độ phân giải 0.01 A · Thang đo ±2.00 A",
-        "concl": "Đồng hồ đo điện kiểu kim chỉ không kịp phản ứng với quá trình cỡ 0.1 s, nhưng cảm biến kết nối máy tính thì ghi lại được (SGK tr.42); sự đảo dấu chứng tỏ không phải đèn chỉ “tối dần đi” mà dòng điện thực sự đã đổi chiều — đây chính là điều mục Thực hành số 2 ở SGK tr.42 muốn thể hiện khi dùng cảm biến đo dòng điện.",
+        "concl": "Đồng hồ đo điện kiểu kim chỉ không kịp phản ứng với quá trình cỡ 0.1 s, nhưng cảm biến kết nối máy tính thì ghi lại được (theo SGK GDPT 2018); sự đảo dấu chứng tỏ không phải đèn chỉ “tối dần đi” mà dòng điện thực sự đã đổi chiều — đây chính là điều mục Thực hành số 2 ở SGK tr.42 muốn thể hiện khi dùng cảm biến đo dòng điện.",
         "exam": "Trọng tâm kiểm tra: Đọc đồ thị I-t để xác định chiều dòng điện (Thực hành mục 2 SGK tr.42, A7.13).",
         "points": [
           "Đồ thị, số đọc và màn hình 3D đồng bộ hoàn toàn từ cùng một nguồn dữ liệu: cùng biến thời gian tRun và cùng giá trị đỉnh trong đoạn.",
@@ -11065,7 +11065,7 @@
         "q": "Ống nhôm không hút nam châm, tại sao viên nam châm rơi trong ống nhôm lại chậm như vậy? Nếu xẻ dọc thân ống một khe hở thì nam châm sẽ rơi nhanh hơn hay chậm hơn?",
         "eq": "m·dv/dt = mg − b·v (mở rộng)",
         "eqCal": "m 0.030 kg · g 9.8 m/s² · h 1.0 m",
-        "concl": "Nam châm chuyển động trong lòng vật dẫn → từ thông biến thiên → dòng điện Foucault → lực từ tác dụng lên nam châm, và lực từ cảm ứng này luôn cản trở chuyển động tương đối (nguyên văn SGK tr.37). Khe xẻ dọc cắt đứt các vòng dòng điện xoáy chạy quanh chu vi ống, làm lực hãm điện từ giảm mạnh nên nam châm rơi nhanh hơn hẳn (Bài tập 3 SGK tr.39, Hình 2.3-15 a/b). SGK chỉ mô tả định tính là “rơi 1 m không quá 0.5 s” và “mất một lúc lâu”, còn các giá trị 3.3639 / 0.9557 s trong bài là thông số thiết lập của mô phỏng (mở rộng).",
+        "concl": "Nam châm chuyển động trong lòng vật dẫn → từ thông biến thiên → dòng điện Foucault → lực từ tác dụng lên nam châm, và lực từ cảm ứng này luôn cản trở chuyển động tương đối (theo SGK GDPT 2018). Khe xẻ dọc cắt đứt các vòng dòng điện xoáy chạy quanh chu vi ống, làm lực hãm điện từ giảm mạnh nên nam châm rơi nhanh hơn hẳn (Bài tập 3 SGK tr.39, Hình 2.3-15 a/b). SGK chỉ mô tả định tính là “rơi 1 m không quá 0.5 s” và “mất một lúc lâu”, còn các giá trị 3.3639 / 0.9557 s trong bài là thông số thiết lập của mô phỏng (mở rộng).",
         "exam": "Trọng tâm kiểm tra: So sánh Hình 2.3-15 a/b (Bài tập 3 tr.39); giải thích tại sao khi nối tắt hai chốt của điện kế vi ampe thì kim đồng hồ lại tắt dần dao động nhanh hơn (Thực hành tr.38).",
         "points": [
           "Hãm điện từ không phải là “giữ đứng yên vật”, mà là lực cản luôn ngược chiều chuyển động tương đối; không có chuyển động tương đối thì không có lực hãm.",
@@ -11105,7 +11105,7 @@
           "Dây tóc của đèn A₁ dày hơn đèn A₂"
         ],
         "ans": 1,
-        "why": "Khi dòng điện tăng từ 0 lên thì tốc độ biến thiên di/dt lớn nhất, suất điện động tự cảm ngược chiều dòng điện nên cản trở sự tăng đó; khi đã ổn định thì E_L = 0 và hai đèn sáng như nhau (A2.3, A2.4)."
+        "why": "Khi dòng điện tăng từ 0 lên thì tốc độ biến thiên di/dt lớn nhất, suất điện động tự cảm ngược chiều dòng điện nên cản trở sự tăng đó; khi đã ổn định thì E_L = 0 và hai đèn sáng như nhau."
       },
       {
         "tag": "Ngắt mạch",
@@ -11117,7 +11117,7 @@
           "Bằng 0 ngay lập tức"
         ],
         "ans": 1,
-        "why": "Sau khi ngắt công tắc, cuộn dây đóng vai trò nguồn điện, dòng điện tiếp tục chạy theo vòng “Cuộn dây → Bóng đèn”: i_đèn(0⁺) = −I_L0, chiều ngược lại và độ lớn bằng dòng điện trong cuộn dây lúc trước (A2.17, A2.19)."
+        "why": "Sau khi ngắt công tắc, cuộn dây đóng vai trò nguồn điện, dòng điện tiếp tục chạy theo vòng “Cuộn dây → Bóng đèn”: i_đèn(0⁺) = −I_L0, chiều ngược lại và độ lớn bằng dòng điện trong cuộn dây lúc trước."
       },
       {
         "tag": "Tiêu chí đánh giá",
@@ -11129,7 +11129,7 @@
           "Điện trở thuần của cuộn dây lớn hơn điện trở của bóng đèn"
         ],
         "ans": 2,
-        "why": "ρ = I_L0/I_đèn0 = R_đèn/R_L, chỉ khi ρ > 1 đèn mới lóe sáng; điều kiện này không phụ thuộc vào U, còn L chỉ quyết định thời gian sáng kéo dài bao lâu (A2.14, A7.4)."
+        "why": "ρ = I_L0/I_đèn0 = R_đèn/R_L, chỉ khi ρ > 1 đèn mới lóe sáng; điều kiện này không phụ thuộc vào U, còn L chỉ quyết định thời gian sáng kéo dài bao lâu."
       },
       {
         "tag": "Dòng điện xoáy (Foucault)",
@@ -11141,7 +11141,7 @@
           "Tăng lên trước rồi mới giảm"
         ],
         "ans": 2,
-        "why": "Các lá thép mỏng kèm lớp cách điện giúp cắt đứt đường đi của dòng điện xoáy, thu nhỏ mạch vòng trong từng lá, làm hao phí tương đối giảm theo tỉ lệ 1/n² (Mở rộng, A2.11, A2.22)."
+        "why": "Các lá thép mỏng kèm lớp cách điện giúp cắt đứt đường đi của dòng điện xoáy, thu nhỏ mạch vòng trong từng lá, làm hao phí tương đối giảm theo tỉ lệ 1/n²."
       }
     ]
   },
@@ -11186,7 +11186,7 @@
         "→",
         "→",
         "→",
-        "；"
+        "; "
       ]
     },
     "units": [
@@ -11282,7 +11282,7 @@
           "Nếu bỏ bước này: học sinh chỉ biết giải hệ phương trình đại số để tìm E, r mà không nắm được phương pháp đồ thị theo yêu cầu của SGK."
         ],
         "actText": "Quan sát kỹ đường thẳng khớp, giá trị E_đo tại tung độ gốc và giá trị r_đo bên cạnh độ dốc",
-        "expectText": "Lưới tọa độ và các điểm chấm theo Hình 12.3-2 SGK (tr.90), dữ liệu lấy từ 5 hàng của Bảng 1: 5 điểm nằm trên một đường thẳng có hệ số góc âm; đường thẳng khớp cho E_đo = 1.50 V (tung độ gốc), hệ số góc −0.61, r_đo = 0.61 Ω, I_nm = 1.50/0.61 = 2.46 A."
+        "expectText": "Lưới tọa độ và các điểm chấm theo Hình 12.3-2 SGK GDPT 2018, dữ liệu lấy từ 5 hàng của Bảng 1: 5 điểm nằm trên một đường thẳng có hệ số góc âm; đường thẳng khớp cho E_đo = 1.50 V (tung độ gốc), hệ số góc −0.61, r_đo = 0.61 Ω, I_nm = 1.50/0.61 = 2.46 A."
       },
       {
         "num": 5,
@@ -11344,7 +11344,7 @@
         "concl": "Sai số hệ thống của cách mắc SGK làm cho cả E_đo và r_đo đều nhỏ hơn giá trị thực theo cùng một tỉ lệ; nhưng độ lệch này nhỏ hơn đơn vị làm tròn 0.01 tới 33 / 83 lần, nên trên số đọc 2 chữ số thập phân hoàn toàn không thể nhìn thấy được — đó là lý do nội dung chính SGK không đi sâu vào sai số này mà tập trung vào việc đo nhiều lần, vẽ đồ thị và chọn gốc trục tung. Chiều của sai số hệ thống ở cách mắc này chỉ có thể suy ra bằng công thức giải tích chứ không thể nhìn từ số đọc làm tròn (suy diễn giải tích nâng cao L3).",
         "exam": "Yêu cầu cần đạt chương trình GDPT 2018: “Phân tích được sai số trong thí nghiệm và đề xuất được phương án giảm sai số” (tr.22).",
         "points": [
-          "Đồng hồ thực tế không phải đồng hồ lý tưởng: R_V gây rẽ nhánh dòng điện, R_A gây sụt áp (SGK tr.76 cho giá trị cỡ 3 kΩ / 0.1 Ω).",
+          "Đồng hồ thực tế không phải đồng hồ lý tưởng: R_V gây rẽ nhánh dòng điện, R_A gây sụt áp (theo SGK GDPT 2018).",
           "Độ lệch của cách mắc SGK là cả E_đo và r_đo đều nhỏ hơn thực tế theo cùng tỉ lệ 0.0200 % (k = R_V/(R_V+r)).",
           "Độ lệch này nhỏ hơn chữ số cuối của số đọc tới 33 / 83 lần nên không thể thấy qua số đọc — chiều sai lệch chỉ có thể xác định bằng biểu thức giải tích.",
           "Nếu bỏ bước này: học sinh sẽ tưởng việc “0.59 nhỏ hơn 0.61” là biểu hiện của sai số hệ thống, trong khi 1 đơn vị chữ số cuối đó thực chất là do sai số làm tròn."
@@ -11393,7 +11393,7 @@
           "Điện trở mạch ngoài R"
         ],
         "ans": 1,
-        "why": "SGK tr.90: Giá trị tại giao điểm của đường thẳng với trục tọa độ U biểu thị hiệu điện thế mạch ngoài khi mạch hở, khi đó U bằng suất điện động E của nguồn điện."
+        "why": "Theo SGK GDPT 2018: Giá trị tại giao điểm của đường thẳng với trục tọa độ U biểu thị hiệu điện thế mạch ngoài khi mạch hở, khi đó U bằng suất điện động E của nguồn điện."
       },
       {
         "tag": "Ý nghĩa của hệ số góc",
@@ -11969,7 +11969,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Hoàn lưu nhiệt lực khí quyển» (tr.36–38), Mở đầu «Đài Hải Sứ Tra Lục» (tr.34)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Hoàn lưu nhiệt lực khí quyển»",
       "title": "Hoàn lưu nhiệt lực khí quyển"
     },
     "top": {
@@ -11977,7 +11977,7 @@
       "total": "Chênh lệch nhiệt → Bốc lên/Hạ xuống → Chênh lệch áp → Gió → Hoàn lưu"
     },
     "mainline": {
-      "q": "Tại sao hướng gió hai bờ eo biển Đài Loan lại đảo ngược trong một ngày?",
+      "q": "Tại sao ở vùng ven biển Việt Nam (như Đà Nẵng, Nha Trang, Vịnh Bắc Bộ), hướng gió biển – đất liền lại đảo ngược đều đặn giữa ngày và đêm?",
       "chain": [
         {
           "k": "Nhiệt",
@@ -12128,7 +12128,7 @@
       {
         "num": 6,
         "tag": "Gió biển",
-        "q": "Ban ngày ở eo biển Đài Loan gió thổi theo hướng nào?",
+        "q": "Ban ngày ở vùng bờ biển Việt Nam (như bãi biển Đà Nẵng, Nha Trang, Vịnh Bắc Bộ), gió thổi theo hướng nào?",
         "eq": "Ban ngày: Lục địa nóng lên nhanh → Gió biển (Biển → Đất liền)",
         "eqCal": "SGK Hoạt động câu 1 ý 1 (tr.38)",
         "concl": "Ban ngày lục địa nóng lên nhanh, đại dương nóng lên chậm, không khí trên lục địa bốc lên, không khí trên đại dương hạ xuống, gió sát mặt đất thổi từ đại dương vào lục địa.",
@@ -12257,7 +12257,7 @@
       },
       {
         "tag": "⑥ Gió biển – đất liền",
-        "q": "Ban ngày, gió sát mặt đất ở eo biển Đài Loan thổi từ",
+        "q": "Ban ngày, gió sát mặt đất ở vùng ven biển Việt Nam (gió biển) thổi từ",
         "opts": [
           "Lục địa ra đại dương",
           "Đại dương vào lục địa",
@@ -13158,7 +13158,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 1,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Chuyển động ngang của khí quyển — Gió» (tr.38–40)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Chuyển động ngang của khí quyển — Gió»",
       "title": "Chuyển động ngang của khí quyển — Gió"
     },
     "top": {
@@ -13322,9 +13322,9 @@
         "concl": "Đường đẳng áp càng dày thì gradien khí áp càng lớn, sức gió càng mạnh; việc xác định hướng gió vẫn theo quy tắc «Bắc bán cầu lệch phải, cắt xiên đường đẳng áp hướng về phía áp thấp».",
         "exam": "Đường đẳng áp càng dày gió càng mạnh; khi nhận xét sức gió phải nêu đồng thời cả hai căn cứ là gradien khí áp và lực ma sát.",
         "points": [
-          "Mức độ dày thưa của các đường đẳng áp phản ánh độ lớn của gradien khí áp; đường đẳng áp càng dày thì gradien khí áp càng lớn (nguyên văn SGK tr.40).",
+          "Mức độ dày thưa của các đường đẳng áp phản ánh độ lớn của gradien khí áp; đường đẳng áp càng dày thì gradien khí áp càng lớn (theo SGK GDPT 2018).",
           "Khoảng cách 300→100 km: gradien 0.7→2.0 hPa/(100 km), tốc độ gió 5.1→15.2 m/s.",
-          "Trong phần Hoạt động ở tr.40 SGK, điểm Giáp (phía đông Mông Cổ, đường đẳng áp dày) và điểm Ất (rìa nam bồn địa Tứ Xuyên, đường đẳng áp thưa) được so sánh chính bằng cách này.",
+          "Trong thực tế phân tích bản đồ thời tiết tại Việt Nam, khu vực Vịnh Bắc Bộ khi gió mùa Đông Bắc tràn về (các đường đẳng áp xếp rất dày, gió mạnh cấp 6–7) và vùng khuất gió nội địa (đường đẳng áp thưa, gió nhẹ) được so sánh chính bằng nguyên lý này.",
           "Bỏ bước này: học sinh sẽ chỉ nhìn vào trị số khí áp lớn hay nhỏ, rồi rút ra kết luận sai rằng «nơi có 1000 hPa thì gió mạnh»."
         ],
         "actText": "Kéo khoảng cách từ 300 xuống 100 km: xem các đường đẳng áp xích lại gần nhau, cả bốn mũi tên cùng dài ra",
@@ -13431,7 +13431,7 @@
           "Chỉ phán đoán được hướng gió, không phán đoán được tốc độ gió"
         ],
         "ans": 1,
-        "why": "SGK tr.40: Mức độ dày thưa của đường đẳng áp phản ánh độ lớn của gradien khí áp; đường đẳng áp càng dày thì gradien khí áp càng lớn, gió càng mạnh."
+        "why": "Theo SGK GDPT 2018: Mức độ dày thưa của đường đẳng áp phản ánh độ lớn của gradien khí áp; đường đẳng áp càng dày thì gradien khí áp càng lớn, gió càng mạnh."
       },
       {
         "tag": "⑧ Nam bán cầu",
@@ -14742,7 +14742,7 @@
         "concl": "Dữ kiện A2.1 + A2.2 + A2.3 SGK: Xung quanh dây dẫn có dòng điện luôn tồn tại một từ trường (Oersted 1820), từ trường tuy không nhìn thấy nhưng tồn tại khách quan; các hạt mạt sắt trong từ trường bị từ hóa thành những kim nam châm nhỏ, sau khi gõ nhẹ tấm kính sẽ sắp xếp thành chuỗi dọc theo đường sức từ — nhờ đó có thể hiển thị hình dạng từ trường.",
         "exam": "Trọng tâm kiểm tra: Thí nghiệm Oersted chứng tỏ xung quanh dòng điện tồn tại từ trường (tác dụng từ của dòng điện).",
         "points": [
-          "Thí nghiệm Oersted 1820: Dây dẫn có dòng điện làm lệch kim nam châm, lần đầu tiên khám phá ra mối liên hệ giữa điện và từ (SGK tr.104–105).",
+          "Thí nghiệm Oersted 1820: Dây dẫn có dòng điện làm lệch kim nam châm, lần đầu tiên khám phá ra mối liên hệ giữa điện và từ (theo SGK GDPT 2018).",
           "Từ trường tồn tại khách quan và tác dụng lực không cần tiếp xúc; mạt sắt trong từ trường bị từ hóa thành các kim nam châm nhỏ, sau khi gõ nhẹ tấm kính sẽ xếp thành chuỗi dọc theo đường sức từ (phương pháp biểu diễn ở tr.106).",
           "Sự phân bố mạt sắt chỉ mang tính minh họa: thí nghiệm thực tế phải dùng dòng điện rất lớn (hoặc cuộn dây nhiều vòng) mới tạo được từ phổ rõ nét, còn trong bài học này số đọc đều tính theo dòng 2 A; SGK dùng nam châm thẳng đối chiếu trước rồi mới chuyển sang dây dẫn có dòng điện, còn bài học quan sát trực tiếp cả ba loại dòng điện.",
           "Nếu bỏ bước này: khái niệm từ trường trở thành lời nói suông “không nhìn thấy cũng không chứng minh được”, mọi đường sức từ phía sau đều thiếu cơ sở thực nghiệm."
@@ -14759,7 +14759,7 @@
         "concl": "Nguyên văn A2.7 SGK: Đường sức từ của dòng điện thẳng là những đường tròn đồng tâm nằm trong mặt phẳng vuông góc với dây dẫn và có tâm nằm trên dây dẫn; các đường sức từ là những đường cong kín, hình vẽ trên mặt giấy chỉ là một mặt phẳng cắt ngang trong họ các đường tròn không gian đó.",
         "exam": "Bẫy hay gặp trong đề thi: Nhầm tưởng đường sức từ xung quanh dây dẫn thẳng hướng dọc theo bán kính ra ngoài (A7.2).",
         "points": [
-          "Là những đường tròn đồng tâm và đều nằm trong mặt phẳng vuông góc với dây dẫn (nguyên văn SGK tr.106).",
+          "Là những đường tròn đồng tâm và đều nằm trong mặt phẳng vuông góc với dây dẫn (theo SGK GDPT 2018).",
           "Không phải là các đường thẳng tỏa ra dọc theo bán kính từ dây dẫn — đó là đường sức điện của điện tích điểm (lỗi sai thường gặp A7.2).",
           "Hình vẽ trên mặt giấy chỉ là một mặt cắt ngang của họ đường tròn trong không gian 3D, phải xoay quanh trục một vòng mới thấy toàn cảnh.",
           "Nếu bỏ bước này: học sinh sẽ bắt chước hình ảnh điện tích điểm mà vẽ đường sức từ tỏa ra theo phương bán kính."
@@ -14793,9 +14793,9 @@
         "concl": "Dữ kiện A2.4 SGK: Nơi nào từ trường mạnh thì đường sức từ vẽ mau (dày), nơi nào từ trường yếu thì đường sức từ vẽ thưa; cảm ứng từ B của dây dẫn thẳng dài tỉ lệ nghịch với khoảng cách đến dây dẫn (kiến thức chuẩn), r tăng gấp đôi → B giảm một nửa. Giá trị này cũng có thể đối chiếu với bảng độ lớn cảm ứng từ ở SGK tr.110: 20 μT chỉ bằng 0.40 lần giá trị trung bình của từ trường Trái Đất (50 μT).",
         "exam": "Trọng tâm kiểm tra: Khoảng cách tăng gấp 2 lần thì cảm ứng từ B của dòng điện thẳng dài giảm còn 1/2.",
         "points": [
-          "Độ mau thưa biểu thị độ mạnh yếu: chỗ đường sức mau thì từ trường mạnh, chỗ đường sức thưa thì từ trường yếu (nguyên văn SGK tr.106).",
+          "Độ mau thưa biểu thị độ mạnh yếu: chỗ đường sức mau thì từ trường mạnh, chỗ đường sức thưa thì từ trường yếu (theo SGK GDPT 2018).",
           "Khi r tăng từ 2.0 lên 4.0 cm thì B giảm từ 20.0 xuống 10.0 μT — giảm còn 1/2 chứ không phải 1/4.",
-          "20 μT chỉ bằng 0.40 lần từ trường trung bình của Trái Đất 50 μT (SGK tr.110), nên kim nam châm thực tế ở khoảng cách này sẽ bị từ trường Trái Đất chi phối, vì vậy bài học dùng mạt sắt.",
+          "20 μT chỉ bằng 0.40 lần từ trường trung bình của Trái Đất 50 μT (theo SGK GDPT 2018), nên kim nam châm thực tế ở khoảng cách này sẽ bị từ trường Trái Đất chi phối, vì vậy bài học dùng mạt sắt.",
           "Nếu bỏ bước này: quy ước “độ mau thưa biểu thị độ mạnh yếu” chỉ là một câu học vẹt."
         ],
         "actText": "Kéo điểm đo ra vị trí r = 4.0 cm, so sánh độ mau thưa của đường sức và số đọc ở hai vị trí",
@@ -14898,7 +14898,7 @@
           "Những đường thẳng song song dọc theo dây dẫn"
         ],
         "ans": 1,
-        "why": "SGK tr.106: Đường sức từ của dòng điện thẳng là những đường tròn đồng tâm nằm trong những mặt phẳng vuông góc với dây dẫn."
+        "why": "Theo SGK GDPT 2018: Đường sức từ của dòng điện thẳng là những đường tròn đồng tâm nằm trong những mặt phẳng vuông góc với dây dẫn."
       },
       {
         "tag": "② Đảo chiều dòng điện",
@@ -14910,7 +14910,7 @@
           "Cả ba yếu tố trên đều không đổi"
         ],
         "ans": 2,
-        "why": "SGK tr.106: Khi đổi chiều dòng điện thì chiều từ trường tại mọi điểm đều đổi sang chiều ngược lại; độ lớn và hình dạng đường sức không đổi (B̂·(Î×r̂) đổi từ +1 sang −1)."
+        "why": "Theo SGK GDPT 2018: Khi đổi chiều dòng điện thì chiều từ trường tại mọi điểm đều đổi sang chiều ngược lại; độ lớn và hình dạng đường sức không đổi (B̂·(Î×r̂) đổi từ +1 sang −1)."
       },
       {
         "tag": "③ Kim nam châm trong vòng dây",
@@ -14922,7 +14922,7 @@
           "Không có hướng xác định"
         ],
         "ans": 0,
-        "why": "Quy tắc nắm tay phải cho vòng dây: khum bốn ngón tay theo chiều dòng điện ngược chiều kim đồng hồ thì ngón cái choãi dọc theo trục hướng về phía người quan sát — cách xác định ở Bài tập 5 SGK (A7.14②)."
+        "why": "Quy tắc nắm tay phải cho vòng dây: khum bốn ngón tay theo chiều dòng điện ngược chiều kim đồng hồ thì ngón cái choãi dọc theo trục hướng về phía người quan sát — cách xác định ở Bài tập 5 SGK."
       },
       {
         "tag": "④ Suy ngược chiều dòng điện",
@@ -14934,7 +14934,7 @@
           "Chạy vòng quanh đường tròn"
         ],
         "ans": 1,
-        "why": "Quy tắc nắm tay phải quanh dây dẫn: chiều đường sức từ quay cùng chiều kim đồng hồ khi nhìn từ trên xuống tương ứng với ngón cái chúc xuống dưới, tức dòng điện hướng theo chiều −z (phương pháp suy ngược ở Bài tập 4 SGK, A7.14①)."
+        "why": "Quy tắc nắm tay phải quanh dây dẫn: chiều đường sức từ quay cùng chiều kim đồng hồ khi nhìn từ trên xuống tương ứng với ngón cái chúc xuống dưới, tức dòng điện hướng theo chiều −z."
       },
       {
         "tag": "⑤ Bên trong ống so với miệng ống",
@@ -14958,7 +14958,7 @@
           "Không thể xác định"
         ],
         "ans": 0,
-        "why": "Cực Bắc từ (N) của Trái Đất nằm ở gần cực Nam địa lý; áp dụng quy tắc nắm tay phải cho vòng dây (ngón cái chỉ theo chiều đường sức từ bên trong hướng về cực Nam địa lý), khi nhìn từ phía trên cực Bắc địa lý xuống thì dòng điện có chiều cùng chiều kim đồng hồ (Bài tập 7 SGK, A7.14④)."
+        "why": "Cực Bắc từ (N) của Trái Đất nằm ở gần cực Nam địa lý; áp dụng quy tắc nắm tay phải cho vòng dây (ngón cái chỉ theo chiều đường sức từ bên trong hướng về cực Nam địa lý), khi nhìn từ phía trên cực Bắc địa lý xuống thì dòng điện có chiều cùng chiều kim đồng hồ."
       }
     ]
   },
@@ -15011,7 +15011,7 @@
         "no": "①",
         "name": "Bàn quan sát kính hiển vi",
         "short": "Kính hiển vi",
-        "brief": "Kính hiển vi độ phóng đại lớn + tiêu bản + mực tàu pha loãng, hình ảnh hiển thị lên màn hình (SGK tr.3)"
+        "brief": "Kính hiển vi độ phóng đại lớn + tiêu bản + mực tàu pha loãng, hình ảnh hiển thị lên màn hình (theo SGK GDPT 2018)"
       },
       {
         "no": "②",
@@ -15039,7 +15039,7 @@
         "q": "Dưới kính hiển vi, tại sao các hạt than nhỏ lại tự chuyển động?",
         "eq": "Chuyển động Brown = Chuyển động hỗn loạn của hạt lơ lửng",
         "eqCal": "SGK tr.3–4 · Năm 1827 Brown dùng kính hiển vi",
-        "concl": "Chuyển động hỗn loạn, không ngừng của các hạt rất nhỏ lơ lửng trong chất lỏng (hoặc chất khí) được gọi là chuyển động Brown; năm 1827 nhà bác học Brown lần đầu tiên quan sát hiện tượng này dưới kính hiển vi. Các hạt này rất nhỏ, mắt thường không nhìn thấy được mà phải dùng kính hiển vi có độ phóng đại lớn, hình ảnh có thể truyền qua màn hình hiển thị (SGK tr.3–4).",
+        "concl": "Chuyển động hỗn loạn, không ngừng của các hạt rất nhỏ lơ lửng trong chất lỏng (hoặc chất khí) được gọi là chuyển động Brown; năm 1827 nhà bác học Brown lần đầu tiên quan sát hiện tượng này dưới kính hiển vi. Các hạt này rất nhỏ, mắt thường không nhìn thấy được mà phải dùng kính hiển vi có độ phóng đại lớn, hình ảnh có thể truyền qua màn hình hiển thị (theo SGK GDPT 2018).",
         "exam": "Trọng tâm kiểm tra: Chuyển động Brown là chuyển động của các hạt nhỏ lơ lửng, không phải là chuyển động của bản thân các phân tử (Bài tập 3 ý (1)(2) SGK tr.6).",
         "points": [
           "Vật thể nhìn thấy được là các hạt vi mô lơ lửng (kích thước cỡ 10⁻⁶ m) chứ không phải phân tử — phân tử có kích thước cỡ 0.1 nm, kính hiển vi quang học hoàn toàn không thể phân giải được; chuyển động của hạt lơ lửng chỉ là bằng chứng gián tiếp phản ánh sự va chạm của các phân tử (chú thích SGK tr.4).",
@@ -15054,12 +15054,12 @@
         "num": 2,
         "tag": "Mỗi 30 giây chấm một điểm",
         "q": "Nếu cứ mỗi 30 giây ghi lại vị trí của hạt một lần rồi nối lại thì hình vẽ thu được sẽ như thế nào?",
-        "eq": "Δt = 30 s (SGK tr.4)",
+        "eq": "Δt = 30 s (theo SGK GDPT 2018)",
         "eqCal": "Cứ mỗi 30 s ghi lại vị trí một lần",
         "concl": "Cứ cách đều 30 s lại đánh dấu vị trí của hạt một lần, sau đó dùng các đoạn thẳng nối lại theo đúng thứ tự thời gian thì thu được đường gấp khúc như Hình 1.1-4 SGK. Đường gấp khúc này không phải là quỹ đạo chuyển động thực của hạt — SGK tr.4 khẳng định rõ: “Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt cũng vô cùng hỗn loạn”.",
         "exam": "Trọng tâm kiểm tra: Đường gấp khúc chỉ là đường nối các vị trí cách nhau mỗi 30 s chứ không phải quỹ đạo thực của hạt (Bài tập 4 SGK tr.6).",
         "points": [
-          "Khoảng thời gian lấy mẫu 30 s là quy ước trong SGK (tr.4), không có nghĩa là “cứ 30 s hạt mới nhảy một lần”.",
+          "Khoảng thời gian lấy mẫu 30 s là quy ước trong SGK GDPT 2018, không có nghĩa là “cứ 30 s hạt mới nhảy một lần”.",
           "Đường gấp khúc chỉ là đường nối các điểm lấy mẫu rời rạc: ở giữa hai điểm ghi liên tiếp, hạt vẫn chuyển động hỗn loạn không ngừng (trong cửa sổ phóng đại có thể thấy rõ đường răng cưa thực tế).",
           "Độ dịch chuyển tổng hợp 16.50 μm nhỏ hơn rất nhiều so với tổng chiều dài đường gấp khúc 64.8 μm — vì hạt đi zic-zắc tứ phía nên phần lớn độ dịch chuyển đã tự triệt tiêu lẫn nhau.",
           "Nếu bỏ bước này: học sinh sẽ coi đường gấp khúc là quỹ đạo thực của hạt (lỗi sai điển hình trong Bài tập 4 SGK tr.6)."
@@ -15091,7 +15091,7 @@
         "eq": "δ = 1/√N",
         "eqCal": "Va chạm càng ít, thăng giáng càng lớn",
         "concl": "SGK tr.4 giải thích: Hạt càng nhỏ thì tại một thời điểm số phân tử chất lỏng va chạm vào nó càng ít, sự mất cân bằng giữa các lực va chạm từ các phía biểu hiện càng rõ rệt; hơn nữa hạt càng nhỏ thì khối lượng càng nhỏ, trạng thái chuyển động càng dễ bị thay đổi — vì vậy chuyển động Brown càng rõ rệt. Phản ví dụ trong SGK: khi hạt quá lớn, các va chạm từ mọi hướng gần như triệt tiêu cân bằng nhau nên rất khó quan sát thấy chuyển động Brown.",
-        "exam": "Trọng tâm kiểm tra: Hạt lơ lửng càng nhỏ thì chuyển động Brown càng rõ rệt; khi hạt lớn thì các va chạm từ mọi phía gần như cân bằng nên rất khó quan sát (SGK tr.4).",
+        "exam": "Trọng tâm kiểm tra: Hạt lơ lửng càng nhỏ thì chuyển động Brown càng rõ rệt; khi hạt lớn thì các va chạm từ mọi phía gần như cân bằng nên rất khó quan sát (theo SGK GDPT 2018).",
         "points": [
           "Số va chạm N ∝ r² (minh họa): giảm từ 3.86 × 10¹⁵ → 6.17 × 10¹⁴; diện tích bề mặt hạt càng nhỏ thì số lần bị va chạm trong một khoảng thời gian càng ít.",
           "Độ thăng giáng tương đối δ = 1/√N ∝ 1/r: hạt càng nhỏ thì sự mất cân bằng càng lớn (tăng từ 1.61 × 10⁻⁸ → 4.03 × 10⁻⁸, đúng gấp 2.5 lần = 0.5 / 0.2).",
@@ -15108,7 +15108,7 @@
         "eq": "D = kT/(6πη(T)r) (mở rộng)",
         "eqCal": "η giảm khi nhiệt độ tăng",
         "concl": "Thí nghiệm SGK tr.3 “Thay đổi nhiệt độ của huyền phù và lặp lại thao tác trên” đưa ra kết luận: nhiệt độ càng cao thì chuyển động của hạt than nhỏ càng rõ rệt; tr.4 khẳng định “Nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử”. Về mặt định lượng (mở rộng), độ nhớt của chất lỏng giảm mạnh khi nhiệt độ tăng làm lực cản nhớt giảm xuống, nên D ∝ T/η(T) tăng tới 4.5807 lần, mạnh hơn nhiều so với tỉ số T đơn thuần (1.2730 lần). Lưu ý mô phỏng: bài học cho phép kéo nhiệt độ đến 100 ℃ để làm nổi bật xu hướng vật lý — trong thực tế nước ở 100 ℃ sẽ sôi và xuất hiện dòng đối lưu mạnh làm không thể quan sát ổn định chuyển động Brown dưới kính hiển vi.",
-        "exam": "Trọng tâm kiểm tra: Nhiệt độ càng cao chuyển động Brown càng mãnh liệt; nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử (SGK tr.4).",
+        "exam": "Trọng tâm kiểm tra: Nhiệt độ càng cao chuyển động Brown càng mãnh liệt; nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử (theo SGK GDPT 2018).",
         "points": [
           "Nhiệt độ càng cao, chuyển động hỗn loạn của các phân tử càng mãnh liệt, va đập vào hạt càng mạnh.",
           "Độ nhớt của chất lỏng giảm mạnh theo nhiệt độ (1.005 → 0.279 mPa·s, giảm xuống còn 1/3.5982), lực cản nhớt giảm nên cùng một xung lượng va chạm sẽ đẩy hạt đi xa hơn.",
@@ -15198,7 +15198,7 @@
           "Thấu kính của kính hiển vi"
         ],
         "ans": 1,
-        "why": "Chú thích SGK tr.4: Chuyển động hỗn loạn của các hạt lơ lửng không phải là chuyển động của bản thân các phân tử, nhưng nó phản ánh gián tiếp tính hỗn loạn trong chuyển động của các phân tử chất lỏng."
+        "why": "Theo SGK GDPT 2018: Chuyển động hỗn loạn của các hạt lơ lửng không phải là chuyển động của bản thân các phân tử, nhưng nó phản ánh gián tiếp tính hỗn loạn trong chuyển động của các phân tử chất lỏng."
       },
       {
         "tag": "② Bẫy hiện tượng đối lưu",
@@ -15234,7 +15234,7 @@
           "Chứng tỏ trong khoảng thời gian ngắn các phân tử nước chuyển động có quy tắc"
         ],
         "ans": 2,
-        "why": "SGK tr.4: Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt lơ lửng cũng vô cùng hỗn loạn — đoạn thẳng nối giữa hai điểm chỉ là đường nối hình học do không ghi liên tục quỹ đạo ở giữa (Bài tập 4 SGK tr.6)."
+        "why": "Theo SGK GDPT 2018: Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt lơ lửng cũng vô cùng hỗn loạn — đoạn thẳng nối giữa hai điểm chỉ là đường nối hình học do không ghi liên tục quỹ đạo ở giữa."
       },
       {
         "tag": "⑤ Càng nhỏ càng rõ rệt",
@@ -15246,7 +15246,7 @@
           "Hạt càng nhỏ thì độ nhớt của nước càng giảm"
         ],
         "ans": 1,
-        "why": "SGK tr.4 nêu rõ cả hai lý do này (số phân tử va chạm cùng lúc ít hơn gây mất cân bằng rõ hơn + khối lượng nhỏ hơn nên quán tính nhỏ hơn); nhiệt độ và độ nhớt là thuộc tính của môi trường chất lỏng."
+        "why": "Theo SGK GDPT 2018: nêu rõ cả hai lý do này (số phân tử va chạm cùng lúc ít hơn gây mất cân bằng rõ hơn + khối lượng nhỏ hơn nên quán tính nhỏ hơn); nhiệt độ và độ nhớt là thuộc tính của môi trường chất lỏng."
       },
       {
         "tag": "⑥ Thuyết động học phân tử",
@@ -15258,7 +15258,7 @@
           "Nhiệt độ càng cao thì kích thước phân tử càng lớn"
         ],
         "ans": 0,
-        "why": "SGK tr.6 tổng kết đầy đủ cả ba mệnh đề cốt lõi của “Thuyết động học phân tử” (A2.7)."
+        "why": "Theo SGK GDPT 2018: tổng kết đầy đủ cả ba mệnh đề cốt lõi của “Thuyết động học phân tử”."
       }
     ]
   },
@@ -15268,7 +15268,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 0,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thủy quyển — Bài «Vòng tuần hoàn nước» (tr.46–49)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Thủy quyển — Bài «Vòng tuần hoàn nước»",
       "title": "Quá trình và ý nghĩa địa lý của vòng tuần hoàn nước"
     },
     "top": {
@@ -15377,7 +15377,7 @@
         "concl": "Hơi nước trên lục địa vừa đến từ bốc hơi mặt đất, mặt nước, vừa đến từ thoát hơi nước của thực vật; thực vật càng dày thì tỷ trọng thoát hơi nước càng lớn và lượng thấm xuống đất cũng nhiều hơn.",
         "exam": "Dễ nhầm: Thoát hơi nước của thực vật thuộc chung khâu «Bốc hơi (Thoát hơi nước)», không phải một khâu thứ sáu tách biệt; thảm thực vật càng tốt thì thoát hơi nước càng nhiều, bốc hơi trực tiếp từ mặt đất càng ít.",
         "points": [
-          "Hơi nước trên lục địa có hai nguồn: bốc hơi từ mặt đất, mặt nước (gồm mặt hồ) và thoát hơi nước từ thực vật (SGK tr.47: «bốc hơi từ mặt đất, mặt nước và thoát hơi nước của thực vật»).",
+          "Hơi nước trên lục địa có hai nguồn: bốc hơi từ mặt đất, mặt nước (gồm mặt hồ) và thoát hơi nước từ thực vật (theo SGK GDPT 2018).",
           "Thực vật 40 % → 80 %: thoát hơi nước thực vật 147 → 294, bốc hơi mặt đất 343 → 196 (tổng lượng bốc thoát hơi 490 giữ nguyên, chỉ thay đổi cách phân bổ).",
           "Thực vật đồng thời giúp nước thấm xuống nhiều hơn (nhờ bộ rễ), đây là bước đệm dẫn tới nội dung ruộng phủ sỏi cát ở bước 7.",
           "Bỏ bước này: học sinh sẽ gộp lẫn «thoát hơi nước» và «bốc hơi» làm một, cũng như không thấy được vai trò của thảm thực vật đối với quá trình thấm."
@@ -15394,7 +15394,7 @@
         "concl": "Hơi nước từ đại dương được dòng khí đưa vào bầu trời lục địa; vận chuyển càng mạnh thì lượng mưa lục địa nhận được càng nhiều và lượng mưa rơi trực tiếp trên biển càng ít.",
         "exam": "Hay thi: Vận chuyển hơi nước là sợi dây liên kết giữa biển và đất liền; hơi nước gây mưa trên lục địa chủ yếu có nguồn gốc từ đại dương.",
         "points": [
-          "Hơi nước được các dòng khí vận chuyển vào bầu trời lục địa (SGK tr.46: «hơi nước bốc lên cao, được dòng khí vận chuyển vào bầu trời lục địa»).",
+          "Hơi nước được các dòng khí vận chuyển vào bầu trời lục địa (theo SGK GDPT 2018).",
           "Vận chuyển 10 % → 20 %: mưa trên lục địa 759 → 1029, mưa trên biển 990 → 880, dòng chảy mặt 159 → 318 (minh họa).",
           "Nước của đại dương được «cho mượn» sang lục địa, mượn nhiều hay ít do khâu vận chuyển quyết định — ở bước 6 sẽ dùng manh mối này để giải thích vòng tuần hoàn lớn.",
           "Bỏ bước này: học sinh sẽ tưởng mưa trên lục địa chỉ là «mưa tự có tại chỗ», không giải thích được ý nghĩa của đại dương đối với tài nguyên nước trên lục địa."
@@ -15411,7 +15411,7 @@
         "concl": "Nước rơi xuống mặt đất một phần bốc thoát hơi, một phần thành dòng chảy mặt, một phần thấm xuống thành dòng chảy ngầm; cả hai phần sau cuối cùng đều trở về đại dương.",
         "exam": "Dễ nhầm: Nước thấm xuống đất không biến mất, nó tạo thành dòng chảy ngầm đổ vào sông ngòi hoặc chảy thẳng ra biển.",
         "points": [
-          "Nước rơi xuống mặt đất hoặc bị bốc hơi (thoát hơi nước), hoặc chảy trên mặt đất tạo thành dòng chảy mặt, hoặc thấm xuống dưới đất tạo thành dòng chảy ngầm (SGK tr.47).",
+          "Nước rơi xuống mặt đất hoặc bị bốc hơi (thoát hơi nước), hoặc chảy trên mặt đất tạo thành dòng chảy mặt, hoặc thấm xuống dưới đất tạo thành dòng chảy ngầm (theo SGK GDPT 2018).",
           "Mưa trên lục địa 759 = Bốc thoát hơi 490 + Thấm 110 + Dòng chảy mặt 159; nước thấm xuống đất sẽ trở về đại dương dưới dạng dòng chảy ngầm 110.",
           "Thấm xuống đất không phải là «thất thoát mất», mà là một con đường khác để quay về biển — trên mặt cắt, điểm cuối của hai mũi tên đều dẫn về biển.",
           "Bỏ bước này: học sinh sẽ tưởng nước thấm xuống đất là «mất đi luôn», và không nêu được lượng nước sông ngòi được cung cấp từ những nguồn nào."
@@ -15428,7 +15428,7 @@
         "concl": "Vòng tuần hoàn biển – đất liền đưa nước từ đại dương vào lục địa rồi lại qua sông ngòi trả về đại dương, giúp nước lục địa liên tục được bổ sung; vòng tuần hoàn nội lục chỉ gồm bốc thoát hơi và mưa tại chỗ; vòng tuần hoàn trên biển chỉ diễn ra trọn vẹn trên đại dương.",
         "exam": "Hay thi: Tiêu chí phân chia ba loại vòng tuần hoàn là phạm vi không gian; vòng tuần hoàn giúp tài nguyên nước trên lục địa được bổ sung và tái tạo là vòng tuần hoàn giữa biển và đất liền (vòng tuần hoàn lớn).",
         "points": [
-          "Ba loại vòng tuần hoàn được phân chia theo phạm vi không gian diễn ra: vòng tuần hoàn giữa biển và đất liền (vòng tuần hoàn lớn), vòng tuần hoàn nội lục và vòng tuần hoàn trên biển (SGK tr.46).",
+          "Ba loại vòng tuần hoàn được phân chia theo phạm vi không gian diễn ra: vòng tuần hoàn giữa biển và đất liền (vòng tuần hoàn lớn), vòng tuần hoàn nội lục và vòng tuần hoàn trên biển (theo SGK GDPT 2018).",
           "Gạt từng mức để xem: ở mức Nội lục, đất liền vẫn có mưa (490) nhưng dòng chảy ra biển bằng 0; ở mức Trên biển, mưa trên lục địa bằng 0; ở mức Biển – Đất liền, lượng mưa đó trên lục địa hoàn toàn do hơi nước từ đại dương đưa vào.",
           "Vòng tuần hoàn lớn giúp nước trên lục địa không ngừng được bổ sung, tài nguyên nước được tái tạo (tr.46) — đây chính là đáp án cho câu hỏi chủ đạo của bài học.",
           "Bỏ bước này: học sinh chỉ nhớ chung chung khái niệm «vòng tuần hoàn nước», không phân biệt được ba loại và cũng không trả lời được «nếu ngắt vòng tuần hoàn biển – đất liền thì lục địa sẽ ra sao»."
@@ -15445,7 +15445,7 @@
         "concl": "Lớp phủ sỏi cát giúp thửa ruộng thấm nước nhiều hơn và bốc hơi mặt đất ít hơn, nhờ đó trong cùng một lượng mưa có nhiều nước được giữ lại trong đất hơn và ít chảy tràn mất đi hơn — hai khâu thay đổi là bốc hơi và thấm, còn bản thân lượng mưa không đổi.",
         "exam": "Hay thi: Lớp phủ sỏi cát làm tăng lượng thấm và giảm lượng bốc hơi, là biện pháp canh tác nông nghiệp cải tạo các khâu của vòng tuần hoàn nước.",
         "points": [
-          "Ruộng phủ sỏi cát (sa điền) là phương pháp trải một lớp sỏi đá và cát dày 10—15 cm lên mặt đất canh tác, cây trồng được gieo thành hàng giữa lớp sỏi đá (Hoạt động SGK tr.48, Hình 3.3).",
+          "Canh tác phủ mặt đất bằng lớp sỏi cát (hoặc tủ gốc giữ ẩm tại các vùng khô hạn như Ninh Thuận – Bình Thuận và vùng núi đá) là phương pháp trải lớp vật liệu thô dày 10—15 cm lên mặt đất canh tác để đón nước mưa thấm xuống và hạn chế bốc hơi (theo SGK Địa lý 10 GDPT 2018).",
           "Cùng một thửa ruộng, cùng một lượng mưa: sau khi phủ lớp sỏi đá, lượng thấm của ruộng tăng từ 110 → 335, bốc hơi mặt đất giảm từ 343 → 172, dòng chảy mặt giảm từ 159 → 106 (minh họa; chiều biến thiên của đường biểu diễn xem Hình 3.4 / 3.5).",
           "Hai khâu được cải tạo là «bốc hơi» và «thấm» — lượng nước tiết kiệm được nhờ giảm bốc hơi mặt đất và tăng thấm được giữ lại trong đất, nên dòng chảy mặt cũng giảm đi; các số đo toàn cục như mưa lục địa 759 và dòng chảy ra biển 269 không đổi, vì biện pháp trên một thửa ruộng không làm thay đổi cân bằng nước toàn cầu.",
           "Bỏ bước này: học sinh chỉ nói nôm na ruộng sỏi cát là «rải đá giữ ẩm», chứ không chỉ ra được chính xác nó đã tác động vào hai khâu nào của vòng tuần hoàn nước."
@@ -15462,7 +15462,7 @@
         "concl": "Vòng tuần hoàn nước duy trì sự cân bằng động của lượng nước toàn cầu và giúp các thủy vực liên tục đổi mới, nhưng chu kỳ đổi mới chênh nhau hàng nghìn lần nên trong phạm vi không gian – thời gian nhất định tài nguyên nước là hữu hạn; đồng thời đây cũng là quá trình vận chuyển vật chất và chuyển hóa năng lượng.",
         "exam": "Hay thi: Nguyên nhân tự nhiên gây thiếu nước là trữ lượng và chu kỳ đổi mới có hạn; nguyên nhân nhân sinh là mức sử dụng vượt quá tốc độ đổi mới và ô nhiễm nguồn nước.",
         "points": [
-          "Vòng tuần hoàn nước giúp các thủy vực trên Trái Đất luôn ở trạng thái đổi mới không ngừng, qua đó duy trì sự cân bằng động của tổng lượng nước toàn cầu (SGK tr.48).",
+          "Vòng tuần hoàn nước giúp các thủy vực trên Trái Đất luôn ở trạng thái đổi mới không ngừng, qua đó duy trì sự cân bằng động của tổng lượng nước toàn cầu (theo SGK GDPT 2018).",
           "Tuy nhiên chu kỳ đổi mới lại chênh lệch vô cùng lớn: sông ngòi 16 ngày, hồ đầm 17 năm, nước ngầm tầng sâu 1400 năm, băng hà núi cao 1600 năm, đại dương 2500 năm, băng hà vùng cực 9700 năm (Bảng 3.1).",
           "Vì vậy trong một phạm vi không gian và thời gian nhất định, tài nguyên nước là hữu hạn: nếu khai thác vượt quá tốc độ đổi mới hoặc làm ô nhiễm nguồn nước thì sẽ dẫn đến thiếu nước; ngoài ra dòng chảy còn không ngừng kiến tạo địa hình bề mặt, vận chuyển phù sa ra biển, là sợi dây liên kết giữa biển và đất liền (tr.49).",
           "Bỏ bước này: học sinh sẽ hiểu lầm «cân bằng động» thành «nước dùng mãi không hết», làm mất đi điểm chốt của bài học (ý nghĩa địa lý của vòng tuần hoàn nước)."
@@ -15499,7 +15499,7 @@
           "Biến đổi biển – lục địa (Tang thương)"
         ],
         "ans": 3,
-        "why": "SGK tr.46: Nước vận động liên tục thông qua các khâu bốc hơi (thoát hơi nước), vận chuyển hơi nước, mưa, thấm, dòng chảy..."
+        "why": "Theo SGK GDPT 2018: Nước vận động liên tục thông qua các khâu bốc hơi (thoát hơi nước), vận chuyển hơi nước, mưa, thấm, dòng chảy..."
       },
       {
         "tag": "② Ba loại",
@@ -15511,7 +15511,7 @@
           "Tuần hoàn mặt đất và Tuần hoàn dưới đất"
         ],
         "ans": 0,
-        "why": "SGK tr.46: Căn cứ vào phạm vi không gian diễn ra, vòng tuần hoàn nước được chia thành vòng tuần hoàn biển – đất liền, vòng tuần hoàn nội lục và vòng tuần hoàn trên biển."
+        "why": "Theo SGK GDPT 2018: Căn cứ vào phạm vi không gian diễn ra, vòng tuần hoàn nước được chia thành vòng tuần hoàn biển – đất liền, vòng tuần hoàn nội lục và vòng tuần hoàn trên biển."
       },
       {
         "tag": "③ Biển cả",
@@ -15523,7 +15523,7 @@
           "Nước biển đều biến thành băng hà"
         ],
         "ans": 1,
-        "why": "Lượng nước bốc hơi từ đại dương một phần rơi trực tiếp thành mưa trên biển, một phần theo sông ngòi chảy về đại dương, thu chi cân bằng nhau (hướng giải thích ở phần mở đầu SGK tr.46)."
+        "why": "Lượng nước bốc hơi từ đại dương một phần rơi trực tiếp thành mưa trên biển, một phần theo sông ngòi chảy về đại dương, thu chi cân bằng nhau."
       },
       {
         "tag": "④ Tuần hoàn lớn",
@@ -15535,7 +15535,7 @@
           "Không phải loại nào ở trên"
         ],
         "ans": 2,
-        "why": "SGK tr.46: Thông qua vận động tuần hoàn này, nước trên lục địa không ngừng được bổ sung và tài nguyên nước được tái tạo."
+        "why": "Theo SGK GDPT 2018: Thông qua vận động tuần hoàn này, nước trên lục địa không ngừng được bổ sung và tài nguyên nước được tái tạo."
       },
       {
         "tag": "⑤ Ngắt tuần hoàn lớn",
@@ -15559,11 +15559,11 @@
           "Trở thành nước ngầm và nằm yên vĩnh viễn"
         ],
         "ans": 1,
-        "why": "SGK tr.46: Một phần thấm xuống đất tạo thành dòng chảy ngầm; cả dòng chảy mặt và dòng chảy ngầm tập hợp qua sông ngòi rồi cuối cùng lại trở về đại dương."
+        "why": "Theo SGK GDPT 2018: Một phần thấm xuống đất tạo thành dòng chảy ngầm; cả dòng chảy mặt và dòng chảy ngầm tập hợp qua sông ngòi rồi cuối cùng lại trở về đại dương."
       },
       {
         "tag": "⑦ Ruộng phủ sỏi cát",
-        "q": "Lớp phủ sỏi cát của ruộng sa điền làm cho",
+        "q": "Lớp phủ sỏi cát trên mặt ruộng canh tác vùng khô hạn làm cho",
         "opts": [
           "Lượng thấm giảm, lượng bốc hơi tăng",
           "Lượng thấm tăng, lượng bốc hơi giảm",
@@ -15571,7 +15571,7 @@
           "Chỉ tăng thấm, không ảnh hưởng đến bốc hơi"
         ],
         "ans": 1,
-        "why": "Kết luận phần Hoạt động SGK tr.48: Lớp phủ sỏi cát làm tăng lượng thấm, giảm lượng bốc hơi, giúp độ ẩm trong đất cao hơn."
+        "why": "Theo SGK GDPT 2018: Lớp phủ sỏi cát làm tăng lượng thấm, giảm lượng bốc hơi, giúp độ ẩm trong đất cao hơn."
       },
       {
         "tag": "⑧ Chu kỳ đổi mới",
@@ -15593,7 +15593,7 @@
       "subject": "Địa lý THPT (GDPT 2018)",
       "type": "Nguyên lý & Hiện tượng",
       "cover": 3,
-      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Các đai khí áp và đai gió» (tr.48–53), Nghiên cứu điển hình (tr.56–57)",
+      "locate": "Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Các đai khí áp và đai gió»",
       "title": "Các đai khí áp, Đai gió và Hoàn lưu ba vòng"
     },
     "top": {
@@ -15748,7 +15748,7 @@
         "points": [
           "Mùa đông lục địa nguội đi nhanh hơn đại dương nên hình thành áp cao lạnh; mùa hè lục địa nóng lên nhanh hơn đại dương nên hình thành áp thấp nóng.",
           "Ở Bắc bán cầu diện tích lục địa lớn, biển và lục địa xen kẽ nhau, làm cho các đai khí áp theo chiều vĩ tuyến bị chia cắt thành từng trung tâm áp cao và áp thấp riêng biệt; còn ở Nam bán cầu từ vĩ độ 30°S về phía Nam nhìn chung vẫn giữ dạng vành đai liên tục.",
-          "Sự thay đổi theo mùa của các trung tâm khí áp làm cho hướng gió thịnh hành đổi chiều theo mùa, tạo thành gió mùa: Đông Á mùa đông thổi gió mùa Tây Bắc, mùa hè thổi gió mùa Đông Nam.",
+          "Sự thay đổi theo mùa của các trung tâm khí áp làm cho hướng gió thịnh hành đổi chiều theo mùa, tạo thành gió mùa điển hình ở châu Á: tại Việt Nam và Đông Nam Á, mùa đông chịu tác động của áp cao Xibia thổi gió mùa Đông Bắc lạnh khô (đầu đông) và lạnh ẩm (cuối đông), mùa hạ chịu tác động của áp thấp Nam Á và dải hội tụ nhiệt đới thổi gió mùa Tây Nam nóng ẩm, mưa nhiều (ở Đông Á là gió mùa Tây Bắc và Đông Nam).",
           "Bỏ bước này: học sinh sẽ lầm tưởng khí áp trên Trái Đất thực tế lúc nào cũng là những vành đai thẳng tắp."
         ],
         "actText": "Kéo tháng từ tháng 7 sang tháng 1, quan sát xem trung tâm khí áp trên lục địa Á – Âu thay đổi như thế nào",
@@ -15783,7 +15783,7 @@
           "Sự thay đổi bốn mùa do Trái Đất chuyển động quanh Mặt Trời"
         ],
         "ans": 1,
-        "why": "SGK tr.48: Giả sử bề mặt Trái Đất đồng nhất, nhân tố gây ra sự vận động của khí quyển là sự nhận nhiệt không đều giữa các vùng vĩ độ cao – thấp và lực làm lệch hướng do Trái Đất tự quay."
+        "why": "Theo SGK GDPT 2018: Giả sử bề mặt Trái Đất đồng nhất, nhân tố gây ra sự vận động của khí quyển là sự nhận nhiệt không đều giữa các vùng vĩ độ cao – thấp và lực làm lệch hướng do Trái Đất tự quay."
       },
       {
         "tag": "② Lệch hướng",
@@ -15843,7 +15843,7 @@
           "Chỉ dịch chuyển vào ngày Xuân phân và Thu phân"
         ],
         "ans": 0,
-        "why": "SGK tr.50: Do sự dịch chuyển Bắc – Nam của vĩ độ Mặt Trời lên thiên đỉnh, ở Bắc bán cầu các đai khí áp và đai gió lệch về phía Bắc vào mùa hè và lệch về phía Nam vào mùa đông."
+        "why": "Theo SGK GDPT 2018: Do sự dịch chuyển Bắc – Nam của vĩ độ Mặt Trời lên thiên đỉnh, ở Bắc bán cầu các đai khí áp và đai gió lệch về phía Bắc vào mùa hè và lệch về phía Nam vào mùa đông."
       },
       {
         "tag": "④ Dịch chuyển",
@@ -15855,7 +15855,7 @@
           "Mùa hè chịu sự khống chế của gió mùa"
         ],
         "ans": 1,
-        "why": "SGK tr.56: Bờ Tây lục địa ở vĩ độ 30°—40° mùa hè chịu sự khống chế của áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới."
+        "why": "Theo SGK GDPT 2018: Bờ Tây lục địa ở vĩ độ 30°—40° mùa hè chịu sự khống chế của áp cao cận nhiệt, mùa đông chịu sự khống chế của đai gió Tây ôn đới."
       },
       {
         "tag": "⑤ Biển – Lục địa",
@@ -15867,7 +15867,7 @@
           "Đai áp cao cực"
         ],
         "ans": 2,
-        "why": "SGK tr.51: Tháng 1 ở Bắc bán cầu, đai áp thấp ôn đới (cận cực) bị áp cao lạnh trên lục địa cắt đứt, chỉ còn giữ lại trên đại dương; còn vào tháng 7 đai bị cắt đứt là đai áp cao cận nhiệt."
+        "why": "Theo SGK GDPT 2018: Tháng 1 ở Bắc bán cầu, đai áp thấp ôn đới (cận cực) bị áp cao lạnh trên lục địa cắt đứt, chỉ còn giữ lại trên đại dương; còn vào tháng 7 đai bị cắt đứt là đai áp cao cận nhiệt."
       }
     ]
   }
