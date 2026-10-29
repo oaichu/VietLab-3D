@@ -331,7 +331,7 @@
 - Vị trí Chương trình GDPT 2018: Hóa học 11 (GDPT 2018) · Chương 1: Cân bằng hóa học · Bài: pH của dung dịch và Chuẩn độ acid – base
 - Câu hỏi trung tâm: Nhỏ hơn 20 mL đầu gần như không đổi màu, vì sao chỉ nửa giọt cuối cùng lại làm dung dịch đổi màu đột ngột?
 - Phương trình / Nguyên lý tổng quát: HCl + NaOH = NaCl + H₂O · c(NaOH) = c(HCl)·V(HCl) / V(NaOH)
-- Chuỗi nhân quả cốt lõi: Quan hệ hợp thức: n(HCl) = n(NaOH)，1 : 1 -> Bước nhảy pH: Chỉ nửa giọt làm pH nhảy vọt khoảng 5 đơn vị -> Chất chỉ thị: Khoảng đổi màu nằm trong bước nhảy pH, đổi màu tức là điểm kết thúc -> Đọc chuẩn mới tính chuẩn: Tráng buret, đuổi bọt khí, nhìn ngang tầm mắt thì nồng độ c mới không bị lệch
+- Chuỗi nhân quả cốt lõi: Quan hệ hợp thức: n(HCl) = n(NaOH), 1 : 1 -> Bước nhảy pH: Chỉ nửa giọt làm pH nhảy vọt khoảng 5 đơn vị -> Chất chỉ thị: Khoảng đổi màu nằm trong bước nhảy pH, đổi màu tức là điểm kết thúc -> Đọc chuẩn mới tính chuẩn: Tráng buret, đuổi bọt khí, nhìn ngang tầm mắt thì nồng độ c mới không bị lệch
 - Các trạm/cụm mô hình 3D:
   - ① Buret acid và cách đọc số đo: Giá sắt kẹp buret acid 50 mL chứa HCl 0.1000 mol/L; vạch 0 ở trên cùng, đọc chính xác đến 0.01 mL
   - ② Bình tam giác và chất chỉ thị: Bình tam giác 250 mL chứa 20.00 mL dung dịch NaOH cần xác định nồng độ, lót giấy trắng dưới đáy, thêm 2 giọt chất chỉ thị, màu đổi theo pH
@@ -386,7 +386,7 @@
   - Q5: Nếu buret acid chưa được tráng bằng dung dịch HCl mà đã tiến hành chuẩn độ ngay (các thao tác khác đều đúng chuẩn), thì nồng độ c(NaOH) xác định được sẽ
     Đáp án: Lệch cao — Giải thích: Nước đọng trong buret làm loãng dung dịch HCl (xuống 0.09804 mol/L), khiến phải nhỏ tới 21.46 mL mới đạt điểm kết thúc; hiệu số thể tích tăng lên làm nồng độ c tính ra tăng từ 0.1052 lên 0.1073 (bị lệch cao).
   - Q6: Trong một lần chuẩn độ, số đọc đầu là 0.00 mL, số đọc cuối là 21.04 mL, thể tích dung dịch NaOH đem chuẩn độ là 20.00 mL, nồng độ dung dịch chuẩn HCl là 0.1000 mol/L, vậy c(NaOH) bằng
-    Đáp án: 0.1052 mol/L — Giải thích: c(NaOH) = c(HCl)·V(HCl)/V(NaOH) = 0.1000 × 21.04 ÷ 20.00 = 0.1052 mol/L。
+    Đáp án: 0.1052 mol/L — Giải thích: c(NaOH) = c(HCl)·V(HCl)/V(NaOH) = 0.1000 × 21.04 ÷ 20.00 = 0.1052 mol/L.
 
 ---
 
@@ -546,7 +546,7 @@
      - Kết luận: Bản chất của luyện kim là khử ion kim loại trong hợp chất thành đơn chất; kim loại càng hoạt động thì cation càng khó nhận electron, nên phương pháp tách được phân theo dãy hoạt động: K–Al điện phân nóng chảy, Zn–Cu nhiệt luyện, Hg/Ag nhiệt phân.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Cơ sở lựa chọn phương pháp tách kim loại là gì?» — Trả lời: Dựa vào mức độ hoạt động hóa học của kim loại (độ mạnh yếu của tính khử), không chỉ trả lời «dựa vào giá thành».
   2. [Chỉ có thể điện phân] Câu hỏi: Than cốc có thể khử quặng sắt thành sắt, tại sao lại không khử được quặng nhôm thành nhôm?
-     - Phương trình/Quy luật: 2NaCl(l) --đpnc--> 2Na(l) + Cl₂↑　·　MgCl₂(l) --đpnc--> Mg(l) + Cl₂↑ (Bản thân muối nóng chảy là chất dẫn điện ion; riêng Al₂O₃ phải thêm cryolite mới hạ được nhiệt độ nóng chảy)
+     - Phương trình/Quy luật: 2NaCl(l) --đpnc--> 2Na(l) + Cl₂↑ · MgCl₂(l) --đpnc--> Mg(l) + Cl₂↑ (Bản thân muối nóng chảy là chất dẫn điện ion; riêng Al₂O₃ phải thêm cryolite mới hạ được nhiệt độ nóng chảy)
      - Kết luận: Nhôm hoạt động mạnh hơn cả carbon và sắt, carbon không khử được Al₂O₃ và sắt cũng không đẩy được nhôm (ΔrG° = +840.1 kJ·mol⁻¹ > 0, không tự diễn biến) — vì vậy Na, Mg, Al chỉ có thể điều chế bằng điện phân hợp chất nóng chảy.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Tại sao không thể luyện nhôm bằng chất khử thông thường như luyện sắt?» — Trả lời: Do mức độ hoạt động hóa học (nhôm hoạt động mạnh hơn carbon và sắt), không trả lời «vì nhôm đắt».
   3. [Mặt cắt bình điện phân] Câu hỏi: Bên trong bể điện phân này thực chất có những gì, và nhôm được «sinh ra» như thế nào?
@@ -554,7 +554,7 @@
      - Kết luận: Bể điện phân nhôm là thiết bị điện phân muối nóng chảy: khối than anode ở trên, khối than cathode ở đáy bể; nhôm lỏng nặng hơn khối nóng chảy nên lắng xuống đáy và được hút ra ngoài.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Sản phẩm ở cathode khi điện phân nóng chảy Al₂O₃ nằm ở đâu?» — Ở đáy bể (do khối lượng riêng lớn hơn khối nóng chảy); còn anode ở phía trên, sản phẩm là khí O₂.
   4. [Ion nào đi về đâu] Câu hỏi: Sau khi đóng điện, electron và các ion di chuyển về phía nào? Tăng cường độ dòng điện có tiết kiệm điện không?
-     - Phương trình/Quy luật: Cathode: Al³⁺ + 3e⁻ → Al　·　Anode: 2O²⁻ − 4e⁻ → O₂↑ (Dòng điện một chiều · Cực than anode đồng thời bị đốt cháy: C + O₂ → CO₂)
+     - Phương trình/Quy luật: Cathode: Al³⁺ + 3e⁻ → Al · Anode: 2O²⁻ − 4e⁻ → O₂↑ (Dòng điện một chiều · Cực than anode đồng thời bị đốt cháy: C + O₂ → CO₂)
      - Kết luận: Cathode: Al³⁺ + 3e⁻ → Al, Anode: 2O²⁻ − 4e⁻ → O₂↑; dòng điện càng lớn thì sản lượng nhôm càng nhiều, nhưng độ sụt áp trên thanh cái, thanh dẫn và khối nóng chảy cũng lớn hơn, nên điện năng tiêu thụ mỗi tấn nhôm không hề giảm đi khi tăng dòng điện.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Điều gì xảy ra khi tăng cường độ dòng điện trong điện phân nhôm?» — Sản lượng tăng tỉ lệ thuận, nhưng điện áp bể và điện năng tiêu thụ trên mỗi tấn nhôm cũng tăng nhẹ; muốn tiết kiệm điện phải giảm điện áp bể và nâng cao hiệu suất dòng điện.
   5. [Phối trộn cryolite] Câu hỏi: Al₂O₃ tới 2054 ℃ mới nóng chảy, làm sao bể điện phân chịu nổi?
@@ -562,7 +562,7 @@
      - Kết luận: Cryolite kéo nhiệt độ nóng chảy của hệ Al₂O₃ từ 2054 ℃ xuống dưới khoảng 1000 ℃ để điện phân công nghiệp diễn ra ở 940–980 ℃; nó là chất trợ dung nên không viết vào phương trình tổng quát.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Vai trò của cryolite (Na₃AlF₆) là gì?» — Là chất trợ dung giúp hạ nhiệt độ nóng chảy của Al₂O₃ (không phải chất xúc tác, không tham gia phản ứng điện cực).
   6. [Bài toán điện năng] Câu hỏi: Nhiệt độ bể chỉ chênh lệch mười mấy độ, tại sao tiền điện lại chênh nhau cả một khoản lớn?
-     - Phương trình/Quy luật: W = 2980·U/η　·　U = 4.10 + 0.003·(955 − t) + 0.010·(950 − t phần dưới 950 ℃) (Cộng thêm số hạng thuần trở 0.0008·(I − 300); dưới 950 ℃ cộng thêm 0.010/℃ do khối nóng chảy tăng độ nhớt)
+     - Phương trình/Quy luật: W = 2980·U/η · U = 4.10 + 0.003·(955 − t) + 0.010·(950 − t phần dưới 950 ℃) (Cộng thêm số hạng thuần trở 0.0008·(I − 300); dưới 950 ℃ cộng thêm 0.010/℃ do khối nóng chảy tăng độ nhớt)
      - Kết luận: Nhiệt độ bể giảm → Al₂O₃ khó tan, điện trở khối nóng chảy tăng → điện áp bể tăng → điện năng tiêu thụ tăng (955 → 940 ℃: 12 861 → 13 068 kW·h/t); nhiệt độ bể quá cao tuy giảm điện áp bể nhưng hiệu suất dòng điện tụt nhanh hơn (ở 990 ℃, η = 0.908 → 13 111 kW·h/t). Cả hai phía đều tốn điện, nên công nghiệp giữ ở 940–980 ℃.
      - Trọng tâm thi cử: Câu hỏi thường gặp: «Tại sao điện năng tiêu thụ trong điện phân nhôm lại cao như vậy?» — Vì điện áp bể thực tế cao hơn nhiều so với thế phân hủy lý thuyết, phần chênh lệch biến thành nhiệt năng giữ cho bể nóng chảy.
   7. [Nhiệt nhôm] Câu hỏi: Nhôm khó điều chế ra như vậy, tại sao người ta lại dùng nhôm để luyện sắt?
@@ -729,7 +729,7 @@
 - Mô phỏng 3D trực tiếp: https://vietlab.9cloudmedia.com/courses/coal-gas-step.html
 - Vị trí Chương trình GDPT 2018: Hóa học 11 (GDPT 2018) · Chuyên đề 11.1: Phân bón & Hóa học vô cơ công nghiệp · Bài: Chế biến than và khí tổng hợp
 - Câu hỏi trung tâm: Than đá chỉ dùng để đốt thôi sao? Làm thế nào biến than thành khí tổng hợp để sản xuất phân bón và methanol?
-- Phương trình / Nguyên lý tổng quát: C(s) + H₂O(g) → CO(g) + H₂(g)　ΔH = +131.3 kJ·mol⁻¹
+- Phương trình / Nguyên lý tổng quát: C(s) + H₂O(g) → CO(g) + H₂(g) ΔH = +131.3 kJ·mol⁻¹
 - Chuỗi nhân quả cốt lõi: Khí hóa: C + H₂O(g) → CO + H₂, thu nhiệt, biến than đá thành hỗn hợp khí có thành phần điều chỉnh được -> Cấp nhiệt: Đốt cháy một phần than để cấp nhiệt: nhiều oxygen thì nhiệt độ cao, nhưng nhiều carbon bị đốt thành CO₂ -> Chuyển hóa: CO + H₂O ⇌ CO₂ + H₂ tỏa nhiệt thuận nghịch; khí hóa than dùng xúc tác chuyển hóa chịu lưu huỳnh nên có lẫn lưu huỳnh cũng không bị ngộ độc -> Làm sạch khí: Methanol ở −40 ℃ hấp thụ đồng thời H₂S và CO₂, lưu huỳnh đưa sang lò Claus thu hồi lưu huỳnh đơn chất -> Đầu ra: Tổng hợp methanol cần H₂/CO ≈ 2, tổng hợp ammonia cần H₂/N₂ = 3 (chuyển hóa sâu + phối trộn N₂)
 - Các trạm/cụm mô hình 3D:
   - ① Chuẩn bị than & tạo bùn: Nghiền thành than mịn, trộn nước tạo thành bùn than thì mới bơm vào lò áp suất cao được
@@ -743,7 +743,7 @@
      - Kết luận: Than đá là hỗn hợp phức tạp chứa chủ yếu carbon; đốt trực tiếp chỉ lấy được nhiệt và thải ra S, bụi, NOₓ; khí hóa biến carbon thành hỗn hợp khí CO + H₂ điều chỉnh được tỉ lệ, nhờ đó mới làm nguyên liệu tổng hợp ammonia và methanol.
      - Trọng tâm thi cử: Chưng khô (nhiệt phân) vs Khí hóa vs Hóa lỏng: cả ba đều là biến đổi hóa học, sản phẩm lần lượt là than cốc/nhựa than/khí lò cốc, khí tổng hợp, và nhiên liệu lỏng.
   2. [Cấp nhiệt hay tạo khí] Câu hỏi: Khí hóa là quá trình thu nhiệt, vậy nhiệt lấy từ đâu? Tại sao bắt buộc phải thổi đồng thời cả oxygen và hơi nước?
-     - Phương trình/Quy luật: C(s) + H₂O(g) → CO(g) + H₂(g)　ΔH = +131.3 kJ·mol⁻¹ (Tự cấp nhiệt trong điều kiện thiếu oxygen: một phần carbon bị O₂ oxi hóa thành CO₂ để cấp nhiệt)
+     - Phương trình/Quy luật: C(s) + H₂O(g) → CO(g) + H₂(g) ΔH = +131.3 kJ·mol⁻¹ (Tự cấp nhiệt trong điều kiện thiếu oxygen: một phần carbon bị O₂ oxi hóa thành CO₂ để cấp nhiệt)
      - Kết luận: Phản ứng C + H₂O(g) → CO + H₂ thu nhiệt 131.3 kJ·mol⁻¹, lượng nhiệt này phải lấy từ việc đốt cháy một phần than. Nhiều oxygen thì nhiệt độ lò cao, độ chuyển hóa cao, nhưng khí có ích bị CO₂ làm loãng — oxygen lo cấp nhiệt, còn hơi nước lo tạo hydrogen.
      - Trọng tâm thi cử: Câu hỏi «Tỉ lệ O₂/than có phải càng lớn càng tốt không?» cần nêu 2 ý: khí có ích bị pha loãng bởi CO₂; và lớp lót lò bị quá nhiệt.
   3. [Bên trong lò diễn ra gì] Câu hỏi: Trong chiếc lò hơn nghìn độ, than đá thực sự trải qua những gì? Còn tro đi về đâu?
@@ -755,7 +755,7 @@
      - Kết luận: Nhiều hơi nước → thu nhiệt nhiều, nhiệt độ lò hạ → H₂/CO tăng nhưng nhiệt độ tụt làm độ chuyển hóa carbon giảm theo; ít hơi nước → nhiệt độ cao nhưng H₂/CO thấp. Hơi nước và oxygen giống như hai đầu bập bênh, chế độ tham chiếu 0.26 / 0.55 chính là điểm dung hòa.
      - Trọng tâm thi cử: «Tại sao không phải càng nhiều hơi nước càng tốt?» — Trả lời theo nhiệt độ lò và độ chuyển hóa; «Tại sao không phải càng ít càng tốt?» — Trả lời do thiếu H₂, tỉ lệ H₂/CO bị thấp.
   5. [Chuyển hóa điều chỉnh tỉ lệ] Câu hỏi: Tỉ lệ H₂ và CO đi ra từ lò khí hóa vốn cố định, làm sao đáp ứng các tỉ lệ khác nhau mà công đoạn sau yêu cầu?
-     - Phương trình/Quy luật: CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)　ΔH = −41.2 kJ·mol⁻¹ (Chuyển hóa chịu lưu huỳnh Co-Mo: đầu vào 232–260 ℃, lớp xúc tác 400–450 ℃)
+     - Phương trình/Quy luật: CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g) ΔH = −41.2 kJ·mol⁻¹ (Chuyển hóa chịu lưu huỳnh Co-Mo: đầu vào 232–260 ℃, lớp xúc tác 400–450 ℃)
      - Kết luận: CO + H₂O ⇌ CO₂ + H₂ là phản ứng thuận nghịch tỏa nhiệt: nhiệt độ thấp giúp cân bằng chuyển hóa CO triệt để hơn; nhiệt độ cao làm lượng CO còn dư ở đầu ra nhiều hơn. Khí hóa than dùng xúc tác chịu lưu huỳnh (Co-Mo) để điều chỉnh đúng tỉ lệ H₂/CO.
      - Trọng tâm thi cử: «Tại sao khí hóa than dùng xúc tác chuyển hóa chịu lưu huỳnh?» — Vì làm việc được ngay khi khí còn lẫn lưu huỳnh, đồng thời thủy phân COS thành H₂S dễ tách; còn xúc tác nhiệt độ thấp Cu-Zn-Al rất dễ bị ngộ độc lưu huỳnh.
   6. [Tại sao phải khử lưu huỳnh] Câu hỏi: Một chút tạp chất mùi trứng thối trong khí tại sao bắt buộc phải khử sạch?
@@ -941,7 +941,7 @@
      - Kết luận: Nhiệt độ càng cao thì bước sóng có cường độ bức xạ mạnh nhất càng ngắn; nhiệt độ mặt đất thấp hơn rất nhiều so với Mặt Trời nên bức xạ Mặt Trời là sóng ngắn, bức xạ mặt đất là sóng dài, và bức xạ sóng dài mặt đất là nguồn nhiệt chủ yếu, trực tiếp của khí quyển tầng thấp.
      - Trọng tâm thi cử: Dễ nhầm: Nói bức xạ mặt đất là sóng ngắn (nhiệt độ càng thấp thì bước sóng cực đại càng dài).
   4. [Giữ lại sóng dài] Câu hỏi: Trong lượng bức xạ sóng dài phát lên từ mặt đất, có bao nhiêu phần bị khí quyển giữ lại?
-     - Phương trình/Quy luật: L_dn = f × L_UP，f = 86 % (Khoảng giá trị SGK: 75%—95%)
+     - Phương trình/Quy luật: L_dn = f × L_UP, f = 86 % (Khoảng giá trị SGK: 75%—95%)
      - Kết luận: Trừ một phần rất nhỏ thoát ra ngoài khí quyển, đại bộ phận (75%—95%) bức xạ sóng dài mặt đất bị hơi nước và khí CO2 ở tầng đối lưu hấp thụ, nhờ đó khí quyển nóng lên.
      - Trọng tâm thi cử: Dễ nhầm: Cho rằng khí quyển nóng lên chủ yếu do hấp thụ trực tiếp bức xạ Mặt Trời. Đúng: Khí quyển hấp thụ rất ít sóng ngắn, nguồn nhiệt chủ yếu và trực tiếp của nó là bức xạ sóng dài mặt đất.
   5. [Bức xạ nghịch] Câu hỏi: Tại sao bức xạ nghịch khí quyển lại gọi là "nghịch", và nó giữ ấm cho mặt đất bằng cách nào?
@@ -980,7 +980,7 @@
   - Q7: Khí CO2 và hơi nước được gọi là khí nhà kính vì chúng
     Đáp án: Hấp thụ mạnh bức xạ sóng dài mặt đất — Giải thích: Theo SGK GDPT 2018: Tia hồng ngoại xuyên qua được O2 và N2 nhưng không xuyên qua được CO2 và hơi nước; khí nhà kính hấp thụ bức xạ sóng dài mặt đất.
   - Q8: Ở điều kiện tham chiếu, mặt đất phát lên 398 W·m⁻², bức xạ nghịch khí quyển trả về 342 W·m⁻², thất thoát nhiệt ròng của mặt đất vào ban đêm là
-    Đáp án: 56 W·m⁻² — Giải thích: Thất thoát ròng = 398 − 342 = 56 W·m⁻² (B2.1 Công thức 3, Bảng 1-1).
+    Đáp án: 56 W·m⁻² — Giải thích: Thất thoát ròng = 398 − 342 = 56 W·m⁻².
 
 ---
 
@@ -989,12 +989,12 @@
 - Trang chi tiết: https://vietlab.9cloudmedia.com/c/karst-step/
 - Mô phỏng 3D trực tiếp: https://vietlab.9cloudmedia.com/courses/karst-step.html
 - Vị trí Chương trình GDPT 2018: Địa lý 10 (GDPT 2018) · Chương 3: Thạch quyển — Nội lực và Ngoại lực · Bài: Tác động của ngoại lực đến địa hình bề mặt Trái Đất
-- Câu hỏi trung tâm: Những cụm núi đá vôi dựng đứng và hang động thạch nhũ kỳ vĩ được kiến tạo từ một tầng đá vôi liền khối như thế nào?
+- Câu hỏi trung tâm: Tục ngữ Việt Nam có câu «Nước chảy đá mòn» — tại Vịnh Hạ Long, Tràng An hay Phong Nha – Kẻ Bàng, những đỉnh núi đá vôi dựng đứng và hang động kỳ vĩ ấy đã biến đổi từ một khối đá liền mạch như thế nào?
 - Phương trình / Nguyên lý tổng quát: Đá dễ hòa tan + Nước → Rãnh Karst → Lòng chảo Karst → Cụm đỉnh - Rừng đá → Đỉnh sót - Đồi sót · Hang động ngầm
-- Chuỗi nhân quả cốt lõi: Hòa tan: Vật chất của đá dễ hòa tan bị hòa tan trong nước rồi cuốn đi, hoặc kết tủa trở lại -> Rãnh: Rãnh Karst (Karren): dạng dải dài / dạng lưới, mặt đất gồ ghề lồi lõm -> Lòng chảo: Rãnh Karst phát triển thành lòng chảo (hố sụt/thung lũng Karst); cánh đồng Karst có đáy bằng phẳng là vùng canh tác nông nghiệp -> Đỉnh: Khối đá sót lại ở rìa lòng chảo: Cụm đỉnh (Fengcong) → Rừng đá (Fenglin) → Đỉnh sót (Mogote) → Đồi sót Karst (Hum) -> Hang động: Dưới lòng đất chủ yếu là hang động Karst; nhũ đá ở trần hang rủ xuống, măng đá ở đáy hang mọc lên, nối liền nhau tạo thành cột đá
+- Chuỗi nhân quả cốt lõi: Hòa tan: Vật chất của đá dễ hòa tan bị hòa tan trong nước rồi cuốn đi, hoặc kết tủa trở lại -> Rãnh: Rãnh Karst (Karren): dạng dải dài / dạng lưới, mặt đất gồ ghề lồi lõm -> Lòng chảo: Rãnh Karst phát triển thành lòng chảo (hố sụt/thung lũng Karst); cánh đồng Karst có đáy bằng phẳng là vùng canh tác nông nghiệp -> Đỉnh: Khối đá sót lại ở rìa lòng chảo: Cụm đỉnh (chóp Karst) → Rừng đá (tháp Karst) → Đỉnh sót (Mogote) → Đồi sót Karst (Hum) -> Hang động: Dưới lòng đất chủ yếu là hang động Karst; nhũ đá ở trần hang rủ xuống, măng đá ở đáy hang mọc lên, nối liền nhau tạo thành cột đá
 - Các trạm/cụm mô hình 3D:
   - ① Bề mặt đá trên mặt đất: Đoạn bề mặt địa hình từ rãnh Karst đến lòng chảo Karst (cánh đồng Karst)
-  - ② Quần thể đỉnh hình nón: Khối đá sót lại ở rìa lòng chảo: Cụm đỉnh (Fengcong) → Rừng đá (Fenglin) → Đỉnh sót (Mogote) → Đồi sót Karst (Hum)
+  - ② Quần thể đỉnh hình nón: Khối đá sót lại ở rìa lòng chảo: Cụm đỉnh (chóp Karst) → Rừng đá (tháp Karst) → Đỉnh sót (Mogote) → Đồi sót Karst (Hum)
   - ③ Hang động Karst ngầm: Khoang hang ở nửa dưới khối đá và các tích tụ trong hang (nhũ đá / măng đá)
 - Mạch khám phá từng bước:
   1. [Hòa tan] Câu hỏi: Loại đá nào có thể bị nước «hòa tan» tạo nên địa hình?
@@ -1032,7 +1032,7 @@
     Đáp án: Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Tại Việt Nam, địa hình Karst phát triển điển hình và rộng khắp tại các vùng núi đá vôi lớn ở Bắc Bộ và Bắc Trung Bộ như Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An – Tam Cốc.
   - Q3: Nhận định đúng về «Cánh đồng Karst» (thung lũng giữa núi đá vôi) là
     Đáp án: Là dạng lòng chảo Karst có đáy bằng phẳng phủ trầm tích, thuận lợi cho canh tác ở vùng núi đá vôi — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Lòng chảo Karst mở rộng và có đáy bằng phẳng phủ lớp đất trầm tích tạo thành cánh đồng Karst (thung lũng đá vôi), là vùng canh tác nông nghiệp quan trọng ở miền núi đá vôi.
-  - Q4: Căn cứ nhận diện phân biệt Cụm đỉnh (Fengcong) và Rừng đá (Fenglin) là
+  - Q4: Căn cứ nhận diện phân biệt Cụm đỉnh (chóp Karst) và Rừng đá (tháp Karst) là
     Đáp án: Cụm đỉnh có bệ đá nối liền, Rừng đá có các đỉnh tách rời nhau — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Cụm đỉnh đá vôi có phần bệ đá dưới chân nối liền nhau, còn Rừng đá có các đỉnh tháp đá vôi tách rời nhau trên nền phẳng.
   - Q5: Trình tự tiến hóa của địa hình Karst trên mặt đất là
     Đáp án: Rãnh Karst → Lòng chảo → Cụm đỉnh, Rừng đá → Đỉnh sót → Đồi sót — Giải thích: Theo trình tự tiến hóa địa hình Karst bề mặt: Rãnh Karst → Lòng chảo Karst → Cụm đỉnh, Rừng đá → Đỉnh sót → Đồi sót (SGK Địa lý 10 GDPT 2018).
@@ -1073,7 +1073,7 @@
      - Kết luận: Tách CO₂ trước trong buồng phân hủy ở 850–900 ℃ giúp độ phân hủy vào lò đạt 90 %: lò quay chỉ cần nung liệu đến khi xuất hiện pha lỏng, tiết kiệm cả năng suất lẫn tiêu hao nhiệt; nếu độ phân hủy tụt xuống, lò quay phải gánh thêm việc của buồng phân hủy.
      - Trọng tâm thi cử: Trọng tâm ôn tập "Vai trò của tháp trao đổi nhiệt và buồng phân hủy": Trao đổi nhiệt làm nóng trước và phân hủy sớm CaCO₃, giảm tải nhiệt cho lò quay.
   4. [Trong lò quay] Câu hỏi: Tại sao lò quay vừa đặt nghiêng lại vừa quay? Vật liệu và ngọn lửa đi theo chiều nào?
-     - Phương trình/Quy luật: Vật liệu: Đuôi lò → Đầu lò ; Dòng khí nóng: Đầu lò → Đuôi lò (ngược chiều) (Độ nghiêng 3.5 %, tốc độ quay 3.5 r/min, nhiệt độ 4 vùng xem mục B4 (thiết lập học liệu))
+     - Phương trình/Quy luật: Vật liệu: Đuôi lò → Đầu lò ; Dòng khí nóng: Đầu lò → Đuôi lò (ngược chiều) (Độ nghiêng 3.5 %, tốc độ quay 3.5 r/min, nhiệt độ 4 vùng (thiết lập học liệu))
      - Kết luận: Độ nghiêng giúp vật liệu tiến dọc trục lò, chuyển động quay nâng và đảo vật liệu — nhờ đó vật liệu đi liên tục từ đầu nguội đến đầu nóng, đồng thời trao đổi nhiệt triệt để với dòng khí nóng ngược chiều.
      - Trọng tâm thi cử: Trọng tâm ôn tập "Tại sao lò quay phải đặt nghiêng và quay": Nhờ độ dốc và sự đảo trộn để đưa vật liệu tiến liên tục vào vùng nhiệt độ cao và trao đổi nhiệt triệt để.
   5. [Vùng nung] Câu hỏi: Nhiệt độ lò cần cao đến mức nào? Hạ thấp một chút để tiết kiệm than tại sao lại không được?
@@ -1140,7 +1140,7 @@
      - Kết luận: Khí thải không nằm lại toàn bộ trong khí quyển: một phần được đại dương và đất liền hấp thụ, phần còn lại lưu giữ lâu dài trong khí quyển; tỷ lệ lưu giữ càng thấp (tăng bể hấp thụ) thì nồng độ và nhiệt độ tăng càng chậm.
      - Trọng tâm thi cử: Dễ nhầm: Cho rằng toàn bộ CO₂ thải ra đều nằm lại trong khí quyển; hoặc hiểu nhầm «được hấp thụ» nghĩa là «biến mất hoàn toàn».
   4. [Giữ nhiệt mạnh lên] Câu hỏi: Carbon trong khí quyển tăng lên làm Trái Đất ấm lên bằng cách nào?
-     - Phương trình/Quy luật: dF = 5.35 ln(C/C₀)，dT = λ·dF (Độ tăng nhiệt cân bằng (không tính quán tính nhiệt của đại dương))
+     - Phương trình/Quy luật: dF = 5.35 ln(C/C₀), dT = λ·dF (Độ tăng nhiệt cân bằng (không tính quán tính nhiệt của đại dương))
      - Kết luận: Khí nhà kính hấp thụ bức xạ sóng dài của mặt đất, giữ lại năng lượng mặt trời đã đi vào; nồng độ tăng làm cưỡng bức bức xạ mang giá trị dương, quy đổi thành độ tăng nhiệt cân bằng dương (mô hình bài học chưa tính quán tính nhiệt đại dương).
      - Trọng tâm thi cử: Dễ nhầm: Đánh đồng hiệu ứng nhà kính với sự suy giảm tầng ozone; hoặc coi độ tăng nhiệt cân bằng là «nhiệt độ tức thời tại thời điểm đó».
   5. [Vượt ngưỡng] Câu hỏi: Nếu cứ tiếp tục phát thải như vậy mãi thì sẽ đi tới đâu?
@@ -1186,7 +1186,7 @@
 - Vị trí Chương trình GDPT 2018: Địa lý 10 (GDPT 2018) · Chương 3: Thạch quyển — Nội lực và Ngoại lực · Bài: Nội lực và tác động của nội lực đến địa hình
 - Câu hỏi trung tâm: Vì sao trên các dãy núi cao như Himalaya hay Hoàng Liên Sơn lại tìm thấy dấu tích trầm tích và hóa thạch sinh vật cổ — sức mạnh nội lực nào đã nâng bề mặt Trái Đất lên cao rồi cắt xẻ nó ra?
 - Phương trình / Nguyên lý tổng quát: Nén ép → Uốn nếp · Đứt gãy → Dịch chuyển
-- Chuỗi nhân quả cốt lõi: Nén: Lực nén ép mạnh làm các tầng đá biến dạng dẻo → Uốn cong dạng sóng -> phút: Uốn vồng lên = Nếp lồi, uốn võng xuống = Nếp lõm; nhân nếp lồi gồm đá cổ, hai cánh là đá trẻ -> Bào mòn: Đỉnh nếp lồi chịu lực căng nên nhiều khe nứt, bị xâm thực nhanh → Nghịch đảo địa hình -> Đứt gãy: Lực vượt quá giới hạn chịu đựng → Đứt vỡ và dịch chuyển rõ rệt dọc theo mặt đứt gãy (ngang / thẳng đứng) -> Địa hình: Khối đá nâng lên thành núi khối tảng (địa lũy), khối đá sụt xuống thành thung lũng (địa hào); dọc đứt gãy đá vụn nát tạo thành khe rãnh, thung lũng sông
+- Chuỗi nhân quả cốt lõi: Nén: Lực nén ép mạnh làm các tầng đá biến dạng dẻo → Uốn cong dạng sóng -> Phân biệt: Uốn vồng lên = Nếp lồi, uốn võng xuống = Nếp lõm; nhân nếp lồi gồm đá cổ, hai cánh là đá trẻ -> Bào mòn: Đỉnh nếp lồi chịu lực căng nên nhiều khe nứt, bị xâm thực nhanh → Nghịch đảo địa hình -> Đứt gãy: Lực vượt quá giới hạn chịu đựng → Đứt vỡ và dịch chuyển rõ rệt dọc theo mặt đứt gãy (ngang / thẳng đứng) -> Địa hình: Khối đá nâng lên thành núi khối tảng (địa lũy), khối đá sụt xuống thành thung lũng (địa hào); dọc đứt gãy đá vụn nát tạo thành khe rãnh, thung lũng sông
 - Các trạm/cụm mô hình 3D:
   - ① Nếp lồi: Đoạn tầng đá uốn vồng lên phía trên (phần trục / vòm)
   - ② Nếp lõm: Đoạn tầng đá uốn võng xuống phía dưới (phần đáy máng)
@@ -1197,7 +1197,7 @@
      - Phương trình/Quy luật: κ(0) > 0, κ(λ/2) < 0 (Uốn vồng lên = Nếp lồi · Uốn võng xuống = Nếp lõm)
      - Kết luận: Dưới tác dụng của lực nén ép mạnh, tầng đá bị biến dạng dẻo tạo thành chuỗi uốn cong dạng sóng gọi là hiện tượng uốn nếp; nếp lồi uốn vồng lên, nếp lõm uốn võng xuống (dấu độ cong một dương một âm).
      - Trọng tâm thi cử: Thường gặp trong đề thi: Nguyên nhân hình thành nếp uốn là «biến dạng dẻo dưới lực nén ép mạnh», không phải «tầng đá bị kéo đứt».
-  2. [phút] Câu hỏi: Dựa vào đâu để phân biệt được nếp lồi và nếp lõm?
+  2. [Phân biệt nếp uốn] Câu hỏi: Dựa vào đâu để phân biệt được nếp lồi và nếp lõm?
      - Phương trình/Quy luật: Nhân cổ · Hai cánh trẻ (① Cổ nhất ⑦ Trẻ nhất (chú thích Hình 2.15 SGK))
      - Kết luận: Nếp lồi có tầng đá ở phần nhân cổ hơn và ở hai cánh trẻ hơn; để xác định nếp lồi hay nếp lõm cần kết hợp cả hình thái «vồng lên / võng xuống» với trình tự địa tầng giữa nhân và hai cánh.
      - Trọng tâm thi cử: Dễ nhầm: Cho rằng nếp lồi nhất định có «phần giữa trẻ hơn» hoặc không phân biệt được tuổi đá — tiêu chí chuẩn là so sánh số thứ tự tầng đá giữa phần nhân và hai cánh.
@@ -1229,7 +1229,7 @@
   - Q5: Phương dịch chuyển của đứt gãy
     Đáp án: Có cả hai phương là ngang và thẳng đứng — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Sự dịch chuyển dọc mặt đứt gãy của các khối đá có cả thành phần dịch chuyển theo phương nằm ngang và phương thẳng đứng.
   - Q6: Các núi nào sau đây thuộc kiểu núi khối tảng (địa lũy)?
-    Đáp án: Dãy núi khối tảng Con Voi, khối nâng Hoàng Liên Sơn — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Trong đứt gãy kiến tạo, khối đá được nâng lên (địa lũy) thường tạo thành núi khối tảng hoặc vùng núi cao, tiêu biểu ở Việt Nam là dãy núi Con Voi (nằm giữa đứt gãy sông Hồng và sông Chảy).
+    Đáp án: Dãy núi khối tảng Con Voi (địa lũy giữa đứt gãy sông Hồng và sông Chảy) — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Trong đứt gãy kiến tạo, khối đá được nâng lên (địa lũy) thường tạo thành núi khối tảng hoặc vùng núi cao, tiêu biểu ở Việt Nam là dãy núi Con Voi (nằm giữa đứt gãy sông Hồng và sông Chảy).
   - Q7: Nguyên nhân kiến tạo hình thành vùng trũng sụt Đồng bằng sông Hồng (địa hào sông Hồng) và các thung lũng đứt gãy là
     Đáp án: Khối đá sụt xuống tương đối dọc đứt gãy tạo thành vùng trũng kiến tạo (địa hào), sau đó được phù sa bồi đắp — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Khối đá bị sụt lún tương đối dọc theo các đới đứt gãy kiến tạo tạo thành địa hào (như trũng sụt Sông Hồng), sau đó được sông ngòi bồi tụ phù sa tạo nên đồng bằng.
   - Q8: Vì sao dọc theo tuyến đứt gãy thường phát triển các khe rãnh và sông suối?
@@ -1243,7 +1243,7 @@
 - Mô phỏng 3D trực tiếp: https://vietlab.9cloudmedia.com/courses/photoelectric-step.html
 - Vị trí Chương trình GDPT 2018: Vật lý 12 (GDPT 2018) · Chương 4: Vật lý lượng tử & Hạt nhân · Bài: Hiện tượng quang điện và Thuyết lượng tử ánh sáng
 - Câu hỏi trung tâm: Cùng một chùm sáng, vì sao đổi sang kim loại khác lại không bứt được quang electron nào? Động năng ban đầu cực đại phụ thuộc vào yếu tố nào?
-- Phương trình / Nguyên lý tổng quát: E_k = hν − W₀　·　U_c = (h/e)ν − W₀/e
+- Phương trình / Nguyên lý tổng quát: E_k = hν − W₀ · U_c = (h/e)ν − W₀/e
 - Chuỗi nhân quả cốt lõi: Photon: Một chùm sáng gồm các hạt photon; chỉ cần ν > νc, dù ánh sáng yếu đến mấy cũng lập tức có electron bật ra -> Số lượng: Một photon truyền toàn bộ năng lượng hν cho một electron; cường độ sáng chỉ làm tăng số lượng photon -> Công thoát: Electron phải tiêu tốn công thoát W₀ mới thoát ra được, phần còn lại là Ek = hν − W₀ -> Điện áp hãm: Điện áp ngược đẩy electron quay lại, khi dòng điện về 0 tại Uc thì eUc = Ek — do đó Uc không phụ thuộc vào cường độ sáng -> Đo hằng số h: Đổi tần số để đo Uc: đồ thị Uc-ν là một đường thẳng có hệ số góc h/e → xác định được hằng số Planck
 - Các trạm/cụm mô hình 3D:
   - ① Nguồn điện và công tắc đảo chiều: Nguồn điện một chiều + công tắc đảo chiều (Thuận / Ngược) + dây nhánh cực A
@@ -1257,28 +1257,28 @@
      - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm này (Yêu cầu cần đạt 3.4.1 “Thông qua thí nghiệm, tìm hiểu hiện tượng quang điện”; bài này không phải thí nghiệm bắt buộc, mục A1 đã nêu rõ). Trình tự thao tác: quan sát thang đo trước khi đọc số liệu.
   2. [Tăng đến bão hòa] Câu hỏi: Tăng dần điện áp lên từng nấc, cường độ dòng điện có tăng mãi không?
      - Phương trình/Quy luật: I_s ∝ tốc độ phát photon (Natri (Na) · 365.0 nm · P 200 μW · U 0 → +6.00 V)
-     - Kết luận: SGK tr. 72: Khi điện áp tăng, dòng quang điện tiến dần tới giá trị bão hòa, dù tiếp tục tăng điện áp dòng điện cũng không tăng thêm — vì số electron thoát ra trong một đơn vị thời gian là xác định, khi điện áp đủ lớn thì toàn bộ số electron này đều bị cực A thu hết; khi U = 0 dòng điện vẫn khác 0.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giải thích tại sao khi tăng điện áp dòng quang điện lại đạt bão hòa (theo SGK GDPT 2018); nhận định “dòng bão hòa càng lớn thì Uc càng lớn” là sai (A7.10).
+     - Kết luận: Theo SGK GDPT 2018: Khi điện áp tăng, dòng quang điện tiến dần tới giá trị bão hòa, dù tiếp tục tăng điện áp dòng điện cũng không tăng thêm — vì số electron thoát ra trong một đơn vị thời gian là xác định, khi điện áp đủ lớn thì toàn bộ số electron này đều bị cực A thu hết; khi U = 0 dòng điện vẫn khác 0.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giải thích tại sao khi tăng điện áp dòng quang điện lại đạt bão hòa (theo SGK GDPT 2018); nhận định “dòng bão hòa càng lớn thì Uc càng lớn” là sai.
   3. [Quét điện áp ngược] Câu hỏi: Đảo chiều nguồn điện thì dòng điện thay đổi thế nào? Tăng điện áp ngược đến đâu thì dòng điện vừa vặn bằng không?
      - Phương trình/Quy luật: ½mₑv_c² = eU_c (Natri (Na) · 365.0 nm · P 200 μW · Ngược chiều 0 → 1.11 V)
-     - Kết luận: SGK tr. 72: Điện áp ngược làm cho dòng quang điện giảm về 0 gọi là điện áp hãm Uc, và ½mₑv_c² = eU_c. SGK chỉ đưa ra định nghĩa “điện áp ngược làm dòng quang điện giảm về 0”; còn việc “giảm dần về 0 trong khoảng từ −Uc đến 0” là suy luận từ mệnh đề gốc (vc là vận tốc cực đại) trong bài học này.
-     - Trọng tâm thi cử: Bẫy hay gặp: Định nghĩa điện áp hãm và hệ thức U_c = E_k/e (A7.7, A7.8). Trình tự thao tác: đảo chiều nguồn điện trước, sau đó tăng từng nấc từ 0 đến đúng nấc vừa vặn bằng 0 thì dừng lại.
+     - Kết luận: Theo SGK GDPT 2018: Điện áp ngược làm cho dòng quang điện giảm về 0 gọi là điện áp hãm Uc, và ½mₑv_c² = eU_c. SGK chỉ đưa ra định nghĩa “điện áp ngược làm dòng quang điện giảm về 0”; còn việc “giảm dần về 0 trong khoảng từ −Uc đến 0” là suy luận từ mệnh đề gốc (vc là vận tốc cực đại) trong bài học này.
+     - Trọng tâm thi cử: Bẫy hay gặp: Định nghĩa điện áp hãm và hệ thức U_c = E_k/e. Trình tự thao tác: đảo chiều nguồn điện trước, sau đó tăng từng nấc từ 0 đến đúng nấc vừa vặn bằng 0 thì dừng lại.
   4. [Thay đổi cường độ sáng] Câu hỏi: Cùng một màu ánh sáng nhưng tăng cường độ sáng mạnh hơn, dòng quang điện và điện áp hãm thay đổi thế nào?
      - Phương trình/Quy luật: I_s ∝ P (ν không đổi) (Rubidi (Rb) · 577.0 nm · P 200 → 100 μW)
-     - Kết luận: SGK tr. 72: Khi tần số không đổi, ánh sáng chiếu tới càng mạnh thì dòng quang điện bão hòa càng lớn (số photon nhiều → số electron bứt ra nhiều); dù ánh sáng mạnh hay yếu thì điện áp hãm vẫn như nhau — cường độ sáng chỉ làm thay đổi số lượng electron, không làm thay đổi năng lượng của mỗi electron.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Cường độ sáng làm thay đổi đại lượng nào và không làm thay đổi đại lượng nào (Bài tập 1 tr. 77 SGK, A7.13). Trình tự thao tác: mỗi lần đổi cường độ sáng phải quét lại điểm 0 một lần (ô Uc không tự lưu lại số liệu của mức trước).
+     - Kết luận: Theo SGK GDPT 2018: Khi tần số không đổi, ánh sáng chiếu tới càng mạnh thì dòng quang điện bão hòa càng lớn (số photon nhiều → số electron bứt ra nhiều); dù ánh sáng mạnh hay yếu thì điện áp hãm vẫn như nhau — cường độ sáng chỉ làm thay đổi số lượng electron, không làm thay đổi năng lượng của mỗi electron.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Cường độ sáng làm thay đổi đại lượng nào và không làm thay đổi đại lượng nào. Trình tự thao tác: mỗi lần đổi cường độ sáng phải quét lại điểm 0 một lần (ô Uc không tự lưu lại số liệu của mức trước).
   5. [Thay đổi tần số] Câu hỏi: Đổi sang tấm kính lọc sắc khác, điện áp hãm có thay đổi không? Nếu tần số quá thấp thì điều gì xảy ra?
      - Phương trình/Quy luật: ν < νc ⇒ I = 0 (Rubidi (Rb) 435.8 nm → Uc 0.72 V; Natri (Na) 546.1 nm → I 0.000 μA)
-     - Kết luận: SGK tr. 72: Khi tần số ánh sáng thay đổi thì Uc cũng thay đổi; khi tần số giảm tới một giá trị νc xác định thì dòng quang điện triệt tiêu, thấp hơn tần số giới hạn sẽ không xảy ra hiện tượng quang điện (không phụ thuộc vào cường độ sáng hay điện áp).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Khi ν < νc thì không xảy ra hiện tượng quang điện, bất kể cường độ sáng; cách đọc đồ thị Bài tập 2 tr. 77 SGK (A7.14).
+     - Kết luận: Theo SGK GDPT 2018: Khi tần số ánh sáng thay đổi thì Uc cũng thay đổi; khi tần số giảm tới một giá trị νc xác định thì dòng quang điện triệt tiêu, thấp hơn tần số giới hạn sẽ không xảy ra hiện tượng quang điện (không phụ thuộc vào cường độ sáng hay điện áp).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Khi ν < νc thì không xảy ra hiện tượng quang điện, bất kể cường độ sáng; cách đọc đồ thị bài tập SGK.
   6. [Thay đổi kim loại] Câu hỏi: Cùng một chùm sáng nhưng đổi sang catốt làm bằng kim loại khác, tại sao lại không có một electron nào?
      - Phương trình/Quy luật: ν_c = W₀ / h (546.1 nm: Na — · K 0.03 V · Rb 0.15 V; 577.0 nm: chỉ có Rb 0.03 V)
-     - Kết luận: Bảng tr. 73 + tr. 72 SGK: Tần số giới hạn phụ thuộc vào bản chất của kim loại (νc = W₀/h). Vì vậy với cùng một chùm sáng, khi đổi sang catốt khác có thể không bứt ra được quang electron nào; ở cùng một tần số, kim loại có W₀ càng lớn thì Uc càng nhỏ.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đổi kim loại chỉ làm thay đổi tung độ gốc và hoành độ gốc, không làm thay đổi hệ số góc (A7.11). Trình tự thao tác: so sánh ν với νc trước khi đọc số liệu — không quét được điểm 0 là do không có quang electron chứ không phải do hỏng đồng hồ.
+     - Kết luận: Theo SGK GDPT 2018: Tần số giới hạn phụ thuộc vào bản chất của kim loại (νc = W₀/h). Vì vậy với cùng một chùm sáng, khi đổi sang catốt khác có thể không bứt ra được quang electron nào; ở cùng một tần số, kim loại có W₀ càng lớn thì Uc càng nhỏ.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đổi kim loại chỉ làm thay đổi tung độ gốc và hoành độ gốc, không làm thay đổi hệ số góc. Trình tự thao tác: so sánh ν với νc trước khi đọc số liệu — không quét được điểm 0 là do không có quang electron chứ không phải do hỏng đồng hồ.
   7. [Vẽ đồ thị đo hằng số h] Câu hỏi: Biểu diễn từng tần số và giá trị Uc tương ứng lên đồ thị, ta sẽ thu được hình gì?
      - Phương trình/Quy luật: U_c = (h/e)ν − W₀/e (Natri (Na) · 365.0 / 404.7 / 435.8 nm · P 200 μW · Khớp 3 điểm)
-     - Kết luận: SGK tr. 75: U_c = (h/e)ν − W₀/e, đồ thị Uc-ν là một đường thẳng có hệ số góc h/e → h = e · hệ số góc. Đây chính là cách làm của Bài tập 4 tr. 77 SGK: dùng cùng một tế bào quang điện với ít nhất hai chùm sáng đơn sắc đã biết tần số. Hình 4.2-5 chỉ mượn hình thức “các điểm đo + đường thẳng đỏ”: chú thích hình chỉ ghi “một kim loại nào đó” và hệ số góc trên hình nhỏ hơn h/e khoảng 5 %, nên bài học không lấy tọa độ điểm từ hình vẽ đó.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Từ đồ thị Uc-ν tìm hằng số Planck h (hệ số góc) cùng W₀ và νc (hai giao điểm trục tọa độ); nguyên mẫu Bài tập 4 tr. 77 SGK. Trình tự thao tác: trên cùng một tế bào quang điện, đo với ít nhất hai tần số khác nhau (A4.5).
+     - Kết luận: Theo SGK GDPT 2018: U_c = (h/e)ν − W₀/e, đồ thị Uc-ν là một đường thẳng có hệ số góc h/e → h = e · hệ số góc. Đây chính là cách làm của bài tập SGK SGK: dùng cùng một tế bào quang điện với ít nhất hai chùm sáng đơn sắc đã biết tần số. Hình 4.2-5 chỉ mượn hình thức “các điểm đo + đường thẳng đỏ”: chú thích hình chỉ ghi “một kim loại nào đó” và hệ số góc trên hình nhỏ hơn h/e khoảng 5 %, nên bài học không lấy tọa độ điểm từ hình vẽ đó.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Từ đồ thị Uc-ν tìm hằng số Planck h (hệ số góc) cùng W₀ và νc (hai giao điểm trục tọa độ). Trình tự thao tác: trên cùng một tế bào quang điện, đo với ít nhất hai tần số khác nhau.
   8. [Dụng cụ thực tế] Câu hỏi: Nhãn máy ghi 2.29 eV, tại sao kết quả đo thực tế lại lệch đi?
      - Phương trình/Quy luật: U_c = (h/e)ν − W₀′/e (Natri (Na) · 365.0 nm · Dụng cụ thực · Uc 1.11 → 1.09 V · I_sat 2.935 → 2.994 μA)
      - Kết luận: Cần tách bạch hai vấn đề: ① Giá trị danh định ≠ Giá trị thực tế — con số 2.29 eV trong bảng tr. 73 SGK là giá trị chuẩn của “kim loại Natri”; nhưng trạng thái bề mặt catốt của chiếc ống quang điện cụ thể này có khác biệt, làm W₀ thực tế = 2.305 eV, dẫn đến ở cùng tần số thì Uc giảm đi 0.015 V. Đó chính là lý do “bắt buộc phải đo thực nghiệm chứ không thể chỉ tra bảng”. ② Hai nguồn sai số phép đo có chiều hướng riêng, cần tính riêng rồi tổng hợp lại: độ chia nhỏ nhất 0.01 V buộc Uc_đo phải làm tròn lên theo nấc lưới (ở chế độ Lý tưởng lệch +0.0008 V, luôn nằm trong khoảng 0–+0.01 V); ở chế độ Thực, thang đo điện áp lệch +0.4 % làm điện áp thực lớn hơn số chỉ, khiến điểm triệt tiêu rơi vào số đọc nhỏ hơn (giá trị thực quy đổi ra số đọc là 1.0898 V, tức số đọc bị hụt 0.0044 V); tổng hợp cả hai yếu tố = đo được 1.09 V, nhỏ hơn giá trị thực 1.0942 là 0.0042 V — vì vậy 1.09 < 1.0942 không phải là tính sai. Ngoài ra I_sat_đo bị hụt 0.0069 μA do ở 6.00 V chưa thu đạt 100 %; khi cường độ sáng vượt quá thang đo thì số chỉ bị cắt phẳng ở 5.000 → dòng bão hòa đo được chắc chắn bị nhỏ đi (nhưng Uc không bị ảnh hưởng).
@@ -1309,7 +1309,7 @@
 - Mô phỏng 3D trực tiếp: https://vietlab.9cloudmedia.com/courses/capacitor-step.html
 - Vị trí Chương trình GDPT 2018: Vật lý 11 (GDPT 2018) · Chương 3: Điện trường · Bài: Tụ điện và Năng lượng tụ điện
 - Câu hỏi trung tâm: Tụ điện tích trữ năng lượng như thế nào và làm sao đo được điện dung C qua đường cong dòng điện theo thời gian?
-- Phương trình / Nguyên lý tổng quát: C = q / u_C　·　i = dq/dt
+- Phương trình / Nguyên lý tổng quát: C = q / u_C · i = dq/dt
 - Chuỗi nhân quả cốt lõi: Đóng mạch: Vừa đóng khóa K, trong mạch lập tức có dòng điện với cường độ i cực đại -> Nạp điện: u_C tăng, i giảm: theo sơ đồ Hình 10.4-1 dòng nạp cũng đi qua điện trở R nên giảm dần về 0 -> Nạp đầy: u_C = U, i = 0, q = C·U; ngắt nguồn điện thì điện tích vẫn được giữ lại -> Phóng điện: Dòng điện đổi chiều đi qua R: i mang dấu âm, u_C giảm dần -> Định nghĩa: Diện tích dưới đồ thị i-t = q, đồ thị q-u là một đường thẳng đi qua gốc tọa độ có hệ số góc = C
 - Các trạm/cụm mô hình 3D:
   - ① Nguồn điện & Công tắc: Nguồn điện một chiều học sinh + Công tắc hai ngả (SPDT)
@@ -1328,29 +1328,29 @@
   3. [Đóng sang 2 để phóng điện] Câu hỏi: Gạt công tắc sang chốt 2, kim đồng hồ lệch về phía nào? Điện trường giữa hai bản tụ có đổi chiều không?
      - Phương trình/Quy luật: i = − u_C / R (R 3.3 kΩ · u_C0 8.00 V · τ 1.55 s)
      - Kết luận: Dòng điện phóng ngược chiều với dòng điện nạp (kim của cùng một đồng hồ lệch ngược lại chính là bằng chứng trực quan nhất). Ở sơ đồ này cả hai quá trình có cùng hằng số thời gian τ = R·C, đường cong nạp và phóng đối xứng gương qua đường u_C = U/2; chiều điện trường giữa hai bản luôn hướng từ bản cực trên xuống bản cực dưới, khi phóng điện chiều không đổi mà chỉ yếu dần đi.
-     - Trọng tâm thi cử: Bẫy hay gặp: Khi phóng điện, điện trường giữa hai bản tụ có đổi chiều hay không (dữ kiện A7.3).
+     - Trọng tâm thi cử: Bẫy hay gặp: Khi phóng điện, điện trường giữa hai bản tụ có đổi chiều hay không.
   4. [Tính điện tích từ diện tích] Câu hỏi: Không dùng đồng hồ vạn năng, làm thế nào để đọc được lượng điện tích ban đầu lưu trong tụ điện từ đồ thị I-t?
-     - Phương trình/Quy luật: q = q₀ + S　 (S = ∫ i dt) (Ô 0.4 s × 0.2 mA = 0.08 mC · 45 ô)
-     - Kết luận: Vì i = dq/dt nên diện tích giới hạn bởi đường cong i-t và trục thời gian chính là điện lượng chạy qua: q = q₀ + S. Phương pháp đếm ô vuông là phép tính xấp xỉ rời rạc của tích phân này (Câu hỏi (2) tr. 39 SGK yêu cầu học sinh ước lượng bằng cách đếm ô).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Diện tích dưới đồ thị I-t biểu thị điện lượng; đếm ô vuông trên lưới đồ thị là dạng bài tập phổ biến nhất (Câu hỏi (2) tr. 39 SGK).
+     - Phương trình/Quy luật: q = q₀ + S  (S = ∫ i dt) (Ô 0.4 s × 0.2 mA = 0.08 mC · 45 ô)
+     - Kết luận: Vì i = dq/dt nên diện tích giới hạn bởi đường cong i-t và trục thời gian chính là điện lượng chạy qua: q = q₀ + S. Phương pháp đếm ô vuông là phép tính xấp xỉ rời rạc của tích phân này.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Diện tích dưới đồ thị I-t biểu thị điện lượng; đếm ô vuông trên lưới đồ thị là dạng bài tập phổ biến nhất.
   5. [Hai cách mắc mạch] Câu hỏi: SGK đặt câu hỏi: Muốn đo và vẽ đồ thị I-t trong quá trình nạp điện thì phải mắc mạch điện như thế nào?
      - Phương trình/Quy luật: τ_chg / τ_dis = r / R (r 0.2 kΩ · R 3.3 kΩ · Tỉ số 0.0606)
-     - Kết luận: Muốn đo dòng điện nạp, bắt buộc trong mạch nạp cũng phải có R và đồng hồ đo phải mắc ở nhánh chung — đây chính là đáp án cho câu hỏi cuối tr. 39 SGK. Thang thời gian của hai cách mắc chênh nhau 16 lần (τ_chg / τ_dis = r / R = 0.0606).
+     - Kết luận: Muốn đo dòng điện nạp, bắt buộc trong mạch nạp cũng phải có R và đồng hồ đo phải mắc ở nhánh chung — đây chính là đáp án cho câu hỏi trong SGK. Thang thời gian của hai cách mắc chênh nhau 16 lần (τ_chg / τ_dis = r / R = 0.0606).
      - Trọng tâm thi cử: Câu hỏi nguyên văn trong SGK, thuộc trọng tâm thiết kế mạch điện của bài thí nghiệm thực hành.
   6. [Ghi dữ liệu q-u] Câu hỏi: Ghi lại từng cặp giá trị điện tích và điện áp tương ứng rồi vẽ đồ thị, ta sẽ quan sát thấy gì?
      - Phương trình/Quy luật: C = q / u_C  (Hệ số góc đồ thị q-u) (C 470 μF · U 8.0 V · Ghi 5 dòng · Khớp qua gốc tọa độ)
-     - Kết luận: Ta có q ∝ u_C, tỉ số q/u_C là một hằng số chỉ phụ thuộc vào bản thân tụ điện — đó chính là định nghĩa điện dung C = q/u_C. SGK tr. 40 dùng lập luận “mắc song song hai tụ điện giống hệt nhau → điện tích và điện áp chia đôi” để rút ra kết luận này, còn bài học này thực hiện kiểm chứng định lượng trực tiếp.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Xác định điện dung từ đồ thị q-U (hệ số góc); thí nghiệm chia đôi điện tích khi ghép song song ở tr. 40 SGK là một cách tiếp cận khác cho cùng kết luận.
+     - Kết luận: Ta có q ∝ u_C, tỉ số q/u_C là một hằng số chỉ phụ thuộc vào bản thân tụ điện — đó chính là định nghĩa điện dung C = q/u_C. trong SGK dùng lập luận “mắc song song hai tụ điện giống hệt nhau → điện tích và điện áp chia đôi” để rút ra kết luận này, còn bài học này thực hiện kiểm chứng định lượng trực tiếp.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Xác định điện dung từ đồ thị q-U (hệ số góc); thí nghiệm chia đôi điện tích khi ghép song song trong SGK là một cách tiếp cận khác cho cùng kết luận.
   7. [Thay đổi C và R] Câu hỏi: Đổi sang một tụ điện có điện dung nhỏ hơn thì hệ số góc và diện tích thay đổi thế nào? Nếu chỉ đổi điện trở R thì sao?
      - Phương trình/Quy luật: q = C·U  (Không phụ thuộc R) (C 470 → 220 μF · R 3.3 → 4.7 kΩ)
      - Kết luận: Diện tích = C·U, hệ số góc = C: khi thay đổi điện dung thì cả hai cùng thay đổi, còn khi thay đổi điện trở thì cả hai đều giữ nguyên. Tỉ số q/u_C do bản thân tụ điện quyết định, không phụ thuộc vào việc nó phóng điện nhanh hay chậm.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Công thức định nghĩa điện dung và tính chất “tỉ số không đổi” (dữ kiện A2.2); lỗi sai thường gặp “R càng lớn thì điện tích càng ít”.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Công thức định nghĩa điện dung và tính chất “tỉ số không đổi”; lỗi sai thường gặp “R càng lớn thì điện tích càng ít”.
   8. [Dụng cụ thực tế] Câu hỏi: Trên vỏ tụ ghi 470 μF, tại sao kết quả đo thực nghiệm lại không đúng bằng 470?
      - Phương trình/Quy luật: C′ = C·(1 + δ_C)  ·  Giá trị danh định ≠ Thực đo (Nhãn vỏ 470 μF · Giá trị thực 454.19 μF · Thực đo 456 μF)
      - Kết luận: ① Kết quả 456 μF ≠ 470 μF là do dung sai linh kiện (giá trị thực là 454.19 μF, lệch −3.4 %) chứ không phải đo sai: số ghi trên vỏ chỉ là giá trị danh định, tụ hóa cho phép dung sai ±10 %, do đó muốn biết chính xác phải đo thực nghiệm. ② Sai số của bản thân phép đo được tính riêng: độ phân giải lượng tử hóa 0.1 mA của miliampe kế và tần số lấy mẫu (ở cấu hình mặc định < 1 %), khi dòng điện kịch kim thì đỉnh đường cong bị cắt phẳng làm diện tích đo được chắc chắn bị hụt (tương đối 1.6 %), và phương pháp đếm ô vuông làm kết quả nhỏ đi 3.6 %.
      - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số của dụng cụ thực tế (Yêu cầu cần đạt “Tìm tòi khám phá khoa học”).
   9. [Thực hành đánh giá] Câu hỏi: Đánh giá: Tự chọn bộ thông số U, R, C sao cho điện dung đo được ở giai đoạn này đủ lớn mà dòng điện cực đại không bị kịch thang đo
-     - Phương trình/Quy luật: |i(0)| ≤ 6.67 mA　·　q/u_C ≥ 900 μF　·　|i(0)|·R ≥ 2.0 V (8.0 V / 2.2 kΩ / 1000 μF là một bộ nghiệm đúng)
+     - Phương trình/Quy luật: |i(0)| ≤ 6.67 mA · q/u_C ≥ 900 μF · |i(0)|·R ≥ 2.0 V (8.0 V / 2.2 kΩ / 1000 μF là một bộ nghiệm đúng)
      - Kết luận: Không có kết luận mới, chỉ kết nối các quy luật ở 8 bước trước để vận dụng tổng hợp: giá trị đỉnh |i(0)| = U/R quyết định việc “có vượt thang đo hay không”, tỉ số q/u_C dùng để xác định điện dung, và u_C phải được nạp đầy thì dòng phóng ban đầu mới đạt U/R — cả ba đều được kiểm chứng từ số liệu trên cùng một đường cong phóng điện.
      - Trọng tâm thi cử: Tổng hợp: |i(0)| = U/R (ràng buộc thang đo) + C = q/u_C (công thức định nghĩa) + nạp đầy mới có dòng đỉnh chuẩn (trình tự thao tác).
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
@@ -1389,7 +1389,7 @@
      - Kết luận: Chuyển động quanh Mặt Trời cùng chiều với tự quay (từ Tây sang Đông) trên quỹ đạo elip gần tròn có Mặt Trời ở một tiêu điểm; đầu tháng 1 qua cận nhật, đầu tháng 7 qua viễn nhật, ở cận nhật Trái Đất chuyển động nhanh hơn nên nửa năm mùa hạ ở bán cầu Bắc dài hơn nửa năm mùa đông 7 ngày.
      - Trọng tâm thi cử: Thường gặp trong đề thi: Đầu tháng 1 qua điểm cận nhật, đầu tháng 7 qua điểm viễn nhật; tại điểm cận nhật cả tốc độ dài và tốc độ góc trên quỹ đạo đều lớn nhất.
   3. [Bán cầu ngày - đêm] Câu hỏi: Cùng một thời điểm, vì sao một nửa Trái Đất là ban ngày, nửa kia là ban đêm?
-     - Phương trình/Quy luật: Bán cầu ngày ｜ Bán cầu đêm (Ranh giới = Đường phân chia sáng tối · Chu kỳ 1 ngày mặt trời)
+     - Phương trình/Quy luật: Bán cầu ngày | Bán cầu đêm (Ranh giới = Đường phân chia sáng tối · Chu kỳ 1 ngày mặt trời)
      - Kết luận: Mặt Trời chỉ chiếu sáng được một nửa bề mặt Trái Đất, ranh giới giữa bán cầu ngày và bán cầu đêm là đường (vòng) phân chia sáng tối; sự tự quay của Trái Đất làm ngày đêm luân phiên không ngừng với chu kỳ 1 ngày mặt trời.
      - Trọng tâm thi cử: Dễ nhầm: Hiện tượng luân phiên ngày đêm là hệ quả của chuyển động tự quay của Trái Đất với chu kỳ 1 ngày mặt trời (không phải do chuyển động quanh Mặt Trời với chu kỳ 1 năm).
   4. [Đường bình minh & hoàng hôn] Câu hỏi: Trên vòng phân chia sáng tối, nửa nào là đường bình minh (sáng), nửa nào là đường hoàng hôn (tối)?
@@ -1422,7 +1422,7 @@
   - Q2: Nhận định đúng về tốc độ góc và tốc độ dài tự quay của Trái Đất là
     Đáp án: Tốc độ góc bằng nhau ở mọi vĩ độ (trừ hai cực), tốc độ dài giảm dần từ Xích đạo về hai cực — Giải thích: Theo SGK GDPT 2018: Tốc độ góc bằng nhau ở mọi vĩ độ trừ hai điểm cực Bắc - Nam (khoảng 15°/giờ); tốc độ dài giảm dần từ Xích đạo về hai cực.
   - Q3: Nhận định đúng về điểm cận nhật và điểm viễn nhật là
-    Đáp án: Đầu tháng 1 qua điểm cận nhật, tốc độ chuyển động nhanh — Giải thích: Theo SGK GDPT 2018: Đầu tháng 1 hằng năm Trái Đất ở gần Mặt Trời nhất (điểm cận nhật), đầu tháng 7 ở xa nhất (điểm viễn nhật); tr.14 trọng tâm 2: tại điểm cận nhật tốc độ chuyển động nhanh hơn.
+    Đáp án: Đầu tháng 1 qua điểm cận nhật, tốc độ chuyển động nhanh — Giải thích: Theo SGK GDPT 2018: Đầu tháng 1 hằng năm Trái Đất ở gần Mặt Trời nhất (điểm cận nhật), đầu tháng 7 ở xa nhất (điểm viễn nhật); tại điểm cận nhật tốc độ chuyển động trên quỹ đạo nhanh hơn.
   - Q4: Chu kỳ và nguyên nhân của hiện tượng luân phiên ngày đêm là
     Đáp án: 1 ngày mặt trời; do Trái Đất tự quay — Giải thích: Theo SGK GDPT 2018: Trái Đất tự quay không ngừng nên ngày và đêm luân phiên liên tục với chu kỳ là 1 ngày mặt trời (24 giờ).
   - Q5: Thuận theo chiều tự quay của Trái Đất, nửa vòng phân chia sáng tối đi từ bán cầu đêm sang bán cầu ngày là
@@ -1452,19 +1452,19 @@
 - Mạch khám phá từng bước:
   1. [Làm quen dụng cụ] Câu hỏi: Các dụng cụ trên bàn dùng để làm gì? Tại sao đầu máng phía gắn đồng hồ đánh dấu lại phải kê cao lên?
      - Phương trình/Quy luật: F = m_h·g, m đọc từ cân, a tính từ băng giấy (Đã cân bằng lực cản · Dụng cụ lý tưởng)
-     - Kết luận: Thí nghiệm này lấy trọng lượng của các quả nặng treo làm lực kéo (theo SGK GDPT 2018), dùng băng giấy để tính gia tốc (tr. 89 Phương pháp 2), dùng cân để đo khối lượng (tr. 89) — bộ thí nghiệm theo đúng Phương án tham khảo 1 ở Hình 4.2-2.
-     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc (Yêu cầu cần đạt tr. 13 “Biết sử dụng các dụng cụ thí nghiệm cơ học cơ bản để thu thập dữ liệu”).
+     - Kết luận: Thí nghiệm này lấy trọng lượng của các quả nặng treo làm lực kéo (theo SGK GDPT 2018), dùng băng giấy để tính gia tốc, dùng cân để đo khối lượng — bộ thí nghiệm theo đúng phương án thí nghiệm chuẩn 
+     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc.
   2. [Cân bằng lực cản] Câu hỏi: Tại sao phải kê cao một đầu máng gỗ? Kê đến mức nào thì coi là “đã cân bằng tốt”? Nếu kê quá cao thì sao?
      - Phương trình/Quy luật: m·g·sinθ₀ = μ·m·g·cosθ₀ → tanθ₀ = μ (θ₀ = 1.146° · μ = 0.020 (Thiết lập của học liệu))
      - Kết luận: Cân bằng lực cản chính là làm cho thành phần trọng lực dọc theo máng gỗ vừa vặn triệt tiêu lực ma sát (theo SGK GDPT 2018); tiêu chí kiểm tra là khoảng cách giữa các chấm trên băng giấy đều nhau chứ không phải “cứ kê lên là xong”; nếu kê quá cao sẽ làm dư ra một lượng gia tốc μ·g = 0.196 m/s².
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Cách thực hiện và tiêu chí cân bằng lực cản; giải thích tại sao không được bỏ qua việc “kéo theo băng giấy”.
   3. [Gõ chấm trên băng giấy] Câu hỏi: Bật nguồn điện trước hay thả xe lăn trước? Nếu làm ngược trình tự thì trên băng giấy sẽ bị mất đi phần nào?
      - Phương trình/Quy luật: T = 4 × 0.02 s = 0.1 s (Xoay chiều 50 Hz · Giữa hai điểm đếm có 4 chấm không vẽ)
-     - Kết luận: SGK tr. 37 “Đặt xe lăn dừng ở vị trí gần đồng hồ đánh dấu. Khởi động bộ đếm thời gian, sau đó thả xe lăn…… Ngay sau đó, lập tức tắt nguồn điện”; đồng hồ đánh dấu dùng nguồn điện xoay chiều 50 Hz, cứ 0.02 s gõ một chấm, do đó “giữa hai điểm đếm liên tiếp có 4 chấm không vẽ ra” = khoảng thời gian giữa hai điểm đếm là 0.1 s.
+     - Kết luận: Theo SGK GDPT 2018: “Đặt xe lăn dừng ở vị trí gần đồng hồ đánh dấu. Khởi động bộ đếm thời gian, sau đó thả xe lăn…… Ngay sau đó, lập tức tắt nguồn điện”; đồng hồ đánh dấu dùng nguồn điện xoay chiều 50 Hz, cứ 0.02 s gõ một chấm, do đó “giữa hai điểm đếm liên tiếp có 4 chấm không vẽ ra” = khoảng thời gian giữa hai điểm đếm là 0.1 s.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Trình tự thao tác và giải thích lý do; cụm từ “giữa hai điểm đếm có 4 chấm không vẽ ra” có nghĩa là T = 0.1 s.
   4. [Tính gia tốc] Câu hỏi: Làm thế nào để từ một băng giấy tìm ra gia tốc a? Tại sao không dùng trực tiếp công thức a = 2x/t²?
      - Phương trình/Quy luật: vₙ = (xₙ + xₙ₊₁)/(2T); a = [(x₃+x₄) − (x₁+x₂)]/(4T²) (v 0.4806 / 0.5611 / 0.6417 · Δx 8.06 mm · a 0.81)
-     - Kết luận: Hiệu hai quãng đường liên tiếp không đổi ⟹ chuyển động nhanh dần đều; vₙ = (xₙ + xₙ₊₁)/(2T) (theo SGK GDPT 2018), hệ số góc của đường thẳng nối 3 điểm chính là gia tốc a (mục Phân tích dữ liệu tr. 37 SGK). Vì băng giấy đã lược bỏ các chấm dày đặc ở đoạn đầu nên vận tốc tại mốc đầu v₀ = 0.40 m/s ≠ 0, do đó không thể áp dụng công thức a = 2x/t².
+     - Kết luận: Hiệu hai quãng đường liên tiếp không đổi ⟹ chuyển động nhanh dần đều; vₙ = (xₙ + xₙ₊₁)/(2T) (theo SGK GDPT 2018), hệ số góc của đường thẳng nối 3 điểm chính là gia tốc a. Vì băng giấy đã lược bỏ các chấm dày đặc ở đoạn đầu nên vận tốc tại mốc đầu v₀ = 0.40 m/s ≠ 0, do đó không thể áp dụng công thức a = 2x/t².
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Tính gia tốc từ băng giấy (hệ số góc đồ thị v–t / phương pháp hiệu số liên tiếp); điều kiện áp dụng công thức “a = 2x/t² đòi hỏi vận tốc ban đầu bằng 0”.
   5. [Quan hệ giữa a và F] Câu hỏi: Giữ nguyên khối lượng xe lăn, treo thêm mỗi lần một quả nặng thì a thay đổi bao nhiêu? Biểu diễn 5 điểm đo lên đồ thị sẽ thu được hình dạng gì?
      - Phương trình/Quy luật: a = F / m (m không đổi) · k_F = Σ(F·a)/ΣF² (k_F 2.781 kg⁻¹ → m_đo 0.360 kg)
@@ -1476,11 +1476,11 @@
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Đồ thị a–1/m (theo SGK GDPT 2018).
   7. [Sai số] Câu hỏi: Nếu máng gỗ chưa được kê cân bằng tốt, hoặc quả nặng treo quá nặng, đồ thị a–F sẽ biến dạng như thế nào? Hai lỗi này biểu hiện trên đồ thị có giống nhau không?
      - Phương trình/Quy luật: a = F/m ∓ μ·g (Tung độ gốc) · a_thực/a_lý_thuyết − 1 = −m_h/(m+m_h) (Tung độ gốc −0.196 / +0.196 m/s² · m_đo 0.389 so với 0.360 kg)
-     - Kết luận: Dấu của giao điểm trục tọa độ giúp nhận biết ngay trạng thái: cắt trục F ở nửa trục dương = chưa triệt tiêu hết ma sát (chưa cân bằng đủ); cắt trục a ở nửa trục dương = kê máng quá dốc. Khi khối lượng quả nặng treo không thỏa mãn điều kiện “rất nhỏ so với khối lượng xe lăn” thì giả thiết F = m_h·g không còn đúng nữa (chú thích lề tr. 88 SGK “điều kiện là khối lượng quả nặng treo phải nhỏ hơn rất nhiều so với khối lượng xe lăn”), biểu hiện thành đường đồ thị bị uốn cong xuống ở phần đầu trên và khối lượng tính từ hệ số góc bị lớn hơn thực tế.
-     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số (Yêu cầu cần đạt tr. 13 “Biết rằng trong thí nghiệm luôn tồn tại sai số”).
+     - Kết luận: Dấu của giao điểm trục tọa độ giúp nhận biết ngay trạng thái: cắt trục F ở nửa trục dương = chưa triệt tiêu hết ma sát (chưa cân bằng đủ); cắt trục a ở nửa trục dương = kê máng quá dốc. Khi khối lượng quả nặng treo không thỏa mãn điều kiện “rất nhỏ so với khối lượng xe lăn” thì giả thiết F = m_h·g không còn đúng nữa, biểu hiện thành đường đồ thị bị uốn cong xuống ở phần đầu trên và khối lượng tính từ hệ số góc bị lớn hơn thực tế.
+     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số.
   8. [Thực hành đánh giá] Câu hỏi: Chỉ với các quả nặng treo, băng giấy và một tờ giấy kẻ ô, không dùng cân, liệu có thể xác định được khối lượng của xe lăn hay không?
      - Phương trình/Quy luật: k_F = 1/m → m_đo = 1/k_F; |m_đo − m|/m ≤ 5 % (m 0.360 → m_đo 0.358 (3 bộ) / 0.360 (5 bộ))
-     - Kết luận: Không có kết luận mới: vận dụng tổng hợp 7 bước trước — giữ biến cố định (m không đổi) + đo gia tốc a từ băng giấy + hệ số góc đường thẳng qua gốc tọa độ = 1/m. Đây chính là phiên bản định lượng của mệnh đề ở tr. 91 SGK.
+     - Kết luận: Không có kết luận mới: vận dụng tổng hợp 7 bước trước — giữ biến cố định (m không đổi) + đo gia tốc a từ băng giấy + hệ số góc đường thẳng qua gốc tọa độ = 1/m. Đây chính là phiên bản định lượng của mệnh đề trong SGK.
      - Trọng tâm thi cử: Tổng hợp: Giữ biến cố định + Đo gia tốc a từ băng giấy + Hệ số góc qua gốc tọa độ = 1/m.
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
   - Q1: Khi cân bằng lực cản cần phải “không treo quả nặng, kéo theo băng giấy, đẩy nhẹ cho chuyển động đều”; không được bỏ qua bước “kéo theo băng giấy” vì
@@ -1534,7 +1534,7 @@
      - Kết luận: 2Fe²⁺ + Cl₂ = 2Fe³⁺ + 2Cl⁻ — Muối sắt(II) dưới tác dụng của chất oxi hóa mạnh sẽ bị oxi hóa thành muối sắt(III).
      - Trọng tâm thi cử: Câu hỏi thường gặp: Cách nhận biết ion Fe²⁺ (oxi hóa trước rồi nhỏ KSCN); vai trò của nước chlorine; phương trình ion của hai giai đoạn.
   7. [Quan sát vi mô] Câu hỏi: Giữa "số oxi hóa +2" và "số oxi hóa +3", rốt cuộc hạt vi mô đã mất đi hay nhận lại thứ gì?
-     - Phương trình/Quy luật: Fe − 2e⁻ → Fe²⁺ ｜ Fe − 3e⁻ → Fe³⁺ (Phóng đại vi mô · Fe²⁺ và Fe³⁺ chỉ chênh nhau 1 electron · Đang xem: ③ Trạm chuyển hóa)
+     - Phương trình/Quy luật: Fe − 2e⁻ → Fe²⁺ | Fe − 3e⁻ → Fe³⁺ (Phóng đại vi mô · Fe²⁺ và Fe³⁺ chỉ chênh nhau 1 electron · Đang xem: ③ Trạm chuyển hóa)
      - Kết luận: Giữa Fe²⁺ và Fe³⁺ chỉ chênh nhau 1 electron: Fe − 2e⁻ → Fe²⁺, Fe − 3e⁻ → Fe³⁺; nhường electron là sự oxi hóa, nhận electron là sự khử.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Chiều chuyển dịch electron trong phản ứng oxi hóa - khử; độ chênh lệch số oxi hóa giữa Fe²⁺ và Fe³⁺.
   8. [Trạm kiểm nghiệm sắt] Câu hỏi: Trong rau chân vịt rõ ràng có sắt, tại sao nhỏ trực tiếp KSCN lại không thấy màu đỏ?
@@ -1624,7 +1624,7 @@
 - Mô phỏng 3D trực tiếp: https://vietlab.9cloudmedia.com/courses/electrolysis-step.html
 - Vị trí Chương trình GDPT 2018: Hóa học 12 (GDPT 2018) · Chương 5: Pin điện và Điện phân · Bài: Điện phân
 - Câu hỏi trung tâm: Cùng một nguồn điện một chiều, vì sao điện phân CuCl₂ thu được Cu và Cl₂, còn điện phân nước muối bão hòa lại thu được H₂, Cl₂ và NaOH?
-- Phương trình / Nguyên lý tổng quát: Cu²⁺ + 2Cl⁻ =điện phân= Cu + Cl₂↑ ｜ 2Cl⁻ + 2H₂O =điện phân= Cl₂↑ + H₂↑ + 2OH⁻
+- Phương trình / Nguyên lý tổng quát: Cu²⁺ + 2Cl⁻ =điện phân= Cu + Cl₂↑ | 2Cl⁻ + 2H₂O =điện phân= Cl₂↑ + H₂↑ + 2OH⁻
 - Chuỗi nhân quả cốt lõi: Có dòng điện mới điện phân: Bình điện phân chuyển hóa điện năng thành hóa năng; ngắt nguồn điện thì cả hai điện cực đều ngừng sinh ra chất mới -> Ion di chuyển có hướng: Anion về anode, cation về cathode; electron chỉ chạy ở mạch ngoài, không đi vào dung dịch -> Ion nào phóng điện trước: Ở anode Cl⁻ nhường electron trước, ở cathode Cu²⁺ hoặc H⁺ nhận electron trước — sản phẩm được quyết định như vậy -> Điện lượng quyết định sản lượng: Q = I·t; cứ 2 mol electron tạo ra 1 mol Cu (hoặc H₂) và đồng thời 1 mol Cl₂
 - Các trạm/cụm mô hình 3D:
   - ① Điện phân dung dịch CuCl₂: Ống chữ U chứa dung dịch CuCl₂ 25% + hai thanh than chì: cathode phủ một lớp đồng màu đỏ, anode sủi bọt khí màu vàng lục làm giấy thử KI - hồ tinh bột ẩm ở miệng nhánh anode hóa xanh
@@ -1640,11 +1640,11 @@
      - Kết luận: Khi có dòng điện đi qua, dung dịch CuCl₂ xảy ra phản ứng oxi hóa ở anode và phản ứng khử ở cathode tạo thành Cu và Cl₂: tại anode 2Cl⁻ − 2e⁻ = Cl₂↑ (sự oxi hóa), tại cathode Cu²⁺ + 2e⁻ = Cu (sự khử), phương trình tổng cộng Cu²⁺ + 2Cl⁻ =điện phân= Cu + Cl₂↑.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Quá trình ở các điện cực và phương trình điện phân dung dịch CuCl₂; mô tả hiện tượng và cách nhận biết khí thoát ra ở anode.
   3. [Điện phân lâu hơn] Câu hỏi: Điện phân lâu hơn hoặc tăng cường độ dòng điện, tại sao lượng sản phẩm lại nhiều hơn? Nhiều hơn bao nhiêu lần?
-     - Phương trình/Quy luật: Q = I·t ｜ m(Cu) = Q·M/(2F) (0.20 A · Điện phân 600 s · Đồ thị đi qua gốc tọa độ)
+     - Phương trình/Quy luật: Q = I·t | m(Cu) = Q·M/(2F) (0.20 A · Điện phân 600 s · Đồ thị đi qua gốc tọa độ)
      - Kết luận: Điện lượng đi qua bình Q = I·t quyết định lượng sản phẩm: cứ 2 mol electron trao đổi sẽ kết tủa 1 mol Cu ở cathode và giải phóng 1 mol Cl₂ ở anode.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Bài toán tính lượng chất điện phân (Điện lượng Q → Khối lượng / Thể tích sản phẩm); tỉ lệ số mol sản phẩm ở hai cực; giải thích tại sao màu dung dịch ít thay đổi. Thể tích khí tính ở 25 ℃ (Vm = 24.5 L/mol; ở đkc 25 ℃, 1 bar là 24.79 L/mol, ở đktc 0 ℃, 1 atm là 22.4 L/mol).
   4. [Quan sát vi mô] Câu hỏi: "Khi có dòng điện, các ion chuyển sang chuyển động có hướng" — vậy ion nào đi về đâu? Còn electron đi đường nào?
-     - Phương trình/Quy luật: Anion → Anode ｜ Cation → Cathode (Electron chỉ đi ở mạch ngoài) (Phóng đại vi mô · Chuyển động của ion trước và sau khi đóng điện · Đang xem: ① Điện phân dung dịch CuCl₂)
+     - Phương trình/Quy luật: Anion → Anode | Cation → Cathode (Electron chỉ đi ở mạch ngoài) (Phóng đại vi mô · Chuyển động của ion trước và sau khi đóng điện · Đang xem: ① Điện phân dung dịch CuCl₂)
      - Kết luận: Khi có dòng điện đi qua, các ion đang chuyển động tự do chuyển sang chuyển động có hướng: anion di chuyển về anode, cation di chuyển về cathode; electron ở mạch ngoài đi từ cực âm của nguồn điện đến cathode, không đi vào dung dịch.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Vẽ sơ đồ nguyên lý bình điện phân; phân biệt chiều dòng electron ở mạch ngoài với chiều di chuyển của các ion trong dung dịch.
   5. [Đổi sang nước muối] Câu hỏi: Cùng điện cực than chì, cùng cường độ dòng điện, khi đổi sang dung dịch NaCl bão hòa thì tại sao ở cathode không thu được kim loại Na?
@@ -1656,7 +1656,7 @@
      - Kết luận: Ở cathode, H₂O nhận electron theo bán phản ứng: 2H₂O + 2e⁻ = H₂↑ + 2OH⁻; ion OH⁻ sinh ra ở vùng cathode làm dung dịch có tính kiềm và làm phenolphthalein hóa đỏ. Trong hệ CuCl₂, ion Cu²⁺ nhận electron trước nên không sinh ra OH⁻ và phenolphthalein không đổi màu.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Tại sao bán phản ứng ở cathode viết là 2H₂O + 2e⁻ = H₂↑ + 2OH⁻; hiện tượng phenolphthalein hóa đỏ ở vùng cathode chứng minh điều gì.
   7. [Thứ tự điện phân] Câu hỏi: Trong nước muối có tới 4 loại ion (cùng các phân tử H₂O), tại sao lại chính là Cl⁻ và H⁺ (H₂O) phóng điện?
-     - Phương trình/Quy luật: Anode: Cl⁻ phóng điện trước ｜ Cathode: H⁺ (H₂O) phóng điện trước → Còn lại NaOH (Phóng đại vi mô · Thứ tự điện phân · Đang xem: ② Điện phân dung dịch NaCl bão hòa)
+     - Phương trình/Quy luật: Anode: Cl⁻ phóng điện trước | Cathode: H⁺ (H₂O) phóng điện trước → Còn lại NaOH (Phóng đại vi mô · Thứ tự điện phân · Đang xem: ② Điện phân dung dịch NaCl bão hòa)
      - Kết luận: Thứ tự điện phân được quyết định bởi khả năng nhường / nhận electron: ở anode Cl⁻ dễ nhường electron hơn OH⁻ (H₂O), ở cathode H⁺ (H₂O) dễ nhận electron hơn Na⁺; Na⁺ và OH⁻ còn lại tạo thành NaOH trong dung dịch.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Thứ tự điện phân (ở anode: S²⁻ > I⁻ > Br⁻ > Cl⁻ > OH⁻/H₂O > gốc acid có oxi; ở cathode: Ag⁺ > Cu²⁺ > … > H⁺/H₂O > Na⁺); vai trò của màng ngăn trong công nghiệp clo - kiềm.
   8. [Anode bằng đồng] Câu hỏi: Thay thanh than chì ở anode bằng một lá đồng (Cu), tại sao ở anode không còn sủi bọt khí và giấy thử cũng không hóa xanh nữa?
@@ -1784,7 +1784,7 @@
      - Kết luận: Thêm acid làm tăng nồng độ c(H⁺), khiến Q tăng (> K) → cân bằng chuyển dịch theo chiều nghịch, dung dịch trở về màu da cam của Cr₂O₇²⁻.
      - Trọng tâm thi cử: Cần nắm vững cách xác định chiều chuyển dịch khi thêm kiềm / thêm acid và viết đúng biểu thức tỉ số phản ứng Q.
   6. [Bể nóng và bể đá] Câu hỏi: Cùng một bình cầu khí, tại sao ngâm trong nước nóng màu nâu đỏ đậm lên, còn ngâm trong nước đá màu lại nhạt đi?
-     - Phương trình/Quy luật: 2NO₂ ⇌ N₂O₄　ΔH = −56.9 kJ/mol (Bể điều nhiệt 0–80 ℃ · Bình cầu số 2 đối chứng ở 25 ℃)
+     - Phương trình/Quy luật: 2NO₂ ⇌ N₂O₄ ΔH = −56.9 kJ/mol (Bể điều nhiệt 0–80 ℃ · Bình cầu số 2 đối chứng ở 25 ℃)
      - Kết luận: Phản ứng 2NO₂ (nâu đỏ) ⇌ N₂O₄ (không màu) có chiều thuận tỏa nhiệt (ΔH = −56.9 kJ/mol): nhiệt độ làm thay đổi trực tiếp hằng số K. Khi tăng nhiệt độ thì K giảm → Q > K → chuyển dịch theo chiều nghịch (tạo thêm NO₂, màu nâu đỏ đậm lên); khi hạ nhiệt độ thì K tăng → Q < K → chuyển dịch theo chiều thuận (màu nhạt đi).
      - Trọng tâm thi cử: Dạng bài suy luận ngược thường gặp: Từ hiện tượng "tăng nhiệt độ màu đậm lên" suy ra chiều thuận là phản ứng tỏa nhiệt (ΔH < 0).
   7. [Quan sát vi mô] Câu hỏi: Đằng sau sự đổi màu, các hạt vi mô đang hoạt động như thế nào?
@@ -1885,13 +1885,13 @@
 - Phương trình / Nguyên lý tổng quát: Zn − 2e⁻ = Zn²⁺ · Electron đi từ cực âm (anode) qua dây dẫn sang cực dương (cathode) · Cầu muối khép kín mạch ion
 - Chuỗi nhân quả cốt lõi: Tách rời hai bán phản ứng: Quá trình oxi hóa và quá trình khử không diễn ra trong cùng một dung dịch -> Sinh ra dòng điện: Electron đi từ Zn qua dây dẫn sang Cu, chiều dòng điện ngược lại -> Nhược điểm của pin một dung dịch: Kẽm (Zn) phản ứng trực tiếp với acid, cường độ dòng điện suy giảm dần -> Cầu muối khép kín mạch ion: Hai nửa pin đảm nhiệm hai bán phản ứng riêng biệt, sức điện động cao hơn và dòng điện ổn định hơn
 - Các trạm/cụm mô hình 3D:
-  - ① Pin Galvani một dung dịch: Một cốc thủy tinh 250 mL đựng dung dịch H₂SO₄ loãng, nhúng lá kẽm (Zn) và lá đồng (Cu) vào trong (Hình 6-6 SGK)
-  - ② Pin Galvani hai dung dịch: Ngăn ZnSO₄ nhúng lá Zn, ngăn CuSO₄ nhúng lá Cu, ở giữa nối bằng cầu muối chứa thạch agar KCl (Hình 4-1 SGK)
+  - ① Pin Galvani một dung dịch: Một cốc thủy tinh 250 mL đựng dung dịch H₂SO₄ loãng, nhúng lá kẽm (Zn) và lá đồng (Cu) vào trong 
+  - ② Pin Galvani hai dung dịch: Ngăn ZnSO₄ nhúng lá Zn, ngăn CuSO₄ nhúng lá Cu, ở giữa nối bằng cầu muối chứa thạch agar KCl 
   - ③ Điện kế và dây dẫn: Điện kế nhạy G có vạch 0 ở giữa (±15 mA, độ chia 0.1 mA) cùng hai dây dẫn gắn kẹp cá sấu nối vào bộ dụng cụ đang chọn
   - ④ Mô hình phóng đại điện cực và cầu muối: Cửa sổ phóng đại phía sau bàn thí nghiệm: Bề mặt Zn nhường electron, bề mặt Cu nhận electron, các ion K⁺ và Cl⁻ trong cầu muối di chuyển (mô hình phóng đại)
 - Mạch khám phá từng bước:
   1. [Hai bộ dụng cụ] Câu hỏi: Trên bàn đặt hai bộ dụng cụ, tại sao cùng một lá kẽm lại phải thử hai lần?
-     - Phương trình/Quy luật: Zn ｜ H₂SO₄ loãng ｜ Cu (0.50 mol/L · Đã nối dây dẫn · Điện kế 0.1 mA)
+     - Phương trình/Quy luật: Zn | H₂SO₄ loãng | Cu (0.50 mol/L · Đã nối dây dẫn · Điện kế 0.1 mA)
      - Kết luận: Bộ bên trái là thí nghiệm cơ bản: một cốc H₂SO₄ loãng, hai lá kim loại và một sợi dây dẫn là có dòng điện; bộ bên phải có thêm chiếc cầu muối, chính là câu hỏi «tại sao» mà bài học này sẽ giải đáp.
      - Trọng tâm thi cử: Thường gặp trong đề thi: Các bộ phận cấu thành pin điện hóa (hai điện cực khác bản chất, dung dịch chất điện li, dây dẫn, mạch kín).
   2. [Nối dây dẫn] Câu hỏi: Khi kẹp hai đầu dây dẫn vào, tại sao bọt khí lại thoát ra trên bề mặt lá đồng (Cu)?
@@ -1911,7 +1911,7 @@
      - Kết luận: Zn nhường electron biến thành ion Zn²⁺ đi vào dung dịch; electron đi từ cực âm (anode) qua dây dẫn sang cực dương (cathode), nơi ion Cu²⁺ nhận electron tạo thành kim loại Cu bám lên lá đồng (theo SGK).
      - Trọng tâm thi cử: Câu hỏi trọng tâm: Bán phản ứng ở anode, cathode và phản ứng tổng cộng của pin Galvani Zn-Cu; vì sao trên lá Cu là đồng bám vào chứ không phải sủi bọt khí.
   6. [Rút cầu muối] Câu hỏi: Chỉ rút một ống thủy tinh chứa thạch agar ra khỏi hai cốc, tại sao dòng điện lập tức về 0?
-     - Phương trình/Quy luật: Zn ｜ ZnSO₄ ‖ Cầu muối KCl ‖ CuSO₄ ｜ Cu (Cầu muối Đã cắm → Đã rút · 0.50 mol/L · Dòng điện 10.5 → 0.0 mA)
+     - Phương trình/Quy luật: Zn | ZnSO₄ ‖ Cầu muối KCl ‖ CuSO₄ | Cu (Cầu muối Đã cắm → Đã rút · 0.50 mol/L · Dòng điện 10.5 → 0.0 mA)
      - Kết luận: Khi lấy cầu muối ra khỏi bộ dụng cụ trên, kim điện kế lập tức quay về vạch 0, tức là không còn dòng điện chạy trong mạch (theo SGK).
      - Trọng tâm thi cử: Câu hỏi trọng tâm: Vai trò của cầu muối (khép kín mạch điện, duy trì sự trung hòa điện của hai dung dịch); vì sao rút cầu muối thì không còn dòng điện.
   7. [Quan sát vi mô] Câu hỏi: Electron đi qua dây dẫn, vậy điện tích trong dung dịch do ai bù đắp?
@@ -1923,7 +1923,7 @@
      - Kết luận: Khi nồng độ tăng, độ dẫn điện của dung dịch mạnh hơn làm điện trở trong của pin giảm xuống, nên dưới cùng một sức điện động thì cường độ dòng điện lớn hơn.
      - Trọng tâm thi cử: Câu hỏi trọng tâm: Sức điện động của pin phụ thuộc vào yếu tố nào (bản chất hóa học và thế điện cực của các chất phản ứng), phân biệt với ảnh hưởng của điện trở trong.
   9. [Kiểm tra · Lắp ráp pin] Câu hỏi: Kiểm tra: Thiết lập trên bàn thí nghiệm một pin điện hóa Zn-Cu phát dòng điện ổn định
-     - Phương trình/Quy luật: Zn ｜ ZnSO₄ ‖ CuSO₄ ｜ Cu (Hai dung dịch · 0.50 mol/L · Dòng điện ≥ 10.0 mA · Duy trì 15 s)
+     - Phương trình/Quy luật: Zn | ZnSO₄ ‖ CuSO₄ | Cu (Hai dung dịch · 0.50 mol/L · Dòng điện ≥ 10.0 mA · Duy trì 15 s)
      - Kết luận: Phần kiểm tra không thêm kết luận mới: Đảm bảo đồng thời bốn điều kiện «tách hai nửa pin, cắm cầu muối, nối kín dây dẫn, dung dịch đủ nồng độ» thì dòng điện thu được mới mạnh và ổn định.
      - Trọng tâm thi cử: Cấu trúc điểm tối đa: Hệ hai dung dịch + Cầu muối + Dây dẫn + Nồng độ đủ lớn, bốn yếu tố không thể thiếu.
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
@@ -2023,46 +2023,46 @@
   - ④ Bảng giấy tọa độ: Bảng giấy kẻ ô đặt đứng và đồ thị ½v²–h
 - Mạch khám phá từng bước:
   1. [Làm quen dụng cụ] Câu hỏi: Các dụng cụ trên bàn dùng để làm gì? Các chấm trên băng giấy do thiết bị nào tạo ra? Quả nặng được gắn vào đầu dưới băng giấy như thế nào?
-     - Phương trình/Quy luật: ΔEp = mgh_B，ΔEk = ½mv_B² (m đọc từ cân · h đo bằng thước · v tính từ băng giấy)
-     - Kết luận: SGK tr. 96: Sử dụng đồng hồ đánh dấu để ghi lại quá trình rơi tự do của quả nặng. Ba đại lượng có ba cách đo riêng biệt — khối lượng đo bằng cân (tr. 96), độ cao rơi đo bằng thước thẳng từ điểm O đến các điểm trên băng giấy (tr. 98 Hình 8.5-5), vận tốc tính từ ba chấm liên tiếp (tr. 97 Hình 8.5-3); và điều kiện để cơ năng bảo toàn là chỉ có trọng lực sinh công (tr. 95).
-     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc (Yêu cầu cần đạt tr. 16 “Biết sử dụng các dụng cụ thí nghiệm được cung cấp để tiến hành thí nghiệm và thu thập dữ liệu”).
+     - Phương trình/Quy luật: ΔEp = mgh_B, ΔEk = ½mv_B² (m đọc từ cân · h đo bằng thước · v tính từ băng giấy)
+     - Kết luận: Theo SGK GDPT 2018: Sử dụng đồng hồ đánh dấu để ghi lại quá trình rơi tự do của quả nặng. Ba đại lượng có ba cách đo riêng biệt — khối lượng đo bằng cân, độ cao rơi đo bằng thước thẳng từ điểm O đến các điểm trên băng giấy, vận tốc tính từ ba chấm liên tiếp; và điều kiện để cơ năng bảo toàn là chỉ có trọng lực sinh công.
+     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc.
   2. [Bật nguồn trước, thả vật sau] Câu hỏi: Ở bước này cần làm việc gì trước? Nếu buông tay thả vật trước rồi mới bật nguồn điện thì trên băng giấy sẽ bị mất đi phần nào?
      - Phương trình/Quy luật: T = 0.02 s (50 Hz) · Đoạn trống = ½g(0.10 s)² = 49.0 mm (Xoay chiều 8 V · Bật nguồn trước, thả vật sau)
-     - Kết luận: Nguyên văn SGK tr. 98 “Trong thí nghiệm, bật nguồn điện trước, sau đó mới thả quả nặng”; đồng hồ đánh dấu dùng nguồn xoay chiều 50 Hz, cứ cách 0.02 s lại gõ một chấm (Vật lý 10 tr. 18), do đó khoảng thời gian giữa hai chấm liên tiếp là T = 0.02 s.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Trình tự thao tác và giải thích lý do (Yêu cầu cần đạt tr. 16 “Xác định rõ các đại lượng vật lý cần đo trong thí nghiệm”).
+     - Kết luận: Theo SGK GDPT 2018: “Trong thí nghiệm, bật nguồn điện trước, sau đó mới thả quả nặng”; đồng hồ đánh dấu dùng nguồn xoay chiều 50 Hz, cứ cách 0.02 s lại gõ một chấm, do đó khoảng thời gian giữa hai chấm liên tiếp là T = 0.02 s.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Trình tự thao tác và giải thích lý do.
   3. [Chọn điểm đo] Câu hỏi: Bắt đầu đo từ đâu? Cụm các chấm dày đặc sát điểm O có dùng ngay được không? Nên chọn chấm thứ mấy làm điểm B để đo được chính xác?
      - Phương trình/Quy luật: δh/h = 0.1 mm ÷ h_B (0.32 % → 0.10 % → 0.05 % → 0.03 %)
-     - Kết luận: Ở Hình 8.5-5 tr. 98 SGK, sát cạnh điểm O là một chuỗi các chấm khích nhau, nếu lấy điểm đo quá gần O sẽ có sai số lớn; đáp án cho câu hỏi ở tr. 96 SGK “Nên chọn hai vị trí nào làm vị trí đầu và vị trí cuối của quá trình” là: chọn hai vị trí cách xa nhau và có vết chấm rõ nét — h càng lớn thì sai số tỉ đối ứng với độ chia 0.1 mm càng nhỏ.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Lý do chọn vị trí các điểm đo trên băng giấy (Yêu cầu cần đạt tr. 16 “Xác định rõ vấn đề cần giải quyết trong thí nghiệm tìm tòi khám phá”).
+     - Kết luận: Trên băng giấy thí nghiệm, sát cạnh điểm O là một chuỗi các chấm khích nhau, nếu lấy điểm đo quá gần O sẽ có sai số lớn; đáp án cho câu hỏi trong SGK “Nên chọn hai vị trí nào làm vị trí đầu và vị trí cuối của quá trình” là: chọn hai vị trí cách xa nhau và có vết chấm rõ nét — h càng lớn thì sai số tỉ đối ứng với độ chia 0.1 mm càng nhỏ.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Lý do chọn vị trí các điểm đo trên băng giấy.
   4. [Đo h và tính v] Câu hỏi: Vận tốc v_B được tính từ hai điểm nào? Tại sao không tính bằng (h_C − h_B)/T?
      - Phương trình/Quy luật: v_B = (h_C − h_A)/(2T) · ΔEp = mgh_B · ΔEk = ½mv_B² (v 1.9600 m/s · ΔEp = ΔEk 0.3842 J · ½v² = gh 1.9208)
-     - Kết luận: Nguyên văn Hình 8.5-3 tr. 97 SGK: “Vận tốc tức thời tại điểm B bằng vận tốc trung bình giữa hai điểm A và C” — vận tốc tức thời tại thời điểm chính giữa của chuyển động biến đổi đều bằng vận tốc trung bình trong khoảng thời gian đó, nên phải lấy độ dịch chuyển giữa A và C chia cho 2T; đáp án Bài tập 1 tr. 98 SGK chính là ΔEp = mgh_B, ΔEk = ½mv_B² (không được lấy g nhân t để tính v, cũng không được lấy (h_C − h_B)/T làm vận tốc tại B).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Cách tính vận tốc tức thời từ băng giấy (Yêu cầu cần đạt tr. 16 “Sử dụng đồ thị vật lý để biểu diễn dữ liệu thí nghiệm”).
+     - Kết luận: Nguyên văn Hình 8.5-3 tr. 97 SGK: “Vận tốc tức thời tại điểm B bằng vận tốc trung bình giữa hai điểm A và C” — vận tốc tức thời tại thời điểm chính giữa của chuyển động biến đổi đều bằng vận tốc trung bình trong khoảng thời gian đó, nên phải lấy độ dịch chuyển giữa A và C chia cho 2T; đáp án bài tập SGK SGK chính là ΔEp = mgh_B, ΔEk = ½mv_B² (không được lấy g nhân t để tính v, cũng không được lấy (h_C − h_B)/T làm vận tốc tại B).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Cách tính vận tốc tức thời từ băng giấy.
   5. [Ghi số liệu và vẽ đồ thị] Câu hỏi: Biểu diễn 4 điểm đo lên đồ thị ½v²–h sẽ thu được hình dạng gì? Hệ số góc bằng bao nhiêu khi so sánh với g?
-     - Phương trình/Quy luật: ½v² = k·h，k = Σ(h·½v²)/Σh² (k 9.80 m/s² (Độ lệch 0.00 %))
-     - Kết luận: Vẽ đồ thị ½v² theo h thu được đường thẳng đi qua gốc tọa độ chính là hệ quả trực tiếp khi giản ước khối lượng m ở phương trình bảo toàn cơ năng tại mục “Phân tích dữ liệu” tr. 96 SGK (½v² = gh); hệ số góc chính là gia tốc trọng trường g đo được từ băng giấy, so sánh nó với 9.8 m/s² chính là bước “kiểm chứng”. Nguyên văn SGK tr. 96: Thiết kế bảng tương ứng theo phương án thí nghiệm đã chọn để ghi số liệu.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Xử lý dữ liệu bằng đồ thị và tìm đại lượng vật lý từ hệ số góc (Yêu cầu cần đạt tr. 16 “Phân tích dữ liệu để phát hiện đặc điểm quy luật, từ đó rút ra kết luận thí nghiệm”).
+     - Phương trình/Quy luật: ½v² = k·h, k = Σ(h·½v²)/Σh² (k 9.80 m/s² (Độ lệch 0.00 %))
+     - Kết luận: Vẽ đồ thị ½v² theo h thu được đường thẳng đi qua gốc tọa độ chính là hệ quả trực tiếp khi giản ước khối lượng m ở phương trình bảo toàn cơ năng tại mục “Phân tích dữ liệu” tr. 96 SGK (½v² = gh); hệ số góc chính là gia tốc trọng trường g đo được từ băng giấy, so sánh nó với 9.8 m/s² chính là bước “kiểm chứng”. Nguyên văn trong SGK: Thiết kế bảng tương ứng theo phương án thí nghiệm đã chọn để ghi số liệu.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Xử lý dữ liệu bằng đồ thị và tìm đại lượng vật lý từ hệ số góc.
   6. [Thay đổi quả nặng] Câu hỏi: Đổi quả nặng từ 0.050 kg lên 0.500 kg thì h và v trên băng giấy có thay đổi không? Cân có phải là dụng cụ bắt buộc phải dùng không?
      - Phương trình/Quy luật: ½v² = gh (Giản ước m) · δ = −f/(mg) (−5.10 % / −2.55 % / −1.28 % / −0.51 %)
-     - Kết luận: Chú thích bên lề tr. 96 SGK đặt câu hỏi “Trong khi làm thí nghiệm, thực ra có thể không cần đo khối lượng của vật. Hãy suy nghĩ xem tại sao?” — Bởi vì ở hai vế của ½mv² = mgh đều có thừa số m, khi lập tỉ số hoặc rút gọn sẽ triệt tiêu nhau, chỉ cần so sánh ½v² với gh là đủ nên không bắt buộc phải dùng cân. Trong điều kiện thực tế, quả nặng càng lớn thì tỉ phần công của lực cản càng nhỏ (δ = −f/(mg)), đây chính là ý trả lời đầu tiên cho Câu hỏi 1 tr. 96 SGK “Làm thế nào để giảm ảnh hưởng của lực cản”.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giữ biến cố định + Chú thích SGK “thực ra có thể không cần đo khối lượng của vật” (A7.5, A2.19).
+     - Kết luận: Chú thích bên lề trong SGK đặt câu hỏi “Trong khi làm thí nghiệm, thực ra có thể không cần đo khối lượng của vật. Hãy suy nghĩ xem tại sao?” — Bởi vì ở hai vế của ½mv² = mgh đều có thừa số m, khi lập tỉ số hoặc rút gọn sẽ triệt tiêu nhau, chỉ cần so sánh ½v² với gh là đủ nên không bắt buộc phải dùng cân. Trong điều kiện thực tế, quả nặng càng lớn thì tỉ phần công của lực cản càng nhỏ (δ = −f/(mg)), đây chính là ý trả lời đầu tiên cho Câu hỏi 1 tr. 96 SGK “Làm thế nào để giảm ảnh hưởng của lực cản”.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giữ biến cố định + Chú thích SGK “thực ra có thể không cần đo khối lượng của vật”.
   7. [Sai số] Câu hỏi: Hiện tượng “độ giảm thế năng lớn hơn một chút so với độ tăng động năng” là do tính toán sai hay do bản thân thiết bị? Nếu băng giấy bị lệch nghiêng thì sao?
      - Phương trình/Quy luật: ΔEk = ΔEp − f·h · δ = −f/(mg) · k = g − f/m (δ −1.28 % / −3.21 % · k 9.68 / 9.49)
      - Kết luận: Nguyên văn Bài tập 1(3) tr. 98 SGK “Nhiều kết quả thí nghiệm cho thấy độ giảm thế năng trọng trường lớn hơn một chút so với độ tăng động năng, theo em nguyên nhân là gì?” có đáp án là: khi quả nặng rơi phải chịu lực cản không khí và lực ma sát giữa băng giấy với khe dẫn hướng, lực cản sinh công âm ⇒ ΔEk = ΔEp − f·h, làm δ = −f/(mg) < 0 (chiều lệch luôn mang dấu âm); cách khắc phục: chọn quả nặng có khối lượng lớn (Bước 6), giữ băng giấy thẳng đứng và chỉnh các khe dẫn hướng thẳng hàng.
-     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số (Yêu cầu cần đạt tr. 16 “Biết rằng trong thí nghiệm luôn tồn tại sai số”; A7.4).
+     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số.
   8. [Thực hành đánh giá] Câu hỏi: Cho một băng giấy đã gõ chấm, không tra bảng và không tính gia tốc trực tiếp, liệu có thể xác định được gia tốc trọng trường g tại nơi làm thí nghiệm hay không?
      - Phương trình/Quy luật: k = Σ(h·½v²)/Σh² · |k/g − 1| ≤ 2 % (Lý tưởng 9.80 (0.00 %) / Thực tế thẳng đứng 9.68 (−1.18 %))
-     - Kết luận: Không có kết luận mới: kết nối 7 bước trước để vận dụng hoàn chỉnh — chọn điểm, đo h, tính v, vẽ đồ thị và tìm hệ số góc chính là g. Đây chính là phép kiểm chứng định lượng định luật bảo toàn cơ năng ở tr. 92 SGK.
+     - Kết luận: Không có kết luận mới: kết nối 7 bước trước để vận dụng hoàn chỉnh — chọn điểm, đo h, tính v, vẽ đồ thị và tìm hệ số góc chính là g. Đây chính là phép kiểm chứng định lượng định luật bảo toàn cơ năng trong SGK.
      - Trọng tâm thi cử: Tổng hợp: Chọn điểm + Đo h + Tính v + Hệ số góc qua gốc tọa độ = g.
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
   - Q1: Trình tự thao tác đúng khi gõ chấm trên băng giấy là
     Đáp án: Bật nguồn điện trước, sau đó mới thả quả nặng — Giải thích: Theo SGK GDPT 2018: “Trong thí nghiệm, bật nguồn điện trước, sau đó mới thả quả nặng”: nếu buông tay trước sẽ làm mất trắng các chấm ở đoạn đầu băng giấy.
   - Q2: Trên băng giấy có ba chấm liên tiếp A, B, C với chu kỳ gõ chấm T, vận tốc tức thời tại điểm B bằng
-    Đáp án: (h_C − h_A)/(2T) — Giải thích: Hình 8.5-3 tr. 97 SGK: Vận tốc tức thời tại thời điểm chính giữa bằng vận tốc trung bình trong khoảng thời gian đó, nên lấy khoảng cách giữa hai điểm A và C chia cho 2T.
+    Đáp án: (h_C − h_A)/(2T) — Giải thích: Theo SGK GDPT 2018: Vận tốc tức thời tại thời điểm chính giữa bằng vận tốc trung bình trong khoảng thời gian đó, nên lấy khoảng cách giữa hai điểm A và C chia cho 2T.
   - Q3: Vẽ đồ thị với h là trục hoành và ½v² là trục tung; nếu cơ năng được bảo toàn thì đường biểu diễn phải là
     Đáp án: Một đường thẳng đi qua gốc tọa độ, có hệ số góc ≈ g — Giải thích: Từ ½v² = gh (giản ước m): đồ thị đi qua gốc tọa độ và có hệ số góc bằng g; độ lệch (hệ số góc nhỏ hơn g một chút) là do công của lực cản.
   - Q4: Trong thí nghiệm thực tế, độ giảm thế năng trọng trường luôn lớn hơn một chút so với độ tăng động năng, nguyên nhân chính là do
-    Đáp án: Lực cản không khí và lực ma sát giữa băng giấy với khe dẫn hướng sinh công âm — Giải thích: Bài tập 1(3) tr. 98 SGK hỏi đúng vấn đề này: lực cản sinh công âm ⇒ ΔEk = ΔEp − f·h, nên chiều sai lệch luôn mang dấu âm.
+    Đáp án: Lực cản không khí và lực ma sát giữa băng giấy với khe dẫn hướng sinh công âm — Giải thích: Theo SGK GDPT 2018: lực cản sinh công âm ⇒ ΔEk = ΔEp − f·h, nên chiều sai lệch luôn mang dấu âm.
 
 ---
 
@@ -2080,13 +2080,13 @@
   - ③ Tầng đá mẹ và Tầng đá gốc: Tầng đá gốc ở dưới đáy: tầng đá mẹ được phong hóa từ đây
 - Mạch khám phá từng bước:
   1. [Mặt cắt] Câu hỏi: Mẫu phẫu diện đất này từ trên xuống dưới có thể chia thành mấy tầng?
-     - Phương trình/Quy luật: Tầng thảm mục → Tầng mùn → Tầng rửa trôi → Tầng tích tụ → Tầng đá mẹ → Tầng đá gốc (Phẫu diện đất rừng tự nhiên (Hình 5.17 SGK) · Trình tự tầng theo SGK, độ dày mang tính minh họa)
+     - Phương trình/Quy luật: Tầng thảm mục → Tầng mùn → Tầng rửa trôi → Tầng tích tụ → Tầng đá mẹ → Tầng đá gốc (Phẫu diện đất rừng tự nhiên  · Trình tự tầng theo SGK, độ dày mang tính minh họa)
      - Kết luận: Phẫu diện đất là mặt cắt dọc thẳng đứng từ mặt đất xuống dưới, gồm các tầng đất có đặc điểm hình thái khác nhau phân bố gần như nằm ngang; trong đất tự nhiên, phẫu diện đất rừng phức tạp nhất, từ trên xuống gồm: tầng thảm mục (hữu cơ), tầng mùn, tầng rửa trôi, tầng tích tụ, tầng đá mẹ và tầng đá gốc.
      - Trọng tâm thi cử: Điểm thi trọng tâm: Tên gọi và thứ tự 6 tầng từ trên xuống dưới của phẫu diện đất rừng; tầng nào có màu nhạt nhất (tầng rửa trôi), tầng nào sét nặng và chặt (tầng tích tụ).
   2. [Đá mẹ] Câu hỏi: Khi đá mẹ khác nhau, thành phần cơ giới (chất đất) sẽ thay đổi như thế nào?
      - Phương trình/Quy luật: Đá mẹ → Thành phần khoáng vật · Trạng thái dinh dưỡng · Thành phần cơ giới (Đá mẹ là cơ sở vật chất cho sự hình thành và phát triển của đất (theo SGK GDPT 2018))
      - Kết luận: Đá mẹ là sản phẩm phong hóa từ đá gốc, là cơ sở vật chất của quá trình hình thành đất; nó quyết định thành phần khoáng vật, dinh dưỡng khoáng và ảnh hưởng trực tiếp tới thành phần cơ giới của đất.
-     - Trọng tâm thi cử: Điểm thi trọng tâm: Nhân tố chủ đạo hình thành đất tím (hoặc đất bazan, đất đá vôi) là đá mẹ; đá mẹ chủ yếu quyết định thành phần cơ giới và khoáng chất, không trực tiếp quyết định lượng chất hữu cơ.
+     - Trọng tâm thi cử: Điểm thi trọng tâm: Nhân tố chủ đạo quyết định thành phần khoáng vật và cơ giới của đất đỏ bazan (trên đá mẹ bazan ở Tây Nguyên, Đông Nam Bộ) hay đất feralit trên đá vôi là đá mẹ; đá mẹ không trực tiếp quyết định lượng chất hữu cơ.
   3. [Sinh học] Câu hỏi: Nếu loại bỏ hoàn toàn thực vật và sinh vật, khối vật chất này có còn là đất nữa không?
      - Phương trình/Quy luật: Không có tác động của sinh vật thì không thể hình thành đất (Sinh vật là nhân tố hình thành đất cơ bản và năng động nhất (theo SGK GDPT 2018))
      - Kết luận: Sinh vật là nhân tố cơ bản và năng động nhất trong sự hình thành đất; xác sinh vật cung cấp chất hữu cơ, vi sinh vật chuyển hóa chất hữu cơ thành mùn, và tuần hoàn sinh học giúp tập trung các nguyên tố dinh dưỡng ở tầng đất mặt.
@@ -2104,7 +2104,7 @@
      - Kết luận: Thời gian hình thành đất càng dài thì tầng đất càng dày và phân hóa càng rõ rệt; ở trạng thái tự nhiên, để tạo ra lớp đất canh tác dày 20 cm thường cần từ 100—1 000 năm.
      - Trọng tâm thi cử: Điểm thi trọng tâm: Vai trò của thời gian đối với độ dày và mức độ phân tầng của đất; khoảng thời gian cần thiết để hình thành 20 cm đất canh tác trong tự nhiên.
   7. [Con người] Câu hỏi: Một mảnh đất được canh tác lâu dài thì phẫu diện của nó sẽ biến đổi như thế nào?
-     - Phương trình/Quy luật: Tầng canh tác · Tầng đế cày · Tầng đất tự nhiên (Phẫu diện đất canh tác (Hình 5.18 SGK) · Kết hợp sử dụng và bồi bổ để bảo vệ độ phì)
+     - Phương trình/Quy luật: Tầng canh tác · Tầng đế cày · Tầng đất tự nhiên (Phẫu diện đất canh tác  · Kết hợp sử dụng và bồi bổ để bảo vệ độ phì)
      - Kết luận: Đất tự nhiên qua canh tác lâu dài trở thành đất canh tác gồm 3 tầng: tầng canh tác, tầng đế cày và tầng đất tự nhiên; việc kết hợp sử dụng với bồi bổ đất (nghỉ đất, trồng phân xanh, luân canh, bón phân hữu cơ) giúp duy trì khả năng cung cấp độ phì bền vững.
      - Trọng tâm thi cử: Điểm thi trọng tâm: Tên gọi và đặc điểm 3 tầng của phẫu diện đất canh tác; vì sao các biện pháp kết hợp sử dụng và bồi bổ (luân canh, phân xanh, phân hữu cơ) giúp duy trì độ phì nhiêu lâu dài.
   8. [Thực hành đánh giá] Câu hỏi: Kiểm tra: Hãy cải tạo mảnh đất này thành một vùng đất canh tác màu mỡ
@@ -2116,8 +2116,8 @@
     Đáp án: Tầng rửa trôi — Giải thích: Tầng rửa trôi: các khoáng chất hòa tan trong nước theo dòng nước ngấm di chuyển xuống dưới, làm tầng này mất khoáng chất nên có màu nhạt.
   - Q2: Các vật chất bị rửa trôi từ tầng trên sẽ kết tủa và tích tụ lại ở tầng nào, khiến tầng đó có chất đất sét nặng và chặt?
     Đáp án: Tầng tích tụ — Giải thích: Tầng tích tụ: vật chất bị rửa trôi từ tầng trên lắng đọng và tích lũy tại đây, làm chất đất sét nặng, chặt, có màu nâu hoặc nâu đỏ.
-  - Q3: Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên đá mẹ bazan hình thành lớp đất đỏ bazan đặc trưng (hoặc trên đá gốc màu tím hình thành đất màu tím); nhân tố hình thành đất chủ đạo quyết định đặc tính này là
-    Đáp án: Đá mẹ — Giải thích: Đá mẹ quyết định thành phần khoáng vật và trạng thái dinh dưỡng khoáng của đất, đồng thời ảnh hưởng đến thành phần cơ giới; màu tím bắt nguồn từ sản phẩm phong hóa của đá gốc màu tím.
+  - Q3: Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên nền đá bazan phong hóa hình thành lớp đất đỏ bazan giàu khoáng chất và có thành phần cơ giới đặc trưng; nhân tố hình thành đất chủ đạo quyết định đặc tính khoáng vật này là
+    Đáp án: Đá mẹ — Giải thích: Theo SGK Địa lý 10 GDPT 2018: Đá mẹ là sản phẩm phong hóa từ đá gốc, quyết định thành phần khoáng vật, trạng thái dinh dưỡng khoáng và ảnh hưởng trực tiếp đến thành phần cơ giới của đất (như đá mẹ bazan tạo đất đỏ bazan ở Tây Nguyên).
   - Q4: Nhận định đúng về vai trò của sinh vật trong quá trình hình thành đất là
     Đáp án: Không có tác động của sinh vật thì không thể hình thành đất — Giải thích: Theo SGK GDPT 2018: Sinh vật là nhân tố cơ bản và năng động nhất ảnh hưởng đến sự phát triển của đất; không có tác động của sinh vật thì không thể hình thành đất.
   - Q5: So với vùng khô lạnh, đất ở vùng nóng ẩm có đặc điểm là
@@ -2146,44 +2146,44 @@
   - ④ Giấy kẻ ô và ảnh chụp hoạt nghiệm: Bảng giấy kẻ ô đặt đứng và thẻ đối chiếu ảnh chụp hoạt nghiệm
 - Mạch khám phá từng bước:
   1. [Làm quen dụng cụ] Câu hỏi: Các dụng cụ trên bàn dùng để làm gì? SGK đưa ra hai phương án nào? Tại sao ở đây hoàn toàn không có đồng hồ bấm giây?
-     - Phương trình/Quy luật: x = v₀t　y = ½gt² (Vạch ② · v₀ 1.50 m/s · Tấm chắn 80 mm)
-     - Kết luận: Phương án 1 (ảnh chụp hoạt nghiệm hoặc quay video, ghi lại toàn bộ các vị trí cách đều thời gian trong một lần) và Phương án 2 (dùng máng nghiêng chấm vết, mỗi lần thả chỉ ghi một điểm) ở tr. 10 SGK đều thu được cùng một quỹ đạo; bài học này thực hiện theo Phương án tham khảo (tr. 11 Hình 5.3-2 khảo sát phương thẳng đứng trước, tr. 12 Hình 5.3-3 khảo sát phương ngang sau). Toàn bộ thí nghiệm không dùng đồng hồ đếm thời gian: khoảng thời gian được xác định dựa vào quy luật chuyển động theo phương thẳng đứng.
-     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc (Yêu cầu cần đạt tr. 17 “Biết sử dụng các dụng cụ thí nghiệm được cung cấp để tiến hành thí nghiệm và thu thập dữ liệu”).
+     - Phương trình/Quy luật: x = v₀t y = ½gt² (Vạch ② · v₀ 1.50 m/s · Tấm chắn 80 mm)
+     - Kết luận: Phương án 1 (ảnh chụp hoạt nghiệm hoặc quay video, ghi lại toàn bộ các vị trí cách đều thời gian trong một lần) và Phương án 2 (dùng máng nghiêng chấm vết, mỗi lần thả chỉ ghi một điểm) trong SGK đều thu được cùng một quỹ đạo; bài học này thực hiện theo Phương án tham khảo. Toàn bộ thí nghiệm không dùng đồng hồ đếm thời gian: khoảng thời gian được xác định dựa vào quy luật chuyển động theo phương thẳng đứng.
+     - Trọng tâm thi cử: Nhận biết dụng cụ là kỹ năng đầu tiên của thí nghiệm bắt buộc.
   2. [Khảo sát phương thẳng đứng trước] Câu hỏi: Gõ búa nhỏ xuống, viên bi A bị ném ngang đồng thời viên bi B rơi tự do — viên bi nào chạm đất trước? Nếu thay đổi độ cao bàn đỡ hoặc thay đổi lực gõ búa thì kết quả có thay đổi không?
      - Phương trình/Quy luật: y = ½gt² (Độ cao rơi 0.36 m · t 0.2711 s · Độ lệch thời gian = 0)
-     - Kết luận: Chuyển động thành phần theo phương thẳng đứng chính là chuyển động rơi tự do (vận tốc đầu bằng 0, gia tốc g) và hoàn toàn độc lập với vận tốc ban đầu theo phương ngang. SGK tr. 12 đặt câu hỏi “Từ thí nghiệm này, chuyển động thành phần theo phương thẳng đứng của chuyển động ném ngang là chuyển động gì?” để học sinh tự rút ra kết luận từ hiện tượng “hai viên bi chạm đất cùng lúc” ở Hình 5.3-2 tr. 11.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Bản chất chuyển động thành phần theo phương thẳng đứng của vật ném ngang (Yêu cầu cần đạt tr. 17 “Phân tích dữ liệu để phát hiện đặc điểm quy luật”).
+     - Kết luận: Chuyển động thành phần theo phương thẳng đứng chính là chuyển động rơi tự do (vận tốc đầu bằng 0, gia tốc g) và hoàn toàn độc lập với vận tốc ban đầu theo phương ngang. trong SGK đặt câu hỏi “Từ thí nghiệm này, chuyển động thành phần theo phương thẳng đứng của chuyển động ném ngang là chuyển động gì?” để học sinh tự rút ra kết luận từ hiện tượng “hai viên bi chạm đất cùng lúc” ở Hình 5.3-2 tr. 11.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Bản chất chuyển động thành phần theo phương thẳng đứng của vật ném ngang.
   3. [Đầu cuối phải nằm ngang] Câu hỏi: Tại sao SGK lại nhấn mạnh yêu cầu “đầu cuối của máng nghiêng M phải nằm ngang”? Nếu không nằm ngang thì điều kiện nào bị phá vỡ đầu tiên?
      - Phương trình/Quy luật: v₀y = 0 · a_lăn_ngược = g·sin3° (Đầu cuối nằm ngang · Hếch lên 3° → 0.5129 m/s²)
      - Kết luận: “Đầu cuối nằm ngang” không phải là yêu cầu hình thức: chỉ khi vận tốc ban đầu hoàn toàn nằm ngang thì chuyển động theo phương thẳng đứng mới là “rơi tự do với vận tốc đầu bằng 0”, và tỉ số “1 : 4 : 9 : 16” ở Bước 5 mới đúng. Đây là chuỗi logic thực nghiệm “Thao tác sai → Hệ quả quan sát được → Giải thích nguyên nhân”.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Yêu cầu căn chỉnh thiết bị thí nghiệm (A7.1; nguyên văn SGK tr. 12).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Yêu cầu căn chỉnh thiết bị thí nghiệm.
   4. [Chấm 4 điểm trên quỹ đạo] Câu hỏi: Hạ tấm chắn từ 20 mm xuống 320 mm, trên tờ giấy trắng sẽ lưu lại 4 vết chấm. Tại sao độ sâu của 4 nấc tấm chắn lại được chọn đúng bằng 4 con số này?
-     - Phương trình/Quy luật: x = v₀t　y = ½gt² (4 nấc (y,x): 20/95.83 · 80/191.66 · 180/287.49 · 320/383.33 mm)
+     - Phương trình/Quy luật: x = v₀t y = ½gt² (4 nấc (y,x): 20/95.83 · 80/191.66 · 180/287.49 · 320/383.33 mm)
      - Kết luận: Độ sâu tấm chắn được chọn theo tỉ lệ 1 : 4 : 9 : 16 là để ở bước tiếp theo xác định được các khoảng thời gian bằng nhau (tỉ số t = 1 : 2 : 3 : 4); việc chấm 4 điểm lên giấy trắng chính là nửa đầu của thao tác “dùng đường cong trơn nối các vết chấm lại” trong SGK.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Thao tác chấm vết quỹ đạo (theo SGK GDPT 2018); bảng số liệu thực hành.
   5. [Xác định khoảng thời gian] Câu hỏi: Trên bàn không có đồng hồ bấm giây. Làm sao biết được viên bi thép rơi tới 4 độ sâu đó mất bao nhiêu thời gian?
-     - Phương trình/Quy luật: t = √(2y/g)　T = 0.0639 s (t = 0.0639 / 0.1278 / 0.1917 / 0.2556 s)
+     - Phương trình/Quy luật: t = √(2y/g) T = 0.0639 s (t = 0.0639 / 0.1278 / 0.1917 / 0.2556 s)
      - Kết luận: “Khoảng thời gian bằng nhau” được suy ngược từ kết luận chuyển động thành phần theo phương thẳng đứng là rơi tự do (theo SGK GDPT 2018) — nhờ đó toàn bộ thí nghiệm không cần dùng đồng hồ bấm giây.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Dùng chuyển động theo phương thẳng đứng để định thời gian (theo SGK GDPT 2018).
   6. [Phương ngang chuyển động đều] Câu hỏi: Khi các khoảng thời gian đã bằng nhau, hãy xét độ dịch chuyển theo phương ngang — mỗi khoảng có bằng nhau không? Đổi cách vẽ đồ thị có giúp nhìn rõ hơn không?
      - Phương trình/Quy luật: Δx = v₀T (Không đổi) (Δx 95.83 mm · v₀ 1.50 m/s · Tỉ số x 1:2:3:4)
      - Kết luận: Trong những khoảng thời gian bằng nhau, độ dịch chuyển theo phương ngang bằng nhau ⟹ vận tốc thành phần theo phương ngang không đổi (theo SGK GDPT 2018). Sai lệch ở phương thẳng đứng không làm thay đổi tính chất thẳng đều của phương ngang: khi đầu máng bị hếch lên thì Δx vẫn là 95.33 / 95.58 / 95.64 mm, điều bị phá vỡ chỉ là “4 điểm đó không còn cách đều nhau về thời gian nữa”.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Dựa vào các độ dịch chuyển trong những khoảng thời gian bằng nhau để kết luận tính chất chuyển động thành phần (A7.3) và công thức v₀ = Δx/T.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Dựa vào các độ dịch chuyển trong những khoảng thời gian bằng nhau để kết luận tính chất chuyển động thành phần và công thức v₀ = Δx/T.
   7. [Đổi sang vạch thả khác] Câu hỏi: Chuyển vạch thả từ ② lên ③ với cùng 4 nấc tấm chắn đó — 4 điểm rơi sẽ dịch chuyển về phía nào? Đường cong nối chúng lại sẽ dốc hơn hay thoải hơn?
      - Phương trình/Quy luật: y = (g/2v₀²)x² (k = 4.9000 / 2.1778 / 1.2250 · v₀ 1.00 / 1.50 / 2.00)
-     - Kết luận: Thay đổi v₀ chỉ làm đường parabol dốc hơn hoặc thoải hơn, còn dạng phương trình vẫn là y = kx² (Công thức (3) tr. 16 SGK Bài 4); hệ số k không đổi chính là biểu hiện định lượng của “một đường parabol”, và v₀ = √(g/(2k)) là cách thứ hai để xác định vận tốc đầu, cho kết quả hoàn toàn thống nhất với cách tính từng điểm ở Bước 5.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Liên hệ giữa phương trình quỹ đạo ném ngang và vận tốc đầu v₀ (Công thức (3) tr. 16 SGK).
+     - Kết luận: Thay đổi v₀ chỉ làm đường parabol dốc hơn hoặc thoải hơn, còn dạng phương trình vẫn là y = kx²; hệ số k không đổi chính là biểu hiện định lượng của “một đường parabol”, và v₀ = √(g/(2k)) là cách thứ hai để xác định vận tốc đầu, cho kết quả hoàn toàn thống nhất với cách tính từng điểm ở Bước 5.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Liên hệ giữa phương trình quỹ đạo ném ngang và vận tốc đầu v₀.
   8. [Hai nguồn sai số làm kết quả lớn hơn] Câu hỏi: Nếu đầu cuối máng hơi bị hếch lên, hoặc quên không cộng bán kính viên bi thép, thì 4 điểm rơi có còn cho ra cùng một giá trị v₀ nữa không? Kết quả tính ra sẽ bị lớn hơn hay nhỏ hơn thực tế?
      - Phương trình/Quy luật: v₀_đo/v₀ − 1 = √(1 + r/y) − 1 · t(α) > t(0) (Bán kính bi +22.61 % → +1.61 % · Hếch lên +13.17 % → +3.04 %)
      - Kết luận: Cả hai lỗi đều gây sai số hệ thống làm kết quả lớn hơn thực tế, điểm khác biệt nằm ở “quy luật biến thiên theo nấc độ sâu”: bỏ qua bán kính bi làm các điểm càng gần miệng máng bị lệch càng mạnh (v₀_đo/v₀ − 1 = √(1 + r/y) − 1), còn đầu cuối hếch lên làm mọi nấc đều lệch và phá vỡ tỉ số x = 1:2:3:4. Cách khắc phục: cộng thêm bán kính r vào mỗi giá trị y (hoặc dời gốc tọa độ O lên tâm bi khi rời máng) và chỉnh lại đầu máng thật nằm ngang.
-     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số (Yêu cầu cần đạt tr. 17 “Thử đưa ra lời giải thích cho kết quả”; A7.5, A7.6).
+     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều hướng sai số.
   9. [Thực hành đánh giá] Câu hỏi: Cho máng nghiêng, giấy trắng, tấm chắn và giấy kẻ ô mà không dùng đồng hồ bấm giây — liệu bạn có thể đo được vận tốc ban đầu của viên bi thép sao cho cả 4 bộ dữ liệu tự chứng minh tính nhất quán của kết quả?
      - Phương trình/Quy luật: v₀ = x√(g/2y) · Độ trải rộng / Trung bình ≤ 3 % (Lý tưởng 1.50/1.50/1.50/1.50 → 0 %)
-     - Kết luận: Không có kết luận mới: kết nối 8 bước trước để vận dụng hoàn chỉnh — phân tích chuyển động (dùng phương thẳng đứng định thời gian, dùng phương ngang tính vận tốc) + kiểm tra khớp parabol. Đây chính là yêu cầu định lượng ở tr. 11 SGK “Hãy thiết kế bảng, điền dữ liệu đo được vào bảng…… để kiểm tra dự đoán của em”.
-     - Trọng tâm thi cử: Tổng hợp: Phân tích chuyển động → Định thời gian → Đo vận tốc → Kiểm chứng quỹ đạo parabol (Yêu cầu cần đạt tr. 17 “Viết được báo cáo thí nghiệm đơn giản”).
+     - Kết luận: Không có kết luận mới: kết nối 8 bước trước để vận dụng hoàn chỉnh — phân tích chuyển động (dùng phương thẳng đứng định thời gian, dùng phương ngang tính vận tốc) + kiểm tra khớp parabol. Đây chính là yêu cầu định lượng trong SGK “Hãy thiết kế bảng, điền dữ liệu đo được vào bảng…… để kiểm tra dự đoán của em”.
+     - Trọng tâm thi cử: Tổng hợp: Phân tích chuyển động → Định thời gian → Đo vận tốc → Kiểm chứng quỹ đạo parabol.
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
   - Q1: Sau khi dùng búa nhỏ gõ vào lá thép đàn hồi, viên bi A bị ném ngang đồng thời viên bi B rơi tự do. Thời gian rơi chạm đất của hai viên bi là
-    Đáp án: Chạm đất cùng lúc — Giải thích: Hình 5.3-2 tr. 11 SGK: Hai viên bi chạm đất cùng một lúc, chứng tỏ chuyển động thành phần theo phương thẳng đứng hoàn toàn giống hệt chuyển động rơi tự do và không phụ thuộc vào vận tốc ban đầu theo phương ngang.
+    Đáp án: Chạm đất cùng lúc — Giải thích: Theo SGK GDPT 2018: Hai viên bi chạm đất cùng một lúc, chứng tỏ chuyển động thành phần theo phương thẳng đứng hoàn toàn giống hệt chuyển động rơi tự do và không phụ thuộc vào vận tốc ban đầu theo phương ngang.
   - Q2: Thí nghiệm này không có đồng hồ đếm thời gian, vậy “khoảng thời gian bằng nhau” được xác định bằng cách nào?
     Đáp án: Suy ngược từ tỉ số độ sâu y theo phương thẳng đứng là 1:4:9:16 — Giải thích: Theo SGK GDPT 2018: “tìm cách xác định các ‘khoảng thời gian bằng nhau’”: vì chuyển động thành phần theo phương thẳng đứng là rơi tự do nên tỉ số y là 1:4:9:16 ⟹ tỉ số thời gian t là 1:2:3:4, từ đó xác định được T = √(2y₁/g).
   - Q3: Các độ dịch chuyển theo phương ngang đo được trong những khoảng thời gian bằng nhau đều bằng nhau, điều đó chứng tỏ chuyển động thành phần theo phương ngang là
@@ -2213,23 +2213,23 @@
   2. [Thấm chọn lọc] Câu hỏi: Glucose cũng là phân tử nhỏ, liệu nó có thể tự đi xuyên qua màng không?
      - Phương trình/Quy luật: Glucose ⇸ Lớp kép phospholipid (Cần protein vận chuyển · Không tốn năng lượng)
      - Kết luận: Màng sinh chất có tính thấm chọn lọc: các ion và các phân tử hữu cơ nhỏ như glucose, amino acid không thể tự do đi qua lớp kép phospholipid mà phải nhờ protein vận chuyển.
-     - Trọng tâm thi cử: Giải bài tập SGK: "Mọi chất có khối lượng phân tử nhỏ hoặc các ion đều có thể đi vào tế bào bằng khuếch tán đơn giản" — Sai (Bài tập 1(1) tr. 72).
+     - Trọng tâm thi cử: Giải bài tập SGK: "Mọi chất có khối lượng phân tử nhỏ hoặc các ion đều có thể đi vào tế bào bằng khuếch tán đơn giản" — Sai.
   3. [Khuếch tán tăng cường] Câu hỏi: Khi có nhiều protein hơn, glucose có đi vào nhanh hơn không? Nó có cần năng lượng không?
      - Phương trình/Quy luật: J ∝ (Nồng độ bên ngoài − Nồng độ nội bào) × Số lượng protein vận chuyển (Khuếch tán tăng cường · Không tốn năng lượng)
      - Kết luận: Khuếch tán tăng cường: nhờ protein vận chuyển, cùng chiều gradient nồng độ, không tiêu tốn năng lượng; tốc độ vận chuyển còn phụ thuộc vào số lượng protein vận chuyển trên màng.
-     - Trọng tâm thi cử: Glucose đi vào hồng cầu cần nhờ protein vận chuyển nhưng không tiêu tốn năng lượng, thuộc khuếch tán tăng cường (Bài tập 2 ý C tr. 72).
+     - Trọng tâm thi cử: Glucose đi vào hồng cầu cần nhờ protein vận chuyển nhưng không tiêu tốn năng lượng, thuộc khuếch tán tăng cường.
   4. [Protein mang và Protein kênh] Câu hỏi: Có phải chỉ có một loại protein vận chuyển? Hai loại protein này khác nhau như thế nào?
      - Phương trình/Quy luật: Protein vận chuyển = Protein mang (Carrier) + Protein kênh (Channel) (Protein mang biến đổi cấu hình · Protein kênh không biến đổi cấu hình)
      - Kết luận: Protein vận chuyển gồm protein mang và protein kênh: protein mang phải liên kết với chất vận chuyển và biến đổi cấu hình, còn protein kênh chỉ cho các phân tử/ion có kích thước và điện tích phù hợp đi qua mà không liên kết.
-     - Trọng tâm thi cử: Giải bài tập SGK: "Cơ chế vận chuyển của protein mang và protein kênh là giống nhau" — Sai (Bài tập 1(3) tr. 67).
+     - Trọng tâm thi cử: Giải bài tập SGK: "Cơ chế vận chuyển của protein mang và protein kênh là giống nhau" — Sai.
   5. [Vận chuyển chủ động] Câu hỏi: Nồng độ K⁺ trong tế bào cao hơn bên ngoài rất nhiều (SGK: trong hồng cầu cao gấp 30 lần huyết tương), tại sao tế bào vẫn tiếp tục hấp thụ K⁺ vào trong?
      - Phương trình/Quy luật: J = Bơm (tiêu tốn ATP) − Rò rỉ (cùng chiều nồng độ) (Ngược chiều gradient nồng độ · Cần protein mang · Tiêu tốn năng lượng)
      - Kết luận: Vận chuyển chủ động: ngược chiều gradient nồng độ, cần protein mang, tiêu tốn ATP. Khi ngắt năng lượng, bơm dừng lại, chỉ còn dòng K⁺ rò rỉ qua kênh theo chiều nồng độ — đó là khuếch tán tăng cường chứ không phải vận chuyển chủ động.
-     - Trọng tâm thi cử: Giải bài tập SGK: "Khi các chất vận chuyển qua màng ngược chiều gradient nồng độ thì vừa phải tiêu tốn năng lượng, vừa phải nhờ protein mang" — Đúng (Bài tập 1(4) tr. 72).
+     - Trọng tâm thi cử: Giải bài tập SGK: "Khi các chất vận chuyển qua màng ngược chiều gradient nồng độ thì vừa phải tiêu tốn năng lượng, vừa phải nhờ protein mang" — Đúng.
   6. [Nhập bào và Xuất bào] Câu hỏi: Protein có kích thước lớn như vậy, protein vận chuyển không mang qua được, làm sao chúng ra vào tế bào?
      - Phương trình/Quy luật: Đại phân tử ⇄ Bóng tải / Túi tiết (Màng lõm vào / Dung hợp màng) (Dựa vào tính linh động của màng · Cũng tiêu tốn năng lượng)
      - Kết luận: Nhập bào và xuất bào: đại phân tử liên kết với protein trên màng, dựa vào sự lõm vào của màng tạo bóng tải (nhập bào, hướng vào trong) hoặc sự dung hợp bóng tải với màng (xuất bào, hướng ra ngoài) để ra vào tế bào; quá trình này dựa vào tính linh động của màng và có tiêu tốn năng lượng.
-     - Trọng tâm thi cử: Các đại phân tử sinh học trong tế bào (như pepsinogen) được đưa ra khỏi tế bào theo phương thức xuất bào (Bài tập 3 tr. 72).
+     - Trọng tâm thi cử: Các đại phân tử sinh học trong tế bào (như pepsinogen) được đưa ra khỏi tế bào theo phương thức xuất bào.
   7. [Tổng hợp] Câu hỏi: Đặt cả bốn phương thức cạnh nhau, chúng khác nhau ở những điểm cốt lõi nào?
      - Phương trình/Quy luật: Bốn phương thức: Chiều nồng độ · Protein · Năng lượng (Cùng chiều nồng độ → Thụ động; Ngược chiều nồng độ → Chủ động)
      - Kết luận: Cùng chiều nồng độ + Không cần protein → Khuếch tán đơn giản; Cùng chiều nồng độ + Cần protein → Khuếch tán tăng cường; Ngược chiều nồng độ + Cần protein mang + Tốn năng lượng → Vận chuyển chủ động; Đại phân tử → Nhập bào và Xuất bào.
@@ -2259,9 +2259,9 @@
 - Phương trình / Nguyên lý tổng quát: Cu + 4HNO₃(đặc) = Cu(NO₃)₂ + 2NO₂↑ + 2H₂O · 3NO₂ + H₂O = 2HNO₃ + NO
 - Chuỗi nhân quả cốt lõi: Đặc và loãng khác nhau: HNO₃ đặc khử N về +4 (khí NO₂ màu nâu đỏ), HNO₃ loãng khử N xuống +2 (khí NO không màu) -> NO gặp không khí: 2NO + O₂ = 2NO₂: Khí không màu vừa tiếp xúc với không khí lập tức hóa nâu đỏ -> NO₂ gặp nước: 3NO₂ + H₂O = 2HNO₃ + NO: Màu nâu đỏ nhạt dần rồi mất, thể tích khí giảm đi 2/3 -> Hai nguyên tắc an toàn: Khí thải được hấp thụ bằng dung dịch NaOH; HNO₃ đặc đựng trong lọ thủy tinh tối màu (màu nâu), để nơi thoáng mát
 - Các trạm/cụm mô hình 3D:
-  - ① Nitric acid và kim loại: Hai ống nghiệm có nhánh đặt cạnh nhau: Ống trái «Cu + 2 mL HNO₃ đặc» làm đối chứng, ống phải thay đổi theo điều kiện thí nghiệm; mỗi ống gắn một dây kim loại (dây Cu xoắn / lá Fe) qua rãnh nút cao su, hai nhánh dẫn khí nối chung vào một ống dẫn (Hình 5-14 SGK)
+  - ① Nitric acid và kim loại: Hai ống nghiệm có nhánh đặt cạnh nhau: Ống trái «Cu + 2 mL HNO₃ đặc» làm đối chứng, ống phải thay đổi theo điều kiện thí nghiệm; mỗi ống gắn một dây kim loại (dây Cu xoắn / lá Fe) qua rãnh nút cao su, hai nhánh dẫn khí nối chung vào một ống dẫn 
   - ② Hấp thụ khí thải: Cốc đựng dung dịch NaOH, đầu ống dẫn khí nhúng ngập dưới mặt thoáng và sủi bọt; khi chưa nối vào cốc, miệng ống bốc lên dải khói màu nâu đỏ (NOx thoát ra)
-  - ③ Ống tiêm: Ống tiêm 50 mL (thân ống chia vạch 10–50 mL) + 5 mL nước hút sẵn + ống cao su + kẹp lò xo, bên trong chứa 20 mL khí NO (Hình 5-10 SGK)
+  - ③ Ống tiêm: Ống tiêm 50 mL (thân ống chia vạch 10–50 mL) + 5 mL nước hút sẵn + ống cao su + kẹp lò xo, bên trong chứa 20 mL khí NO 
   - ④ Chất khí · Mô hình phóng đại: Cửa sổ tròn phía sau bàn thí nghiệm: Phân tử NO (hai nguyên tử màu xám xanh), NO₂ (ba nguyên tử dạng góc màu nâu đỏ), HNO₃ (không màu) xuất hiện theo lượng thực tế, mỗi nguyên tử N gắn nhãn số oxi hóa +5 / +4 / +2
 - Mạch khám phá từng bước:
   1. [Toàn bộ hệ thống thiết bị] Câu hỏi: Trong hệ thống dụng cụ trên bàn, bộ phận nào đang «tạo ra» khí, bộ phận nào đang «hấp thụ/tiêu thụ» khí?
@@ -2333,31 +2333,31 @@
   1. [Tìm hiểu thiết bị thí nghiệm] Câu hỏi: Thiết bị này tên là gì? Tay quay, puli bậc, rãnh dài, tay ngang, ống lồng, thước đo có tác dụng gì? Tại sao giá trị đọc được là “số vạch” chứ không phải “Newton”?
      - Phương trình/Quy luật: Fn = mω²r (Trái 8 vạch · Phải 8 vạch · Tỉ số vạch 1.00)
      - Kết luận: Quả cầu chuyển động tròn đều, lực hướng tâm do áp lực của tấm chắn tay ngang tác dụng lên quả cầu cung cấp; phản lực của quả cầu lên tấm chắn truyền qua đòn bẩy làm ống lồng hạ xuống, để lộ thước đo. SGK trang 29 nêu rõ: “Dựa vào các vạch chia đều đỏ trắng xen kẽ lộ ra trên thước đo, có thể tính sơ bộ tỉ số lực hướng tâm tác dụng lên hai quả cầu” — thiết bị này cho biết tỉ số chứ không cho biết mỗi lực bằng bao nhiêu Newton.
-     - Trọng tâm thi cử: Nhận biết dụng cụ + “Lực hướng tâm được đặt tên theo tác dụng” (Yêu cầu cần đạt GDPT 2018 tr.16: “Biết sử dụng dụng cụ thí nghiệm được cung cấp để tiến hành thí nghiệm và thu thập dữ liệu”; SGK tr.27).
+     - Trọng tâm thi cử: Nhận biết dụng cụ + “Lực hướng tâm được đặt tên theo tác dụng”.
   2. [Kiểm tra thiết bị] Câu hỏi: Tại sao trước tiên phải chỉnh hai quả cầu về “cùng khối lượng, cùng bán kính, cùng tốc độ góc”? Khi đó hai thước đo phải lộ số vạch bằng nhau, nếu lộ khác nhau thì chứng tỏ điều gì?
      - Phương trình/Quy luật: Tỉ số m = Tỉ số r = Tỉ số ω = 1 (Tỉ số vạch phải bằng 1.00)
-     - Kết luận: Thí nghiệm ở SGK tr.29 cho hai quả cầu quay đồng thời và đọc số đồng thời, nên nếu bất kỳ đại lượng nào khác nhau thì kết quả đọc được không còn là ảnh hưởng của riêng một đại lượng đó; sau khi cả bốn mục khớp nhau và hai thước đo cao bằng nhau (tỉ số vạch 1.00), thiết bị mới coi là “đã hiệu chỉnh xong” — đây cũng là tiền đề để ba bước tiếp theo có giá trị.
+     - Kết luận: Thí nghiệm trong SGK cho hai quả cầu quay đồng thời và đọc số đồng thời, nên nếu bất kỳ đại lượng nào khác nhau thì kết quả đọc được không còn là ảnh hưởng của riêng một đại lượng đó; sau khi cả bốn mục khớp nhau và hai thước đo cao bằng nhau (tỉ số vạch 1.00), thiết bị mới coi là “đã hiệu chỉnh xong” — đây cũng là tiền đề để ba bước tiếp theo có giá trị.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Hiệu chỉnh đồng bộ biến số ban đầu và tiêu chí “hai thước đo cao bằng nhau”.
   3. [Quan hệ với khối lượng] Câu hỏi: Chỉ đổi quả cầu, giữ nguyên các yếu tố khác: số vạch lộ ra có tăng gấp đôi không? Tại sao không được đồng thời dịch quả cầu ra xa hơn?
      - Phương trình/Quy luật: F ∝ m (r, ω không đổi) (16 ÷ 8 = 2.00)
-     - Kết luận: Khi chỉ thay đổi khối lượng, tỉ số vạch bằng tỉ số khối lượng ⟹ F ∝ m. Câu hỏi ở SGK tr.29 “Làm thế nào để khi thay đổi một đại lượng vật lý thì vẫn giữ các đại lượng vật lý khác không đổi” được trả lời ngay tại đây: khi đã đổi khối lượng quả cầu thì bậc bán kính và bậc dây đai tuyệt đối không được chạm vào.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Phương pháp cố định biến số + xác định tỉ lệ thuận qua đường thẳng đi qua gốc tọa độ (câu hỏi SGK tr.29 + phương pháp Vật lý 10 tr.92).
+     - Kết luận: Khi chỉ thay đổi khối lượng, tỉ số vạch bằng tỉ số khối lượng ⟹ F ∝ m. Câu hỏi trong SGK “Làm thế nào để khi thay đổi một đại lượng vật lý thì vẫn giữ các đại lượng vật lý khác không đổi” được trả lời ngay tại đây: khi đã đổi khối lượng quả cầu thì bậc bán kính và bậc dây đai tuyệt đối không được chạm vào.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Phương pháp cố định biến số + xác định tỉ lệ thuận qua đường thẳng đi qua gốc tọa độ.
   4. [Quan hệ với bán kính] Câu hỏi: Chuyển quả cầu ở rãnh dài sang vị trí 6.0 cm, 8.0 cm thì số vạch tăng gấp mấy lần? Tỉ lệ thuận với bán kính hay tỉ lệ thuận với bình phương bán kính?
      - Phương trình/Quy luật: F ∝ r (m, ω không đổi) (12 ÷ 8 = 1.50; 16 ÷ 8 = 2.00)
      - Kết luận: Khi chỉ thay đổi bán kính, tỉ số vạch bằng tỉ số bán kính ⟹ F ∝ r (bậc nhất, không phải bình phương); bán kính tăng gấp đôi thì lực cũng tăng gấp đôi, đồng thời tốc độ dài cũng tăng gấp đôi (v = ωr) — vì vậy “F ∝ v²” và “F ∝ r” hoàn toàn không mâu thuẫn: khi v tăng thì r cũng tăng.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Số mũ của bán kính (bậc nhất), mối liên hệ v = ωr.
   5. [Quan hệ với tốc độ góc] Câu hỏi: Chuyển dây đai từ cùng tầng sang lệch một tầng, lệch hai tầng, quả cầu phải quay nhanh gấp 2 lần, 3 lần — số vạch có tăng gấp 2 lần, 3 lần không?
      - Phương trình/Quy luật: F ∝ ω² (m, r không đổi) (8 ÷ 32 = 0.25; 8 ÷ 72 = 0.11)
-     - Kết luận: Tốc độ góc quả cầu phải tăng 2 lần thì lực hướng tâm tăng 4 lần; tăng 3 lần thì lực tăng 9 lần ⟹ F ∝ ω² (không phải bậc nhất theo ω). Bài tập 3 SGK tr.26 nêu “truyền động ma sát không trượt → ω tỉ lệ nghịch với r” chính là nguồn gốc của tỉ số puli bậc 1:2:3 ở bước này.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Số mũ của ω (bình phương), truyền động ma sát không trượt ⇒ ω tỉ lệ nghịch với r (Bài tập 3 SGK tr.26).
+     - Kết luận: Tốc độ góc quả cầu phải tăng 2 lần thì lực hướng tâm tăng 4 lần; tăng 3 lần thì lực tăng 9 lần ⟹ F ∝ ω² (không phải bậc nhất theo ω). bài tập SGK nêu “truyền động ma sát không trượt → ω tỉ lệ nghịch với r” chính là nguồn gốc của tỉ số puli bậc 1:2:3 ở bước này.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Số mũ của ω (bình phương), truyền động ma sát không trượt ⇒ ω tỉ lệ nghịch với r.
   6. [Tổng hợp ba quan hệ thành một công thức] Câu hỏi: Gộp cả ba đại lượng lại thì viết thế nào? Khi cả ba đại lượng đều khác nhau, tỉ số vạch có thể vẫn bằng 1.00 được không?
      - Phương trình/Quy luật: Fn = mω²r = m v²/r (32 ÷ 32 = 1.00 · Hai nghiệm cùng giá trị)
      - Kết luận: Gộp cả ba đại lượng lại ta được Fn = mω²r; kết hợp với v = ωr suy ra ngay Fn = m v²/r (hai công thức đóng khung đỏ trên cùng trang 29 SGK). Hai chế độ khác nhau có thể ghép ra cùng một tỉ số vạch chỉ khi “số mũ của ba đại lượng lần lượt là 1, 1, 2” — đây là bằng chứng thuyết phục nhất của bài học này.
      - Trọng tâm thi cử: Tổng hợp: Suy diễn qua lại giữa hai công thức + tính toán bằng số liệu bài tập SGK (0.16 N là đáp số bài tập, không phải số đọc trên máy).
   7. [Sai số & Thao tác sai] Câu hỏi: Khi dây đai tuột ra, tại sao thước đo bên phải không lộ vạch nào? Sau khi bật chế độ “Dụng cụ thực tế”, tại sao tỉ số vạch lại thành 0.29 chứ không phải 0.25?
      - Phương trình/Quy luật: Tỉ số vạch_thực = Tỉ số vạch_danh định ÷ 0.94² (0.29 vs 0.25 (+14.3 %))
-     - Kết luận: Dây đai trượt làm quả cầu phải quay chậm hơn mức danh định → lực hướng tâm bên phải nhỏ hơn → tỉ số vạch lớn hơn (chiều sai lệch cố định ở A2.18, có thể tính kiểm chứng); vài phần trăm chênh lệch ở tỉ số vạch không phải do định luật sai, mà chính là điều SGK gọi là “ước tính sơ bộ”: thước đo chỉ đếm được số vạch nguyên (mỗi bên ±0.5 vạch, cận trên sai số tỉ số là 0.5/trái + 0.5/phải).
-     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều của sai số (Yêu cầu cần đạt GDPT 2018 tr.16: “Biết thí nghiệm luôn tồn tại sai số”).
+     - Kết luận: Dây đai trượt làm quả cầu phải quay chậm hơn mức danh định → lực hướng tâm bên phải nhỏ hơn → tỉ số vạch lớn hơn; vài phần trăm chênh lệch ở tỉ số vạch không phải do định luật sai, mà chính là điều SGK gọi là “ước tính sơ bộ”: thước đo chỉ đếm được số vạch nguyên (mỗi bên ±0.5 vạch, cận trên sai số tỉ số là 0.5/trái + 0.5/phải).
+     - Trọng tâm thi cử: Năng lực thực nghiệm: Nêu được nguồn gốc và chiều của sai số.
   8. [Kiểm tra · ω là hàm bình phương] Câu hỏi: Hai quả cầu có cùng khối lượng, cùng bán kính, chỉ thay đổi bậc dây đai — dùng thước đo ghi 3 bộ dữ liệu, liệu có thể xác định ngay tại chỗ tỉ số vạch tỉ lệ thuận với (tỉ số tốc độ góc)² không?
      - Phương trình/Quy luật: F ∝ ω²: Hệ số góc = 1 (Dây đai III: 8 ÷ 72 = 0.11)
      - Kết luận: Không có kết luận mới: vận dụng lại phương pháp ở Bước 5 — chỉ thay đổi một đại lượng + tỉ số vạch hai thước đo + đường thẳng đi qua gốc tọa độ. Kiểm tra bình phương của ω thay vì bậc nhất của r vì học sinh dễ sai nhất ở chỗ này (tưởng quay nhanh gấp 2 lần thì số vạch chỉ tăng gấp 2 lần).
@@ -2369,7 +2369,7 @@
     Đáp án: 72 vạch — Giải thích: Tỉ số tốc độ góc bằng 3 → Tỉ số vạch bằng 3² = 9: 8 × 9 = 72 vạch (không phải 71, cũng không phải 24).
   - Q3: Chỉ chuyển quả cầu ở rãnh dài từ 4.0 cm sang 8.0 cm (giữ nguyên khối lượng và tốc độ góc), số vạch sẽ gấp mấy lần ban đầu?
     Đáp án: 2 lần — Giải thích: Bán kính là hàm bậc nhất: tỉ số r bằng 2 → tỉ số vạch bằng 2 (16 vạch / 8 vạch). Nếu là quan hệ bình phương thì mới gấp 4 lần.
-  - Q4: Một vật nhỏ khối lượng 0.10 kg đặt trên đĩa tròn ở vị trí cách tâm 0.10 m quay cùng đĩa với tốc độ góc 4 rad/s, lực hướng tâm tác dụng lên vật có độ lớn bao nhiêu? (Bài tập 3 SGK tr.30)
+  - Q4: Một vật nhỏ khối lượng 0.10 kg đặt trên đĩa tròn ở vị trí cách tâm 0.10 m quay cùng đĩa với tốc độ góc 4 rad/s, lực hướng tâm tác dụng lên vật có độ lớn bao nhiêu?
     Đáp án: 0.16 N — Giải thích: Fn = mω²r = 0.10 × 4² × 0.10 = 0.16 N (đáp số tính theo số liệu bài tập SGK).
   - Q5: Sau khi dây đai bị tuột, thước đo bên phải không lộ ra vạch nào, nguyên nhân trực tiếp nhất là:
     Đáp án: Quả cầu phải không quay nên không có lực hướng tâm — Giải thích: Áp lực lên tấm chắn sinh ra do quả cầu chuyển động tròn; puli bậc bên phải được kéo quay nhờ dây đai, khi dây đai tuột thì không có lực hướng tâm, ống lồng không hạ xuống và thước đo không lộ vạch.
@@ -2398,22 +2398,22 @@
   2. [Tự cảm khi đóng mạch] Câu hỏi: Hai bóng đèn có cùng thông số, tại sao khi đóng công tắc thì đèn A₁ lại sáng chậm hơn đèn A₂? Tại sao SGK yêu cầu chỉnh R trước rồi mới chỉnh R₁ sau?
      - Phương trình/Quy luật: i_L(t) = I∞(1 − e^(−t/τ)) (τ 0.0972 s (mở rộng) · I∞ 0.2500 A · E_L(0⁺) −5.1429 V)
      - Kết luận: Suất điện động tự cảm cản trở (chứ không ngăn chặn hoàn toàn) sự tăng của dòng điện: dòng điện qua cuộn dây tăng dần từ 0 lên giá trị ổn định I∞ = 0.2500 A (τ = 0.0972 s, kiến thức mở rộng); nhánh A₂ không có cuộn dây nên đạt ngay tức khắc và ban đầu còn sáng vượt mức. Khi đã ổn định thì di/dt = 0, E_L = 0, cuộn dây chỉ còn điện trở một chiều 6.0 Ω — do đó “hai đèn sáng như nhau” tương đương với R = R_L, và “hai đèn sáng bình thường” tương đương với R₁ = 3.0 Ω.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giải thích tại sao ngay khi đóng mạch A₁ sáng chậm còn A₂ sáng vọt lên trước (A7.8); phân biệt “cản trở” với “ngăn chặn” (A7.1); trình tự điều chỉnh biến trở (A7.7).
-  3. [Tự cảm khi ngắt mạch] Câu hỏi: Công tắc đã ngắt rồi, dòng điện qua bóng đèn lấy từ đâu? Tại sao đèn lại còn sáng hơn trước? Trả lời bốn câu hỏi ở SGK tr.41 như thế nào?
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Giải thích tại sao ngay khi đóng mạch A₁ sáng chậm còn A₂ sáng vọt lên trước; phân biệt “cản trở” với “ngăn chặn”; trình tự điều chỉnh biến trở.
+  3. [Tự cảm khi ngắt mạch] Câu hỏi: Công tắc đã ngắt rồi, dòng điện qua bóng đèn lấy từ đâu? Tại sao đèn lại còn sáng hơn trước? Trả lời bốn câu hỏi trong SGK như thế nào?
      - Phương trình/Quy luật: i_đèn(0⁺) = −I_L0 = −U/R_L (U 3.0 V · Cuộn dây B 6.0 Ω · Bóng đèn 12.0 Ω)
      - Kết luận: Sau khi ngắt công tắc, bản thân cuộn dây trở thành một nguồn điện, dòng điện tiếp tục chạy theo mạch kín duy nhất còn thông là “Cuộn dây → Bóng đèn”: dòng điện qua bóng đèn nhảy từ +0.2500 A sang −0.5000 A (độ lớn bằng dòng điện qua cuộn dây lúc trước, chiều ngược lại); điện trở thuần của cuộn dây là 6.0 Ω nhỏ hơn điện trở bóng đèn 12.0 Ω, nên I_L0 > I_đèn0, làm bóng đèn sáng hơn lúc trước (theo SGK GDPT 2018); toàn bộ năng lượng của đợt sáng này đều lấy từ năng lượng từ trường tích lũy trong cuộn dây.
-     - Trọng tâm thi cử: Bẫy hay gặp trong đề thi: Khi đèn lóe sáng, chiều dòng điện qua bóng đèn chắc chắn bị đảo ngược (A7.3); bộ phận nào đóng vai trò nguồn điện sau khi ngắt công tắc (A7.5); câu hỏi thảo luận 1–4 SGK tr.41.
+     - Trọng tâm thi cử: Bẫy hay gặp trong đề thi: Khi đèn lóe sáng, chiều dòng điện qua bóng đèn chắc chắn bị đảo ngược; bộ phận nào đóng vai trò nguồn điện sau khi ngắt công tắc.
   4. [Đồ thị I-t] Câu hỏi: Hiện tượng lóe sáng chỉ kéo dài 0.0770 s, mắt thường nhìn thấy “lóe sáng” nhưng có nhìn thấy “chiều dòng điện” không? Làm sao ghi lại được quá trình này?
      - Phương trình/Quy luật: i_đèn(t) = −I_L0·e^(−t/τ) (Lấy mẫu 1000 Hz · Độ phân giải 0.01 A · Thang đo ±2.00 A)
-     - Kết luận: Đồng hồ đo điện kiểu kim chỉ không kịp phản ứng với quá trình cỡ 0.1 s, nhưng cảm biến kết nối máy tính thì ghi lại được (theo SGK GDPT 2018); sự đảo dấu chứng tỏ không phải đèn chỉ “tối dần đi” mà dòng điện thực sự đã đổi chiều — đây chính là điều mục Thực hành số 2 ở SGK tr.42 muốn thể hiện khi dùng cảm biến đo dòng điện.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đọc đồ thị I-t để xác định chiều dòng điện (Thực hành mục 2 SGK tr.42, A7.13).
+     - Kết luận: Đồng hồ đo điện kiểu kim chỉ không kịp phản ứng với quá trình cỡ 0.1 s, nhưng cảm biến kết nối máy tính thì ghi lại được (theo SGK GDPT 2018); sự đảo dấu chứng tỏ không phải đèn chỉ “tối dần đi” mà dòng điện thực sự đã đổi chiều — đây chính là điều mục Thực hành số 2 trong SGK muốn thể hiện khi dùng cảm biến đo dòng điện.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đọc đồ thị I-t để xác định chiều dòng điện.
   5. [Đổi cuộn dây] Câu hỏi: Khi thay bằng một cuộn dây khác, bóng đèn có còn lóe sáng không? Lóe mạnh đến mức nào? Tăng điện áp nguồn có “cứu” được một cuộn dây không làm đèn lóe sáng không?
      - Phương trình/Quy luật: ρ = R_đèn / R_L (R_L của cuộn A/B/C là 2.0 / 6.0 / 30.0 Ω · Bóng đèn 12.0 Ω)
      - Kết luận: Tiêu chí ρ = I_L0/I_đèn0 = R_đèn/R_L: chỉ khi ρ > 1 đèn mới lóe sáng. So sánh R_L = 2.0 / 6.0 / 30.0 Ω với điện trở bóng đèn 12.0 Ω là biết ngay kết quả. Tăng điện áp nguồn không làm thay đổi tiêu chí này (vì hai nhánh mắc song song vào cùng một nguồn nên tỉ số dòng điện không phụ thuộc vào U). Độ tự cảm L chỉ quyết định “sáng kéo dài bao lâu”: hằng số thời gian τ khi ngắt mạch lần lượt là 0.0143 / 0.1111 / 0.0119 s (mở rộng).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Sau khi ngắt mạch bóng đèn có nhất thiết lóe sáng không? (A7.2) Chỉ khi R_L < R_đèn đèn mới lóe sáng; L lớn chỉ quyết định thời gian duy trì dòng điện (A7.4).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Sau khi ngắt mạch bóng đèn có nhất thiết lóe sáng không? Chỉ khi R_L < R_đèn đèn mới lóe sáng; L lớn chỉ quyết định thời gian duy trì dòng điện.
   6. [Dụng cụ thực tế] Câu hỏi: Nhãn ghi 2.0 H, tại sao kết quả đo được lại không phải là 2.0 H? Đây là do “đo sai” hay do “linh kiện thực tế vốn lệch khỏi giá trị danh định”?
      - Phương trình/Quy luật: L′ = L(1 + δ_L) (SEED 20261026 · Cuộn dây B · Nhãn 2.0 H / 6.0 Ω)
-     - Kết luận: Cần phân biệt hai vấn đề khác nhau: ① Giá trị danh định khác giá trị thực tế (dung sai linh kiện +13.14 %, không phải đo sai) → do đó độ tự cảm phải được xác định qua phép đo (đó là lý do SGK tr.42 dùng cảm biến đo đồ thị I-t); ② Sai số của bản thân phép đo chia làm hai loại: độ phân giải 0.01 A gây dao động làm tròn “±0.01 A”, chỉ đánh giá được mức độ chính xác chứ không có chiều lệch cố định; còn việc lấy mẫu rời rạc thì có chiều lệch xác định — ở tần số 1000 Hz, điểm lấy mẫu đầu tiên sau khi ngắt nằm ở 0.001 s nên giá trị đỉnh đọc được luôn bị lệch nhỏ hơn thực tế (cuộn B lệch 0.9 %, cuộn A lệch 6.8 %, cuộn C lệch 8.1 %; τ càng nhỏ thì độ lệch càng lớn). Việc cùng một hạt giống số ngẫu nhiên (seed) luôn cho cùng một bộ số đọc chỉ là tính chất phần mềm, không phải căn cứ phân loại sai số.
+     - Kết luận: Cần phân biệt hai vấn đề khác nhau: ① Giá trị danh định khác giá trị thực tế (dung sai linh kiện +13.14 %, không phải đo sai) → do đó độ tự cảm phải được xác định qua phép đo; ② Sai số của bản thân phép đo chia làm hai loại: độ phân giải 0.01 A gây dao động làm tròn “±0.01 A”, chỉ đánh giá được mức độ chính xác chứ không có chiều lệch cố định; còn việc lấy mẫu rời rạc thì có chiều lệch xác định — ở tần số 1000 Hz, điểm lấy mẫu đầu tiên sau khi ngắt nằm ở 0.001 s nên giá trị đỉnh đọc được luôn bị lệch nhỏ hơn thực tế (cuộn B lệch 0.9 %, cuộn A lệch 6.8 %, cuộn C lệch 8.1 %; τ càng nhỏ thì độ lệch càng lớn). Việc cùng một hạt giống số ngẫu nhiên (seed) luôn cho cùng một bộ số đọc chỉ là tính chất phần mềm, không phải căn cứ phân loại sai số.
      - Trọng tâm thi cử: Năng lực thực nghiệm: Phân biệt được hai loại sai lệch (sai số làm tròn ± không định hướng / sai số lấy mẫu lệch nhỏ hơn có định hướng), và giải thích tại sao ngưỡng biên “đúng bằng 1.0 lần” không thể phán đoán bằng mắt.
   7. [Dòng điện xoáy (Foucault)] Câu hỏi: Trong lõi sắt không có dây dẫn, tại sao lại có dòng điện chạy qua và tỏa nhiệt? Tại sao xẻ khối sắt đặc thành các lá thép mỏng ghép lại thì lại tiết kiệm điện?
      - Phương trình/Quy luật: P_xoáy ∝ (bề dày)² (mở rộng) (n = 1 / 5 / 10 (thiết lập mô phỏng) · Hao phí tương đối 1/n²)
@@ -2421,8 +2421,8 @@
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Tại sao mặt bếp từ không nóng mà đáy nồi lại nóng; tại sao lõi thép kỹ thuật điện làm bằng các lá thép silic ghép cách điện lại giảm được dòng điện Foucault.
   8. [Hãm điện từ] Câu hỏi: Ống nhôm không hút nam châm, tại sao viên nam châm rơi trong ống nhôm lại chậm như vậy? Nếu xẻ dọc thân ống một khe hở thì nam châm sẽ rơi nhanh hơn hay chậm hơn?
      - Phương trình/Quy luật: m·dv/dt = mg − b·v (mở rộng) (m 0.030 kg · g 9.8 m/s² · h 1.0 m)
-     - Kết luận: Nam châm chuyển động trong lòng vật dẫn → từ thông biến thiên → dòng điện Foucault → lực từ tác dụng lên nam châm, và lực từ cảm ứng này luôn cản trở chuyển động tương đối (theo SGK GDPT 2018). Khe xẻ dọc cắt đứt các vòng dòng điện xoáy chạy quanh chu vi ống, làm lực hãm điện từ giảm mạnh nên nam châm rơi nhanh hơn hẳn (Bài tập 3 SGK tr.39, Hình 2.3-15 a/b). SGK chỉ mô tả định tính là “rơi 1 m không quá 0.5 s” và “mất một lúc lâu”, còn các giá trị 3.3639 / 0.9557 s trong bài là thông số thiết lập của mô phỏng (mở rộng).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: So sánh Hình 2.3-15 a/b (Bài tập 3 tr.39); giải thích tại sao khi nối tắt hai chốt của điện kế vi ampe thì kim đồng hồ lại tắt dần dao động nhanh hơn (Thực hành tr.38).
+     - Kết luận: Nam châm chuyển động trong lòng vật dẫn → từ thông biến thiên → dòng điện Foucault → lực từ tác dụng lên nam châm, và lực từ cảm ứng này luôn cản trở chuyển động tương đối (theo SGK GDPT 2018). Khe xẻ dọc cắt đứt các vòng dòng điện xoáy chạy quanh chu vi ống, làm lực hãm điện từ giảm mạnh nên nam châm rơi nhanh hơn hẳn. SGK chỉ mô tả định tính là “rơi 1 m không quá 0.5 s” và “mất một lúc lâu”, còn các giá trị 3.3639 / 0.9557 s trong bài là thông số thiết lập của mô phỏng (mở rộng).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: So sánh hai sơ đồ mạch; giải thích tại sao khi nối tắt hai chốt của điện kế vi ampe thì kim đồng hồ lại tắt dần dao động nhanh hơn.
   9. [Thực hành đánh giá] Câu hỏi: Cho phép chọn một trong ba cuộn dây để lắp vào mạch sao cho đạt yêu cầu “khi ngắt công tắc bóng đèn lóe sáng lên một cái nhưng không bị cháy đứt dây tóc” — bạn chọn cuộn nào? Tại sao tăng điện áp nguồn lại không giải quyết được?
      - Phương trình/Quy luật: 1 < ρ ≤ 2 (tức là 1 < R_đèn/R_L ≤ 2) (Bóng đèn 12.0 Ω · R_L của cuộn A/B/C là 2.0 / 6.0 / 30.0 Ω)
      - Kết luận: Không có kết luận mới: kết hợp vận dụng tám bước trước đó — tiêu chí ρ = R_đèn/R_L, tỉ số độ sáng = ρ², không phụ thuộc vào U, vượt quá 4.0 lần sẽ báo động. Trong ba cuộn dây chỉ có cuộn B có ρ nằm trong khoảng 1 < ρ ≤ 2.
@@ -2454,16 +2454,16 @@
   - ④ Bảng ghi và đồ thị U-I: Bảng ghi số liệu, các điểm thực nghiệm và đường thẳng khớp (tung độ gốc E, độ dốc r)
 - Mạch khám phá từng bước:
   1. [Tìm hiểu sơ đồ mạch] Câu hỏi: Trên bàn có những dụng cụ gì? Sơ đồ mạch điện Hình 12.3-1 trong SGK được mắc như thế nào?
-     - Phương trình/Quy luật: E = U + Ir (Công thức 1 SGK, tr.89) (0–3 V · 0–0.6 A · 0–20 Ω · Công tắc ngắt · R 8.0 Ω)
-     - Kết luận: Vôn kế mắc vào hai đầu “Pin + Công tắc”, ampe kế mắc nối tiếp trong nhánh “Biến trở” (Hình 12.3-1 SGK); biến trở mắc theo kiểu hạn dòng, chỉ nối một chốt đầu dưới và một chốt thanh trượt. Khi công tắc ngắt, vôn kế chỉ 0.00 V chứ không chỉ E — giá trị E phải được ngoại suy từ tung độ gốc của đường thẳng U-I.
-     - Trọng tâm thi cử: Nhận biết dụng cụ và mắc mạch là năng lực đầu tiên của Bài thực hành bắt buộc số 12 (Yêu cầu cần đạt GDPT 2018 tr.42); biết đọc thang đo của đồng hồ kim hai thang đo.
+     - Phương trình/Quy luật: E = U + Ir (0–3 V · 0–0.6 A · 0–20 Ω · Công tắc ngắt · R 8.0 Ω)
+     - Kết luận: Vôn kế mắc vào hai đầu “Pin + Công tắc”, ampe kế mắc nối tiếp trong nhánh “Biến trở” ; biến trở mắc theo kiểu hạn dòng, chỉ nối một chốt đầu dưới và một chốt thanh trượt. Khi công tắc ngắt, vôn kế chỉ 0.00 V chứ không chỉ E — giá trị E phải được ngoại suy từ tung độ gốc của đường thẳng U-I.
+     - Trọng tâm thi cử: Nhận biết dụng cụ và mắc mạch là năng lực đầu tiên của Bài thực hành bắt buộc số 12; biết đọc thang đo của đồng hồ kim hai thang đo.
   2. [Đưa về cực đại trước] Câu hỏi: Tại sao SGK yêu cầu mắc mạch xong phải chỉnh biến trở về giá trị lớn trước, rồi cuối cùng mới đóng công tắc?
      - Phương trình/Quy luật: I = E /(R + r) (R 20.0 Ω · U 1.46 V · I 0.07 A · Ngắn mạch 2.50 A)
-     - Kết luận: Trình tự thao tác chuẩn trong SGK: mắc mạch theo sơ đồ, chỉnh biến trở về giá trị lớn, sau đó đóng công tắc rồi giảm dần điện trở (tr.91); lý do là “tuyệt đối không được nối trực tiếp hai cực của nguồn điện bằng dây dẫn” (tr.87) — khi R giảm về 0 thì dòng ngắn mạch lên tới 2.50 A, làm kịch kim đồng hồ và nóng nguồn pin.
+     - Kết luận: Trình tự thao tác chuẩn trong SGK: mắc mạch theo sơ đồ, chỉnh biến trở về giá trị lớn, sau đó đóng công tắc rồi giảm dần điện trở; lý do là “tuyệt đối không được nối trực tiếp hai cực của nguồn điện bằng dây dẫn” — khi R giảm về 0 thì dòng ngắn mạch lên tới 2.50 A, làm kịch kim đồng hồ và nóng nguồn pin.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Tại sao phải đưa biến trở về giá trị lớn nhất trước khi đóng mạch; tại sao dòng điện ngắn mạch lại nguy hiểm.
   3. [Đo nhiều bộ số liệu] Câu hỏi: Tại sao không thể chỉ đọc một bộ số liệu? Khi dịch con chạy giảm dần từ lớn về nhỏ thì số chỉ hai đồng hồ thay đổi như thế nào?
      - Phương trình/Quy luật: U = E − Ir (5 bộ: R 20.0 → 2.0 Ω · I 0.07–0.58 A · U 1.15–1.46 V)
-     - Kết luận: Nếu chỉ đo hai bộ số liệu thì “nhìn có vẻ đơn giản nhưng sai số có thể khá lớn; chỉ khi đo nhiều lần và xử lý dữ liệu mới giảm được sai số” (tr.89) — vì vậy cần dùng biến trở con chạy để thay đổi điện trở mạch ngoài và đo nhiều bộ số liệu. Hiệu điện thế mạch ngoài U giảm khi I tăng là do độ giảm thế Ir trên điện trở trong tăng lên (tr.86).
+     - Kết luận: Nếu chỉ đo hai bộ số liệu thì “nhìn có vẻ đơn giản nhưng sai số có thể khá lớn; chỉ khi đo nhiều lần và xử lý dữ liệu mới giảm được sai số” — vì vậy cần dùng biến trở con chạy để thay đổi điện trở mạch ngoài và đo nhiều bộ số liệu. Hiệu điện thế mạch ngoài U giảm khi I tăng là do độ giảm thế Ir trên điện trở trong tăng lên.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Tại sao đo nhiều bộ số liệu giúp giảm sai số; cách lập bảng ghi số liệu đúng quy chuẩn.
   4. [Vẽ đồ thị U-I] Câu hỏi: Chấm 5 điểm thực nghiệm này lên đồ thị U-I, ta thu được kết quả gì?
      - Phương trình/Quy luật: U = −Ir + E (E_đo 1.50 V · r_đo 0.61 Ω · Hệ số góc −0.61 · I_nm 2.46 A)
@@ -2471,27 +2471,27 @@
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Xác định E và r từ đồ thị U-I (Ví dụ 3 chương trình GDPT 2018: “Hiểu được vai trò của phương pháp đồ thị”).
   5. [Gốc của trục tung] Câu hỏi: Nếu trục tung bắt đầu từ 0 thì đồ thị trông như thế nào? Tung độ gốc có thay đổi không?
      - Phương trình/Quy luật: E_đo = a (không phụ thuộc phạm vi hiển thị trục) (Điểm đầu 0 / 1.15 V · Tung độ gốc đều 1.50 V · Hệ số góc đều −0.61)
-     - Kết luận: Pin khô có điện trở trong nhỏ nên độ biến thiên U nhỏ, vì vậy khi vẽ đồ thị “tọa độ điểm đầu của trục điện áp thường không bắt đầu từ 0” mà nên chọn theo phạm vi dữ liệu (tr.91); việc đổi phạm vi hiển thị trên trục không làm thay đổi phương trình đường thẳng, nên câu hỏi ở tr.90 “Giao điểm có thay đổi hay không” có câu trả lời là — Không thay đổi (tr.90 chỉ đặt câu hỏi, suy ra trực tiếp từ phương trình), tung độ gốc tại I = 0 vẫn là E.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Mối quan hệ giữa điểm bắt đầu trục tung và tung độ gốc E (câu hỏi SGK tr.90).
+     - Kết luận: Pin khô có điện trở trong nhỏ nên độ biến thiên U nhỏ, vì vậy khi vẽ đồ thị “tọa độ điểm đầu của trục điện áp thường không bắt đầu từ 0” mà nên chọn theo phạm vi dữ liệu; việc đổi phạm vi hiển thị trên trục không làm thay đổi phương trình đường thẳng, nên câu hỏi trong SGK “Giao điểm có thay đổi hay không” có câu trả lời là — Không thay đổi, tung độ gốc tại I = 0 vẫn là E.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Mối quan hệ giữa điểm bắt đầu trục tung và tung độ gốc E.
   6. [Chỉ đo hai bộ số liệu] Câu hỏi: Nếu chỉ ghi hai bộ số liệu đầu tiên rồi lập hệ hai phương trình để giải thì kết quả sẽ lệch bao nhiêu?
      - Phương trình/Quy luật: r = (U₁ − U₂)/(I₂ − I₁) (Hai điểm 1.51 V / 0.67 Ω · Năm điểm 1.50 V / 0.61 Ω · Lệch 0.06 Ω)
      - Kết luận: Giải hệ phương trình từ hai điểm là đúng về mặt toán học, nhưng vì số đọc chỉ lấy đến 0.01 và hai bộ đầu có I chỉ chênh nhau 0.03 A, ΔU chỉ bằng 2 đơn vị chữ số cuối, nên khi chia cho ΔI sai số làm tròn bị phóng đại lên — đó là lý do SGK yêu cầu phải đo nhiều lần; khoảng cách giữa hai điểm lấy càng xa nhau thì phương pháp hai điểm càng tiệm cận phương pháp năm điểm.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Tại sao bắt buộc phải đo nhiều lần (nguyên văn tr.89); ảnh hưởng của độ rộng khoảng lấy điểm đến kết quả.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Tại sao bắt buộc phải đo nhiều lần; ảnh hưởng của độ rộng khoảng lấy điểm đến kết quả.
   7. [Đổi cách mắc mạch] Câu hỏi: Nếu mắc nối tiếp ampe kế vào nhánh nguồn điện và vôn kế chỉ mắc vào hai đầu biến trở, thì giá trị r đo được có còn như cũ không?
      - Phương trình/Quy luật: E_đo = E, r_đo = r + R_A (Cách mắc đối chiếu) (r_đo 0.69 Ω (giá trị thực 0.60) · E_đo 1.50 V · I_nm 2.17 A)
      - Kết luận: Khi vừa đổi cách mắc, E đo được vẫn là 1.50 V, nhưng r tăng từ 0.59 / 0.61 lên 0.69 Ω (+0.09 Ω, +15 %, lệch 9 đơn vị chữ số cuối) — vôn kế đã đo thiếu mất phần sụt áp I·R_A trên ampe kế, toàn bộ phần điện áp thiếu hụt này bị cộng dồn vào hệ số góc làm cho r bị lệch lớn hơn thực tế, và lượng lệch tăng đúng bằng điện trở nội R_A của ampe kế (phần nâng cao L3 suy từ biểu thức giải tích).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chiều sai số hệ thống của hai cách mắc mạch; Bài tập 3 SGK tr.92 (điện trở nội ampe kế 100 Ω cộng lẫn vào r) chính là ví dụ điển hình.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chiều sai số hệ thống của hai cách mắc mạch; bài tập SGK (điện trở nội ampe kế 100 Ω cộng lẫn vào r) chính là ví dụ điển hình.
   8. [Phân tích sai số] Câu hỏi: Cách mắc trong SGK sẽ làm cho E, r đo được bị lệch lớn hơn hay nhỏ hơn thực tế? Tại sao nhìn vào bảng số đọc lại không nhận ra độ lệch đó?
      - Phương trình/Quy luật: k = R_V/(R_V + r); E_đo = E·k, r_đo = r·k (k 0.99980 · E_đo 1.49970 V · r_đo 0.59988 Ω · −0.0200 %)
      - Kết luận: Sai số hệ thống của cách mắc SGK làm cho cả E_đo và r_đo đều nhỏ hơn giá trị thực theo cùng một tỉ lệ; nhưng độ lệch này nhỏ hơn đơn vị làm tròn 0.01 tới 33 / 83 lần, nên trên số đọc 2 chữ số thập phân hoàn toàn không thể nhìn thấy được — đó là lý do nội dung chính SGK không đi sâu vào sai số này mà tập trung vào việc đo nhiều lần, vẽ đồ thị và chọn gốc trục tung. Chiều của sai số hệ thống ở cách mắc này chỉ có thể suy ra bằng công thức giải tích chứ không thể nhìn từ số đọc làm tròn (suy diễn giải tích nâng cao L3).
-     - Trọng tâm thi cử: Yêu cầu cần đạt chương trình GDPT 2018: “Phân tích được sai số trong thí nghiệm và đề xuất được phương án giảm sai số” (tr.22).
+     - Trọng tâm thi cử: Yêu cầu cần đạt chương trình GDPT 2018: “Phân tích được sai số trong thí nghiệm và đề xuất được phương án giảm sai số”.
   9. [Thực hành đánh giá] Câu hỏi: Với sơ đồ đang mắc trên bàn, kết quả đo E và r có đạt yêu cầu nghiệm thu không?
      - Phương trình/Quy luật: E_đo = a, r_đo = −b; |E_đo − 1.50| ≤ 0.01 V, |r_đo − 0.60| ≤ 0.02 Ω (Tiêu chí: n ≥ 5 · ±0.01 V · ±0.02 Ω)
      - Kết luận: Tiêu chí chấm điểm chỉ xét kết quả cuối cùng: đủ 5 bộ số liệu trong cùng một chế độ, E_đo lệch khỏi 1.50 V ≤ 0.01 V, r_đo lệch khỏi 0.60 Ω ≤ 0.02 Ω. Bản thân nút chọn cách mắc không nằm trực tiếp trong điều kiện chấm, nhưng nó quyết định kết quả đo — cách mắc đối chiếu cộng lẫn điện trở ampe kế vào r (0.69 Ω), còn cách mắc SGK chỉ lệch 0.0200 % nên không ảnh hưởng đến số đọc.
      - Trọng tâm thi cử: Tổng hợp: Tự đánh giá ảnh hưởng của cách mắc mạch đến kết quả đo; xác định đồng thời E và r từ tung độ gốc và hệ số góc của đồ thị U-I.
 - Câu hỏi kiểm tra & Giải thích chuẩn GDPT 2018:
   - Q1: Với sơ đồ mắc mạch Hình 12.3-1, khi công tắc ngắt thì số chỉ của vôn kế là:
-    Đáp án: 0.00 V — Giải thích: Vôn kế mắc bao trùm cả “Pin + Công tắc”, nên sau khi ngắt công tắc phía vôn kế bị ngắt khỏi cực nguồn, cả hai đồng hồ đều chỉ 0.00. Mệnh đề ở tr.87 “khi mạch hở hiệu điện thế hai cực bằng E” là nói trường hợp vôn kế mắc trực tiếp vào hai cực của nguồn điện.
+    Đáp án: 0.00 V — Giải thích: Vôn kế mắc bao trùm cả “Pin + Công tắc”, nên sau khi ngắt công tắc phía vôn kế bị ngắt khỏi cực nguồn, cả hai đồng hồ đều chỉ 0.00. Mệnh đề trong SGK “khi mạch hở hiệu điện thế hai cực bằng E” là nói trường hợp vôn kế mắc trực tiếp vào hai cực của nguồn điện.
   - Q2: Giao điểm của đường thẳng U-I với trục U biểu thị:
     Đáp án: Hiệu điện thế mạch ngoài khi mạch hở, bằng suất điện động E — Giải thích: Theo SGK GDPT 2018: Giá trị tại giao điểm của đường thẳng với trục tọa độ U biểu thị hiệu điện thế mạch ngoài khi mạch hở, khi đó U bằng suất điện động E của nguồn điện.
   - Q3: Khi dùng đường thẳng U-I để tìm điện trở trong của nguồn điện, công thức đúng là:
@@ -2657,11 +2657,11 @@
      - Kết luận: Độ chênh nhiệt là nguồn gốc quyết định độ mạnh yếu của hoàn lưu: độ chênh nhiệt càng lớn thì chênh lệch khí áp ở cùng độ cao càng lớn, gradien khí áp càng lớn, gió càng mạnh.
      - Trọng tâm thi cử: Hay thi: Gradien khí áp là «độ chênh lệch khí áp trên một đơn vị khoảng cách»; đường đẳng áp càng dày thì gradien khí áp càng lớn, gió càng mạnh.
   6. [Gió biển] Câu hỏi: Ban ngày ở vùng bờ biển Việt Nam (như bãi biển Đà Nẵng, Nha Trang, Vịnh Bắc Bộ), gió thổi theo hướng nào?
-     - Phương trình/Quy luật: Ban ngày: Lục địa nóng lên nhanh → Gió biển (Biển → Đất liền) (SGK Hoạt động câu 1 ý 1 (tr.38))
+     - Phương trình/Quy luật: Ban ngày: Lục địa nóng lên nhanh → Gió biển (Biển → Đất liền) (Chuẩn yêu cầu cần đạt · Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Hoàn lưu nhiệt lực khí quyển»)
      - Kết luận: Ban ngày lục địa nóng lên nhanh, đại dương nóng lên chậm, không khí trên lục địa bốc lên, không khí trên đại dương hạ xuống, gió sát mặt đất thổi từ đại dương vào lục địa.
      - Trọng tâm thi cử: Hay thi: Ban ngày thổi gió biển (biển→đất liền), ban đêm thổi gió đất (đất liền→biển); khi hỏi «gió từ đâu thổi tới» phải trả lời theo nhánh sát mặt đất.
   7. [Gió đất] Câu hỏi: Đến ban đêm, tại sao gió lại đổi chiều?
-     - Phương trình/Quy luật: Ban đêm: Lục địa nguội nhanh → Gió đất (Đất liền → Biển) (SGK Hoạt động câu 2 (tr.38))
+     - Phương trình/Quy luật: Ban đêm: Lục địa nguội nhanh → Gió đất (Đất liền → Biển) (Chuẩn yêu cầu cần đạt · Địa lý 10 — SGK GDPT 2018 · Chương Khí quyển — Bài «Hoàn lưu nhiệt lực khí quyển»)
      - Kết luận: Ban đêm lục địa nguội nhanh, đại dương nguội chậm, không khí trên đại dương bốc lên, trên lục địa hạ xuống, gió sát mặt đất thổi từ lục địa ra đại dương — gió biển – đất liền đảo chiều giữa ngày và đêm.
      - Trọng tâm thi cử: Dễ nhầm: Tưởng rằng gió biển – đất liền ngày đêm chỉ khác nhau về độ mạnh yếu. SGK nhấn mạnh hướng gió ngược nhau.
   8. [Đảo nhiệt] Câu hỏi: Đặt nhà máy gây ô nhiễm ở ven đô, tại sao chất ô nhiễm lại bay ngược vào nội đô?
@@ -2845,7 +2845,7 @@
      - Kết luận: Khi đun nóng, H₂SO₄ đặc oxi hóa đồng: Một phân tử H₂SO₄ bị khử thành SO₂ (S giảm từ +6 xuống +4), một phân tử đóng vai trò acid tạo muối CuSO₄. Khí SO₂ thoát ra kết hợp với phẩm hồng tạo thành hợp chất không màu kém bền làm dung dịch mất màu — chứng minh tính oxi hóa mạnh của H₂SO₄ đặc.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Phương trình và tỉ lệ mol H₂SO₄ đóng vai trò oxi hóa / tạo muối khi phản ứng với Cu; hiện tượng SO₂ làm mất màu dung dịch phẩm hồng.
   4. [Đặc hay loãng] Câu hỏi: Cùng là «sulfuric acid + đồng + đun nóng», nếu thay bằng acid loãng thì có phản ứng không?
-     - Phương trình/Quy luật: H₂SO₄(loãng) + Cu: Không phản ứng　|　2H₂SO₄(đặc) + Cu =Δ= CuSO₄ + SO₂↑ + 2H₂O (H₂SO₄ đặc + Đun nóng: Hai điều kiện không thể thiếu)
+     - Phương trình/Quy luật: H₂SO₄(loãng) + Cu: Không phản ứng | 2H₂SO₄(đặc) + Cu =Δ= CuSO₄ + SO₂↑ + 2H₂O (H₂SO₄ đặc + Đun nóng: Hai điều kiện không thể thiếu)
      - Kết luận: Đồng không phản ứng với H₂SO₄ loãng dù có đun nóng; chỉ có H₂SO₄ đặc khi đun nóng mới oxi hóa được đồng và giải phóng SO₂.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Điều kiện để Cu tác dụng với H₂SO₄ (đặc, nóng); tại sao Cu không tan trong H₂SO₄ loãng; tại sao điều chế H₂ trong phòng thí nghiệm dùng H₂SO₄ loãng mà không dùng H₂SO₄ đặc.
   5. [Đun nóng phục hồi màu] Câu hỏi: Dung dịch phẩm hồng đã mất màu hoàn toàn, tại sao khi đun nóng lại xuất hiện màu đỏ trở lại?
@@ -2853,7 +2853,7 @@
      - Kết luận: Tác dụng tẩy màu của sulfur dioxide là do SO₂ kết hợp với một số chất có màu tạo thành hợp chất không màu kém bền; khi đun nóng các hợp chất này dễ phân hủy nên chất màu phục hồi lại màu sắc ban đầu.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Phân biệt cơ chế tẩy màu của SO₂ (hóa hợp thuận nghịch, tạm thời) với HClO/nước chlorine (oxi hóa bất thuận nghịch, vĩnh viễn).
   6. [Ba ống nghiệm kiểm tra & Nút bông] Câu hỏi: Cùng một dòng khí SO₂, tại sao ống quỳ tím chỉ hóa đỏ mà không mất màu, còn ống KMnO₄ lại mất màu tím? Nút bông ở miệng ống dùng để làm gì?
-     - Phương trình/Quy luật: SO₂ + H₂O ⇌ H₂SO₃　|　5SO₂ + 2KMnO₄ + 2H₂O = K₂SO₄ + 2MnSO₄ + 2H₂SO₄ (S: +4 → +6) (Cùng dòng khí SO₂ · Ba ống đặt song song · Miệng ống nút bông tẩm NaOH)
+     - Phương trình/Quy luật: SO₂ + H₂O ⇌ H₂SO₃ | 5SO₂ + 2KMnO₄ + 2H₂O = K₂SO₄ + 2MnSO₄ + 2H₂SO₄ (S: +4 → +6) (Cùng dòng khí SO₂ · Ba ống đặt song song · Miệng ống nút bông tẩm NaOH)
      - Kết luận: Quỳ tím hóa đỏ vì SO₂ tác dụng với nước tạo thành sulfurous acid (H₂SO₃) có tính acid, nhưng SO₂ không tẩy màu được quỳ tím. KMnO₄ là chất oxi hóa mạnh, oxi hóa S(+4) lên S(+6) làm dung dịch mất màu tím — chứng minh tính khử của SO₂.
      - Trọng tâm thi cử: Câu hỏi thường gặp: Ba hiện tượng khác nhau khi sục SO₂ vào phẩm hồng, quỳ tím và dung dịch KMnO₄; tính khử, độc tính và cách xử lý khí thải SO₂.
   7. [Về mức số oxi hóa 0] Câu hỏi: Một chất chứa S(−2), một chất chứa S(+4), tại sao khi trộn lẫn với nhau lại cùng chuyển về S(0)?
@@ -3226,32 +3226,32 @@
 - Mạch khám phá từng bước:
   1. [Hiện hình bằng mạt sắt] Câu hỏi: Không nhìn thấy cũng không chạm vào được, dựa vào đâu để khẳng định xung quanh dây dẫn có dòng điện tồn tại từ trường?
      - Phương trình/Quy luật: Dây dẫn có dòng điện → Từ trường (Oersted 1820 · Mạt sắt + Tấm kính)
-     - Kết luận: Dữ kiện A2.1 + A2.2 + A2.3 SGK: Xung quanh dây dẫn có dòng điện luôn tồn tại một từ trường (Oersted 1820), từ trường tuy không nhìn thấy nhưng tồn tại khách quan; các hạt mạt sắt trong từ trường bị từ hóa thành những kim nam châm nhỏ, sau khi gõ nhẹ tấm kính sẽ sắp xếp thành chuỗi dọc theo đường sức từ — nhờ đó có thể hiển thị hình dạng từ trường.
+     - Kết luận: Theo SGK GDPT 2018: Xung quanh dây dẫn có dòng điện luôn tồn tại một từ trường (Oersted 1820), từ trường tuy không nhìn thấy nhưng tồn tại khách quan; các hạt mạt sắt trong từ trường bị từ hóa thành những kim nam châm nhỏ, sau khi gõ nhẹ tấm kính sẽ sắp xếp thành chuỗi dọc theo đường sức từ — nhờ đó có thể hiển thị hình dạng từ trường.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Thí nghiệm Oersted chứng tỏ xung quanh dòng điện tồn tại từ trường (tác dụng từ của dòng điện).
   2. [Các đường tròn đồng tâm] Câu hỏi: Đường sức từ xung quanh dây dẫn thẳng có hình dạng gì?
      - Phương trình/Quy luật: B̂ ⊥ r̂, B̂ tiếp tuyến dọc theo đường tròn quanh trục (Quy tắc nắm tay phải (Quy tắc đinh ốc 1 / Ampe))
-     - Kết luận: Nguyên văn A2.7 SGK: Đường sức từ của dòng điện thẳng là những đường tròn đồng tâm nằm trong mặt phẳng vuông góc với dây dẫn và có tâm nằm trên dây dẫn; các đường sức từ là những đường cong kín, hình vẽ trên mặt giấy chỉ là một mặt phẳng cắt ngang trong họ các đường tròn không gian đó.
-     - Trọng tâm thi cử: Bẫy hay gặp trong đề thi: Nhầm tưởng đường sức từ xung quanh dây dẫn thẳng hướng dọc theo bán kính ra ngoài (A7.2).
+     - Kết luận: Theo SGK GDPT 2018: Đường sức từ của dòng điện thẳng là những đường tròn đồng tâm nằm trong mặt phẳng vuông góc với dây dẫn và có tâm nằm trên dây dẫn; các đường sức từ là những đường cong kín, hình vẽ trên mặt giấy chỉ là một mặt phẳng cắt ngang trong họ các đường tròn không gian đó.
+     - Trọng tâm thi cử: Bẫy hay gặp trong đề thi: Nhầm tưởng đường sức từ xung quanh dây dẫn thẳng hướng dọc theo bán kính ra ngoài.
   3. [Quy tắc nắm tay phải xác định chiều] Câu hỏi: Khi đảo ngược chiều dòng điện thì chiều của các đường sức từ thay đổi như thế nào?
      - Phương trình/Quy luật: B̂ = Î × r̂ (Nắm tay phải quanh dây dẫn · Hình 13.1-7)
-     - Kết luận: Nguyên văn A2.7 SGK: Dùng bàn tay phải nắm lấy dây dẫn sao cho ngón cái choãi ra chỉ theo chiều dòng điện, khi đó bốn ngón tay khum lại chỉ chiều của đường sức từ; khi đổi chiều dòng điện thì chiều từ trường tại mọi điểm đều đổi sang chiều ngược lại. Biểu diễn bằng tích vô hướng: B̂·(Î×r̂) đổi từ +1 sang −1.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Quy tắc nắm tay phải luôn dùng bàn tay phải; vai trò của ngón cái và bốn ngón tay hoán đổi cho nhau giữa hai trường hợp “nắm dây dẫn thẳng” và “nắm vòng dây/ống dây” (A7.3, A7.12).
+     - Kết luận: Theo SGK GDPT 2018: Dùng bàn tay phải nắm lấy dây dẫn sao cho ngón cái choãi ra chỉ theo chiều dòng điện, khi đó bốn ngón tay khum lại chỉ chiều của đường sức từ; khi đổi chiều dòng điện thì chiều từ trường tại mọi điểm đều đổi sang chiều ngược lại. Biểu diễn bằng tích vô hướng: B̂·(Î×r̂) đổi từ +1 sang −1.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Quy tắc nắm tay phải luôn dùng bàn tay phải; vai trò của ngón cái và bốn ngón tay hoán đổi cho nhau giữa hai trường hợp “nắm dây dẫn thẳng” và “nắm vòng dây/ống dây”.
   4. [Độ mau thưa biểu thị độ mạnh yếu] Câu hỏi: Tại sao càng ra xa dây dẫn thì từ trường càng yếu?
      - Phương trình/Quy luật: B ∝ I / r (Mở rộng · Tính theo định luật Biot–Savart)
-     - Kết luận: Dữ kiện A2.4 SGK: Nơi nào từ trường mạnh thì đường sức từ vẽ mau (dày), nơi nào từ trường yếu thì đường sức từ vẽ thưa; cảm ứng từ B của dây dẫn thẳng dài tỉ lệ nghịch với khoảng cách đến dây dẫn (kiến thức chuẩn), r tăng gấp đôi → B giảm một nửa. Giá trị này cũng có thể đối chiếu với bảng độ lớn cảm ứng từ ở SGK tr.110: 20 μT chỉ bằng 0.40 lần giá trị trung bình của từ trường Trái Đất (50 μT).
+     - Kết luận: Theo SGK GDPT 2018: Nơi nào từ trường mạnh thì đường sức từ vẽ mau (dày), nơi nào từ trường yếu thì đường sức từ vẽ thưa; cảm ứng từ B của dây dẫn thẳng dài tỉ lệ nghịch với khoảng cách đến dây dẫn (kiến thức chuẩn), r tăng gấp đôi → B giảm một nửa. Giá trị này cũng có thể đối chiếu với bảng độ lớn cảm ứng từ trong SGK: 20 μT chỉ bằng 0.40 lần giá trị trung bình của từ trường Trái Đất (50 μT).
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Khoảng cách tăng gấp 2 lần thì cảm ứng từ B của dòng điện thẳng dài giảm còn 1/2.
   5. [Xuyên qua vòng dây rồi khép kín] Câu hỏi: Đường sức từ của dòng điện tròn đi xuyên vào từ phía nào và vòng trở lại từ phía nào?
      - Phương trình/Quy luật: B̂ · n̂ = +1 (tại tâm vòng dây) (Nắm tay phải theo vòng dây · Hình 13.1-10)
-     - Kết luận: Dữ kiện A2.8 + Hình 13.1-9 SGK: Đường sức từ của dòng điện tròn là những đường cong kín, đi xuyên ra từ một mặt của vòng dây và vòng trở lại đi vào mặt kia; áp dụng dạng thứ hai của quy tắc nắm tay phải — khum bốn ngón tay bàn tay phải theo chiều dòng điện chạy trong vòng dây, ngón cái choãi ra chỉ chiều của đường sức từ đi qua tâm trên trục vòng dây (trong bài học này hướng về đầu +x).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chiều từ trường tại tâm dòng điện tròn được xác định bằng quy tắc nắm tay phải (A7.6).
+     - Kết luận: Theo SGK GDPT 2018: Đường sức từ của dòng điện tròn là những đường cong kín, đi xuyên ra từ một mặt của vòng dây và vòng trở lại đi vào mặt kia; áp dụng dạng thứ hai của quy tắc nắm tay phải — khum bốn ngón tay bàn tay phải theo chiều dòng điện chạy trong vòng dây, ngón cái choãi ra chỉ chiều của đường sức từ đi qua tâm trên trục vòng dây (trong bài học này hướng về đầu +x).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chiều từ trường tại tâm dòng điện tròn được xác định bằng quy tắc nắm tay phải.
   6. [Chồng chất nhiều vòng dây] Câu hỏi: Khi tăng từ 1 vòng dây lên 10 vòng dây thì từ trường ở tâm tăng gấp mấy lần?
      - Phương trình/Quy luật: B₀ = μ0 N I /(2R) (Mở rộng · 1 → 10 vòng)
-     - Kết luận: Nguyên văn A4.5 SGK: “Ống dây có dòng điện chạy qua có thể coi như gồm nhiều vòng dòng điện tròn mắc nối tiếp với nhau”: đóng góp của mỗi vòng dây tại tâm đều cùng chiều và cộng hưởng với nhau, nên cảm ứng từ B tỉ lệ thuận với số vòng dây N (B₀ = μ0NI/(2R), công thức chuẩn), trong khi hình dạng đường sức từ không đổi.
+     - Kết luận: Theo SGK GDPT 2018: “Ống dây có dòng điện chạy qua có thể coi như gồm nhiều vòng dòng điện tròn mắc nối tiếp với nhau”: đóng góp của mỗi vòng dây tại tâm đều cùng chiều và cộng hưởng với nhau, nên cảm ứng từ B tỉ lệ thuận với số vòng dây N (B₀ = μ0NI/(2R), công thức chuẩn), trong khi hình dạng đường sức từ không đổi.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Giữ nguyên cường độ dòng điện, khi số vòng dây tăng gấp đôi thì cảm ứng từ B tại tâm tăng gấp đôi.
   7. [Suy giảm dọc theo trục] Câu hỏi: Khi di chuyển ra xa dọc theo trục vòng dây, từ trường yếu dần như thế nào?
      - Phương trình/Quy luật: B(z) = B₀/(1+(z/R)²)^{3/2} (Mở rộng · R = 5.0 cm)
      - Kết luận: Trên toàn bộ trục vòng dây đều có B̂ = n̂ (cùng một hướng, chỉ giảm dần độ lớn): B(z) = B₀/(1+(z/R)²)^{3/2}. Tại z = R hệ số là 0.354 (25.13 → 8.89 μT), tại z = 2R chỉ còn 0.089 lần.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Dựa vào chiều dòng điện để xác định chiều từ trường tại các điểm nằm trên trục vòng dây (A7.14②).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Dựa vào chiều dòng điện để xác định chiều từ trường tại các điểm nằm trên trục vòng dây.
   8. [Từ trường đều bên trong ống dây] Câu hỏi: Tại sao bên trong ống dây lại gần như là từ trường đều? Ở ngoài miệng ống từ trường giảm xuống còn bao nhiêu?
      - Phương trình/Quy luật: B_trong = μ0 n I (n = N/L) (Mở rộng · 400 vòng · L = 12.0 cm)
      - Kết luận: Dữ kiện A2.8 + A2.15 + Bài tập 6 SGK: Từ trường bên ngoài ống dây có dòng điện rất giống từ trường của một nam châm thẳng, còn bên trong ống dây gần như là từ trường đều (các đường sức từ là những đường thẳng song song cách đều nhau); bên trong ống dây đường sức từ đi từ cực Nam (S) sang cực Bắc (N), vì vậy đầu mà ngón cái chỉ tới (đầu +x) chính là cực Bắc (N). Tại đúng miệng ống chỉ có nửa phía trong đóng góp nên cảm ứng từ xấp xỉ bằng một nửa ở tâm (0.51 lần).
@@ -3286,33 +3286,33 @@
 - Chuỗi nhân quả cốt lõi: Quan sát: Dưới kính hiển vi, các hạt than nhỏ lơ lửng chuyển động hỗn loạn không ngừng quanh vị trí của chúng -> Ghi vị trí: Cứ mỗi 30 s đánh dấu một điểm, đường gấp khúc nối các điểm đó không phải là quỹ đạo thực của hạt -> Va chạm: Các phân tử chất lỏng va chạm từ mọi phía và không cân bằng nhau, làm hạt nhỏ liên tục thay đổi trạng thái chuyển động -> Độ mạnh yếu: Hạt càng nhỏ, nhiệt độ càng cao thì chuyển động càng rõ rệt (số va chạm ít hơn, độ nhớt η giảm) -> Khuếch tán: Cùng một nguyên nhân sâu xa (chuyển động nhiệt của phân tử) làm nồng độ chất lan truyền từ nơi cao sang nơi thấp
 - Các trạm/cụm mô hình 3D:
   - ① Bàn quan sát kính hiển vi: Kính hiển vi độ phóng đại lớn + tiêu bản + mực tàu pha loãng, hình ảnh hiển thị lên màn hình (theo SGK GDPT 2018)
-  - ② Đường gấp khúc trên giấy kẻ ô vuông: Cứ mỗi 30 s ghi lại một vị trí rồi dùng đoạn thẳng nối tuần tự thành đường gấp khúc (Hình 1.1-4 SGK)
+  - ② Đường gấp khúc trên giấy kẻ ô vuông: Cứ mỗi 30 s ghi lại một vị trí rồi dùng đoạn thẳng nối tuần tự thành đường gấp khúc 
   - ③ Hạt lơ lửng và các phân tử nước (phóng đại): Hạt than bị các phân tử va đập từ bốn phía đẩy đi hỗn loạn (vẽ phóng đại minh họa)
   - ④ Bình khuếch tán: Nhỏ một giọt mực vào cốc nước lặng, nồng độ mực lan dần từ nơi cao sang nơi thấp
 - Mạch khám phá từng bước:
   1. [Nhìn thấy hạt chuyển động] Câu hỏi: Dưới kính hiển vi, tại sao các hạt than nhỏ lại tự chuyển động?
-     - Phương trình/Quy luật: Chuyển động Brown = Chuyển động hỗn loạn của hạt lơ lửng (SGK tr.3–4 · Năm 1827 Brown dùng kính hiển vi)
+     - Phương trình/Quy luật: Chuyển động Brown = Chuyển động hỗn loạn của hạt lơ lửng (Theo SGK GDPT 2018: · Năm 1827 Brown dùng kính hiển vi)
      - Kết luận: Chuyển động hỗn loạn, không ngừng của các hạt rất nhỏ lơ lửng trong chất lỏng (hoặc chất khí) được gọi là chuyển động Brown; năm 1827 nhà bác học Brown lần đầu tiên quan sát hiện tượng này dưới kính hiển vi. Các hạt này rất nhỏ, mắt thường không nhìn thấy được mà phải dùng kính hiển vi có độ phóng đại lớn, hình ảnh có thể truyền qua màn hình hiển thị (theo SGK GDPT 2018).
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chuyển động Brown là chuyển động của các hạt nhỏ lơ lửng, không phải là chuyển động của bản thân các phân tử (Bài tập 3 ý (1)(2) SGK tr.6).
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Chuyển động Brown là chuyển động của các hạt nhỏ lơ lửng, không phải là chuyển động của bản thân các phân tử (Bài tập 3 ý (1)(2) trong SGK).
   2. [Mỗi 30 giây chấm một điểm] Câu hỏi: Nếu cứ mỗi 30 giây ghi lại vị trí của hạt một lần rồi nối lại thì hình vẽ thu được sẽ như thế nào?
      - Phương trình/Quy luật: Δt = 30 s (theo SGK GDPT 2018) (Cứ mỗi 30 s ghi lại vị trí một lần)
-     - Kết luận: Cứ cách đều 30 s lại đánh dấu vị trí của hạt một lần, sau đó dùng các đoạn thẳng nối lại theo đúng thứ tự thời gian thì thu được đường gấp khúc như Hình 1.1-4 SGK. Đường gấp khúc này không phải là quỹ đạo chuyển động thực của hạt — SGK tr.4 khẳng định rõ: “Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt cũng vô cùng hỗn loạn”.
-     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đường gấp khúc chỉ là đường nối các vị trí cách nhau mỗi 30 s chứ không phải quỹ đạo thực của hạt (Bài tập 4 SGK tr.6).
+     - Kết luận: Cứ cách đều 30 s lại đánh dấu vị trí của hạt một lần, sau đó dùng các đoạn thẳng nối lại theo đúng thứ tự thời gian thì thu được đường gấp khúc như hình vẽ trong SGK. Đường gấp khúc này không phải là quỹ đạo chuyển động thực của hạt — trong SGK khẳng định rõ: “Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt cũng vô cùng hỗn loạn”.
+     - Trọng tâm thi cử: Trọng tâm kiểm tra: Đường gấp khúc chỉ là đường nối các vị trí cách nhau mỗi 30 s chứ không phải quỹ đạo thực của hạt.
   3. [Thời gian càng dài đi càng xa] Câu hỏi: Khi kéo dài thời gian ghi từ 2 phút lên 10 phút, bình phương độ dịch chuyển trung bình thay đổi như thế nào?
      - Phương trình/Quy luật: ⟨r²⟩ = 4Dt (Hình chiếu hai chiều · Mở rộng)
      - Kết luận: Bình phương độ dịch chuyển trung bình tỉ lệ thuận với thời gian (⟨r²⟩ = 4Dt, hình chiếu hai chiều; thuộc phần mở rộng nâng cao L3), do đó độ dịch chuyển căn quân phương chỉ tăng tỉ lệ với √t, còn tổng chiều dài đường gấp khúc tăng tỉ lệ với t — không được nhầm lẫn ba đại lượng này.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: ⟨r²⟩ tỉ lệ thuận với t, độ dịch chuyển căn quân phương tỉ lệ thuận với √t; tổng chiều dài đoạn nối tỉ lệ thuận với t.
   4. [Hạt càng nhỏ chuyển động càng rõ rệt] Câu hỏi: Nếu xét một hạt than nhỏ hơn thì chuyển động Brown sẽ rõ rệt hơn hay khó thấy hơn?
      - Phương trình/Quy luật: δ = 1/√N (Va chạm càng ít, thăng giáng càng lớn)
-     - Kết luận: SGK tr.4 giải thích: Hạt càng nhỏ thì tại một thời điểm số phân tử chất lỏng va chạm vào nó càng ít, sự mất cân bằng giữa các lực va chạm từ các phía biểu hiện càng rõ rệt; hơn nữa hạt càng nhỏ thì khối lượng càng nhỏ, trạng thái chuyển động càng dễ bị thay đổi — vì vậy chuyển động Brown càng rõ rệt. Phản ví dụ trong SGK: khi hạt quá lớn, các va chạm từ mọi hướng gần như triệt tiêu cân bằng nhau nên rất khó quan sát thấy chuyển động Brown.
+     - Kết luận: Theo SGK GDPT 2018: giải thích: Hạt càng nhỏ thì tại một thời điểm số phân tử chất lỏng va chạm vào nó càng ít, sự mất cân bằng giữa các lực va chạm từ các phía biểu hiện càng rõ rệt; hơn nữa hạt càng nhỏ thì khối lượng càng nhỏ, trạng thái chuyển động càng dễ bị thay đổi — vì vậy chuyển động Brown càng rõ rệt. Phản ví dụ trong SGK: khi hạt quá lớn, các va chạm từ mọi hướng gần như triệt tiêu cân bằng nhau nên rất khó quan sát thấy chuyển động Brown.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Hạt lơ lửng càng nhỏ thì chuyển động Brown càng rõ rệt; khi hạt lớn thì các va chạm từ mọi phía gần như cân bằng nên rất khó quan sát (theo SGK GDPT 2018).
   5. [Nhiệt độ càng cao chuyển động càng mãnh liệt] Câu hỏi: Khi đun nóng huyền phù từ 20 ℃ lên 100 ℃, chuyển động của hạt thay đổi mạnh đến mức nào?
      - Phương trình/Quy luật: D = kT/(6πη(T)r) (mở rộng) (η giảm khi nhiệt độ tăng)
-     - Kết luận: Thí nghiệm SGK tr.3 “Thay đổi nhiệt độ của huyền phù và lặp lại thao tác trên” đưa ra kết luận: nhiệt độ càng cao thì chuyển động của hạt than nhỏ càng rõ rệt; tr.4 khẳng định “Nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử”. Về mặt định lượng (mở rộng), độ nhớt của chất lỏng giảm mạnh khi nhiệt độ tăng làm lực cản nhớt giảm xuống, nên D ∝ T/η(T) tăng tới 4.5807 lần, mạnh hơn nhiều so với tỉ số T đơn thuần (1.2730 lần). Lưu ý mô phỏng: bài học cho phép kéo nhiệt độ đến 100 ℃ để làm nổi bật xu hướng vật lý — trong thực tế nước ở 100 ℃ sẽ sôi và xuất hiện dòng đối lưu mạnh làm không thể quan sát ổn định chuyển động Brown dưới kính hiển vi.
+     - Kết luận: Thí nghiệm trong SGK “Thay đổi nhiệt độ của huyền phù và lặp lại thao tác trên” đưa ra kết luận: nhiệt độ càng cao thì chuyển động của hạt than nhỏ càng rõ rệt; tr.4 khẳng định “Nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử”. Về mặt định lượng (mở rộng), độ nhớt của chất lỏng giảm mạnh khi nhiệt độ tăng làm lực cản nhớt giảm xuống, nên D ∝ T/η(T) tăng tới 4.5807 lần, mạnh hơn nhiều so với tỉ số T đơn thuần (1.2730 lần). Lưu ý mô phỏng: bài học cho phép kéo nhiệt độ đến 100 ℃ để làm nổi bật xu hướng vật lý — trong thực tế nước ở 100 ℃ sẽ sôi và xuất hiện dòng đối lưu mạnh làm không thể quan sát ổn định chuyển động Brown dưới kính hiển vi.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Nhiệt độ càng cao chuyển động Brown càng mãnh liệt; nhiệt độ là thước đo mức độ mãnh liệt của chuyển động nhiệt phân tử (theo SGK GDPT 2018).
   6. [Do va chạm phân tử gây ra] Câu hỏi: Tại sao hạt lơ lửng lúc thì lao về phía này, lúc lại giật sang phía kia?
      - Phương trình/Quy luật: F = Σ fᵢ (Hình 1.1-5 Va chạm từ mọi hướng)
-     - Kết luận: SGK tr.4 (Hình 1.1-5): Các phân tử chất lỏng chuyển động hỗn loạn không ngừng và liên tục va chạm vào hạt lơ lửng từ mọi phía; tại một khoảnh khắc hạt chịu tác dụng va chạm mạnh hơn từ một hướng nào đó, đến khoảnh khắc tiếp theo lại chịu tác dụng va chạm mạnh hơn từ một hướng khác, chính sự mất cân bằng tức thời đó đã gây ra chuyển động hỗn loạn của hạt. Chuyển động hỗn loạn của hạt lơ lửng không phải là chuyển động của phân tử, nhưng nó phản ánh gián tiếp tính hỗn loạn trong chuyển động của các phân tử chất lỏng.
+     - Kết luận: Theo SGK GDPT 2018: : Các phân tử chất lỏng chuyển động hỗn loạn không ngừng và liên tục va chạm vào hạt lơ lửng từ mọi phía; tại một khoảnh khắc hạt chịu tác dụng va chạm mạnh hơn từ một hướng nào đó, đến khoảnh khắc tiếp theo lại chịu tác dụng va chạm mạnh hơn từ một hướng khác, chính sự mất cân bằng tức thời đó đã gây ra chuyển động hỗn loạn của hạt. Chuyển động hỗn loạn của hạt lơ lửng không phải là chuyển động của phân tử, nhưng nó phản ánh gián tiếp tính hỗn loạn trong chuyển động của các phân tử chất lỏng.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Nguyên nhân của chuyển động Brown là do sự va chạm không cân bằng của các phân tử chất lỏng lên hạt lơ lửng; nó là bằng chứng gián tiếp của chuyển động hỗn loạn phân tử.
   7. [Một lần đo khác với quy luật thống kê] Câu hỏi: Nếu chuyển sang theo dõi một hạt khác có cùng kích thước, bình phương độ dịch chuyển trung bình theo lý thuyết thống kê có thay đổi không?
      - Phương trình/Quy luật: ⟨r²⟩ = 4Dt (Trung bình thống kê) (Đơn lẻ ≠ Thống kê)
@@ -3320,7 +3320,7 @@
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Độ dịch chuyển trong một lần quan sát đơn lẻ mang tính ngẫu nhiên; chỉ khi xét tập hợp lớn các hạt mới bộc lộ quy luật thống kê.
   8. [Khuếch tán: Sự lan rộng nồng độ] Câu hỏi: Nhỏ một giọt mực vào cốc nước tĩnh lặng, tại sao sau một lúc vùng nước xung quanh đều hóa đen?
      - Phương trình/Quy luật: c(x) ∝ exp(−x²/2w²) (Bảo toàn diện tích: Đỉnh hạ thấp thì bề rộng trải ra)
-     - Kết luận: SGK tr.3 nêu rõ: Hiện tượng khuếch tán không phải do tác dụng từ bên ngoài (như đối lưu, trọng lực...) gây ra, cũng không phải là kết quả của phản ứng hóa học, mà sinh ra do chuyển động hỗn loạn không ngừng của bản thân các phân tử vật chất, và là một trong những bằng chứng trực tiếp chứng tỏ các phân tử chuyển động hỗn loạn không ngừng; tr.4 nêu “Nhiệt độ càng cao thì sự khuếch tán diễn ra càng nhanh” — cùng một thời điểm quan sát, bề rộng khuếch tán ở 100 ℃ lớn gần gấp đôi so với ở 20 ℃, trong khi chiều cao đỉnh giảm còn một nửa: diện tích dưới đường cong được bảo toàn (bảo toàn lượng chất), nên đỉnh thấp xuống thì bề rộng trải ra.
+     - Kết luận: Theo SGK GDPT 2018: nêu rõ: Hiện tượng khuếch tán không phải do tác dụng từ bên ngoài (như đối lưu, trọng lực...) gây ra, cũng không phải là kết quả của phản ứng hóa học, mà sinh ra do chuyển động hỗn loạn không ngừng của bản thân các phân tử vật chất, và là một trong những bằng chứng trực tiếp chứng tỏ các phân tử chuyển động hỗn loạn không ngừng; tr.4 nêu “Nhiệt độ càng cao thì sự khuếch tán diễn ra càng nhanh” — cùng một thời điểm quan sát, bề rộng khuếch tán ở 100 ℃ lớn gần gấp đôi so với ở 20 ℃, trong khi chiều cao đỉnh giảm còn một nửa: diện tích dưới đường cong được bảo toàn (bảo toàn lượng chất), nên đỉnh thấp xuống thì bề rộng trải ra.
      - Trọng tâm thi cử: Trọng tâm kiểm tra: Hiện tượng khuếch tán là bằng chứng trực tiếp của chuyển động hỗn loạn phân tử; nhiệt độ càng cao khuếch tán càng nhanh; không cần ngoại lực tác dụng.
   9. [Kiểm tra · Làm chuyển động rõ rệt hơn] Câu hỏi: Muốn bình phương độ dịch chuyển trung bình của hạt than đạt từ 2000 μm² trở lên thì phải điều chỉnh như thế nào?
      - Phương trình/Quy luật: ⟨r²⟩ = 4Dt ≥ 2000 μm² (Hình chiếu hai chiều · Trung bình thống kê)
@@ -3330,9 +3330,9 @@
   - Q1: Trong “chuyển động Brown” quan sát được dưới kính hiển vi, đối tượng đang được nhìn thấy chuyển động là:
     Đáp án: Các hạt than nhỏ lơ lửng — Giải thích: Theo SGK GDPT 2018: Chuyển động hỗn loạn của các hạt lơ lửng không phải là chuyển động của bản thân các phân tử, nhưng nó phản ánh gián tiếp tính hỗn loạn trong chuyển động của các phân tử chất lỏng.
   - Q2: Rắc một ít hạt tiêu xay vào nồi nước, khi đun nóng thấy các hạt tiêu cuộn lộn nhào trong nước. Hiện tượng này có chứng tỏ nhiệt độ càng cao thì chuyển động Brown càng mãnh liệt không?
-    Đáp án: Không chứng tỏ được, vì đó là dòng nước chuyển động (đối lưu) do đun nóng — Giải thích: Sự cuộn lộn nhào của hạt tiêu là do dòng đối lưu (tác dụng vĩ mô bên ngoài) chứ không phải do va chạm phân tử không cân bằng; chuyển động Brown chỉ quan sát được đối với các hạt vi mô lơ lửng dưới kính hiển vi độ phóng đại lớn (Bài tập 3 ý (3) SGK tr.6).
+    Đáp án: Không chứng tỏ được, vì đó là dòng nước chuyển động (đối lưu) do đun nóng — Giải thích: Sự cuộn lộn nhào của hạt tiêu là do dòng đối lưu (tác dụng vĩ mô bên ngoài) chứ không phải do va chạm phân tử không cân bằng; chuyển động Brown chỉ quan sát được đối với các hạt vi mô lơ lửng dưới kính hiển vi độ phóng đại lớn (Bài tập 3 ý (3) trong SGK).
   - Q3: Dưới kính hiển vi có thể quan sát thấy chuyển động Brown của các hạt bụi nhỏ lơ lửng trong dầu hỏa, điều này chứng tỏ:
-    Đáp án: Các phân tử dầu hỏa đang chuyển động hỗn loạn — Giải thích: Chuyển động Brown xảy ra được trong mọi chất lỏng và chất khí; điều được chứng minh ở đây là sự chuyển động hỗn loạn không ngừng của các phân tử môi trường chất lỏng (dầu hỏa) va đập vào hạt bụi, chứ không phải chuyển động của các phân tử nằm bên trong hạt bụi (Bài tập 3 ý (4) SGK tr.6).
+    Đáp án: Các phân tử dầu hỏa đang chuyển động hỗn loạn — Giải thích: Chuyển động Brown xảy ra được trong mọi chất lỏng và chất khí; điều được chứng minh ở đây là sự chuyển động hỗn loạn không ngừng của các phân tử môi trường chất lỏng (dầu hỏa) va đập vào hạt bụi, chứ không phải chuyển động của các phân tử nằm bên trong hạt bụi (Bài tập 3 ý (4) trong SGK).
   - Q4: Nối tuần tự các vị trí của hạt than được ghi lại sau mỗi khoảng thời gian 30 s thành một đường gấp khúc, đường gấp khúc này:
     Đáp án: Chỉ là đường nối các vị trí lấy mẫu, giữa hai điểm ghi hạt than vẫn chuyển động hỗn loạn — Giải thích: Theo SGK GDPT 2018: Ngay cả trong khoảng thời gian 30 s đó, chuyển động của hạt lơ lửng cũng vô cùng hỗn loạn — đoạn thẳng nối giữa hai điểm chỉ là đường nối hình học do không ghi liên tục quỹ đạo ở giữa.
   - Q5: Hạt lơ lửng càng nhỏ thì chuyển động Brown càng rõ rệt, nguyên nhân là vì:
@@ -3349,7 +3349,7 @@
 - Vị trí Chương trình GDPT 2018: Địa lý 10 (GDPT 2018) · Chương 5: Thủy quyển — Vòng tuần hoàn nước và Dòng biển · Bài: Thủy quyển và vòng tuần hoàn nước
 - Câu hỏi trung tâm: Sông ngòi không ngừng đổ nước ra biển, vì sao mực nước đại dương không dâng tràn mãi mà luôn duy trì cân bằng động?
 - Phương trình / Nguyên lý tổng quát: Bốc hơi → Vận chuyển → Mưa → Thấm và Dòng chảy
-- Chuỗi nhân quả cốt lõi: Bốc hơi: Bức xạ Mặt Trời biến nước biển, nước hồ và nước trên lục địa thành hơi nước -> Vận chuyển: Dòng khí đưa hơi nước từ trên biển vào bầu trời lục địa -> Rơi xuống: Hơi nước ngưng tụ thành mây, rơi xuống biển và lục địa dưới dạng mưa -> Chuyển động biểu kiến: Nước thấm và dòng chảy đưa nước trên lục địa trở về đại dương, thu chi cân bằng
+- Chuỗi nhân quả cốt lõi: Bốc hơi: Bức xạ Mặt Trời biến nước biển, nước hồ và nước trên lục địa thành hơi nước -> Vận chuyển: Dòng khí đưa hơi nước từ trên biển vào bầu trời lục địa -> Rơi xuống: Hơi nước ngưng tụ thành mây, rơi xuống biển và lục địa dưới dạng mưa -> Dòng chảy quy hồi: Nước thấm và dòng chảy đưa nước trên lục địa trở về đại dương, thu chi cân bằng
 - Các trạm/cụm mô hình 3D:
   - ① Lục địa: Đồi núi, rừng rậm, hồ, sông và bãi cát: nước mưa tại đây chia thành bốc thoát hơi, thấm xuống đất và dòng chảy mặt
   - ② Khí quyển: Hai đám mây và dải hơi nước: hơi nước được dòng khí đưa từ trên đại dương vào trên lục địa
@@ -3386,7 +3386,7 @@
      - Kết luận: Lớp phủ sỏi cát giúp thửa ruộng thấm nước nhiều hơn và bốc hơi mặt đất ít hơn, nhờ đó trong cùng một lượng mưa có nhiều nước được giữ lại trong đất hơn và ít chảy tràn mất đi hơn — hai khâu thay đổi là bốc hơi và thấm, còn bản thân lượng mưa không đổi.
      - Trọng tâm thi cử: Hay thi: Lớp phủ sỏi cát làm tăng lượng thấm và giảm lượng bốc hơi, là biện pháp canh tác nông nghiệp cải tạo các khâu của vòng tuần hoàn nước.
   8. [Ý nghĩa] Câu hỏi: Tại sao nói tài nguyên nước là «hữu hạn»?
-     - Phương trình/Quy luật: Cân bằng động ≠ Có thể dùng vô hạn (16 ngày ↔ 9700 năm (Bảng 3.1 SGK))
+     - Phương trình/Quy luật: Cân bằng động ≠ Có thể dùng vô hạn (16 ngày ↔ 9700 năm )
      - Kết luận: Vòng tuần hoàn nước duy trì sự cân bằng động của lượng nước toàn cầu và giúp các thủy vực liên tục đổi mới, nhưng chu kỳ đổi mới chênh nhau hàng nghìn lần nên trong phạm vi không gian – thời gian nhất định tài nguyên nước là hữu hạn; đồng thời đây cũng là quá trình vận chuyển vật chất và chuyển hóa năng lượng.
      - Trọng tâm thi cử: Hay thi: Nguyên nhân tự nhiên gây thiếu nước là trữ lượng và chu kỳ đổi mới có hạn; nguyên nhân nhân sinh là mức sử dụng vượt quá tốc độ đổi mới và ô nhiễm nguồn nước.
   9. [Thực hành đánh giá] Câu hỏi: Kiểm tra: Làm cho dòng chảy lục địa ra biển đạt từ 320 mm/a trở lên và lượng thấm đạt từ 180 mm/a trở lên
@@ -3408,7 +3408,7 @@
   - Q7: Lớp phủ sỏi cát trên mặt ruộng canh tác vùng khô hạn làm cho
     Đáp án: Lượng thấm tăng, lượng bốc hơi giảm — Giải thích: Theo SGK GDPT 2018: Lớp phủ sỏi cát làm tăng lượng thấm, giảm lượng bốc hơi, giúp độ ẩm trong đất cao hơn.
   - Q8: Trong các thủy vực sau đây, thủy vực có chu kỳ đổi mới dài nhất là
-    Đáp án: Băng hà vùng cực — Giải thích: Bảng 3.1 SGK: Sông ngòi 16 ngày, Hồ đầm 17 năm, Đại dương 2500 năm, Băng hà vùng cực 9700 năm.
+    Đáp án: Băng hà vùng cực — Giải thích: Theo SGK GDPT 2018: Sông ngòi 16 ngày, Hồ đầm 17 năm, Đại dương 2500 năm, Băng hà vùng cực 9700 năm.
 
 ---
 

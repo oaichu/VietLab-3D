@@ -9,14 +9,13 @@ function countCjk(str) {
   let count = 0;
   for (let i = 0; i < str.length; i++) {
     const code = str.charCodeAt(i);
-    if (code >= 0x4e00 && code <= 0x9fff) count++;
+    if ((code >= 0x4e00 && code <= 0x9fff) || (code >= 0x3000 && code <= 0x303f) || (code >= 0xff00 && code <= 0xffef)) {
+      count++;
+    }
   }
   const cleaned = str.replace(/\[\\u3000-\\u9fff\]/g, '');
-  const uMatches = cleaned.match(/\\u[4-9a-fA-F][0-9a-fA-F]{3}/g) || [];
-  for (const m of uMatches) {
-    const code = parseInt(m.slice(2), 16);
-    if (code >= 0x4e00 && code <= 0x9fff) count++;
-  }
+  const uMatches = cleaned.match(/\\u(?:[4-9a-fA-F][0-9a-fA-F]{3}|30[0-3][0-9a-fA-F]|[fF][fF][0-9a-fA-F]{2})/g) || [];
+  count += uMatches.length;
   return count;
 }
 

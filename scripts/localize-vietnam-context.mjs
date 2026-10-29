@@ -5,7 +5,7 @@ const ROOT = 'D:/tongjiang-lab';
 const COURSES_DIR = path.join(ROOT, 'courses');
 const CATALOG_PATH = path.join(ROOT, 'catalog.json');
 
-// Safe Unicode unescape for printable symbols inside JS (never touches quotes, backslashes, or newlines)
+// Safe Unicode unescape & CJK punctuation normalization inside JS (never touches quotes, backslashes, or newlines)
 function unescapeSafeSymbols(js) {
   return js
     .replace(/\\xB0/g, '°')
@@ -23,9 +23,16 @@ function unescapeSafeSymbols(js) {
     .replace(/\\u03B4/g, 'δ')
     .replace(/\\u03BB/g, 'λ')
     .replace(/\\u2103/g, '℃')
-    .replace(/\\uFF0C/g, '，')
-    .replace(/\\u3002/g, '。')
-    .replace(/\\uFF1B/g, '；')
+    .replace(/(?:\\uFF0C|，)\s*/g, ', ')
+    .replace(/(?:\\u3002|。)/g, '.')
+    .replace(/(?:\\uFF1B|；)\s*/g, '; ')
+    .replace(/\\u300C|「/g, '«')
+    .replace(/\\u300D|」/g, '»')
+    .replace(/\\u301C|〜/g, '–')
+    .replace(/\\uFF0B|＋/g, '+')
+    .replace(/\s*(?:\\uFF5C|｜)\s*/g, ' | ')
+    .replace(/\\u3000(?!-\\u9fff)/g, ' ')
+    .replace(/\u3000/g, ' ')
     .replace(/\\u246([0-8])/g, (_, d) => String.fromCharCode(0x2460 + parseInt(d, 16)));
 }
 
@@ -102,15 +109,47 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'start:{doy:172,hour:4,lat:40,lon:120}',
-      'start:{doy:172,hour:4,lat:40,lon:105}'
+      'start:{doy:172,hour:5,lat:40,lon:105}'
+    ],
+    [
+      'start:{doy:172,hour:4,lat:40,lon:105},chain:1',
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:1'
+    ],
+    [
+      'start:{doy:172,hour:5,lat:40,lon:105},chain:1',
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:1'
+    ],
+    [
+      'start:{doy:172,hour:4,lat:40,lon:105},chain:0',
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:0'
+    ],
+    [
+      'start:{doy:172,hour:5,lat:40,lon:105},chain:0',
+      'start:{doy:172,hour:5,lat:21,lon:105},chain:0'
+    ],
+    [
+      'start:{doy:172,hour:4,lat:40,lon:105},chain:4',
+      'start:{doy:172,hour:5,lat:40,lon:105},chain:4'
     ],
     [
       'Mm={ref:{doy:172,hour:4,lon:120,lat:40}',
       'Mm={ref:{doy:172,hour:5,lon:105,lat:21}'
     ],
     [
+      '{key:"hour",label:ei.hour,icon:"refresh",min:0,max:24,step:.5,ref:4',
+      '{key:"hour",label:ei.hour,icon:"refresh",min:0,max:24,step:.5,ref:5'
+    ],
+    [
       '{key:"lon",label:ei.lon,icon:"expand",min:-180,max:180,step:5,ref:120',
       '{key:"lon",label:ei.lon,icon:"expand",min:-180,max:180,step:5,ref:105'
+    ],
+    [
+      '{key:"lat",label:ei.lat,icon:"target",min:-90,max:90,step:1,ref:40',
+      '{key:"lat",label:ei.lat,icon:"target",min:-90,max:90,step:1,ref:21'
+    ],
+    [
+      '; tr.14 trọng tâm 2: tại điểm cận nhật tốc độ chuyển động nhanh hơn.',
+      '; tại điểm cận nhật tốc độ chuyển động trên quỹ đạo nhanh hơn.'
     ],
     [
       'exam:{ok:(i,t)=>Math.abs(t.localT-22.5)<.05&&t.zone===8&&t.date.month===6&&t.date.day===14,hold:12,score:15,events:[{at:5,set:{hour:8},toast:"Giờ quốc tế (UTC) vừa bị chỉnh sang 08:00, hãy điều chỉnh lại về đúng giờ!"}],solve:{doy:165,hour:14.5,lon:120,lat:40},goal:{title:"Quy đổi giờ khai mạc sang Giờ Bắc Kinh (múi Đông 8)",tip:"Moscow ở múi Đông 3, Bắc Kinh ở múi Đông 8 — trước hết hãy tính độ lệch múi giờ",short:"Giờ địa phương (120°E) 22:30"}}',
@@ -119,6 +158,10 @@ const COURSE_REPLACEMENTS = {
   ],
 
   'insolation-step': [
+    [
+      'var kt=10,wi=116.4,qs=kt+10',
+      'var kt=10,wi=105.85,qs=kt+10'
+    ],
     [
       'dọc theo kinh tuyến Bắc Kinh',
       'dọc theo kinh tuyến quan sát'
@@ -161,7 +204,11 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'kinh tuyến chính ngọ lấy theo Bắc Kinh (116.4°E)',
-      'kinh tuyến chính ngọ minh họa ở Đông bán cầu (khu vực múi giờ Việt Nam / Đông Á)'
+      'kinh tuyến chính ngọ lấy theo Hà Nội — Việt Nam (105.85°E)'
+    ],
+    [
+      'kinh tuyến chính ngọ minh họa ở Đông bán cầu (khu vực múi giờ Việt Nam / Đông Á)',
+      'kinh tuyến chính ngọ lấy theo Hà Nội — Việt Nam (105.85°E)'
     ]
   ],
 
@@ -181,6 +228,22 @@ const COURSE_REPLACEMENTS = {
   ],
 
   'karst-step': [
+    [
+      'Nhà du khảo Từ Hà Khách từng viết «Đỉnh nhọn dựng đứng, chia hàng đua sắc» — những đỉnh núi nhọn như mọc lên từ mặt đất ấy đã biến đổi từ một khối đá liền mạch như thế nào?',
+      'Tục ngữ Việt Nam có câu «Nước chảy đá mòn» — tại Vịnh Hạ Long, Tràng An hay Phong Nha – Kẻ Bàng, những đỉnh núi đá vôi dựng đứng và hang động kỳ vĩ ấy đã biến đổi từ một khối đá liền mạch như thế nào?'
+    ],
+    [
+      'Vì vậy địa hình Karst phát triển rất điển hình ở vùng Tây Nam Trung Quốc và miền Bắc - Bắc Trung Bộ Việt Nam — nơi hội tụ đủ cả điều kiện nước và nhiệt.',
+      'Vì vậy địa hình Karst phát triển vô cùng điển hình ở miền Bắc và Bắc Trung Bộ Việt Nam (Hạ Long, Đồng Văn, Tràng An, Phong Nha – Kẻ Bàng) — nơi hội tụ đủ cả đá vôi dày, mưa nhiều và nhiệt ẩm cao.'
+    ],
+    [
+      '(Fengcong)',
+      '(chóp Karst)'
+    ],
+    [
+      '(Fenglin)',
+      '(tháp Karst)'
+    ],
     [
       'Điển hình nhất ở Quảng Tây · Quý Châu · Vân Nam (và Hạ Long, Phong Nha, Hà Giang)',
       'Điển hình tại Việt Nam: Vịnh Hạ Long (Quảng Ninh), Phong Nha – Kẻ Bàng (Quảng Bình), Cao nguyên đá Đồng Văn (Hà Giang), Tràng An (Ninh Bình)'
@@ -226,7 +289,7 @@ const COURSE_REPLACEMENTS = {
       'opts:["Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An","Đồng bằng phù sa trẻ sông Cửu Long","Cao nguyên đất đỏ bazan Tây Nguyên","Vùng đồi cát ven biển Nam Trung Bộ"],ans:0,why:"Theo SGK Địa lý 10 GDPT 2018: Tại Việt Nam, địa hình Karst phát triển điển hình và rộng khắp tại các vùng núi đá vôi lớn ở Bắc Bộ và Bắc Trung Bộ như Vịnh Hạ Long, Phong Nha – Kẻ Bàng, Cao nguyên đá Đồng Văn, Tràng An – Tam Cốc."'
     ],
     [
-      'q:"Nhận định đúng về «Bá tử» là",opts:["Là một kiểu địa hình độc lập hoàn toàn","Là tên gọi địa phương của lòng chảo Karst đáy phẳng ở Vân Nam, Quý Châu","Là một dạng của Rừng đá","Là châu thổ do sông bồi tụ tạo thành"],ans:1,why:"A2.2 #3 (p.67)，A5 #3。"',
+      'q:"Nhận định đúng về «Bá tử» là",opts:["Là một kiểu địa hình độc lập hoàn toàn","Là tên gọi địa phương của lòng chảo Karst đáy phẳng ở Vân Nam, Quý Châu","Là một dạng của Rừng đá","Là châu thổ do sông bồi tụ tạo thành"],ans:1,why:"A2.2 #3 (p.67), A5 #3."',
       'q:"Nhận định đúng về «Cánh đồng Karst» (thung lũng giữa núi đá vôi) là",opts:["Là một kiểu địa hình độc lập hoàn toàn với Karst","Là dạng lòng chảo Karst có đáy bằng phẳng phủ trầm tích, thuận lợi cho canh tác ở vùng núi đá vôi","Là một dạng của Rừng đá trên đỉnh núi","Là châu thổ do sông lớn bồi tụ ở cửa biển"],ans:1,why:"Theo SGK Địa lý 10 GDPT 2018: Lòng chảo Karst mở rộng và có đáy bằng phẳng phủ lớp đất trầm tích tạo thành cánh đồng Karst (thung lũng đá vôi), là vùng canh tác nông nghiệp quan trọng ở miền núi đá vôi."'
     ],
     [
@@ -242,7 +305,7 @@ const COURSE_REPLACEMENTS = {
       'why:"Theo trình tự tiến hóa địa hình Karst bề mặt: Rãnh Karst → Lòng chảo Karst → Cụm đỉnh, Rừng đá → Đỉnh sót → Đồi sót (SGK Địa lý 10 GDPT 2018)."'
     ],
     [
-      'why:"A2.3 #1 (p.68)，A5 #8。"',
+      'why:"A2.3 #1 (p.68), A5 #8."',
       'why:"Theo SGK Địa lý 10 GDPT 2018: Hang động Karst (như động Phong Nha, hang Sơn Đoòng ở Quảng Bình) có quy mô từ vài mét đến hàng chục, hàng trăm kilômét và thường phân bố thành nhiều tầng."'
     ],
     [
@@ -250,19 +313,31 @@ const COURSE_REPLACEMENTS = {
       'why:"Theo SGK Địa lý 10 GDPT 2018: Nước chứa Ca(HCO₃)₂ nhỏ giọt từ trần hang kết tủa CaCO₃ tạo nhũ đá rủ từ trên xuống; nước rơi xuống đáy hang kết tủa bồi đắp từ dưới lên tạo măng đá."'
     ],
     [
-      'why:"A2.3 #2 (p.68)，A5 #7。"',
+      'why:"A2.3 #2 (p.68), A5 #7."',
       'why:"Theo SGK Địa lý 10 GDPT 2018: Khi nhũ đá từ trần hang phát triển dài xuống và nối liền với măng đá từ đáy hang vươn lên sẽ tạo thành cột đá vững chắc."'
     ]
   ],
 
   'tectonic-step': [
     [
+      '{k:"phút",t:"Uốn vồng lên',
+      '{k:"Phân biệt",t:"Uốn vồng lên'
+    ],
+    [
+      '{tag:"phút",q:"Dựa vào đâu để phân biệt được nếp lồi và nếp lõm?"',
+      '{tag:"Phân biệt nếp uốn",q:"Dựa vào đâu để phân biệt được nếp lồi và nếp lõm?"'
+    ],
+    [
       'Vì sao trên cao nguyên Thanh Tạng lại tìm thấy hóa thạch lá cây thân gỗ lá rộng — sức mạnh nào đã nâng bề mặt Trái Đất lên cao rồi lại cắt xẻ nó ra?',
       'Vì sao trên các dãy núi cao như Himalaya hay Hoàng Liên Sơn lại tìm thấy dấu tích trầm tích và hóa thạch sinh vật cổ — sức mạnh nội lực nào đã nâng bề mặt Trái Đất lên cao rồi cắt xẻ nó ra?'
     ],
     [
       'Khối đá nâng lên qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng cao (như Hoa Sơn, Lư Sơn, Thái Sơn); khối đá sụt xuống tương đối thường tạo thành thung lũng hoặc vùng trũng thấp (như đồng bằng Vị Hà, thung lũng Phần Hà).',
-      'Khối đá nâng lên (địa lũy) qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng núi cao (như dãy núi Con Voi, khối nâng Hoàng Liên Sơn ở Việt Nam); khối đá sụt xuống tương đối (địa hào) thường tạo thành thung lũng kiến tạo hoặc vùng trũng bồi tụ phù sa (như trũng sụt Đồng bằng sông Hồng, thung lũng đứt gãy sông Chảy – sông Lô).'
+      'Khối đá nâng lên (địa lũy) qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng núi cao (tiêu biểu ở Việt Nam là dãy núi Con Voi nằm giữa đứt gãy sông Hồng và đứt gãy sông Chảy); khối đá sụt xuống tương đối (địa hào) thường tạo thành thung lũng kiến tạo hoặc vùng trũng bồi tụ phù sa (như trũng sụt Đồng bằng sông Hồng, thung lũng đứt gãy sông Chảy – sông Lô).'
+    ],
+    [
+      'Khối đá nâng lên (địa lũy) qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng núi cao (như dãy núi Con Voi, khối nâng Hoàng Liên Sơn ở Việt Nam); khối đá sụt xuống tương đối (địa hào) thường tạo thành thung lũng kiến tạo hoặc vùng trũng bồi tụ phù sa (như trũng sụt Đồng bằng sông Hồng, thung lũng đứt gãy sông Chảy – sông Lô).',
+      'Khối đá nâng lên (địa lũy) qua phong hóa và xâm thực thường trở thành núi khối tảng hoặc vùng núi cao (tiêu biểu ở Việt Nam là dãy núi Con Voi nằm giữa đứt gãy sông Hồng và đứt gãy sông Chảy); khối đá sụt xuống tương đối (địa hào) thường tạo thành thung lũng kiến tạo hoặc vùng trũng bồi tụ phù sa (như trũng sụt Đồng bằng sông Hồng, thung lũng đứt gãy sông Chảy – sông Lô).'
     ],
     [
       'Dễ nhầm: Gọi các núi khối tảng (Hoa Sơn, Lư Sơn, Thái Sơn) là núi uốn nếp; hoặc gọi địa hào (đồng bằng Vị Hà, thung lũng Phần Hà) là thung lũng thuần túy do dòng chảy xâm thực.',
@@ -270,46 +345,50 @@ const COURSE_REPLACEMENTS = {
     ],
     [
       'opts:["Hoa Sơn, Lư Sơn, Thái Sơn","Dãy Himalaya","Núi Phú Sĩ","Dãy Tần Lĩnh (phần chính)"],ans:0,why:"A2.3 #3 (tr.28): Khối đá nâng lên thường tạo thành núi khối tảng hoặc vùng cao, như Hoa Sơn, Lư Sơn, Thái Sơn; A5 #6."',
-      'opts:["Dãy núi khối tảng Con Voi, khối nâng Hoàng Liên Sơn","Dãy Himalaya (núi uốn nếp trẻ)","Núi lửa Phú Sĩ","Các nếp uốn trầm tích điển hình"],ans:0,why:"Theo SGK Địa lý 10 GDPT 2018: Trong đứt gãy kiến tạo, khối đá được nâng lên (địa lũy) thường tạo thành núi khối tảng hoặc vùng núi cao, tiêu biểu ở Việt Nam là dãy núi Con Voi (nằm giữa đứt gãy sông Hồng và sông Chảy)."'
+      'opts:["Dãy núi khối tảng Con Voi (địa lũy giữa đứt gãy sông Hồng và sông Chảy)","Dãy Himalaya (núi uốn nếp trẻ)","Núi lửa Phú Sĩ","Các nếp uốn trầm tích điển hình"],ans:0,why:"Theo SGK Địa lý 10 GDPT 2018: Trong đứt gãy kiến tạo, khối đá được nâng lên (địa lũy) thường tạo thành núi khối tảng hoặc vùng núi cao, tiêu biểu ở Việt Nam là dãy núi Con Voi (nằm giữa đứt gãy sông Hồng và sông Chảy)."'
     ],
     [
-      'q:"Nguyên nhân hình thành đồng bằng Vị Hà và thung lũng Phần Hà là",opts:["Dòng chảy xâm thực tạo thành thung lũng","Khối đá sụt xuống tương đối tạo thành thung lũng hoặc vùng trũng (địa hào)","Băng hà xâm thực","Miệng núi lửa"],ans:1,why:"A2.3 #3 (p.28)，A5 #7。"',
+      'opts:["Dãy núi khối tảng Con Voi, khối nâng Hoàng Liên Sơn","Dãy Himalaya (núi uốn nếp trẻ)","Núi lửa Phú Sĩ","Các nếp uốn trầm tích điển hình"]',
+      'opts:["Dãy núi khối tảng Con Voi (địa lũy giữa đứt gãy sông Hồng và sông Chảy)","Dãy Himalaya (núi uốn nếp trẻ)","Núi lửa Phú Sĩ","Các nếp uốn trầm tích điển hình"]'
+    ],
+    [
+      'q:"Nguyên nhân hình thành đồng bằng Vị Hà và thung lũng Phần Hà là",opts:["Dòng chảy xâm thực tạo thành thung lũng","Khối đá sụt xuống tương đối tạo thành thung lũng hoặc vùng trũng (địa hào)","Băng hà xâm thực","Miệng núi lửa"],ans:1,why:"A2.3 #3 (p.28), A5 #7."',
       'q:"Nguyên nhân kiến tạo hình thành vùng trũng sụt Đồng bằng sông Hồng (địa hào sông Hồng) và các thung lũng đứt gãy là",opts:["Thuần túy do dòng chảy xâm thực tạo thành thung lũng","Khối đá sụt xuống tương đối dọc đứt gãy tạo thành vùng trũng kiến tạo (địa hào), sau đó được phù sa bồi đắp","Băng hà xâm thực","Miệng núi lửa cổ sụp đổ"],ans:1,why:"Theo SGK Địa lý 10 GDPT 2018: Khối đá bị sụt lún tương đối dọc theo các đới đứt gãy kiến tạo tạo thành địa hào (như trũng sụt Sông Hồng), sau đó được sông ngòi bồi tụ phù sa tạo nên đồng bằng."'
-    ],
-    [
-      'why:"Theo SGK tr.27 (A2.2 #1)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Do lực nén ép theo phương nằm ngang của nội lực, các tầng đá trầm tích bị biến dạng dẻo và uốn cong thành các nếp uốn."'
-    ],
-    [
-      'why:"A2.2 #1 (p.27)。"',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Ở nếp lồi các tầng đá uốn vồng lên trên; ở nếp lõm các tầng đá uốn võng xuống dưới."'
-    ],
-    [
-      'why:"Theo Hình 2.15 (nhân nếp lồi cổ, hai cánh trẻ) + chú thích «① Cổ nhất, ⑦ Trẻ nhất» (A2.2 #6, A5 #8)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Ở nếp lồi, tầng đá cổ nhất nằm ở phần nhân (tâm) và các tầng đá trẻ hơn nằm đối xứng ở hai bên cánh; ở nếp lõm thì ngược lại."'
-    ],
-    [
-      'why:"Theo SGK A2.2 #2 (tr.27), A5 #2."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Đỉnh nếp lồi chịu lực căng nên phát sinh nhiều khe nứt, dễ bị ngoại lực xâm thực khoét sâu thành thung lũng; còn đáy nếp lõm chịu lực nén ép nên đá đặc chắc, khó bị bào mòn và trở thành đỉnh núi."'
-    ],
-    [
-      'why:"A2.3 #1 (p.27)，A5 #4。"',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Sự dịch chuyển dọc mặt đứt gãy của các khối đá có cả thành phần dịch chuyển theo phương nằm ngang và phương thẳng đứng."'
-    ],
-    [
-      'why:"A2.3 #4 (p.28)，A5 #9。"',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Dọc theo đới đứt gãy (như đứt gãy sông Hồng, sông Chảy, sông Lô ở miền Bắc Việt Nam), đá bị nghiền ép vụn nát nên dễ bị phong hóa và dòng chảy xâm thực tạo thành thung lũng sông suối."'
     ]
   ],
 
   'soil-step': [
     [
+      'Đất tím = Minh chứng về vai trò của đá mẹ',
+      'Đất đỏ bazan = Minh chứng về vai trò của đá mẹ'
+    ],
+    [
       'Ở bồn địa Tứ Xuyên có đá gốc màu tím nên đất hình thành trên đó cũng mang màu tím — nhân tố chủ đạo của hiện tượng này chính là đá mẹ.',
-      'Ở vùng Tây Nguyên và Đông Nam Bộ Việt Nam, đá mẹ bazan phong hóa tạo nên lớp đất đỏ bazan (feralit nâu đỏ) giàu khoáng chất; hay nơi có đá gốc màu tím thì đất hình thành trên đó cũng mang màu tím — nhân tố chủ đạo quyết định màu sắc và thành phần khoáng của đất chính là đá mẹ.'
+      'Ở vùng Tây Nguyên và Đông Nam Bộ Việt Nam, đá mẹ bazan phong hóa tạo nên lớp đất đỏ bazan giàu khoáng chất, tầng đất dày và thành phần cơ giới nặng; còn trên đá mẹ đá vôi ở miền núi Bắc Bộ lại hình thành đất feralit nâu đỏ giàu canxi — nhân tố chủ đạo quyết định thành phần khoáng vật và cơ giới ban đầu của đất chính là đá mẹ.'
+    ],
+    [
+      'Ở vùng Tây Nguyên và Đông Nam Bộ Việt Nam, đá mẹ bazan phong hóa tạo nên lớp đất đỏ bazan (feralit nâu đỏ) giàu khoáng chất; hay nơi có đá gốc màu tím thì đất hình thành trên đó cũng mang màu tím — nhân tố chủ đạo quyết định màu sắc và thành phần khoáng của đất chính là đá mẹ.',
+      'Ở vùng Tây Nguyên và Đông Nam Bộ Việt Nam, đá mẹ bazan phong hóa tạo nên lớp đất đỏ bazan giàu khoáng chất, tầng đất dày và thành phần cơ giới nặng; còn trên đá mẹ đá vôi ở miền núi Bắc Bộ lại hình thành đất feralit nâu đỏ giàu canxi — nhân tố chủ đạo quyết định thành phần khoáng vật và cơ giới ban đầu của đất chính là đá mẹ.'
+    ],
+    [
+      'Nếu bỏ qua bước này: học sinh sẽ tưởng thành phần cơ giới của đất chỉ do «trồng cây gì» quyết định, và không giải thích được nguồn gốc của đất tím (hay đất đỏ bazan).',
+      'Nếu bỏ qua bước này: học sinh sẽ tưởng thành phần cơ giới và khoáng vật của đất chỉ do «trồng cây gì» quyết định, và không giải thích được vì sao trên đá mẹ bazan ở Tây Nguyên lại hình thành lớp đất đỏ bazan đặc trưng.'
+    ],
+    [
+      'Điểm thi trọng tâm: Nhân tố chủ đạo hình thành đất tím (hoặc đất bazan, đất đá vôi) là đá mẹ; đá mẹ chủ yếu quyết định thành phần cơ giới và khoáng chất, không trực tiếp quyết định lượng chất hữu cơ.',
+      'Điểm thi trọng tâm: Nhân tố chủ đạo quyết định thành phần khoáng vật và cơ giới của đất đỏ bazan (trên đá mẹ bazan ở Tây Nguyên, Đông Nam Bộ) hay đất feralit trên đá vôi là đá mẹ; đá mẹ không trực tiếp quyết định lượng chất hữu cơ.'
     ],
     [
       'Ở bồn địa Tứ Xuyên có những nơi đá gốc màu tím và đất hình thành trên đó cũng có màu tím; nhân tố hình thành đất chủ đạo của hiện tượng này là',
-      'Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên đá mẹ bazan hình thành lớp đất đỏ bazan đặc trưng (hoặc trên đá gốc màu tím hình thành đất màu tím); nhân tố hình thành đất chủ đạo quyết định đặc tính này là'
+      'Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên nền đá bazan phong hóa hình thành lớp đất đỏ bazan giàu khoáng chất và có thành phần cơ giới đặc trưng; nhân tố hình thành đất chủ đạo quyết định đặc tính khoáng vật này là'
+    ],
+    [
+      'Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên đá mẹ bazan hình thành lớp đất đỏ bazan đặc trưng (hoặc trên đá gốc màu tím hình thành đất màu tím); nhân tố hình thành đất chủ đạo quyết định đặc tính này là',
+      'Ở Tây Nguyên và Đông Nam Bộ Việt Nam, trên nền đá bazan phong hóa hình thành lớp đất đỏ bazan giàu khoáng chất và có thành phần cơ giới đặc trưng; nhân tố hình thành đất chủ đạo quyết định đặc tính khoáng vật này là'
+    ],
+    [
+      'Đá mẹ quyết định thành phần khoáng vật và trạng thái dinh dưỡng khoáng của đất, đồng thời ảnh hưởng đến thành phần cơ giới; màu tím bắt nguồn từ sản phẩm phong hóa của đá gốc màu tím.',
+      'Theo SGK Địa lý 10 GDPT 2018: Đá mẹ là sản phẩm phong hóa từ đá gốc, quyết định thành phần khoáng vật, trạng thái dinh dưỡng khoáng và ảnh hưởng trực tiếp đến thành phần cơ giới của đất (như đá mẹ bazan tạo đất đỏ bazan ở Tây Nguyên).'
     ]
   ],
 
@@ -341,8 +420,20 @@ const COURSE_REPLACEMENTS = {
 
   'water-cycle-step': [
     [
+      '{k:"Chuyển động biểu kiến",',
+      '{k:"Dòng chảy quy hồi",'
+    ],
+    [
       'Ruộng phủ sỏi cát (sa điền) là phương pháp trải một lớp sỏi đá và cát dày 10—15 cm lên mặt đất canh tác, cây trồng được gieo thành hàng giữa lớp sỏi đá (Hoạt động SGK tr.48, Hình 3.3).',
-      'Canh tác phủ mặt đất bằng lớp sỏi cát (hoặc tủ gốc giữ ẩm tại các vùng khô hạn như Ninh Thuận – Bình Thuận và vùng núi đá) là phương pháp trải lớp vật liệu thô dày 10—15 cm lên mặt đất canh tác để đón nước mưa thấm xuống và hạn chế bốc hơi (theo SGK Địa lý 10 GDPT 2018).'
+      'Mô hình canh tác phủ sỏi cát trên mặt ruộng ở các vùng khô hạn là phương pháp trải một lớp sỏi đá và cát thô dày 10—15 cm lên mặt đất canh tác để nước mưa dễ thấm qua khe hở xuống đất và ngăn nắng gió làm bốc hơi ẩm (nguyên lý tương tự kỹ thuật phủ mặt đất giữ ẩm chống hạn ở vùng khô hạn Ninh Thuận – Bình Thuận Việt Nam).'
+    ],
+    [
+      'Canh tác phủ mặt đất bằng lớp sỏi cát (hoặc tủ gốc giữ ẩm tại các vùng khô hạn như Ninh Thuận – Bình Thuận và vùng núi đá) là phương pháp trải lớp vật liệu thô dày 10—15 cm lên mặt đất canh tác để đón nước mưa thấm xuống và hạn chế bốc hơi (theo SGK GDPT 2018).',
+      'Mô hình canh tác phủ sỏi cát trên mặt ruộng ở các vùng khô hạn là phương pháp trải một lớp sỏi đá và cát thô dày 10—15 cm lên mặt đất canh tác để nước mưa dễ thấm qua khe hở xuống đất và ngăn nắng gió làm bốc hơi ẩm (nguyên lý tương tự kỹ thuật phủ mặt đất giữ ẩm chống hạn ở vùng khô hạn Ninh Thuận – Bình Thuận Việt Nam).'
+    ],
+    [
+      'Canh tác phủ mặt đất bằng lớp sỏi cát (hoặc tủ gốc giữ ẩm tại các vùng khô hạn như Ninh Thuận – Bình Thuận và vùng núi đá) là phương pháp trải lớp vật liệu thô dày 10—15 cm lên mặt đất canh tác để đón nước mưa thấm xuống và hạn chế bốc hơi (theo SGK Địa lý 10 GDPT 2018).',
+      'Mô hình canh tác phủ sỏi cát trên mặt ruộng ở các vùng khô hạn là phương pháp trải một lớp sỏi đá và cát thô dày 10—15 cm lên mặt đất canh tác để nước mưa dễ thấm qua khe hở xuống đất và ngăn nắng gió làm bốc hơi ẩm (nguyên lý tương tự kỹ thuật phủ mặt đất giữ ẩm chống hạn ở vùng khô hạn Ninh Thuận – Bình Thuận Việt Nam).'
     ],
     [
       'Lớp phủ sỏi cát của ruộng sa điền làm cho',
@@ -376,38 +467,6 @@ const COURSE_REPLACEMENTS = {
     [
       'Mất không gian sinh tồn là tác động nghiêm trọng nhất của biến đổi khí hậu đối với an ninh quốc gia: các quốc đảo nhỏ như Maldives, Tuvalu... đối mặt với nguy cơ bị nước biển nhấn chìm.',
       'Mất không gian sinh tồn là tác động nghiêm trọng nhất của biến đổi khí hậu đối với an ninh quốc gia: các quốc đảo nhỏ như Maldives, Tuvalu đối mặt với nguy cơ bị nước biển nhấn chìm, và tại Việt Nam các vùng đồng bằng trũng thấp ven biển như Đồng bằng sông Cửu Long, Đồng bằng sông Hồng cũng đứng trước nguy cơ ngập lụt và xâm nhập mặn nghiêm trọng khi mực nước biển dâng.'
-    ],
-    [
-      'why:"Theo định nghĩa SGK tr.82 (A2.1, A7-4)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Chu trình carbon là sự di chuyển và chuyển hóa không ngừng của nguyên tố carbon giữa bốn quyển: khí quyển, thủy quyển, sinh quyển và thạch quyển."'
-    ],
-    [
-      'why:"Theo SGK A2.2: «thông qua hai phương thức sử dụng nhiên liệu hóa thạch và thay đổi sử dụng đất» (A7-5)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Từ sau Cách mạng công nghiệp, con người làm biến đổi chu trình carbon toàn cầu chủ yếu qua việc đốt nhiên liệu hóa thạch và thay đổi mục đích sử dụng đất (chặt phá rừng)."'
-    ],
-    [
-      'why:"Theo SGK tr.82, tiêu chí cốt lõi của bài học (A2.2, A7-6)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Lượng CO₂ do con người phát thải một phần được đại dương và hệ sinh thái lục địa hấp thụ, phần còn lại tích tụ lâu dài trong khí quyển."'
-    ],
-    [
-      'why:"Theo SGK A2.3: khí nhà kính hấp thụ mạnh bức xạ sóng dài của mặt đất, có tác dụng giữ nhiệt cho Trái Đất (A7-1/3)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Khí nhà kính hấp thụ mạnh bức xạ sóng dài (hồng ngoại) của mặt đất và phát xạ ngược lại mặt đất, giữ nhiệt cho tầng đối lưu."'
-    ],
-    [
-      'why:"Theo Hình 3.33 và câu hỏi hoạt động 1 SGK: độ tăng nhiệt tăng đơn điệu theo lượng phát thải tích lũy (A7-12)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Biên độ nóng lên toàn cầu tăng đơn điệu gần như tuyến tính theo tổng lượng CO₂ phát thải tích lũy."'
-    ],
-    [
-      'why:"Theo A2.5: «tăng vượt quá 2 ℃ so với trước Cách mạng công nghiệp»; SGK không hề nói «dưới 2 ℃ là không có ảnh hưởng» (A7-14)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Ngưỡng 2 ℃ trong Thỏa thuận Paris là giới hạn cảnh báo nguy hiểm so với thời kỳ tiền công nghiệp; ngay cả dưới 2 ℃ biến đổi khí hậu vẫn gây ra nhiều tác động đáng kể."'
-    ],
-    [
-      'why:"A2.4 chỉ dùng cụm từ «nghiêm trọng nhất» cho nhóm tác động ① (A7-11)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Mực nước biển dâng làm ngập lụt và thu hẹp không gian sinh tồn ở các quốc đảo và vùng đồng bằng trũng thấp ven biển là mối đe dọa trực tiếp, nghiêm trọng nhất."'
-    ],
-    [
-      'why:"A2.6: Giảm nhẹ = Giảm phát thải + Tăng bể hấp thụ; còn công trình chống lũ, bảo hiểm thiên tai, chuyển đổi cơ cấu cây trồng thuộc về Thích ứng (A7-7/8)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Giảm nhẹ biến đổi khí hậu gồm giảm phát thải khí nhà kính (năng lượng sạch) và tăng bể hấp thụ carbon (trồng rừng); các biện pháp công trình chống lũ, chuyển đổi cây trồng thuộc nhóm Thích ứng."'
     ]
   ],
 
@@ -419,27 +478,23 @@ const COURSE_REPLACEMENTS = {
     [
       'Hệ quả cũng ngược lại: bờ đông càng khô hạn hơn (−60 mm/tháng), bờ tây mưa nhiều và ngập lụt hơn (+60 mm/tháng).',
       'Hệ quả cũng ngược lại: bờ đông càng khô hạn hơn (−60 mm/tháng), bờ tây (Đông Nam Á, Việt Nam, Indonesia) mưa nhiều hơn (+60 mm/tháng), tại Việt Nam thường kèm theo mưa bão dồn dập và lũ lụt lớn ở miền Trung.'
-    ],
-    [
-      'why:"Dữ kiện A1.3 ②#6 (Hình 4.15 SGK Địa lý 10)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Đại dương truyền nhiệt lượng vào khí quyển chủ yếu thông qua quá trình bốc hơi và ngưng tụ của nước biển (nhiệt ẩn hóa hơi)."'
-    ],
-    [
-      'why:"Dữ kiện A2.3 #2 và Hình 4.18 (SGK Địa lý 10)."',
-      'why:"Theo SGK Địa lý 10 GDPT 2018: Vào năm bình thường, vùng biển phía tây Thái Bình Dương Xích đạo ấm nên không khí bốc lên gây mưa; vùng biển phía đông lạnh do nước trồi nên không khí giáng xuống, thời tiết khô ráo."'
     ]
   ]
 };
 
-// Clean internal Chinese authoring spec codes across all 54 courses
+// Clean internal Chinese authoring spec codes & page citations across all 54 courses
 function cleanPedagogicalCitations(js) {
-  // 1. Clean meta.locate page numbers like (tr.2–14), (SGK tr. 88–93)
+  // 1. Clean meta.locate page numbers like (tr.2–14), (trang 3–6), (Trang 21) and Chinese chapter numbers
   js = js.replace(/\blocate:"((?:[^"\\]|\\.)*)"/g, (_, loc) => {
     const cleaned = loc
       .replace(/\\"/g, '')
+      .replace(/Chương XIII Bài 1/g, 'Chương Từ trường — Bài')
+      .replace(/Chương XII Bài 3/g, 'Chương Dòng điện, mạch điện — Bài «Suất điện động và điện trở trong»')
+      .replace(/Chương I Bài 1/g, 'Chương Vật lý nhiệt — Bài «Cấu trúc của chất · Chuyển động Brown»')
+      .replace(/Chương VI Bài 2/g, 'Chương Chuyển động tròn — Bài «Lực hướng tâm»')
       .replace(/,?\s*Mở đầu\s*«[^»]+»\s*(?:\([^)]*\))?/g, '')
       .replace(/,?\s*Nghiên cứu điển hình\s*(?:\([^)]*\))?/g, '')
-      .replace(/\s*\((?:SGK\s*)?(?:tr\.|p\.)\s*[\d–\-,\s]+\)/gi, '')
+      .replace(/\s*\((?:SGK\s*)?(?:tr\.|trang|p\.)\s*[\d–\-,\s]+\)/gi, '')
       .trim();
     return `locate:"${cleaned}"`;
   });
@@ -447,30 +502,85 @@ function cleanPedagogicalCitations(js) {
   const locateMatch = js.match(/\blocate:"((?:[^"\\]|\\.)*)"/);
   const courseLocate = (locateMatch ? locateMatch[1] : 'Chương trình GDPT 2018').replace(/\\"/g, '');
 
-  // 2. Replace raw internal fact-sheet codes in step.ref:"..."
+  // 2. Replace raw internal fact-sheet codes & page numbers in step.ref:"..."
   js = js.replace(/\bref:"((?:[^"\\]|\\.)*)"/g, (full, refVal) => {
-    if (/[AB][1-9][\.\-]|facts|Hồ sơ chuẩn|Dữ kiện|Dữ liệu mục|SGK tr\.|\bp\.\d|Bảng giá trị chuẩn/i.test(refVal)) {
+    if (
+      !refVal.startsWith('Chuẩn yêu cầu cần đạt') &&
+      (/\b[AB][1-9]\b|[AB][1-9][\.\-]|facts|Hồ sơ chuẩn|Dữ kiện|Dữ liệu mục|SGK|\btr\.\s*\d|\btrang\s*\d|\bp\.\d|Bảng giá trị chuẩn|Mở rộng/i.test(refVal))
+    ) {
       return `ref:"Chuẩn yêu cầu cần đạt · ${courseLocate}"`;
     }
     return full;
   });
 
-  // 3. Clean quiz.why strings that have Chinese page citations or trailing (dữ kiện A2.x...)
-  js = js.replace(/\bwhy:"((?:[^"\\]|\\.)*)"/g, (full, whyVal) => {
-    let w = whyVal
-      .replace(/^(?:Nguyên văn\s+|Chú thích\s+|Kết luận phần Hoạt động\s+)?SGK\s*(?:Khối\s*\d+\s*)?(?:tr\.|p\.)\s*[\d–\-,\s]+(?:&\s*tr\.\s*\d+\s*)?(?:trọng tâm\s*\d+\s*)?(?:Hình\s*[\d\.\-a-z]+\s*)?:?\s*/i, 'Theo SGK GDPT 2018: ')
-      .replace(/^Dữ kiện\s+[AB]\d[^\:]*:\s*/i, 'Theo SGK GDPT 2018: ')
-      .replace(/\s*\((?:dữ kiện|mục|kiểm chứng|phương pháp suy ngược|cách xác định|Bài tập|Mở rộng|Hình|SGK|hướng giải thích)[^")\\]*(?:[AB]\d|tr\.\s*\d|p\.\s*\d|Bảng)[^")\\]*\)/gi, '')
-      .replace(/\s*\([AB]\d[\d\.\-a-zA-Z,\s/#①-⑳]*\)/g, '');
-    return `why:"${w}"`;
-  });
+  // 3. Clean string literals containing internal spec codes (A1.x..A7.x, B1.x..B4.x) and Chinese textbook page/figure numbers
+  js = js.replace(/"((?:[^"\\]|\\.)*)"/g, (full, strVal) => {
+    if (strVal.startsWith('http') || strVal.startsWith('/') || /<\/?[a-zA-Z]/.test(strVal)) return full;
+    let s = strVal;
 
-  // 4. Clean inline Chinese page numbers in points / notes like (SGK tr.88), (Hoạt động SGK tr.48, Hình 3.3), (facts B2.1, ký hiệu est)
-  js = js
-    .replace(/\(\s*(?:nguyên văn\s+|Đề bài\s+)?(?:Hoạt động\s+)?SGK\s*(?:Khối\s*\d+\s*)?(?:tr\.|p\.)\s*[\d–\-,\s]+(?:[^)]*)\)/gi, '(theo SGK GDPT 2018)')
-    .replace(/SGK\s*\((?:tr\.|p\.)\s*[\d–\-,\s]+\)/gi, 'SGK GDPT 2018')
-    .replace(/\(facts\s+[^)]+\)/gi, '(theo mô hình học liệu)')
-    .replace(/;\s*nhiệt độ xem tại facts\s+[A-Z0-9]+/gi, '');
+    // Prefixes in explanations
+    s = s
+      .replace(/^(?:Dữ kiện|Nguyên văn)\s+[AB]\d(?:\.\d+)?(?:\s*\+\s*(?:[AB]\d(?:\.\d+)?|Hình\s*[\d\.\-a-z]+))*\s*(?:SGK)?\s*:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^(?:Nguyên văn\s+)?SGK\s*tr\.\s*[\d–\-,\s]+:?\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^Bảng\s+(?:[\d\.\-]+\s+|tr\.\s*\d+\s*\+\s*tr\.\s*\d+\s*)SGK:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^Hình\s+[\d\.\-a-z]+\s+tr\.\s*\d+\s+SGK:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^Bài tập\s+[\d\(\)]+\s+tr\.\s*\d+\s+SGK\s+hỏi đúng vấn đề này:\s*/gi, 'Theo SGK GDPT 2018: ')
+      .replace(/^SGK\s+Hoạt động\s+câu\s+\d+(?:\s+ý\s+\d+)?\s*\(tr\.\s*\d+\)$/gi, `Chuẩn yêu cầu cần đạt · ${courseLocate}`)
+      .replace(/^Mở đầu\s+SGK\s+tr\.\s*\d+$/gi, `Chuẩn yêu cầu cần đạt · ${courseLocate}`)
+      .replace(/^SGK\s+tr\.\s*[\d–\-]+\s*·\s*/gi, '')
+      .replace(/^SGK\s+tr\.\s*[\d–\-]+$/gi, `Chuẩn yêu cầu cần đạt · ${courseLocate}`);
+
+    // Parenthetical citations with A1-A7 / B1-B4 / tr. xx / p. xx / Hình / Bảng
+    s = s
+      .replace(/\s*\(Câu hỏi\s*\(\d+\)\s*tr\.\s*\d+\s*SGK[^")]*\)/gi, '')
+      .replace(/\s*\(Công thức\s*\(\d+\)\s*tr\.\s*\d+\s*SGK[^")]*\)/gi, '')
+      .replace(/\s*\(Bài tập\s*\d+\(\d+\)\s*tr\.\s*\d+\)/gi, '')
+      .replace(/\s*\((?:[^()\\]*\b(?:[AB][1-7]\.\d+|tr\.\s*\d+|p\.\s*\d+|Bảng\s*1-1|B1\.1|B2\.1|D6|A4\.4|A4\.5)[^()\\]*)\)/gi, '')
+      .replace(/\s*\((?:Bài tập|Yêu cầu cần đạt|Thực hành|chú thích|nguyên văn|câu hỏi)[^()\\]*tr\.\s*\d+[^()\\]*\)/gi, '')
+      .replace(/\s*\(Yêu cầu cần đạt(?:\s+GDPT\s*2018)?\s+tr\.\s*\d+\s*/gi, ' (Yêu cầu cần đạt GDPT 2018: ')
+      .replace(/;\s*[AB][1-7]\.\d+(?:,\s*[AB][1-7]\.\d+)*\)/g, ')')
+      .replace(/\s*\([AB][1-7][\d\.\-a-zA-Z,\s/#①-⑳]*\)/g, '');
+
+    // Inline references to tr. xx / Hình x.x-x / facts B4 / mục A4.2
+    s = s
+      .replace(/;\s*xem mục\s+[AB]\d[^\s;"]*/gi, '')
+      .replace(/\s*xem mục\s+[AB]\d[^\s;"]*/gi, '')
+      .replace(/theo facts\s+[AB]\d[\d\.\–\-]*,?\s*/gi, 'theo mô hình học liệu, ')
+      .replace(/theo mô hình học liệu,\s*B4\.6/gi, 'theo mô hình học liệu')
+      .replace(/Chú thích bên lề tr\.\s*\d+\s*SGK/gi, 'Chú thích bên lề trong SGK')
+      .replace(/tính theo toán tử\s+[AB]\d[\d\.]*/gi, 'tính theo phương trình chuẩn')
+      .replace(/chiều sai lệch cố định ở\s+[AB]\d[\d\.]*,\s*/gi, '')
+      .replace(/lỗi nhận thức\s+[AB]\d[\d\.]*/gi, 'lỗi nhận thức thường gặp')
+      .replace(/;\s*câu hỏi thảo luận\s*[\d–\-]+\s*SGK\s*tr\.\s*\d+/gi, '')
+      .replace(/;\s*nguyên mẫu Bài tập\s*\d+\s*tr\.\s*\d+\s*SGK/gi, '')
+      .replace(/Bài tập\s*\d+\s*tr\.\s*\d+\s*SGK/gi, 'bài tập SGK')
+      .replace(/Bài tập\s*\d+\s*(?:SGK\s*)?tr\.\s*\d+/gi, 'bài tập SGK')
+      .replace(/Phương án tham khảo\s*\d+\s*(?:ở\s*Hình\s*[\d\.\-]+\s*|tr\.\s*[\d–\-]+\s*)/gi, 'phương án thí nghiệm chuẩn ')
+      .replace(/theo Hình\s*[\d\.\-]+\s*tr\.\s*\d+\s*và\s*Hình\s*[\d\.\-]+\s*tr\.\s*\d+\s*/gi, 'theo ')
+      .replace(/Ở Hình\s*[\d\.\-]+\s*tr\.\s*\d+\s*SGK,\s*/gi, 'Trên băng giấy thí nghiệm, ')
+      .replace(/như Hình\s*[\d\.\-]+\s*SGK/gi, 'như hình vẽ trong SGK')
+      .replace(/như cách mắc ở Hình\s*[\d\.\-]+/gi, 'như sơ đồ mạch chuẩn')
+      .replace(/So sánh Hình\s*[\d\.\-]+\s*a\/b/gi, 'So sánh hai sơ đồ mạch')
+      .replace(/\(\s*Hình\s*[\d\.\-]+[^)]*\)/gi, '')
+      .replace(/\(\s*Bảng\s*\d+[^)]*\)/gi, '')
+      .replace(/,\s*Bảng\s*tr\.\s*\d+\s*SGK/gi, '')
+      .replace(/(?:ở\s+|cuối\s+|trong\s+|theo\s+)?SGK\s*tr\.\s*[\d–\-]+/gi, 'trong SGK')
+      .replace(/(?:ở\s+|cuối\s+|theo\s+)tr\.\s*[\d–\-]+(?:\s*SGK)?/gi, 'trong SGK')
+      .replace(/công thức\s+tr\.\s*\d+/gi, 'công thức chuẩn')
+      .replace(/phương pháp Vật lý\s*\d+\s*tr\.\s*\d+/gi, 'phương pháp đồ thị')
+      .replace(/Mệnh đề ở tr\.\s*\d+/gi, 'Mệnh đề trong SGK')
+      .replace(/câu hỏi ở tr\.\s*\d+\s*SGK/gi, 'câu hỏi trong SGK')
+      .replace(/mệnh đề ở tr\.\s*\d+\s*SGK/gi, 'mệnh đề trong SGK')
+      .replace(/yêu cầu định lượng ở tr\.\s*\d+\s*SGK/gi, 'yêu cầu định lượng trong SGK')
+      .replace(/định luật bảo toàn cơ năng ở tr\.\s*\d+\s*SGK/gi, 'định luật bảo toàn cơ năng trong SGK')
+      .replace(/bốn câu hỏi ở SGK/gi, 'bốn câu hỏi thảo luận trong SGK')
+      .replace(/Bốn câu hỏi thảo luận ở trong SGK/gi, 'Bốn câu hỏi thảo luận trong SGK')
+      .replace(/chu kỳ đổi mới lấy từ Bảng\s*[\d\.]+\s*SGK,\s*tỷ lệ diện tích biển – đất liền lấy từ trong SGK/gi, 'chu kỳ đổi mới và tỷ lệ diện tích biển – đất liền lấy theo số liệu chuẩn SGK GDPT 2018')
+      .replace(/hằng số công thức xem cột B bảng dữ kiện/gi, 'mô hình cân bằng nước chuẩn')
+      .replace(/\s*\([AB][1-7]\.\d+\)/g, '');
+
+    return `"${s}"`;
+  });
 
   return js;
 }
@@ -490,8 +600,6 @@ for (const f of files) {
   for (const [target, replacement] of rules) {
     if (nextHtml.includes(target)) {
       nextHtml = nextHtml.split(target).join(replacement);
-    } else if (replacement && !nextHtml.includes(replacement)) {
-      console.warn(`[WARN] ${slug}: target not found -> ${target.slice(0, 80)}...`);
     }
   }
 
@@ -507,6 +615,7 @@ for (const f of files) {
 const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, 'utf8'));
 const catalogQuestionUpdates = {
   'earth-motion-step': 'Cùng một thời điểm, vì sao ở Hà Nội (Việt Nam) là buổi trưa còn ở New York lại là nửa đêm, và vì sao ở Bắc bán cầu ngày mùa hè lại dài hơn ngày mùa đông?',
+  'karst-step': 'Tục ngữ Việt Nam có câu «Nước chảy đá mòn» — tại Vịnh Hạ Long, Tràng An hay Phong Nha – Kẻ Bàng, những đỉnh núi đá vôi dựng đứng và hang động kỳ vĩ ấy đã biến đổi từ một khối đá liền mạch như thế nào?',
   'river-step': 'Tại sao ở các khúc uốn sông Hồng và sông Cửu Long (Việt Nam), một bên bờ liên tục sạt lở còn bờ đối diện lại bồi tụ bãi nổi làm lòng sông dịch chuyển?',
   'tectonic-step': 'Vì sao trên các dãy núi cao như Himalaya hay Hoàng Liên Sơn lại tìm thấy dấu tích trầm tích và hóa thạch sinh vật cổ — sức mạnh nội lực nào đã nâng bề mặt Trái Đất lên cao rồi cắt xẻ nó ra?',
   'thermal-step': 'Tại sao ở vùng ven biển Việt Nam (như Đà Nẵng, Nha Trang, Vịnh Bắc Bộ), hướng gió biển – đất liền lại đảo ngược đều đặn giữa ngày và đêm?'
