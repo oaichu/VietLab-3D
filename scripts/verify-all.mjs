@@ -107,13 +107,42 @@ for (const rel of portalFiles) {
   }
   const srcMatches = content.matchAll(/src="(\/[^"]+)"/g);
   for (const m of srcMatches) {
-    const assetRel = m[1].slice(1);
+    const assetRel = m[1].slice(1).split('?')[0];
     if (!fs.existsSync(path.join(ROOT, assetRel))) {
       fail(`${rel} references missing asset src="${m[1]}"`);
     }
   }
 }
-console.log(`3. Core portal pages, assets & SEO/GEO discovery files (${portalFiles.length} files): 0 CJK characters.`);
+
+// Verify subject tab filtering CSS & JS rules + card counts on index.html
+const siteCss = fs.readFileSync(path.join(ROOT, 'assets/site.css'), 'utf8');
+const siteJs = fs.readFileSync(path.join(ROOT, 'assets/site.js'), 'utf8');
+const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+if (!siteCss.includes('.cc[hidden]') || !siteCss.includes('display: none !important')) {
+  fail('assets/site.css missing .cc[hidden] { display: none !important; } rule');
+}
+if (!siteJs.includes('c.style.display = v ? "" : "none"') || !siteJs.includes('state.q = ""')) {
+  fail('assets/site.js missing explicit display toggle or search reset on subject tab click');
+}
+const libMatch = indexHtml.match(/<div class="cgrid" id="lib">([\s\S]*?)<div class="fempty"/);
+if (!libMatch) {
+  fail('index.html missing #lib container');
+} else {
+  const libHtml = libMatch[1];
+  const expectedCounts = { all: 54, phys: 10, chem: 25, bio: 5, geo: 14 };
+  const allCards = [...libHtml.matchAll(/<article class="cc" data-s="([^"]+)"/g)];
+  if (allCards.length !== expectedCounts.all) {
+    fail(`#lib has ${allCards.length} total cards, expected ${expectedCounts.all}`);
+  }
+  for (const [subj, exp] of Object.entries(expectedCounts)) {
+    if (subj === 'all') continue;
+    const cnt = allCards.filter((m) => m[1] === subj).length;
+    if (cnt !== exp) {
+      fail(`#lib subject="${subj}" has ${cnt} cards, expected ${exp}`);
+    }
+  }
+}
+console.log(`3. Core portal pages, assets, subject tab filtering (54 = 10 Vật lý + 25 Hóa học + 5 Sinh học + 14 Địa lý) & SEO/GEO discovery files (${portalFiles.length} files): 0 CJK characters.`);
 
 // 4. Verify all 54 /c/<slug>/index.html & covers/<slug>.webp
 let detailOk = 0;

@@ -643,6 +643,10 @@ button, input, select { font: inherit; color: inherit; }
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
   box-shadow: var(--shadow-sm);
 }
+.cc[hidden],
+[hidden] {
+  display: none !important;
+}
 .cc:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
@@ -861,7 +865,8 @@ button, input, select { font: inherit; color: inherit; }
   font-weight: 500;
   color: var(--fg-2);
 }
-.fsec[hidden] { display: none; }
+.fsec[hidden],
+.fempty[hidden] { display: none !important; }
 .fsec select {
   padding: 6px 10px;
   border: 1px solid var(--line-strong);

@@ -79,7 +79,7 @@ ${keywords ? `<meta name="keywords" content="${esc(keywords)}">\n` : ''}<meta na
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${esc(imgUrl)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v=20261029b">
 <script type="application/ld+json">${ldStr}</script>`;
 }
 
@@ -524,7 +524,7 @@ ${renderNav('home')}
 
 <script id="books" type="application/json">${JSON.stringify(booksMeta)}</script>
 ${renderFooter()}
-<script type="module" src="/assets/site.js"></script>
+<script type="module" src="/assets/site.js?v=20261029b"></script>
 </body>
 </html>`;
 }
@@ -864,7 +864,7 @@ ${renderNav('')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js"></script>
+<script type="module" src="/assets/site.js?v=20261029b"></script>
 </body>
 </html>`;
 }
@@ -1001,7 +1001,7 @@ ${renderNav('guide')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js"></script>
+<script type="module" src="/assets/site.js?v=20261029b"></script>
 </body>
 </html>`;
 }
@@ -1081,7 +1081,7 @@ ${renderNav('how')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js"></script>
+<script type="module" src="/assets/site.js?v=20261029b"></script>
 </body>
 </html>`;
 }
@@ -1155,7 +1155,7 @@ ${renderNav('about')}
 </main>
 
 ${renderFooter()}
-<script type="module" src="/assets/site.js"></script>
+<script type="module" src="/assets/site.js?v=20261029b"></script>
 </body>
 </html>`;
 }

@@ -71,9 +71,11 @@ if (libEl) {
     const list = state.s === "all" ? [] : books[state.s] || [];
     if (!list.length) {
       secBar.hidden = true;
+      secBar.style.display = "none";
       return;
     }
     secBar.hidden = false;
+    secBar.style.display = "";
     bookSel.innerHTML =
       '<option value="">Mọi khối lớp / học phần</option>' +
       list.map((b) => `<option value="${b.k}">${b.name}</option>`).join("");
@@ -111,17 +113,27 @@ if (libEl) {
         (c.dataset.tnorm || "").includes(qNorm);
       const v = okS && okB && okC && okQ;
       c.hidden = !v;
+      c.style.display = v ? "" : "none";
       if (v) shown++;
     }
     if (countEl) countEl.textContent = String(shown);
-    if (emptyEl) emptyEl.hidden = shown > 0;
+    if (emptyEl) {
+      emptyEl.hidden = shown > 0;
+      emptyEl.style.display = shown > 0 ? "none" : "";
+    }
   }
 
   function setSubject(s, scroll) {
     state.s = s;
     state.b = "";
     state.c = "";
-    pills.forEach((p) => p.classList.toggle("on", p.dataset.s === s));
+    state.q = "";
+    if (qIn) qIn.value = "";
+    pills.forEach((p) => {
+      const active = p.dataset.s === s;
+      p.classList.toggle("on", active);
+      p.setAttribute("aria-pressed", active ? "true" : "false");
+    });
     fillBooks();
     apply();
     if (scroll) {
